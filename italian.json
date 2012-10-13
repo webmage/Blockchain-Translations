@@ -1,0 +1,97 @@
+{
+	"properties" : {
+		"extends" : "english"
+	},
+	
+	"name" : "Italian",
+	"code" : "it",
+
+    "strings" : {
+    	"header" : {
+    		"logo_alt_title" : "Bitcoin block explorer and currency statistics",
+    		"home" : "Home",
+    		"home_title" : "Blockchain.info Home",
+    		"charts" : "Charts",
+    		"charts_title" : "Bitcoin Charts",
+    		"stats" : "Stats",
+    		"stats_title" : "Bitcoin Stats",
+    		"developer" : "Developers",
+    		"developer_title" : "Blockchain Developer Tools",
+    		"wallet" : "Wallet",
+    		"wallet_title" : "Bitcoin Wallet",
+    		"search_placeholder" : "Search"
+    	},
+
+    	"footer" {
+    		"about_us" : "About Us",
+    		"not_connected" : "Not Connected",
+    		"ok" : "Ok",
+    		"nodes_connected" : "Nodes Connected",
+    		"about_and_contact" : "About & Contact:",
+    		"status" : "Status:",
+    		"advanced" : "Advanced:",
+    		"currency" : "Currency:",
+    		"enable" : "Enable",
+    		"disable" : "Enable"
+    	},
+
+    	"home" : {
+    		"meta_description" : "Bitcoin Block Explorer & Currency Statistics. View detailed information on all bitcoin transactions and blocks.", 
+        	"title" : "Bitcoin Block Explorer - Blockchain.info",
+        	"header" : "Home",
+        	"more" : "More...",
+        	"sub_header" : "Most recently mined blocks in the bitcoin block chain",
+        	"table_headers" : {
+        		"height" : "Height",
+        		"age" : "Age",
+        		"transactions" : "Transactions",
+        		"sent" : "Total Sent",
+        		"relayed" : "Relayed By",
+        		"size" : "Size (kB)"
+        	},
+        	"latest_transactions" : "Latest Transactions",
+        	"about" : {
+        		"header" : "About",
+        		"p1" : "Bitcoin is a peer-to-peer currency. Peer-to-peer means that no central authority issues new money or tracks transactions. These tasks are managed collectively by the network.",
+        		"p2" : "This site allows you to navigate the bitcoin blockchain (a database which holds information about all transactions). We also operate bitcoin's largest and most secure wallet service.",
+        	    "p3" : "For an introduction to bitcoin please see <a href=\\\"http://www.weusecoins.com/\\\">weusecoins.com</a>"
+        	},
+        	"search" : "Search",
+        	"search_placeholder" : "Address / FirstBits / ip / SHA hash",
+        	"search_explain" : "You may enter a block height, address, block hash, transaction hash, hash160, or ipv4 address..",
+        	"other_links" : {
+        		"header" : "Other Bitcoin Links",
+        		"most_popular" : "Most Popular Addresses",
+        		"most_popular2" : "Addresses which have received the most payments",
+        		"orphaned" : "Orphaned Blocks",
+        		"orphaned2" : "Valid blocks not part of the main bitcoin chain",
+        		"unconfirmed" : "Unconfirmed Transactions",
+        		"unconfirmed2" : "Transactions waiting to be included in a block",
+        		"largest" : "Largest Transactions",
+        		"largest2" : "Largest 100 transactions from the last 50,000 transactions",
+        		"double_spends" : "Double Spends",
+        		"double_spends2" : "Double spends detected in the last 500,000 transactions",
+        		"strange" : "Strange Transactions",
+        		"strange2" : "Transactions which we were unable to decode the output address",
+        		"pools" : "Mining Pool Stats",
+        		"pools2" : "Pie chart showing the market share of the top bitcoin mining pools",
+        		"globe" : "Bitcoin Nodes Globe",
+        		"globe2" : "WebGL globe showing bitcoin nodes (Requires Chrome, Safari)",
+        		"nodes" : "Bitcoin Nodes List",
+        		"nodes2" : "A Log of all bitcoin nodes blockchain.info has connected to",
+        		"hub_nodes" : "Hub Nodes",
+        		"hub_nodes2" : "A list of the most well connected bitcoin super nodes",
+        		"rejected" : "Rejected Inventory",
+        		"rejected2" : "Blocks and transactions which have been rejected by our nodes",
+        		"notifications" : "Payment Notifications",
+        		"notifications2" : "Receive free email notifications when there is activity on your bitcoin addresses",
+        		"wallet" : "My Wallet",
+        		"wallet2" : "Manage your money with Bitcoin's most advanced web wallet."
+        	}
+    	},
+
+    	"misc" : {
+    		"unknown" : "Unknown"
+    	}
+    }
+}

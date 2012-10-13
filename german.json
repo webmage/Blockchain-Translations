@@ -1,10 +1,10 @@
 {
 	"properties" : {
-		"extends" : "en"
+		"extends" : "english"
 	},
 	
-	"name" : "French",
-	"code" : "fr",
+	"name" : "German",
+	"code" : "de",
 
     "strings" : {
     	"header" : {
@@ -33,7 +33,6 @@
     		"currency" : "Currency:",
     		"enable" : "Enable",
     		"disable" : "Enable"
-
     	},
 
     	"home" : {
