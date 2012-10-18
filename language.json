@@ -175,10 +175,12 @@
             "meta_description": "Bitcoin Block Explorer & Currency Statistics. View detailed information on all bitcoin transactions and blocks.",
             "search": "Search",
             "about": {
-                "p3": "For an introduction to bitcoin please see ",
+                "p3": "For an introduction to bitcoin please see {0}",
                 "p2": "This site allows you to navigate the bitcoin blockchain (a database which holds information about all transactions). We also operate bitcoin's largest and most secure wallet service.",
                 "p1": "Bitcoin is a peer-to-peer currency. Peer-to-peer means that no central authority issues new money or tracks transactions. These tasks are managed collectively by the network.",
-                "header": "About"
+                "header": "About",
+                "link_txt" : "weusecoins.com",
+                "link_href" : "http://www.weusecoins.com/"
             },
             "latest_transactions": "Latest Transactions",
             "header": "Home",
@@ -211,6 +213,7 @@
             "meta_description" : "Over 100 different bitcoin market and network statistics. Number of nodes, Transaction volume, Mining difficulty and more.",
             "sub_header" : "Bitcoin currency statistics",
             "table" : {
+                "minutes" : "minutes",
                 "blocks_mined" : "Blocks Mined",
                 "time_between_blocks" : "Time Between Blocks",
                 "bitcoins_mined" : "Bitcoins Mined",
@@ -893,7 +896,7 @@
                 "ask_for_anonymous_p1" : "Our bitcoin mixer needs your coins. Send this transaction anonymously and get a{0}% bonus</b> ({1} BTC will be sent back to the sending address). The transaction will incur a delay of approximately {2}.",
                 "ask_for_anonymous_warning" : "Do not accept if you expect to receive payment back to the sending address. Anonymous transactions are incompatible with SatoshiDICE, BitLotto and many other bitcoin games.",
                 "never_ask_again" : "Never ask me again.",
-                "continue_withoutZ" : "Continue Without",
+                "continue_without" : "Continue Without",
                 "miners_fee_recommended" : "Miners Fee Recommended",
                 "miners_fee_recommended_p1" : "This transaction is low priority. It is recommended you include at least a 0.0005 BTC transaction fee in order to ensure miners process it.",
                 "miners_fee_recommended_warning" : "If you do not include a fee this transaction may take a long time to get confirmed. Any funds will be returned to you in approximately 24 hours.",

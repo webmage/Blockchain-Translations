@@ -55,7 +55,7 @@
         		"header" : "Informazioni",
         		"p1" : "Bitcoin è una valuta peer-to-peer. Peer-to-peer significa che nessuna autorità centrale creerà nuova moneta o traccerà le transazioni. Questi compiti sono gestiti collettivamente dal network.",
         		"p2" : "Questo sito ti permette di navigare la catenablocchi bitcoin (una banca dati che contiene informazioni su tutte le transazioni). Forniamo anche il più grande e più sicuro servizio di portafoglio bitcoin.",
-        	    "p3" : "Per un introduzione a bitcoin guardate su <a href=\\\"http://www.weusecoins.com/\\\">weusecoins.com</a>"
+        	    "p3" : "Per un introduzione a bitcoin guardate su {0}"
         	},
         	"search" : "Cerca",
         	"search_placeholder" : "Indirizzo / FirstBits / ip / SHA hash",
