@@ -7,7 +7,92 @@
 		"extends": "auto_italian"
 	}
 
-	"strings" : {
+    "strings" : {
+    	"header" : {
+    		"logo_alt_title" : "Esploratore di blocchi Bitcoin e statistiche valutarie",
+    		"home" : "Home",
+    		"home_title" : "Blockchain.info Home",
+    		"charts" : "Grafici",
+    		"charts_title" : "Grafici Bitcoin",
+    		"stats" : "Statistiche",
+    		"stats_title" : "Statistiche Bitcoin",
+    		"developer" : "Sviluppatori",
+    		"developer_title" : "Strumenti di sviluppo Blockchain",
+    		"wallet" : "Portafoglio",
+    		"wallet_title" : "Portafoglio Bitcoin",
+    		"search_placeholder" : "Cerca"
+    	},
 
-	}
+    	"footer" {
+    		"about_us" : "Chi siamo",
+    		"not_connected" : "Non connesso",
+    		"ok" : "Ok",
+    		"nodes_connected" : "Nodi Connessi",
+    		"about_and_contact" : "Chi siamo & Contatti:",
+    		"status" : "Stato:",
+    		"advanced" : "Avanzato:",
+    		"currency" : "Valuta:",
+    		"enable" : "Abilita",
+    		"disable" : "Disabilita"
+    	},
+
+    	"home" : {
+    		"meta_description" : "Esploratore di blocchi Bitcoin & statistiche valutarie. Visualiszza informazioni dettagliate su tutte le transazioni bitcoin e blocchi.", 
+        	"title" : "Esploratore di blocchi Bitcoin - Blockchain.info",
+        	"header" : "Home",
+        	"more" : "Altro...",
+        	"sub_header" : "I blocchi più recentemente minati nella catena blocchi bitcoin",
+        	"table_headers" : {
+        		"height" : "Numero",
+        		"age" : "Età",
+        		"transactions" : "Transazioni",
+        		"sent" : "Tatale Inviati",
+        		"relayed" : "Trasmesso Da",
+        		"size" : "Dimensione (kB)"
+        	},
+        	"latest_transactions" : "Ultime Transazioni",
+        	"about" : {
+        		"header" : "Informazioni",
+        		"p1" : "Bitcoin è una valuta peer-to-peer. Peer-to-peer significa che nessuna autorità centrale creerà nuova moneta o traccerà le transazioni. Questi compiti sono gestiti collettivamente dal network.",
+        		"p2" : "Questo sito ti permette di navigare la catenablocchi bitcoin (una banca dati che contiene informazioni su tutte le transazioni). Forniamo anche il più grande e più sicuro servizio di portafoglio bitcoin.",
+        	    "p3" : "Per un introduzione a bitcoin guardate su <a href=\\\"http://www.weusecoins.com/\\\">weusecoins.com</a>"
+        	},
+        	"search" : "Cerca",
+        	"search_placeholder" : "Indirizzo / FirstBits / ip / SHA hash",
+        	"search_explain" : "E' possibile inserire un numero di blocco, indirizzo, hash di blocco, hash di transazione, hash160, o un indirizzo ipv4..",
+        	"other_links" : {
+        		"header" : "Altri Link Bitcoin",
+        		"most_popular" : "Indirizzi più popolari",
+        		"most_popular2" : "Indirizzi che hanno ricevuto maggior numero di pagamenti",
+        		"orphaned" : "Blocchi orfani",
+        		"orphaned2" : "Blocchi validi non facenti parte della principale catena blocchi bitcoin",
+        		"unconfirmed" : "Transazioni non confermate",
+        		"unconfirmed2" : "Transazioni in attesa di essere incluse in un blocco",
+        		"largest" : "Transazioni più grandi",
+        		"largest2" : "Le 100 più grandi transazioni nelle ultime 50,000 transazioni",
+        		"double_spends" : "Spese Doppie",
+        		"double_spends2" : "Spese doppie rilevate nelle ultime 500,000 transazioni",
+        		"strange" : "Strane Transazioni",
+        		"strange2" : "Transazioni di cui non siamo stati in grado di decodificare l'indirizzo di uscita",
+        		"pools" : "Statistiche delle Mining Pool",
+        		"pools2" : "Grafico a torta che mostra la quota di mercato delle migliori Bitcoin Mining Pool",
+        		"globe" : "Globo dei Nodi Bitcoin",
+        		"globe2" : "Globo WebGL che mostra i nodi bitcoin (Richiede Chrome, Safari)",
+        		"nodes" : "Lista Nodi Bitcoin",
+        		"nodes2" : "Un registro di tutti i nodi a cui blockchain.info Bitcoin è collegato",
+        		"hub_nodes" : "Nodi Hub",
+        		"hub_nodes2" : "Una lista dei super nodi bitcoin meglio connessi",
+        		"rejected" : "Inventario respinto",
+        		"rejected2" : "Blocchi e transazioni che sono stati respinti dai nostri nodi",
+        		"notifications" : "Notifiche di pagamento",
+        		"notifications2" : "Ricevere notifiche email gratuite quando c'è attività sui tuoi indirizzi bitcoin",
+        		"wallet" : "Il mio Portafoglio",
+        		"wallet2" : "Gestisci i tuoi soldi con il più avanzato web portafoglio Bitcoin"
+        	}
+    	},
+
+    	"misc" : {
+    		"unknown" : "Sconosciuto"
+    	}
+    }
 }
