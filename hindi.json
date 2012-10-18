@@ -1,0 +1,13 @@
+{
+	"name":"Hindi",
+	"code":"hi",
+	"flag" : "in.png"
+
+	"properties":{
+		"extends": "auto_hindi"
+	}
+
+	"strings" : {
+
+	}
+}

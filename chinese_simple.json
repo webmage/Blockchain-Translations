@@ -1,0 +1,12 @@
+{
+	"name":"Chinese Simplified",
+	"code":"zh-cn",
+
+	"properties":{
+		"extends": "auto_chinese_simple"
+	}
+
+	"strings" : {
+
+	}
+}
