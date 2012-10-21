@@ -1,13 +1,11 @@
 {
-	"name":"Swedish",
-	"code":"sv",
-	"flag":"sv.png",
-
-	"properties":{
-		"extends": "auto_swedish"
-	}
-
-	"strings" : {
-
-	}
+   "flag":"se.png",
+   "name":"Swedish",
+   "strings":{
+      
+   },
+   "properties":{
+      "extends":"auto_swedish"
+   },
+   "code":"sv"
 }

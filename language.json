@@ -246,7 +246,7 @@
             "notice1" : "Electricity consumption is estimated based on power consumption of 650 Watts per gigahash and electricity price of 15 cent per kilowatt hour. In reality some miners will be more or less efficient.",
             "notice2" : "For profit margin hardware costs are estimated to be $1000 per gigahash every 2 years, and bandwidth $1 per gigahash per year."
         },
-        "wallet" {
+        "wallet" : {
             "my_wallet" : "My Wallet",
             "slogan" : "Be Your Own Bank",
             "new_users" : "New Users",
@@ -318,15 +318,15 @@
             "meta_description" : "Transactions sent and received from bitcoin address ",
             "bitcoin_address" : "Bitcoin Address",
             "sub_header" : "Addresses are identifiers which you use to send bitcoins to another person.",
-            "double_spend_warning" : "Warning! this bitcoin address contains transactions which maybe double spends. You should be extremely careful when trusting any transactions to/from this address.",
-            "table_summary" {
+            "double_spend_warning" : "Warning! this bitcoin address contains transactions which maybe double spends. You should be extremely careful when trusting any transactions to or from this address.",
+            "table_summary" : {
                 "title" : "Summary",
                 "address" : "Address",
                 "short_link" : "Short Link",
                 "taint_analysis" : "Taint Analysis",
                 "view_analysis" : "View Analysis"
            },
-           "table_transactions" {
+           "table_transactions" : {
                 "title" : "Transactions",
                 "number_of_transactions" : "No. Transactions",
                 "unspent_inputs" : "Unspent Inputs",
@@ -354,7 +354,7 @@
         "wallet_index" : {
             "title" : "Bitcoin Wallet",
             "meta_description" : "My Wallet is a free online bitcoin wallet which you can use to make worldwide, anonymous payments for free. We make paying with bitcoins easy and secure.",
-            "confused" {
+            "confused" : {
                 "p1" : "Confused? Read the",
                 "p2" : "Beginners FAQ"
             },
@@ -831,7 +831,61 @@
                 "export_encrypted" : "Export Encrypted",
                 "export_unencrypted" : "Export Unencrypted",
                 "desktop_sync" : "Desktop Sync",
-                "paper_wallet" : "Paper Wallet"
+                "paper_wallet" : "Paper Wallet",
+                "watch_only_title" : "Add Watch Only Bitcoin Address",
+                "watch_only_p1" : "You may add a {0} bitcoin address to your wallet. You will not be able to send bitcoins from this address without later providing the private key",
+                "watch_only_placeholder" : "Bitcoin Addres",
+                "watch_only_btn" : "Add Watch Only Address",
+                "import_private_key_title" : "Import Private Key",
+                "import_private_key_p1" : "Import an existing private key below. All private key formats are supported.",
+                "import_private_key_btn" : "Add Private Key",
+                "brain_wallet_title" : "Brain Wallet",
+                "brain_wallet_p1" : "A Brain Wallet is a private key seeded from a memorable pass-phrase. It is possible to memorize this password in order to restore the funds at this address without needing a wallet backup.",
+                "brain_wallet_p2" : "The minimum pass-phrase length is 15 characters. It is highly recommended you still keep regular wallet backups even with the pass-phrase memorized.",
+                "brain_wallet_btn" : "Generate Key",
+                "import_paper_title" : "Import Using Paper Wallet",
+                "import_paper_p1" : "Use your Webcam to scan a QR code from a paper wallet",
+                "import_paper_btn" : "Scan With Webcam",
+                "import_wallet_title" : "Import Wallet",
+                "import_wallet_p1" : "You may import keys in several different formats.",
+                "import_wallet_formats" : {
+                    "aes" : "AES encrypted backup from blockchain.info. (Must be encrypted with the same password)",
+                    "plain" : "Plaintext JSON backup from blockchain.info",
+                    "output_from" : "Output from {0}"
+                },
+                "import_keys_limit" : "Please be aware there is currently a limit of 400 private keys per wallet. For large wallets your browser may become unresponsive for a few minutes.",
+                "import_textarea_placeholder" : "Copy And Paste your wallet data into this area",
+                "import_wallet_btn" : "Import Wallet",
+                "export_title" : "Export",
+                "export_p1" : "Below are your private keys AES encrypted.",
+                "export_btn" : "Download Backup",
+                "export_unencrypted_title" : "Export Unencrypted",
+                "export_unencrypted_p1" : "Below are your private keys in JSON format. Warning! This data is unencrypted keep it safe.",
+                "leave_encrypted" : "Leave Private Keys Encrypted",
+                "select_private_key_format" : "Select private key format:",
+                "desktop_sync_title" : "Desktop Client Sync",
+                "desktop_sync_p1" : "This tool enables you to sync your wallet with the official desktop client available from bitcoin.org.",
+                "desktop_sync_step1" : "Step 1. Install The Browser Extension",
+                "desktop_sync_instructions" : "Please install the {0} available for Google Chrome or the {1} available for Mozilla Firefox and Apple Safari (V >= 1.9 required).",
+                "installed_refresh_page" : " Once installed please refresh this page.",
+                "desktop_sync_step2" : "Step 2. Enable Bitcoin RPC",
+                "desktop_sync_step2_p1" : " In order for your browser to talk to your desktop client your must enable the bitcoin RPC server in the bitcoin.conf file. If the file does not exist you must create it. For Example:",
+                "desktop_sync_change_password" : "Change username and password to one of your own choice.",
+                "desktop_sync_step2_further_instructions" : "Once your have modified the file restart the Bitcoin application. For more information on enable the bitcoin RPC interface consult the {0}",
+                "rpc" : {
+                    "action" : "Action",
+                    "balance" : "Balance",
+                    "label" : "Label",
+                    "address" : "Address",
+                    "download_address_list" : "Download Address List",
+                    "password" : "Wallet Password:",
+                    "password_help" : "If your Bitcoin-Qt Wallet is encrypted enter the password here.",
+                    "ssl_help" : "SSL is currently not supported",
+                    "rpc_password" : "RPC Password:",
+                    "rpc_port" : "RPC Port:",
+                    "rpc_username" : "RPC Username:",
+                    "_continue" : "Continue"
+                }
             },
             "modals" : {
                 "cancel" : "Cancel",
@@ -1118,7 +1172,7 @@
             "about_p1" : "Blockchain.info is Bitcoin's most popular bitcoin wallet and block explorer. As of October 2012 the site receives over 10,000 visitors daily and has over 30,000 Users.",
             "security_p1" : "Our security policy is to hold as little data as possible that in the event of a security breach could affect our users. Using our My Wallet service we do not hold or intercept any passwords or personally identifying information wallet data is only stored in encrypted form. Blockchain.info runs on privately owned dedicated hardware which can only be accessed by the site administrator. We perform regular security reviews of both our code and servers including scanning our site using nmap to detect possible vulnerabilities early. The site can be access securely using https:// verified by GoDaddy.",
             "privacy_p1" : "We record access logs of all pages on the site for analytics purposes only. Access logs are pruned every 7 days. We do not log any data relating to transactions made through My Wallet or bitcoin addresses used in My Wallet. Any email address, skype name or other personal data provided will not be shared with any other third party or advertisers.",
-            "availability" : " We aim for 99.5% up time however this service is provided on a best effort basis. If scheduled maintenance is planned we will notify users by email.",
+            "availability_p1" : " We aim for 99.5% up time however this service is provided on a best effort basis. If scheduled maintenance is planned we will notify users by email.",
             "up_time" : "Up Time",
             "response_time" : "Response Time",
             "up_time_alt" : "Up time for blockchain.info: Last 30 days",
@@ -1145,7 +1199,7 @@
             "previous_block" : "Previous Block",
             "next_blocks" : "Next Blocks",
             "time" : "Time",
-            "received_by" : "Received Time",
+            "received_time" : "Received Time",
             "relayed_by" : "Relayed By",
             "difficulty" : "Difficulty",
             "number_of_transactions" : "Number Of Transactions",
@@ -1413,17 +1467,68 @@
                 "notifications_disabled" : "Notifications Are Disabled"
             }
         },
+        "deposit" : {
+            "phone_sms" : "Phone / SMS",
+            "_continue" : "Continue",
+            "back" : "Back",
+            "reference" : "Reference:",
+            "you_pay" : "You Pay:",
+            "full_instructions" : "Full Instructions",
+            "you_receive" : "You Receive:",
+            "to_address" : "To Address:",
+            "instructions" : "Instructions:",
+            "depsit_with_cash" : "Deposit With Cash",
+            "depsit_with_cash_description" : "Over 700,000 Cash Deposit Locations Worldwide",
+            "powered_by" : "Powered By",
+            "amount" : "Amount",
+            "fee" : "{0}% Fee",
+            "make_anonymous" : "Make Anonymous?",
+            "anonymous_help" : "The bitcoins will be sent through our mixer for improved privacy (1.5% Fee).",
+            "amount_help" : "Enter the amount to purchase in {0}.",
+            "pingit_p1" : "In order to use our {0} deposit service please verify your Mobile Phone number. If you do not have a PingIt account yet, setup is easy and the app can be downloaded from the app store on your smart phone.",
+            "pingit_instructions_1" : "Please send payment of {0} to {1} using reference {2}.",
+            "pingit_instructions_2" : "Payment must be sent from {0}.",
+            "country" : "Country:",
+            "select_country" : "Select A Country",
+            "_package" : "Package:",
+            "small_package" : "Small Package",
+            "medium_package" : "Medium Package",
+            "large_package" : "Large Package",
+            "payment_method" : "Payment Method:",
+            "sms_p1" : " In order to deposit Bitcoins by SMS or landline phone please verify your mobile phone number below. Once verified the actual purchase can be made from a different phone number or landline phone."
+        },
+        "translations_page" : {
+            "title" : "Help Translate Blockchain.info",
+            "header" : "Translations",
+            "sub_header" : "Blockchain.info is now available in 16 languages.",
+            "how_to_help" : "How To Help",
+            "p1" : "Blockchain.info is now available in 16 different languages. However the translation has been done primarily by machine, we need your help to provide better translations.",
+            "p2" : "If you are familiar with {0} and {1} follow the instructions below:",
+            "steps" : {
+                "_1" : "{0} the translations git repository from {1}.",
+                "_2" : "Clone the new fork of the translations project.",
+                "_3" : "Download a good JSON editor. We recommend 'Sublime Text 2' available free for Windows, Mac and Linux.",
+                "_4" : "Open the files auto_{your_language}.json and {your_language}.json side by side.",
+                "_5" : "Any phrases in the auto generated file that do not make sense copy them into the other file and correct the mistakes.",
+                "_6" : "The JSON structure must be identical in both files, do not edit any of the key names.",
+                "_7" : "When finished commit the changes and submit a {0}.",
+                "_8" : "Include your bitcoin address for a bounty or if you prefer change the link on the homepage to your own website.",
+                "pull_request" : "Pull Request",
+                "fork" : "Fork"
+            }
+        },
         "ads" : {
             "bitinstant" : {
                 "title" : "Need Bitcoins?",
                 "body" : "Buy with Cash"
-            }
+                }
         },
         "errors" : {
             "invalid_bitcoin_adddress" : "Invalid Bitcoin Address",
             "invalid_numerical_value" : "Invalid Numerical Value",
             "invalid_block_hash" : "Invalid Block Hash",
-            "block_not_found" : "Block Not Found"
+            "block_not_found" : "Block Not Found",
+            "missing_parameter" : "Mising Parameter"
         }
     }
 }

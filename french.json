@@ -1,13 +1,11 @@
 {
-	"name":"French",
-	"code":"fr",
-	"flag":"fr.png",
-
-	"properties":{
-		"extends": "auto_french"
-	}
-
-	"strings" : {
-
-	}
+   "flag":"fr.png",
+   "name":"French",
+   "strings":{
+      
+   },
+   "properties":{
+      "extends":"auto_french"
+   },
+   "code":"fr"
 }

@@ -1,13 +1,11 @@
 {
-	"name":"Thai",
-	"code":"th",
-	"flag" : "th.png",
-
-	"properties":{
-		"extends": "auto_thai"
-	}
-
-	"strings" : {
-
-	}
+   "flag":"th.png",
+   "name":"Thai",
+   "strings":{
+      
+   },
+   "properties":{
+      "extends":"auto_thai"
+   },
+   "code":"th"
 }

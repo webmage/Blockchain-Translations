@@ -1,13 +1,11 @@
 {
-	"name":"Hindi",
-	"code":"hi",
-	"flag" : "in.png"
-
-	"properties":{
-		"extends": "auto_hindi"
-	}
-
-	"strings" : {
-
-	}
+   "flag":"in.png",
+   "name":"Hindi",
+   "strings":{
+      
+   },
+   "properties":{
+      "extends":"auto_hindi"
+   },
+   "code":"hi"
 }

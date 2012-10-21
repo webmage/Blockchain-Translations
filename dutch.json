@@ -1,13 +1,11 @@
 {
-	"name":"Dutch",
-	"code":"nl",
-	"flag":"nl.png",
-
-	"properties":{
-		"extends": "auto_dutch"
-	}
-
-	"strings" : {
-
-	}
+   "flag":"nl.png",
+   "name":"Dutch",
+   "strings":{
+      
+   },
+   "properties":{
+      "extends":"auto_dutch"
+   },
+   "code":"nl"
 }
