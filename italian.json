@@ -5,51 +5,51 @@
       "footer":{
          "nodes_connected":"Nodi Connessi",
          "status":"Stato:",
-         "enable":"Abilita",
          "advanced":"Avanzato:",
-         "disable":"Disabilita",
+         "enable":"Abilita",
          "ok":"Ok",
+         "disable":"Disabilita",
          "about_and_contact":"Chi siamo & Contatti:",
          "not_connected":"Non connesso"
       },
       "home":{
          "other_links":{
-            "strange2":"Transazioni di cui non siamo stati in grado di decodificare l'indirizzo di uscita",
-            "double_spends":"Spese Doppie",
-            "largest2":"Le 100 più grandi transazioni nelle ultime 50,000 transazioni",
-            "hub_nodes2":"Una lista dei super nodi bitcoin meglio connessi",
-            "hub_nodes":"Nodi Hub",
-            "strange":"Strane Transazioni",
-            "rejected":"Inventario respinto",
-            "most_popular2":"Indirizzi che hanno ricevuto maggior numero di pagamenti",
-            "globe":"Globo dei Nodi Bitcoin",
             "nodes2":"Un registro di tutti i nodi a cui blockchain.info Bitcoin è collegato",
             "rejected2":"Blocchi e transazioni che sono stati respinti dai nostri nodi",
             "globe2":"Globo WebGL che mostra i nodi bitcoin (Richiede Chrome, Safari)",
             "double_spends2":"Spese doppie rilevate nelle ultime 500,000 transazioni",
+            "strange2":"Transazioni di cui non siamo stati in grado di decodificare l'indirizzo di uscita",
+            "double_spends":"Spese Doppie",
             "orphaned2":"Blocchi validi non facenti parte della principale catena blocchi bitcoin",
+            "largest2":"Le 100 più grandi transazioni nelle ultime 50,000 transazioni",
             "pools":"Statistiche delle Mining Pool",
+            "hub_nodes2":"Una lista dei super nodi bitcoin meglio connessi",
             "header":"Altri Link Bitcoin",
             "pools2":"Grafico a torta che mostra la quota di mercato delle migliori Bitcoin Mining Pool",
+            "hub_nodes":"Nodi Hub",
+            "strange":"Strane Transazioni",
             "nodes":"Lista Nodi Bitcoin",
+            "rejected":"Inventario respinto",
             "notifications2":"Ricevere notifiche email gratuite quando c'è attività sui tuoi indirizzi bitcoin",
+            "most_popular2":"Indirizzi che hanno ricevuto maggior numero di pagamenti",
             "unconfirmed2":"Transazioni in attesa di essere incluse in un blocco",
+            "globe":"Globo dei Nodi Bitcoin",
             "wallet2":"Gestisci i tuoi soldi con il più avanzato web portafoglio Bitcoin"
          },
          "sub_header":"I blocchi più recentemente minati nella catena blocchi bitcoin",
-         "search_explain":"E' possibile inserire un numero di blocco, indirizzo, hash di blocco, hash di transazione, hash160, o un indirizzo ipv4..",
          "title":"Esploratore di blocchi Bitcoin - Blockchain.info",
+         "search_explain":"E' possibile inserire un numero di blocco, indirizzo, hash di blocco, hash di transazione, hash160, o un indirizzo ipv4..",
+         "meta_description":"Esploratore di blocchi Bitcoin & statistiche valutarie. Visualiszza informazioni dettagliate su tutte le transazioni bitcoin e blocchi.",
+         "more":"Altro...",
          "table_headers":{
             "sent":"Tatale Inviati",
             "height":"Numero",
-            "size":"Dimensione (kB)",
-            "relayed":"Trasmesso Da"
+            "relayed":"Trasmesso Da",
+            "size":"Dimensione (kB)"
          },
-         "more":"Altro...",
-         "meta_description":"Esploratore di blocchi Bitcoin & statistiche valutarie. Visualiszza informazioni dettagliate su tutte le transazioni bitcoin e blocchi.",
          "about":{
-            "link_href":"http:\/\/www.bitcoin-italia.org\/",
             "link_txt":"bitcoin-italia.org",
+            "link_href":"http:\/\/www.bitcoin-italia.org\/",
             "p3":"Per un introduzione a bitcoin guardate su {0}",
             "p2":"Questo sito ti permette di navigare la catenablocchi bitcoin (una banca dati che contiene informazioni su tutte le transazioni). Forniamo anche il più grande e più sicuro servizio di portafoglio bitcoin.",
             "p1":"Bitcoin è una valuta peer-to-peer. Peer-to-peer significa che nessuna autorità centrale creerà nuova moneta o traccerà le transazioni. Questi compiti sono gestiti collettivamente dal network.",
@@ -61,56 +61,56 @@
       },
       "api_index":{
          "data_api_description":"Query JSON per dati su blocchi e transazioni. Quasi tutti i dati che vedi su questo sito web sono disponibili in formato JSON.",
-         "charts_and_statistics_description":"Feed JSON contenente i dati da grafici e dalle pagine statistiche.",
-         "send_description":"Semplice JSON API utilizzabile per l'invio e ricezione programmata di bitcoin dall'account Mio Portafoglio.",
-         "abuse_notice":"I servizi forniti da blockchain.info sono gratuiti. Si prega di non abusarne.",
-         "title":"API Bitcoin per Sviluppatori - Blockchain.info",
-         "welcome":"Benvenuti sviluppatori!",
          "request_limits_p1":"o un codice API per bypassare il limitatore di richieste, per favore",
+         "charts_and_statistics_description":"Feed JSON contenente i dati da grafici e dalle pagine statistiche.",
          "complete_merchant_solution":"Soluzione Completa per Negoziante.",
          "account_required":"Richiede account Mio Portafoglio",
          "third_party_apis":"API da Terzi",
          "request_limits":"Limiti richiese",
+         "send_description":"Semplice JSON API utilizzabile per l'invio e ricezione programmata di bitcoin dall'account Mio Portafoglio.",
+         "abuse_notice":"I servizi forniti da blockchain.info sono gratuiti. Si prega di non abusarne.",
          "header":"Bitcoin API per Sviluppatori",
          "json_rpc":"JSON RPC compatibile con Bitcoin-Qt",
+         "title":"API Bitcoin per Sviluppatori - Blockchain.info",
          "bitpay_description":"Blockchain consiglia vivamente Bitpay - Il leader mondiale nelle soluzioni per affari Bitcoin. Bitpay offre una soluzione completa per il check-out tra cui la conversione automatica di valute locali e l'integrazione di una serie di software carrello della spesa.",
          "up_time_description":"Blockchain.info utilizza un cluster di database ad alta disponibilità e hardware dedicato per restare sempre online e con tempi di risposta bassi.",
          "json_rpc_description":"Blockchain.info è in grado di funzionare come server bitcoind RPC per i commercianti e di interagire con il loro account Mio Portafoglio.",
+         "welcome":"Benvenuti sviluppatori!",
          "receive_payments_description":"Un metodo incredibilmente semplice per i siti web per ricevere pagamenti in bitcoin."
-      },
-      "notifications":{
-         "two_factor_reset_title":"Ripristino Doppia autenticazione",
-         "notifications_limit":"Limite di Notifiche di pagamento",
-         "payment_sent_body":"E' stato inviato un pagamento dal tuo portafoglio bitcoin del valore {0} (circa: {1})",
-         "payment_received_title":"Pagamento Bitcoin ricevuto",
-         "sms_authentication_code":"Codice di Autenticazione Mio Portafoglio: {0}",
-         "payment_sent_title":"Pagamento Bitcoin Inviato",
-         "account_locked_title":"Il tuo account Mio Portafoglio è stato bloccato",
-         "wallet_backup_title":"Backup Portafoglio ",
-         "confirmation_code_title":"Codice di conferma per Mio Portafoglio",
-         "password_hints_title":"Suggerimenti password per Mio portafoglio",
-         "wallet_login":"Accedi al Portafoglio",
-         "wallet_welcome_title":"Benvenuti a Mio Portafoglio"
-      },
-      "address":{
-         "invalid_hash_160":"Mi dispiace questo non è un hash 160 valido",
-         "confirmed_only":"Solo Confermato",
-         "bitcoin_address":"Indirizzo Bitcoin",
-         "table_summary":{
-            "taint_analysis":"Analisi Macchia"
-         },
-         "invalid_address":"Mi dispiace questo è non un indirizzo bitcoin valido",
-         "double_spend_warning":"Attenzione! questo indirizzo bitcoin forse contiene operazioni di doppia spesa. È necessario essere estremamente attenti quando confidando operazioni da \/ per questo indirizzo.",
-         "table_transactions":{
-            "total_received":"Totale ricevuti"
-         },
-         "meta_description":"Operazioni inviate e ricevute da indirizzo bitcoin",
-         "confirmed":"Confermati",
-         "no_transactions":"Nessuna transazione trovata a questo indirizzo, probabilmente non è ancora stato utilizzato sulla rete."
       },
       "transaction":{
          "double_spend":"Doppio Spesa!",
          "no_inputs":"No Ingressi (Monete appena generate)"
+      },
+      "address":{
+         "invalid_hash_160":"Mi dispiace questo non è un hash 160 valido",
+         "table_transactions":{
+            "total_received":"Totale ricevuti"
+         },
+         "table_summary":{
+            "taint_analysis":"Analisi Macchia"
+         },
+         "bitcoin_address":"Indirizzo Bitcoin",
+         "confirmed_only":"Solo Confermato",
+         "confirmed":"Confermati",
+         "meta_description":"Operazioni inviate e ricevute da indirizzo bitcoin",
+         "invalid_address":"Mi dispiace questo è non un indirizzo bitcoin valido",
+         "no_transactions":"Nessuna transazione trovata a questo indirizzo, probabilmente non è ancora stato utilizzato sulla rete.",
+         "double_spend_warning":"Attenzione! questo indirizzo bitcoin forse contiene operazioni di doppia spesa. È necessario essere estremamente attenti quando confidando operazioni da \/ per questo indirizzo."
+      },
+      "notifications":{
+         "notifications_limit":"Limite di Notifiche di pagamento",
+         "two_factor_reset_title":"Ripristino Doppia autenticazione",
+         "payment_sent_body":"E' stato inviato un pagamento dal tuo portafoglio bitcoin del valore {0} (circa: {1})",
+         "confirmation_code_title":"Codice di conferma per Mio Portafoglio",
+         "wallet_backup_title":"Backup Portafoglio ",
+         "payment_received_title":"Pagamento Bitcoin ricevuto",
+         "payment_sent_title":"Pagamento Bitcoin Inviato",
+         "sms_authentication_code":"Codice di Autenticazione Mio Portafoglio: {0}",
+         "password_hints_title":"Suggerimenti password per Mio portafoglio",
+         "account_locked_title":"Il tuo account Mio Portafoglio è stato bloccato",
+         "wallet_login":"Accedi al Portafoglio",
+         "wallet_welcome_title":"Benvenuti a Mio Portafoglio"
       },
       "ip_log":{
          "sub_header":"Elenco dei nodi Bitcoin a cui blockchain.info era collegato in passato.",
@@ -123,15 +123,15 @@
          "stats_title":"Statistiche Bitcoin",
          "logo_alt_title":"Esploratore di blocchi Bitcoin e statistiche valutarie",
          "charts_title":"Grafici Bitcoin",
-         "wallet_title":"Portafoglio Bitcoin",
-         "developer_title":"Strumenti di sviluppo Blockchain"
+         "developer_title":"Strumenti di sviluppo Blockchain",
+         "wallet_title":"Portafoglio Bitcoin"
       },
       "misc":{
          
       }
    },
+   "code":"it",
    "properties":{
       "extends":"auto_italian"
-   },
-   "code":"it"
+   }
 }

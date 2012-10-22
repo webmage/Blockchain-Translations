@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"el",
    "properties":{
       "extends":"auto_greek"
-   },
-   "code":"el"
+   }
 }

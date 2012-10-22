@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"pl",
    "properties":{
       "extends":"auto_polish"
-   },
-   "code":"pl"
+   }
 }

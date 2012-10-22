@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"fr",
    "properties":{
       "extends":"auto_french"
-   },
-   "code":"fr"
+   }
 }
