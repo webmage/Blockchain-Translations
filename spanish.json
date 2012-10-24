@@ -2,10 +2,16 @@
    "flag":"es.png",
    "name":"Spanish",
    "strings":{
-      
+      "home":{
+         "header":"Inicio"
+      },
+      "header":{
+         "home_title":"Blockchain.info Inicio",
+         "home":"Inicio"
+      }
    },
+   "code":"es",
    "properties":{
       "extends":"auto_spanish"
-   },
-   "code":"es"
+   }
 }
