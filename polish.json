@@ -4,7 +4,7 @@
    "strings":{
    "home":{
          "other_links":{
-            "most_popular":"Najpopularniejsze Adresy",
+            "most_popular":"Najpopularniejsze adresy",
             "strange2":"Transakcje, których nie byliśmy w stanie odkodować adres wyjścia",
             "double_spends":"Podwójne Spędza",
             "largest2":"Największe transakcje 100 z ostatnich 50.000 transakcji",
@@ -12,7 +12,7 @@
             "unconfirmed":"Niepotwierdzone Transakcje",
             "wallet":"Mój portfel",
             "hub_nodes":"Węzły Hub",
-            "strange":"Dziwne Transakcje",
+            "strange":"Dziwne transakcje",
             "rejected":"Odrzucony Inventory",
             "most_popular2":"Adresy, które otrzymały najwięcej płatności",
             "globe":"Bitcoin Węzły Globe",
@@ -98,13 +98,13 @@
          "exchange_rates":"Kursy walut",
          "send_payments":"Wyślij płatności",
          "websocket_description":"Małe opóźnienie kanału gniazdo strumieniowe dostarczanie danych na temat nowych bloków i transakcji. Zapisz się na powiadomienia o blokach, transakcji lub adres i odbieranie obiekty JSON opisujące transakcji lub blokady, gdy wystąpi zdarzenie.",
-         "abuse_notice":"Usługi świadczone przez blockchain.info są bezpłatne. Proszę nie nadużywać ich.",
+         "abuse_notice":"Usługi świadczone przez blockchain.info są bezpłatne. Proszę ich nie nadużywać.",
          "title":"Bitcoin Developer API - Blockchain.info",
          "exchange_rates_data":"Dane kursowe z głównych giełdach Bitcoin.",
          "blockchain_data":"Danych o transakcjach i Bloki",
          "market_data":"Dane rynkowe",
          "simple_query_api_description":"Proste plain text API dla kwerend blockchain danych. Kompatybilny z",
-         "welcome":"Witaj programistów!",
+         "welcome":"Witaj programisto!",
          "requests_in_8_hours":"Wnioski w 8 godzin:",
          "request_limits_p1":"lub Kod API ominąć wniosek limiter proszę",
          "sub_header":"Narzędzia dla deweloperów, aby uzyskać dane o blockchain",
@@ -173,8 +173,8 @@
          "size":"Rozmiar:"
       },
       "stats":{
-         "sub_header":"Statystyki Bitcoin waluty",
-         "title":"Bitcoin Statystyki - Blockchain.info",
+         "sub_header":"Statystyki waluty bitcoin",
+         "title":"Statystyki Bitcoin - Blockchain.info",
          "meta_description":"Ponad 100 różnych rynku Bitcoin i statystyk sieciowych. Liczba węzłów, wolumen transakcji, trudności Górnictwa i więcej.",
          "notice1":"Zużycie energii elektrycznej jest szacowana na podstawie poboru mocy 650 watów na gigahash i ceny energii elektrycznej w 15 centa za kilowatogodzinę. W rzeczywistości pewne górników będzie mniej lub bardziej skuteczne.",
          "notice2":"Marża zysku na koszty sprzętu szacuje się na 000 EUR gigahash co 2 lata, a przepustowość za gigahash rocznie.",
@@ -384,28 +384,28 @@
                "header":"Informacje o koncie",
                "general":"Ogólny"
             },
-            "sms_verified":"SMS zweryfikowana"
+            "sms_verified":"Zweryfikowano SMS'em"
          },
          "wallet_home":{
-            "withdraw_description":"Korzystać z usług poniżej przekonwertować bitcoins powrotem do Ciebie walucie lokalnej.",
-            "final_balance":"Salda końcowego",
+            "withdraw_description":"Korzystaj z usług poniżej by zamienić bitcoiny na walutę.",
+            "final_balance":"Saldo końcowe",
             "deposit_description":"Najszybszym i najprostszym sposobem złożenia bitcoins na koncie jest do korzystania z usług poniżej.",
             "account_settings_btn":"Ustawienia konta",
-            "total_transactions":"Razem transakcje",
-            "deposit":"Kaucja",
+            "total_transactions":"Razem transakcji",
+            "deposit":"Dodaj środki",
             "account_settings":"Ustawienia konta",
-            "total_received":"Razem odebrane",
+            "total_received":"Razem odebranych",
             "account_settings_description":"Edytuj ustawienia konta, w tym adresu e-mail, hasło i ustawienia powiadomień.",
-            "backup_description":"Tworzenie kopii zapasowej portfel jest ważnym krokiem, który jest łatwy do zapomnienia. Blockchain.info podejmuje wszelkie środki ostrożności, aby utrzymać portfel bezpieczny, ale to jest zawsze lepiej, aby zachować lokalną kopię tylko w przypadku.",
-            "phone_deposit":"Depozyt telefon",
-            "share_with_anyone":"Podziel się tym z nikim i można je wysłać płatności.",
-            "pingit_withdraw":"PingIt Wycofaj",
-            "btcpak_withdraw":"BTCPak Wycofaj",
-            "pingit_deposit":"PingIt depozytu",
+            "backup_description":"Tworzenie kopii zapasowej portfela jest ważnym krokiem, który jest łatwy do zapomnienia. Blockchain.info podejmuje wszelkie środki ostrożności, aby utrzymać portfel bezpiecznym. Dla większego bezpieczeństwa zalecamy dokonywanie dodatkowej kopi bezpieczeństwa.",
+            "phone_deposit":"Zasil telefonem",
+            "share_with_anyone":"Podziel się tym adresem z kimkolwiek chcesz by otrzymać płatności.",
+            "pingit_withdraw":"Wypłać przez PingIt",
+            "btcpak_withdraw":"Wypłać przez BTCPak",
+            "pingit_deposit":"Zasil przez PingIt",
             "this_is_your_bitcoin_address":"To jest twój główny adres bitcoin",
-            "withdraw":"Wycofać się",
-            "cash_deposit":"Gotówka Kaucja",
-            "total_sent":"Razem Sent",
+            "withdraw":"Wypłać środki",
+            "cash_deposit":"Zasil gotówką",
+            "total_sent":"Razem wysłanych",
             "backup":"Tworzenie kopii zapasowych"
          },
          "modals":{
@@ -1038,14 +1038,14 @@
          "slides":{
             "android_app":"Blockchain Android App",
             "mobile_support":"Mobile Support",
-            "charts_analytics":"Wykresy i Analytics",
-            "double_encryption":"Podwójne Encryption",
+            "charts_analytics":"Wykresy i analizy",
+            "double_encryption":"Podwójne szyfrowanie",
             "charts_analytics_img_title":"Zbudowany na wykresach i analityka",
             "iphone_app":"IPhone App Blockchain",
             "charts_analytics_p1":"Generować wykresy i raporty dla ostatnich transakcji Bitcoin. Zobacz stan konta w czasie, liczba transakcji, a przychód na dzień.",
             "payment_notifications_p1":"Otrzymuj powiadomienia o płatności wysyłane lub odbierane z portfela Bitcoin. Średnie opóźnienie dla powiadomień płatności jest krótszy niż 50ms. W przypadku otrzymania płatności po zalogowaniu do mojego portfela dźwięk grać i interfejs będzie natychmiastowo aktualizować bez konieczności przeładowania strony.",
             "payment_notifications":"Powiadomienia płatności",
-            "one_click_backups":"One Click Backup",
+            "one_click_backups":"Kopia bezpieczeństwa za jednym kliknięciem",
             "payment_notifications_skype":"Bitcoin Płatność Powiadomienia Skype",
             "payment_notifications_gtalk":"Powiadomienia płatności Google Talk",
             "double_encryption_p1":"Zanim twój portfel Bitcoin jest zapisane na naszych serwerach jest AES 256 bitowe szyfrowane w przeglądarce. Twoje hasło nie jest dzielona z nas więc nawet nie możemy otworzyć swój portfel. Nie tylko, ale twój portfel może być opcjonalnie szyfrowane ponownie z drugim hasłem wymagającego jednego hasła do logowania i oddzielnym hasłem dokonania transakcji. Jeśli to nie wystarczy, możemy również wspierać różne dwuelementowe metod uwierzytelniania oraz Yubikeys Mt.Gox.",
@@ -1104,8 +1104,8 @@
             "remote_backup":"Zdalny backup jest, gdy twój portfel jest przechowywany w innym miejscu poza lokalnym komputerem. Jest to ważne w celu zapewnienia pieniądze nie są tracone w przypadku awarii dysku komputera lub defektu",
             "remote_backup_title":"Zdalne tworzenie kopii zapasowych",
             "paypal":"PayPal jest nieaktualne realizatorem płatności",
-            "offline_transactions_title":"Offline Transakcje",
-            "paper_wallet_title":"Paper Wallet",
+            "offline_transactions_title":"Transakcje offline",
+            "paper_wallet_title":"Portfel papierowy",
             "private_key_title":"Klucz prywatny"
          },
          "features":{
@@ -1120,13 +1120,13 @@
             "backups":"Możliwość tworzenia własnych kopii zapasowych.",
             "full_list":"Zobacz pełną listę funkcji"
          },
-         "create_my_free_wallet":"Utwórz moje bezpłatne Portfel"
+         "create_my_free_wallet":"Utwórz mój bezpłatny portfel"
       },
       "tx_tree":{
          "title":"Wizualizacja Transakcji {0} - Blockchain.info",
          "meta_description":"Wykres przedstawiający drzewo wyjścia transakcji Bitcoin {0}",
          "output_spent":"Wyjście jest wydawana - Kliknij, aby załadować swoje dzieci.",
-         "cluster_by_address":"Cluster według adresu",
+         "cluster_by_address":"Klaster według adresu",
          "no_clustering":"Nie klastrowanie",
          "output_unspent":"Wyjście jest niewykorzystane i nie ma dzieci.",
          "header":"Wizualizacja transakcji"
@@ -1259,15 +1259,15 @@
          "alias_placeholder":"Pamiętne słowa lub nick"
       },
       "header":{
-         "home_title":"Blockchain.info główna",
-         "home":"Dom",
+         "home_title":"Blockchain.info Strona główna",
+         "home":"Strona główna",
          "charts":"Wykresy",
-         "stats_title":"Bitcoin Stats",
+         "stats_title":"Statystyki dla Bitcoin",
          "logo_alt_title":"Bitcoin blok explorer i statystyki waluty",
          "stats":"Statystyki",
          "developer":"Deweloperzy",
-         "charts_title":"Bitcoin Charts",
-         "developer_title":"Blockchain Narzędzia dla deweloperów",
+         "charts_title":"Wykresy dla Bitcoin",
+         "developer_title":"Narzędzia Blochchain dla deweloperów",
          "wallet_title":"Bitcoin Wallet",
          "wallet":"Portfel",
          "search_placeholder":"Szukaj"
