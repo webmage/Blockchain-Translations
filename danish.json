@@ -39,6 +39,7 @@
             "nodes":"Bitcoin knudepunkter",
             "wallet2":"Administrer dine penge med Bitcoins mest avancerede web tegnebog."
          },
+	     "search_explain":"Du kan indtaste en blok højde, adresse, blok hash, transaktionshash, hash160 eller IPv4-adresse ..",
          "sub_header":"Senest genererede blokke i Bitcoin blokkæden",
          "about":{
             "p2":"Denne hjemmeside giver dig mulighed for at navigere i Bitcoin blokkæden (en database, der indeholder oplysninger om alle transaktioner). Vi har også Bitcoins største og mest sikre tegnebog service.",
@@ -193,8 +194,9 @@
             "sms_verified":"Bekræftet SMS"
          },
          "wallet_home":{
-            "withdraw_description":"Brug tjenesterne nedenfor for at konvertere bitcoins tilbage til dig lokale valuta.",
+            "withdraw_description":"Brug tjenesterne nedenfor for at konvertere bitcoins tilbage til din lokale valuta.",
             "final_balance":"Saldo",
+            "deposit":"Indsæt",
             "deposit_description":"Den hurtigste og nemmeste måde at indbetale bitcoins på din konto, er at bruge tjenesterne nedenfor.",
             "total_transactions":"Transaktioner I Alt",
             "backup_description":"Sikkerhedskopiering af din tegnebog er et vigtigt skridt, som er let at glemme. Blockchain.info tager alle forholdsregler for at holde din tegnebog sikker, men det er altid bedre at opbevare en lokal kopi for en sikkerheds skyld.",
@@ -211,7 +213,7 @@
             "update_password":"Opdater Password",
             "forward_to_client":"Videresend til desktop-klient",
             "sign_message":"Underskriv besked",
-            "watch_only":"Se Kun",
+            "watch_only":"Watch Only",
             "delete_private_key_only":"Slet kun privat nøgle",
             "miners_fee_recommended_warning":"Hvis du ikke betaler et gebyr kan denne transaktion tage lang tid at få bekræftet. Alle midler vil blive returneret til dig efter cirka 24 timer.",
             "watch_only_warning_p1":"Du modtager denne advarsel, fordi du har kopieret en {0}-adresse til udklipsholderen.",
@@ -221,7 +223,7 @@
             "watch_only_warning_p2":"En {0} adresse betyder, at du kun kan observere transaktionerne på denne adresse. Medmindre du har den private nøgle gemt andetsteds så du ikke ejer midlerne på denne adresse.",
             "address_book_label_placeholder":"Navn på person eller handlende",
             "first_relayed":"Først videresendt",
-            "add_watch_only_address":"Tilføj Se Kun Bitcoin adresse",
+            "add_watch_only_address":"Tilføj Watch Only Bitcoin adresse",
             "second_password_p1":"Denne handling kræver, at du indtaster din anden adgangskode, som er nødvendig for fuldt at dekryptere din tegnebog. Du bør aldrig indtaste dit andet password på en upålidelig computer. Brug tastaturet på skærmen til at yde en vis beskyttelse mod keyloggers.",
             "address_book_label_help":"Indtast Label til denne adresse. fx navnet på personen eller firma navn.",
             "confirm_delete_warning":"Sletning af en forkert adresse vil medføre økonomiske tab. Hvis du ikke er sikker på hvad du gør, så tryk annullerer nu",
@@ -251,7 +253,7 @@
             "created_offline_p1":"Din transaktion er blevet oprettet, men er endnu ikke blevet udsendt til p2p-netværket.",
             "compressed_private_key_p1":"Komprimerede private nøgler understøttes ikke i øjeblikket hvis du bruger Android app, iPhone app eller Merchant API. Hvis du importerer en komprimeret privat nøgle direkte vil du ikke være i stand til at bruge midlerne på denne adresse ved hjælp af de tidligere anførte enheder.",
             "network_percent":"% af netwærket",
-            "watch_only_warning":"Se-Kun Adresse Advarsel",
+            "watch_only_warning":"Watch Only adresse advarsel",
             "label_address_p1":"Angiv en etiket til adressen {0}",
             "compressed_private_key_p2":"Den anbefalede løsning er at overføre midler i en eksisterende Bitcoin adresse. Kunne du tænke dig at i stedet at overføre fra denne private nøgle?",
             "address_not_synced_p1":"Denne adresse er ikke blevet gemt på vores servere endnu, og går måske tabt når du forlader denne side.",
@@ -288,7 +290,7 @@
          },
          "send_coins":{
             "escrow":"Deponering",
-            "send_anonymously_sub":"Brug Send Anonymt at sikre transaktionen ikke kan spores mellem afsender og modtager.",
+            "send_anonymously_sub":"Brug Send Anonymt til at sikre, at transaktionen ikke kan spores mellem afsender og modtager.",
             "address_book_sub":"Adressebogen indeholder en liste adresser du kan sende til. Du kan bruge den til at gemme Bitcoin adresser på personer, du kender eller handlende, du ofte bruger.",
             "change_address_tooltip":"Eventuelle byttepenge vil blive sendt tilbage til denne adresse",
             "sms_number_tooltip":"Indtast SMS nummeret på den person, du vil sende bitcoins til.",
@@ -308,7 +310,7 @@
             "amount_help":"Indtast beløbet i Bitcoins som skal sendes",
             "btcdice_sub":"{0} - Vælg odds, lav et væddemål og modtag dine gevinster på få sekunder.",
             "send_via_facebook_sub":"Brug formularen nedenfor til at sende Bitcoins til en Facebook ven.",
-            "anonymous_transaction_fees":"Alle Anonyme transaktioner pålægges et gebyr på {0}%.",
+            "anonymous_transaction_fees":"Alle anonyme transaktioner pålægges et gebyr på {0}%.",
             "to_address_tooltip":"Dette er Bitcoin adressen på modtageren.",
             "send_anonymously_total":"Inklusiv gebyrer er summen af denne transaktion {0}",
             "public_note_placeholder":"Denne besked vil blive permanent indlejret i blokkæden. Alle kan læse den.",
@@ -322,7 +324,7 @@
             },
             "balance":{
                "title":"Din saldo",
-               "tip":"Dette viser saldoen på din Bitcoin tegnebog. Du vil ikke være i stand til at bruge dette beløb, før alle transaktioner er bekræftede."
+               "tip":"Her vises saldoen på din Bitcoin tegnebog. Du vil ikke være i stand til at bruge dette beløb, før alle transaktioner er bekræftede."
             }
          },
          "receive_money":{
@@ -344,7 +346,7 @@
          "import_export":{
             "import_backup":"Importer sikkerhedskopi",
             "advanced_warning_sub":"Denne sektion tillader dig at foretage ændringer i din tegnebog, som kan være komplicerede og forvirrende. Det anbefales at kun erfarne Bitcoin Users fortsætter herfra. Du bør have en forståelse af, hvad private nøgler er, og hvordan de relaterer til Bitcoin adresser.",
-            "advanced_warning_title":"Avanceret Advarsel!",
+            "advanced_warning_title":"Advarsel - Avancerede funktioner!",
             "import_export":"Import / eksport",
             "export_unencrypted":"Eksport Ukrypterede"
          },
@@ -354,12 +356,12 @@
             "lost_identifier_title":"Mistet Identifier eller alias",
             "yubikey_help":"Vælg teksten i boksen ovenfor og trykke på det grønne LED lys på din Yubikey.",
             "google_authenticator_help":"Du skal åbne app'en Google Autentificering og indtast den viste kode.",
-            "lost_two_factor_p1":"Hvis du har mistet dine to faktor autentificering detaljer kan din tegnebog er stadig fuldt genetablreres. Alt, hvad vi behøver, er rimeligt bevis på at du er den kontoens ejer, det kan tilvejebringes ved at udfylde formularen på nedenstående link.",
+            "lost_two_factor_p1":"Hvis du har mistet dine to faktor autentificering detaljer kan din tegnebog er stadig fuldt genetableres. Alt, hvad vi behøver, er rimeligt bevis på at du er kontoens ejer, det kan tilvejebringes ved at udfylde formularen på nedenstående link.",
             "two_factor_reset":"Tofaktor Authentificering Reset",
             "sms_code_help":"En tekstmeddelelse er blevet sendt til din mobiltelefon. Indtast koden i meddelelsen ovenfor.",
-            "lost_identifier_p1":"Hvis du har mistet din tegnebog identifikator kontrollere først den bekræftelses e-mail, du modtog da du tilmeldte dig. Kan du ikke finde e-mailen? Klik på knappen nedenfor og vi kan sende dig en ny.",
+            "lost_identifier_p1":"Hvis du har mistet din tegnebog identifikator, kontroller først den bekræftelses e-mail, du modtog da du tilmeldte dig. Kan du ikke finde e-mailen? Klik på knappen nedenfor og vi kan sende dig en ny.",
             "lost_two_factor":"Tabt eller glemt to faktor autentificeringsdetaljer?",
-            "lost_password_p1":"Din tegnebog er krypteret af din browser, før det når frem til os, og af denne grund kan vi ikke hjælpe med at genfinde tabte passwords. For at undgå enhver mulig tab af penge som følge af glemte passwords, anbefales det du laver en papir backup af din tegnebogs private nøgler.",
+            "lost_password_p1":"Din tegnebog er krypteret af din browser, før den når frem til os, og af denne grund kan vi ikke hjælpe med at genfinde tabte passwords. For at undgå enhver mulig tab af penge som følge af glemte passwords, anbefales det du laver en papir backup af din tegnebogs private nøgler.",
             "lost_two_factor_btn":"Reset Tofactor Authentificering"
          },
          "success":{
@@ -382,6 +384,7 @@
          "total_fees":"Samlet gebyr"
       },
       "wallet":{
+         "my_wallet":"My Wallet",
          "slogan":"Vær din egen bank",
          "existing_users_p1":"Hvis du tidligere har oprettet en My Wallet-konto skal du klikke nedenfor for at logge ind."
       },
@@ -503,7 +506,8 @@
          },
          "p1":"My Waller er en gratis online Bitcoin tegnebog, som du kan bruge til at lave internationale, anonyme betalinger gratis. Vi gør betalinger med bitcoins nemt og sikkert tilgængeligt overalt på din telefon eller computer.",
          "security":{
-            "p2":"kryptering til at beskytte din tegnebog fra tyve og hackere. Den fantastiske del er, at krypteringen er sker fuldstændig i din browser, før tegnebogen gemmes på vores servere, så ikke engang vi har adgang til din konto!",
+            "p3":"Min tegnebog bygger på sikkerheden i Bitcoin ved at give et væld af funktioner, der hjælper dig med at holde dine penge sikre, herunder",
+            "p2":"kryptering til at beskytte din tegnebog fra tyve og hackere. Det smarte er, at krypteringen er sker fuldstændig i din browser, før tegnebogen gemmes på vores servere, så ikke engang vi har adgang til din konto!",
             "p1":"Blockchain.info bruger standard",
             "remote_backups":"Remote Backups"
          },
@@ -541,7 +545,7 @@
          "features":{
             "free":"Gratis, ingen gebyrer",
             "title":"Rig på features",
-            "two_factor":"To-factor Autentifikation",
+            "two_factor":"To-faktor Autentifikation",
             "payment_notifications":"SMS og e-mail betalingsmeddelelser",
             "client_side_encryption":"Sikker Client-Side Kryptering",
             "p1":"Den mest avancerede online Bitcoin tegnebog til rådighed.",
