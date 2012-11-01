@@ -659,6 +659,7 @@
                 "cash_deposit" : "Cash Deposit",
                 "pingit_deposit" : "PingIt Deposit",
                 "phone_deposit" : "Phone Deposit",
+                "sofort_deposit" : "Bank Deposit",
                 "withdraw" : "Withdraw",
                 "withdraw_description" : "Use the services below to convert bitcoins back into you local currency.",
                 "btcpak_withdraw" : "BTCPak Withdraw",
@@ -828,6 +829,7 @@
                 "import_export" : "Import / Export",
                 "import_menu" : "Import",
                 "import_backup" : "Import Backup",
+                "import_backup_sub" : "A list of wallet backups available from our cloud storage server.",
                 "export_encrypted" : "Export Encrypted",
                 "export_unencrypted" : "Export Unencrypted",
                 "desktop_sync" : "Desktop Sync",
@@ -885,6 +887,12 @@
                     "rpc_port" : "RPC Port:",
                     "rpc_username" : "RPC Username:",
                     "_continue" : "Continue"
+                },
+                "import_backup_table" : {
+                    "file_name" : "File Name",
+                    "last_modified" : "Last Modified",
+                    "size" : "Size",
+                    "action" : "Action"
                 }
             },
             "modals" : {
@@ -1060,6 +1068,7 @@
                 "error_sending_wallet_backup" : "Error Sending wallet backup",
                 "unknown_language_code" : "Unknown Language Code",
                 "error_updating_language" : "Error Updating Language",
+                "invalid_version" : "Invalid Version",
                 "two_factor_authentication_not_enabled" : "Two Factor Authentication Is Not Enabled On your Account"
             },
             "success" : {
@@ -1488,6 +1497,9 @@
             "pingit_p1" : "In order to use our {0} deposit service please verify your Mobile Phone number. If you do not have a PingIt account yet, setup is easy and the app can be downloaded from the app store on your smart phone.",
             "pingit_instructions_1" : "Please send payment of {0} to {1} using reference {2}.",
             "pingit_instructions_2" : "Payment must be sent from {0}.",
+            "sofort_instructions" : "Payment will be made using an instant online bank transfer.",
+            "currency" : "Currency:",
+            "select_currency" : "Select Currency",
             "country" : "Country:",
             "select_country" : "Select A Country",
             "_package" : "Package:",
@@ -1495,7 +1507,26 @@
             "medium_package" : "Medium Package",
             "large_package" : "Large Package",
             "payment_method" : "Payment Method:",
-            "sms_p1" : " In order to deposit Bitcoins by SMS or landline phone please verify your mobile phone number below. Once verified the actual purchase can be made from a different phone number or landline phone."
+            "sms_p1" : " In order to deposit Bitcoins by SMS or landline phone please verify your mobile phone number below. Once verified the actual purchase can be made from a different phone number or landline phone.",
+            "sofort_p1" : " In order to deposit Bitcoins by instant bank transfer please verify your mobile phone number below. "
+        },
+        "transactions_summary" : {
+            "you_received" : "You Received",
+            "you_moved" : "You Moved",
+            "you_sent" : "You Sent",
+            "value_at_time" : "Value at time of transaction",
+            "unknown" : "Unknown",
+            "excellent" : "Excellent",
+            "good" : "Good",
+            "poor" : "Poor",
+            "very_poor" : "Very Poor",
+            "no_double_spend" : "No Double Spend Detected",
+            "transaction_is_double_spend" : "This Transaction is a Double Spend!",
+            "double_spend" : "Double Spend",
+            "maturing" : "{0} needed until spendable",
+            "sent_time" : "Sent Time",
+            "to_confirm" : "to confirm",
+            "nodes" : "Nodes"
         },
         "translations_page" : {
             "title" : "Help Translate Blockchain.info",

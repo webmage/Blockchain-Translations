@@ -2,10 +2,26 @@
    "flag":"gr.png",
    "name":"Greek",
    "strings":{
-      
+      "wallet" : {
+            "slogan" : "Να γίνεστε δική σας τράπεζα"
+        },
+        "address" : {
+         "table_transactions" : {
+                "number_of_transactions" : "Αριθμός συναλλαγών"
+            }
+      },
+      "wallet_app" : {
+         "nav" : {
+                "home" : "πορτοφόλι Κύρια σελίδα"
+            }
+      },
+      "home": {
+         "header": "Κύρια σελίδα",
+         "latest_transactions": "Πρόσφατες συναλλαγές"
+      }
    },
-   "code":"el",
    "properties":{
       "extends":"auto_greek"
-   }
+   },
+   "code":"el"
 }
