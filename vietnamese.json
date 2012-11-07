@@ -1,0 +1,13 @@
+{
+	"name":"Vietnam",
+	"code":"vi",
+	"flag" : "vi.png",
+
+	"properties":{
+		"extends": "auto_viet"
+	}
+
+	"strings" : {
+
+	}
+}
