@@ -187,6 +187,9 @@
          "spent":"Dépensé",
          "size":"Taille:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Statistiques monétaires Bitcoin",
          "title":"Statistiques Bitcoin - Blockchain.info",
@@ -749,6 +752,9 @@
             "export_unencrypted":"Exportation et non chiffrées",
             "import_keys_limit":"S'il vous plaît être conscient qu'il ya actuellement une limite de 400 clés privées par portefeuille. Pour les portefeuilles de grandes votre navigateur peut cesser de répondre pendant quelques minutes.",
             "import_private_key_btn":"Ajouter une clé privée",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES sauvegarde cryptée de blockchain.info. (Doit être chiffrés avec le même mot de passe)",
                "plain":"Plaintext JSON sauvegarde de blockchain.info",

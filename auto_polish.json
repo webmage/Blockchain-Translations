@@ -190,6 +190,9 @@
          "pingit_instructions_2":"Płatność musi być wysłany od {0}.",
          "payment_method":"Sposób płatności:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Statystyki Bitcoin waluty",
          "title":"Bitcoin Statystyki - Blockchain.info",
@@ -767,6 +770,9 @@
             "export_unencrypted":"Eksport Nieszyfrowane",
             "import_keys_limit":"Należy pamiętać, że obecnie granica 400 kluczy prywatnych na portfelu. Dla dużych portfelach przeglądarka może przestać reagować na kilka minut.",
             "import_private_key_btn":"Dodaj klucz prywatny",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES szyfrowany backup z blockchain.info. (Muszą być zaszyfrowane tym samym hasłem)",
                "plain":"Plaintext JSON backup z blockchain.info",
@@ -914,9 +920,9 @@
          "sub_header":"Wyświetlanie informacji na temat transakcji Bitcoin",
          "minutes":"protokół",
          "received_time":"Odebrane czas",
-         "estimated_very_soon":"Bardzo szybko",
          "network_propagation":"Network propagacji (Kliknij, aby zobaczyć)",
          "fees":"Opłaty",
+         "estimated_very_soon":"Bardzo szybko",
          "decoded":"dekodowane",
          "header":"Transakcja",
          "size":"Rozmiar",

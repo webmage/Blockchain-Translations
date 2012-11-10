@@ -2,22 +2,22 @@
    "flag":"gr.png",
    "name":"Greek",
    "strings":{
-      "wallet" : {
-            "slogan" : "Να γίνεστε δική σας τράπεζα"
-        },
-        "address" : {
-         "table_transactions" : {
-                "number_of_transactions" : "Αριθμός συναλλαγών"
-            }
+      "home":{
+         "latest_transactions":"Πρόσφατες συναλλαγές",
+         "header":"Κύρια σελίδα"
       },
-      "wallet_app" : {
-         "nav" : {
-                "home" : "πορτοφόλι Κύρια σελίδα"
-            }
+      "address":{
+         "table_transactions":{
+            "number_of_transactions":"Αριθμός συναλλαγών"
+         }
       },
-      "home": {
-         "header": "Κύρια σελίδα",
-         "latest_transactions": "Πρόσφατες συναλλαγές"
+      "wallet_app":{
+         "nav":{
+            "home":"πορτοφόλι Κύρια σελίδα"
+         }
+      },
+      "wallet":{
+         "slogan":"Να γίνεστε δική σας τράπεζα"
       }
    },
    "properties":{

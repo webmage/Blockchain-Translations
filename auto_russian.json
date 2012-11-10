@@ -191,6 +191,9 @@
          "spent":"Отработанный",
          "size":"Размер:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Статистика валюты Bitcoin",
          "title":"Bitcoin информация - Blockchain.info",
@@ -806,6 +809,9 @@
             "export_unencrypted":"Экспорт Незашифрованные",
             "import_keys_limit":"Имейте в виду, что в настоящее время предел 400 частных ключей в бумажнике. Для больших кошельков ваш браузер может перестать отвечать на запросы в течение нескольких минут.",
             "import_private_key_btn":"Добавить Private Key",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES зашифрованные резервные копии с blockchain.info. (Должно быть зашифрован с тем же паролем)",
                "plain":"Plaintext JSON резервного копирования с blockchain.info",
@@ -920,9 +926,9 @@
          "sub_header":"Просмотр информации о сделке Bitcoin",
          "minutes":"протокол",
          "received_time":"Поступила время",
-         "estimated_very_soon":"Очень скоро",
          "network_propagation":"Сеть распространения (нажмите для просмотра)",
          "fees":"Сборы",
+         "estimated_very_soon":"Очень скоро",
          "decoded":"декодированный",
          "header":"Сделка",
          "size":"Размер",

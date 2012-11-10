@@ -191,6 +191,9 @@
          "spent":"Gastado",
          "size":"Tamaño:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin estadísticas monetarias",
          "title":"Bitcoin Estadísticas - Blockchain.info",
@@ -801,6 +804,9 @@
             "export_unencrypted":"Exportación sin cifrar",
             "import_keys_limit":"Tenga en cuenta que actualmente un límite de 400 claves privadas por cartera. Para carteras grandes de su navegador puede no responder durante unos minutos.",
             "import_private_key_btn":"Agregar clave privada",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES cifrado de copia de seguridad de blockchain.info. (Debe ser cifrado con la misma clave)",
                "plain":"Plaintext JSON copia de seguridad de blockchain.info",

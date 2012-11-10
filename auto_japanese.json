@@ -191,6 +191,9 @@
          "spent":"使用済みの",
          "size":"サイズ："
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin通貨統計",
          "title":"Bitcoin統計 -  Blockchain.info",
@@ -774,6 +777,9 @@
             "export_unencrypted":"エクスポートでは、暗号化されていない",
             "import_keys_limit":"財布あたり400秘密鍵の上限は今のところ存在しますのでご注意ください。大型財布は、お使いのブラウザでは、数分間応答しなくなることがあります。",
             "import_private_key_btn":"秘密鍵を追加",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"blockchain.infoからAES暗号化されたバックアップ。 （同じパスワードで暗号化する必要があります）",
                "plain":"blockchain.infoから平文JSONのバックアップ",
@@ -923,9 +929,9 @@
          "sub_header":"bitcoinトランザクションに関する情報を表示",
          "minutes":"分",
          "received_time":"受信した時刻",
-         "network_propagation":"ネットワーク伝播（クリックすると表示されます）",
          "fees":"手数料",
          "estimated_very_soon":"もうすぐ",
+         "network_propagation":"ネットワーク伝播（クリックすると表示されます）",
          "decoded":"デコード",
          "header":"トランザクション",
          "size":"サイズ",

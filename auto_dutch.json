@@ -195,6 +195,9 @@
          "spent":"Besteed",
          "size":"Maat:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin valuta statistieken",
          "title":"Bitcoin statistieken - Blockchain.info",

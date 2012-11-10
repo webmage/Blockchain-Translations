@@ -195,6 +195,9 @@
          "spent":"花费",
          "size":"大小："
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin的货币统计",
          "title":"Bitcoin的统计资料 -  Blockchain.info",
@@ -936,9 +939,9 @@
          "sub_header":"关于比特币交易的信息",
          "minutes":"分钟",
          "received_time":"收稿时间",
-         "estimated_very_soon":"很快",
          "network_propagation":"网络传播（点击查看）",
          "fees":"费用",
+         "estimated_very_soon":"很快",
          "decoded":"解码",
          "header":"交易",
          "size":"大小",

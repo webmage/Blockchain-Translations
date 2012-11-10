@@ -189,6 +189,9 @@
          "output":"Saída",
          "size":"Tamanho:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Moeda estatísticas Bitcoin",
          "title":"Bitcoin Estatística - Blockchain.info",
@@ -246,8 +249,8 @@
             "number_of_transactions":"Número de transações",
             "received_time":"Tempo recebeu",
             "transaction_fees":"Comissões de Negociação",
-            "estimated_transaction_volume":"O volume de transações estimado",
             "difficulty":"Dificuldade",
+            "estimated_transaction_volume":"O volume de transações estimado",
             "version":"Versão",
             "size":"Tamanho",
             "orphaned":"Órfão",
@@ -762,6 +765,9 @@
             "export_unencrypted":"Exportação Unencrypted",
             "import_keys_limit":"Lembre-se de que há atualmente um limite de 400 chaves privadas por carteira. Para carteiras grandes seu navegador pode ficar sem resposta por alguns minutos.",
             "import_private_key_btn":"Adicionar chave privada",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES backup criptografado de blockchain.info. (Deve ser criptografados com a mesma senha)",
                "plain":"Plaintext JSON backup de blockchain.info",

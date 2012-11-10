@@ -25,10 +25,10 @@
          
       },
       "api_index":{
-         "websocket_description":"Małe opóźnienie kanału gniazdo strumieniowe dostarczanie danych na temat nowych bloków i transakcji. Zapisz się na powiadomienia o blokach, transakcji lub adres i odbieranie obiekty JSON opisujące transakcji lub blokady, gdy wystąpi zdarzenie.",
-         "abuse_notice":"Usługi świadczone przez blockchain.info są bezpłatne. Proszę ich nie nadużywać.",
-         "welcome":"Witaj programisto!",
          "request_limits_p1":"lub Kod API ominąć wniosek limiter proszę",
+         "websocket_description":"Małe opóźnienie kanału gniazdo strumieniowe dostarczanie danych na temat nowych bloków i transakcji. Zapisz się na powiadomienia o blokach, transakcji lub adres i odbieranie obiekty JSON opisujące transakcji lub blokady, gdy wystąpi zdarzenie.",
+         "welcome":"Witaj programisto!",
+         "abuse_notice":"Usługi świadczone przez blockchain.info są bezpłatne. Proszę ich nie nadużywać.",
          "receive_payments_description":"Niesamowite łatwy sposób na stronach internetowych w celu przyjmowania płatności Bitcoin."
       },
       "transaction":{
@@ -62,12 +62,55 @@
          "transactions":{
             
          },
+         "errors":{
+            "mobile_identifier_not_found":"Portfel identyfikator nie znaleziono. Twój portfel nie jest jeszcze zapisany na naszym serwerze, jeszcze. Proszę skonfigurować nowe konto, aby uniknąć utraty portfela."
+         },
+         "send_coins":{
+            
+         },
+         "tooltips":{
+            "connection_status":{
+               
+            },
+            "balance":{
+               
+            }
+         },
+         "nav":{
+            "home":"Portfel główny",
+            "send":"Wysyłanie pieniędzy"
+         },
+         "receive_money":{
+            "sub_header":"Twoje adresy odbiorcze bitcoin",
+            "anonymous_addresses_description2":"Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
+            "new_address":"Nowy adres",
+            "chord_diagram":"Zobacz diagram powiązań",
+            "anonymous_addresses":"Adresy anonimowe",
+            "archived":"Zarchiwizowane",
+            "archived_addresses_description":"Zarchiwizowane adresy może nie trzeba już, że są ukryte w widoku głównym, ale nadal częścią portfela. Możesz rozpakuj je w dowolnym momencie, klikając niebieską ikonę.",
+            "new_anonymous_address":"Nowy adres anonimowy",
+            "anonymous_addresses_description":"Płatności otrzymane do adresów anonimowych zostaną przekazane innym adresem w portfelu. Wszelkie płatności otrzymane są wysyłane za pomocą miksera izolujący osobistego portfela od nadawcy. Transakcje otrzymane do anonimowych adresów nie mogą być połączone do zwykłego portfela.",
+            "new_address_tooltip":"Kliknij tutaj, aby wygenerować nowy adres bitcoin. Możesz rozpocząć odbieranie bitcoins do tego adresu natychmiast"
+         },
          "account_settings":{
-            "password_hints_description":" Jeśli zapomnisz hasło (s) wskazówki mogą być przydatne do pobiegać pamięć. Jeśli jest adres e-mail związany z twoich aluzji konta można wysłane. Jeśli nie ma e-mail jest powiązany z kontem wskazówki są dostępne dla każdego, kto zna swój identyfikator portfela.",
             "nav":{
                
             },
-            "sms_verified":"Zweryfikowano SMS'em"
+            "sms_verified":"Zweryfikowano SMS'em",
+            "password_hints_description":" Jeśli zapomnisz hasło (s) wskazówki mogą być przydatne do pobiegać pamięć. Jeśli jest adres e-mail związany z twoich aluzji konta można wysłane. Jeśli nie ma e-mail jest powiązany z kontem wskazówki są dostępne dla każdego, kto zna swój identyfikator portfela."
+         },
+         "login":{
+            "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdzić e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie można znaleźć e-mail? Kliknij przycisk poniżej, a my prześlemy Ci nowe."
+         },
+         "import_export":{
+            "rpc":{
+               
+            },
+            "installed_refresh_page":" Po zainstalowaniu należy odświeżyć stronę.",
+            "desktop_sync_step2_p1":" Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:",
+            "import_wallet_formats":{
+               
+            }
          },
          "wallet_home":{
             "withdraw_description":"Korzystaj z usług poniżej by zamienić bitcoiny na walutę.",
@@ -89,49 +132,6 @@
          "modals":{
             "send_payment":"Wyślij płatność",
             "compressed_private_key_p2":"Zalecanym rozwiązaniem do zamiatać funduszy do istniejącego adresu Bitcoin. Chcesz zamiatać klucza prywatnego, a nie?"
-         },
-         "errors":{
-            "mobile_identifier_not_found":"Portfel identyfikator nie znaleziono. Twój portfel nie jest jeszcze zapisany na naszym serwerze, jeszcze. Proszę skonfigurować nowe konto, aby uniknąć utraty portfela."
-         },
-         "send_coins":{
-            
-         },
-         "tooltips":{
-            "connection_status":{
-               
-            },
-            "balance":{
-               
-            }
-         },
-         "nav":{
-            "home":"Portfel główny",
-            "send":"Wysyłanie pieniędzy"
-         },
-         "receive_money":{
-            "archived":"Zarchiwizowane",
-            "anonymous_addresses_description":"Płatności otrzymane do adresów anonimowych zostaną przekazane innym adresem w portfelu. Wszelkie płatności otrzymane są wysyłane za pomocą miksera izolujący osobistego portfela od nadawcy. Transakcje otrzymane do anonimowych adresów nie mogą być połączone do zwykłego portfela.",
-            "new_address_tooltip":"Kliknij tutaj, aby wygenerować nowy adres bitcoin. Możesz rozpocząć odbieranie bitcoins do tego adresu natychmiast",
-            "sub_header":"Twoje adresy odbiorcze bitcoin",
-            "new_address":"Nowy adres",
-            "archived_addresses_description":"Zarchiwizowane adresy może nie trzeba już, że są ukryte w widoku głównym, ale nadal częścią portfela. Możesz rozpakuj je w dowolnym momencie, klikając niebieską ikonę.",
-            "new_anonymous_address":"Nowy adres anonimowy",
-            "anonymous_addresses_description2":"Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
-            "chord_diagram":"Zobacz diagram powiązań",
-            "anonymous_addresses":"Adresy anonimowe"
-         },
-         "login":{
-            "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdzić e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie można znaleźć e-mail? Kliknij przycisk poniżej, a my prześlemy Ci nowe."
-         },
-         "import_export":{
-            "rpc":{
-               
-            },
-            "installed_refresh_page":" Po zainstalowaniu należy odświeżyć stronę.",
-            "desktop_sync_step2_p1":" Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:",
-            "import_wallet_formats":{
-               
-            }
          },
          "success":{
             
@@ -187,7 +187,13 @@
          "availability_p1":" Dążymy do 99,5%, w czasie, to jednak usługa świadczona jest na zasadzie najwyższej staranności. Jeśli planowane jest planowana konserwacja będziemy powiadamiać użytkowników poprzez email."
       },
       "wallet_index":{
+         "anonymous":{
+            
+         },
          "control":{
+            
+         },
+         "merchants":{
             
          },
          "slides":{
@@ -195,22 +201,13 @@
             "double_encryption":"Podwójne szyfrowanie",
             "one_click_backups":"Kopia bezpieczeństwa za jednym kliknięciem"
          },
+         "easy":{
+            
+         },
          "confused":{
             
          },
          "try_demo_account":"Przetestuj konto demonstracyjne",
-         "security":{
-            "title":"Bezpieczny"
-         },
-         "anonymous":{
-            
-         },
-         "merchants":{
-            
-         },
-         "easy":{
-            
-         },
          "tooltips":{
             "offline_transactions_title":"Transakcje offline",
             "paper_wallet_title":"Portfel papierowy"
@@ -218,7 +215,10 @@
          "features":{
             
          },
-         "create_my_free_wallet":"Utwórz mój bezpłatny portfel"
+         "create_my_free_wallet":"Utwórz mój bezpłatny portfel",
+         "security":{
+            "title":"Bezpieczny"
+         }
       },
       "tx_tree":{
          "cluster_by_address":"Klaster według adresu"

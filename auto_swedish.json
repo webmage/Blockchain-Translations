@@ -190,6 +190,9 @@
          "spent":"Förbrukade",
          "size":"Storlek:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin valuta statistik",
          "title":"Bitcoin statistik - Blockchain.info",
@@ -800,6 +803,9 @@
             "export_unencrypted":"Export Okrypterade",
             "import_keys_limit":"Vänligen vara medveten om det för närvarande en gräns på 400 privata nycklar per plånboken. För stora plånböcker din webbläsare kan sluta svara under några minuter.",
             "import_private_key_btn":"Lägg privat nyckel",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES-krypterat backup från blockchain.info. (Måste krypteras med samma lösenord)",
                "plain":"Klartext JSON backup från blockchain.info",
@@ -913,9 +919,9 @@
          "sub_header":"Visa information om en Bitcoin transaktion",
          "minutes":"minuter",
          "received_time":"Mottagna Tid",
-         "network_propagation":"Nätverk Förökning (Klicka för)",
          "fees":"Avgifter",
          "estimated_very_soon":"Mycket snart",
+         "network_propagation":"Nätverk Förökning (Klicka för)",
          "decoded":"avkodas",
          "header":"Transaktion",
          "size":"Storlek",

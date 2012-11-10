@@ -190,6 +190,9 @@
          "spent":"Brugt",
          "size":"Størrelse:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin valuta statistik",
          "title":"Bitcoin Statistik - Blockchain.info",

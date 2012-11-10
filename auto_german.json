@@ -188,6 +188,9 @@
          "spent":"Verbraucht",
          "size":"Größe:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin Währung Statistiken",
          "title":"Bitcoin Statistik - Blockchain.info",
@@ -759,6 +762,9 @@
             "export_unencrypted":"Export Unverschlüsselte",
             "import_keys_limit":"Bitte beachten Sie, gibt es derzeit eine Obergrenze von 400 private Schlüssel pro Brieftasche. Für große Brieftaschen Ihrem Browser reagiert möglicherweise nicht für ein paar Minuten.",
             "import_private_key_btn":"Fügen Private Key",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES verschlüsselte Backup von blockchain.info. (Muss mit dem gleichen Passwort verschlüsselt werden)",
                "plain":"Plaintext JSON Sicherung von blockchain.info",
@@ -905,9 +911,9 @@
          "sub_header":"Anzeigen von Informationen zu einem bitcoin Transaktion",
          "minutes":"Protokoll",
          "received_time":"Empfangszeit",
-         "fees":"Gebühren",
          "estimated_very_soon":"Sehr bald",
          "network_propagation":"Netzwerk Propagation (Click to view)",
+         "fees":"Gebühren",
          "decoded":"decodiert",
          "header":"Transaktion",
          "size":"Größe",

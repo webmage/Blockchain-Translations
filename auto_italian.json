@@ -189,6 +189,9 @@
          "spent":"Esaurito",
          "size":"Dimensioni:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin valuta statistiche",
          "title":"Statistiche Bitcoin - Blockchain.info",
@@ -761,6 +764,9 @@
             "export_unencrypted":"Export non crittografate",
             "import_keys_limit":"Si prega di essere consapevoli del fatto vi è attualmente un limite di 400 chiavi private per ogni portafoglio. Per i portafogli di grandi dimensioni tuo browser potrebbe non rispondere per alcuni minuti.",
             "import_private_key_btn":"Aggiungi chiave privata",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES backup crittografato da blockchain.info. (Deve essere criptato con la stessa password)",
                "plain":"Plaintext JSON backup da blockchain.info",
@@ -906,9 +912,9 @@
          "sub_header":"Visualizzare le informazioni su una transazione bitcoin",
          "minutes":"verbale",
          "received_time":"Tempo ricevute",
-         "network_propagation":"Rete di propagazione (Clicca per visualizzare)",
          "fees":"Commissioni",
          "estimated_very_soon":"Molto presto",
+         "network_propagation":"Rete di propagazione (Clicca per visualizzare)",
          "decoded":"decodificato",
          "header":"Operazione",
          "size":"Dimensione",

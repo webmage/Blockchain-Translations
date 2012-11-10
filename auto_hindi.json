@@ -192,6 +192,9 @@
          "spent":"स्पेंट",
          "size":"साइज:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin मुद्रा आँकड़े",
          "title":"Bitcoin सांख्यिकी - Blockchain.info",
@@ -773,6 +776,9 @@
             "export_unencrypted":"निर्यात Unencrypted",
             "import_keys_limit":"कृपया ध्यान रखें वहाँ वर्तमान में बटुआ प्रति 400 निजी कुंजी की एक सीमा होती है. बड़े जेब के लिए कुछ मिनट के लिए अपने ब्राउज़र अनुत्तरदायी हो सकता है.",
             "import_private_key_btn":"निजी कुंजी जोड़ें",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"एईएस blockchain.info से एन्क्रिप्टेड बैकअप. (एक ही पासवर्ड के साथ एन्क्रिप्टेड किया जाना चाहिए)",
                "plain":"Blockchain.info से plaintext JSON बैकअप",
@@ -922,9 +928,9 @@
          "sub_header":"एक bitcoin लेन - देन के बारे में जानकारी",
          "minutes":"मिनट",
          "received_time":"प्राप्त समय",
-         "network_propagation":"नेटवर्क प्रचार (देखने के लिए क्लिक करें)",
          "fees":"फीस",
          "estimated_very_soon":"बहुत जल्द",
+         "network_propagation":"नेटवर्क प्रचार (देखने के लिए क्लिक करें)",
          "decoded":"डीकोड",
          "header":"लेन - देन",
          "size":"आकार",

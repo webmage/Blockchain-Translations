@@ -191,6 +191,9 @@
          "spent":"ที่อยู่ในระบบ",
          "size":"ขนาด:"
       },
+      "wallet_forgot_identifier":{
+         
+      },
       "stats":{
          "sub_header":"Bitcoin สถิติสกุลเงิน",
          "title":"Bitcoin สถิติทั่วไป - Blockchain.info",
@@ -808,6 +811,9 @@
             "export_unencrypted":"การส่งออก Unencrypted",
             "import_keys_limit":"โปรดทราบขณะนี้ยังไม่มีขีด จำกัด ของ 400 คีย์ส่วนตัวต่อกระเป๋าสตางค์ของ สำหรับกระเป๋าขนาดใหญ่เบราว์เซอร์ของคุณอาจจะไม่ตอบสนองในไม่กี่นาที",
             "import_private_key_btn":"เพิ่มคีย์ส่วนตัว",
+            "import_backup_table":{
+               
+            },
             "import_wallet_formats":{
                "aes":"AES สำรองเข้ารหัสจาก blockchain.info (ต้องได้รับการเข้ารหัสด้วยรหัสผ่านเดียวกัน)",
                "plain":"plaintext JSON การสำรองข้อมูลจาก blockchain.info",
@@ -922,9 +928,9 @@
          "sub_header":"ดูข้อมูลเกี่ยวกับการทำธุรกรรม Bitcoin",
          "minutes":"นาที",
          "received_time":"เวลาที่ได้รับ",
-         "estimated_very_soon":"ในไม่ช้ามาก",
          "network_propagation":"เครือข่ายการแพร่กระจาย (คลิกเพื่อดู)",
          "fees":"ค่าธรรมเนียม",
+         "estimated_very_soon":"ในไม่ช้ามาก",
          "decoded":"ถอดรหัส",
          "header":"การซื้อขาย",
          "size":"ขนาด",
