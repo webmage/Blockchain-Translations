@@ -1009,21 +1009,21 @@
       },
       "translations_page":{
          "sub_header":"Blockchain.info está ahora disponible en 16 idiomas.",
-         "title":"Help Traducir Blockchain.info",
+         "title":"´Colabora en la traduccion de Blockchain.info",
          "p2":"Si está familiarizado con {0} y {1} siga las siguientes instrucciones:",
          "how_to_help":"Cómo ayudar",
-         "p1":"Blockchain.info está ahora disponible en 16 idiomas diferentes. Sin embargo, la traducción ha sido hecha principalmente por la máquina, necesitamos su ayuda para ofrecer mejores traducciones.",
+         "p1":"Blockchain.info está ya disponible en 16 idiomas. Sin embargo, puesto que la traducción ha sido hecha principalmente de forma automatica, buesamos colaboradores para poder ofrecer traducciones de mejor calidad.",
          "steps":{
-            "fork":"Tenedor",
+            "fork":"Ramifique",
             "_7":"Cuando termine confirmar los cambios y presentar a {0}.",
-            "pull_request":"Tire de Solicitud",
-            "_8":"Incluya su dirección bitcoin para una prima o, si lo prefiere cambiar el enlace en la página principal de su sitio web.",
+            "pull_request":"Lance una solicitud",
+            "_8":"Incluya su dirección bitcoin para una recompensa, o si lo prefiere puede cambiar el enlace en la página principal de su sitio web.",
             "_3":"Descargar un buen editor de JSON. Recomendamos libre disponible \"Sublime Text 2\" para Windows, Mac y Linux.",
             "_4":"Abrir los archivos auto_ {} your_language. Json y {} your_language. Json lado a lado.",
-            "_5":"Las frases en el archivo generado automáticamente que no tienen sentido copiarlos en otro archivo y corregir los errores.",
+            "_5":"Copiar en otro archivo las frases del archivo generado automáticamente que no tienen sentido y corregir los errores.",
             "_6":"La estructura JSON debe ser idéntica en ambos archivos, no modifica ninguno de los nombres clave.",
-            "_1":"{0} las traducciones repositorio git de {1}.",
-            "_2":"Clonar el nuevo tenedor del proyecto de traducción."
+            "_1":"{0} las traducciones al repositorio git de {1}.",
+            "_2":"Clonar la nueva rama del proyecto de traducción."
          },
          "header":"Traducciones"
       },
@@ -1040,12 +1040,12 @@
          "security":"Seguridad",
          "about_p1":"Blockchain.info es el más popular Bitcoin Bitcoin billetera y explorador bloque. A partir de octubre de 2012, el sitio recibe más de 10.000 visitantes diarios y cuenta con más de 30.000 usuarios.",
          "contact_us":"Contáctenos",
-         "title":"Acerca de Nosotros - Blockchain.info",
+         "title":"¿Quienes somos? - Blockchain.info",
          "up_time_alt":"Hasta tiempo para blockchain.info: Últimos 30 días",
          "response_time":"Tiempo de respuesta",
          "response_time_alt":"Tiempo de respuesta para blockchain.info: Últimos 30 días",
          "email":"Correo electrónico:",
-         "privacy_p1":"La Compañía registra los registros de acceso de todas las páginas del sitio con fines de análisis solamente. Los registros de acceso se podan cada 7 días. No registrar los datos relativos a las operaciones realizadas a través de My Wallet o direcciones Bitcoin utiliza en My Wallet. Cualquier dirección de correo electrónico, nombre de usuario u otros datos de carácter personal facilitados no serán compartidos con ningún tercero o anunciantes.",
+         "privacy_p1":"La Compañía solamente mantiene un registros de acceso a todas las páginas del sitio para su análisis y los registros de acceso se podan cada 7 días. No se guardan datos sobre operaciones realizadas a través de My Wallet ni las direcciones Bitcoin utilizas poe MyWallet. No se comparte con terceros o  anunciantes las direcciónes de correo electrónico, el nombre de usuario facilitado u otros datos de carácter personal.",
          "name":"Nombre:",
          "view_website_status":"Ver estado de sitio",
          "media":"Medios de comunicación",
@@ -1058,7 +1058,7 @@
             "p4":"billeteras significado nunca puede ser incautados o bloqueados y pueden ser importados en cualquier escritorio del cliente Bitcoin.",
             "p3":"clave privada",
             "p2":"Con My Wallet usted conserva el control total de su",
-            "p1":"La belleza de bitcoin es que está completamente descentralizado, ningún gobierno o corporación puede bloquear los pagos o revocar las cuentas."
+            "p1":"La elegancia del sistema Bitcoin reside en su completa descentralización, ningún gobierno o corporación puede revocar los pagos o bloquear las cuentas."
          },
          "slides":{
             "android_app":"Blockchain Android App",
