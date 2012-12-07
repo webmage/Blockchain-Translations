@@ -28,7 +28,7 @@
             "globe":"Bitcoinノードグローブ",
             "nodes2":"blockchain.infoが接続した全てのbitcoinノードのログ",
             "rejected2":"こちらのノードによって拒否されたブロックや取引",
-            "globe2":"bitcoinノードを示しているWebGLグローブ（Chrome、Safariが必要）,
+            "globe2":"bitcoinノードを示しているWebGLグローブ（Chrome、Safariが必要）",
             "double_spends2":"最新50万取引で検出された二重払い",
             "orphaned2":"主要ビットコインチェーンの一部ではない有効ブロック",
             "pools":"マイニングプール統計",
