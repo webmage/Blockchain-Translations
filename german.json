@@ -5,21 +5,21 @@
       "home":{
          "other_links":{
             "most_popular":"Populärste Adressen",
-            "nodes2":"Ein Protokoll aller Bitcoin Knoten blockchain.info hat angeschlossen",
-            "rejected2":"Blöcke und Geschäfte, die von unseren Knoten abgelehnt wurden",
+            "nodes2":"Ein Protokoll aller mit blockchain.info verbundenen Bitcoin Knoten",
+            "rejected2":"Blöcke und Transaktionen, die von unseren Knoten abgelehnt wurden",
             "globe2":"WebGL Globus zeigt Bitcoin Knoten (Benötigt Chrome, Safari)",
             "double_spends2":"Doppelte Ausgaben, die in den letzten 500.000 Transaktionen erkannt wurden",
-            "strange2":"Transaktionen, dessen Ausgabe-Adressen wir nicht in der Lage waren zu dekodieren",
+            "strange2":"Transaktionen, deren Ausgabe-Adressen wir nicht dekodieren konnten",
             "double_spends":"Doppelte Ausgaben",
-            "orphaned2":"Gültige Blöcke, die nicht Teil der Haupt-Bitcoin Kette sind",
-            "hub_nodes2":"Eine Liste der am besten verbundesten Bitcoin-Superknoten",
+            "orphaned2":"Gültige Blöcke, die nicht Teil der Haupt-Kette von Bitcoin sind",
+            "hub_nodes2":"Eine Liste der am besten verbundenen Bitcoin-Superknoten",
             "pools":"Mining Pool Statistiken",
-            "pools2":"Tortendiagramm zeigt den Marktanteil der Top Bitcoin Mining Pools",
-            "nodes":"Bitcoin Knoten Liste",
+            "pools2":"Tortendiagramm zeigt den Marktanteil der besten Bitcoin Mining Pools",
+            "nodes":"Liste der Bitcoin Knoten",
             "rejected":"Abgelehnte Transaktionen",
-            "notifications2":"Gratis E-Mail-Benachrichtigungen, wenn es Aktivitäten auf Ihren Bitcoin-Adressen",
+            "notifications2":"Gratis E-Mail-Benachrichtigungen bei Aktivitäten auf Ihren Bitcoin-Adressen",
             "globe":"Bitcoin Knoten Globus",
-            "wallet2":"Verwalten Sie Ihr Geld mit der modernsten Web Bitcoin-Brieftasche."
+            "wallet2":"Verwalten Sie Ihr Geld mit der modernsten Online-Brieftasche für Bitcoin."
          },
          "sub_header":"In jüngster Zeit abgebaute Blöcke in der Bitcoin Blockkette",
          "table_headers":{
@@ -39,9 +39,9 @@
          "header":"Verbundene Knoten"
       },
       "popular_addresses":{
-         "sub_header":"Populärste Bitcoin Adressen Anzahl der Ausgänge",
+         "sub_header":"Populärste Bitcoin Adressen, Anzahl der Ausgänge",
          "title":"100 Most populärsten Bitcoin Adressen - Blockchain.info",
-         "meta_description":"Eine Liste der Top 100 der beliebtesten Bitcoin Adressen Anzahl der Ausgänge."
+         "meta_description":"Eine Liste der 100 beliebtesten Bitcoin Adressen mit Anzahl der Ausgänge."
       },
       "orphaned_blocks":{
          "relayed_by":"Weitergeleitet von"
