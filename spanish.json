@@ -3,15 +3,275 @@
    "name":"Spanish",
    "strings":{
       "home":{
-         "header":"Inicio"
+         "other_links":{
+            
+         },
+         "table_headers":{
+            
+         },
+         "about":{
+            
+         }
+      },
+      "connected_nodes":{
+         
+      },
+      "popular_addresses":{
+         
+      },
+      "transactions_summary":{
+         
+      },
+      "orphaned_blocks":{
+         
+      },
+      "api_index":{
+         
+      },
+      "transaction":{
+         
+      },
+      "deposit":{
+         "sms_p1":" Para depositar Bitcoins por SMS o por teléfono de línea fija por favor verifique su número de teléfono móvil a continuación. Una vez verificada la compra real se puede hacer de otro número de teléfono o teléfono fijo."
+      },
+      "stats":{
+         "table":{
+            
+         }
+      },
+      "wallet_forgot_identifier":{
+         
+      },
+      "ip_info":{
+         
+      },
+      "block":{
+         "hash_table":{
+            
+         },
+         "summary_table":{
+            
+         }
+      },
+      "double_spends":{
+         
+      },
+      "wallet_app":{
+         "transactions":{
+            
+         },
+         "account_settings":{
+            "nav":{
+               
+            }
+         },
+         "wallet_home":{
+            
+         },
+         "modals":{
+            
+         },
+         "errors":{
+            "alias_in_use":"Alias \u200B\u200Ben uso por otro billetera"
+         },
+         "send_coins":{
+            
+         },
+         "tooltips":{
+            "connection_status":{
+               
+            },
+            "balance":{
+               
+            }
+         },
+         "receive_money":{
+            
+         },
+         "nav":{
+            
+         },
+         "import_export":{
+            "rpc":{
+               
+            },
+            "installed_refresh_page":" Una vez instalado, por favor, actualice la página.",
+            "desktop_sync_step2_p1":" Para que tu navegador para hablar con su cliente de escritorio de su debe habilitar el servidor RPC bitcoin en el archivo bitcoin.conf. Si el archivo no existe, debe crearlo. Por ejemplo:",
+            "import_backup_table":{
+               
+            },
+            "import_wallet_formats":{
+               
+            }
+         },
+         "login":{
+            "lost_identifier_p1":" Si usted ha perdido su billetera identificador primero revise el correo electrónico de confirmación que recibió durante su registro. No se puede encontrar el correo electrónico? Haga clic en el botón de abajo y nosotros le enviaremos una nueva."
+         },
+         "success":{
+            
+         }
+      },
+      "unconfirmed":{
+         
+      },
+      "wallet":{
+         
+      },
+      "hub_nodes":{
+         
+      },
+      "transaction_page":{
+         "double_spend":{
+            
+         }
+      },
+      "errors":{
+         
+      },
+      "relayed_by":{
+         
+      },
+      "rejected":{
+         
+      },
+      "webgl_globe":{
+         
+      },
+      "payment_request":{
+         
+      },
+      "error_page":{
+         
+      },
+      "propagation":{
+         
+      },
+      "ads":{
+         "bitinstant":{
+            
+         }
+      },
+      "translations_page":{
+         "steps":{
+            
+         }
+      },
+      "about_us":{
+         "availability_p1":" Nuestro objetivo es el 99,5% el tiempo sin embargo se brinda este servicio en base al mejor esfuerzo. Si el mantenimiento programado está previsto notificaremos a los usuarios por correo electrónico."
+      },
+      "wallet_index":{
+         "control":{
+            
+         },
+         "slides":{
+            
+         },
+         "confused":{
+            
+         },
+         "security":{
+            
+         },
+         "anonymous":{
+            
+         },
+         "merchants":{
+            
+         },
+         "easy":{
+            
+         },
+         "tooltips":{
+            
+         },
+         "features":{
+            
+         }
+      },
+      "tx_tree":{
+         
+      },
+      "push_tx":{
+         
+      },
+      "startup_message":{
+         
+      },
+      "maintenance":{
+         
+      },
+      "blocks":{
+         
+      },
+      "emails":{
+         "two_factor_reset_request":{
+            
+         },
+         "tx":{
+            
+         },
+         "confirmation_code":{
+            
+         },
+         "password_hints":{
+            
+         },
+         "wallet_backup":{
+            
+         },
+         "welcome":{
+            
+         },
+         "account_locked":{
+            
+         }
+      },
+      "largest_transactions":{
+         
+      },
+      "pools":{
+         
       },
       "header":{
-         "home_title":"Blockchain.info Inicio",
-         "home":"Inicio"
+         
+      },
+      "wallet_new":{
+         
+      },
+      "misc":{
+         
+      },
+      "footer":{
+         
+      },
+      "charts":{
+         "errors":{
+            
+         }
+      },
+      "strange_transactions":{
+         
+      },
+      "block_height":{
+         
+      },
+      "address":{
+         "table_summary":{
+            
+         },
+         "table_transactions":{
+            
+         }
+      },
+      "notifications":{
+         
+      },
+      "ip_log":{
+         
       }
    },
+   "code":"es",
    "properties":{
-      "extends":"auto_spanish"
-   },
-   "code":"es"
+      "extends":"language"
+   }
 }

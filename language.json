@@ -117,7 +117,7 @@
             "estimated_transaction_volume": "Estimated Transaction Volume",
             "n_of_transactions_per_day": "Number Of transactions Per Day",
             "hash_rate": "Hash Rate",
-            "transaction_fees_usd_label": "Transaction Fees (BTC)",
+            "transaction_fees_usd_label": "Transaction Fees (USD)",
             "market_cap": "Market Capitalization",
             "transactions_per_block": "Transactions per block",
             "meta_description": "The most popular charts and statistics about the bitcoin network. Number of transactions Per Day, Market Price, Volume charts etc.",
@@ -128,7 +128,11 @@
             "all_time": "All Time",
             "cost_percent_per_transaction_label": "% of transaction volume",
             "days_destroyed_cumulative2": "Bitcoin Days Destroyed is a measure of the transaction volume of Bitcoin. If someone has 100 BTC that they received a week ago and they spend it then 700 bitcoin days have been destroyed. If they take those 100BTC and send them to several addresses and then spend them then although the total transaction volume could be arbitrarily large the number of bitcoin days destroyed is still 700.",
-            "avg_confirmation_time_label": "Confirmation Time (Minutes)"
+            "avg_confirmation_time_label": "Confirmation Time (Minutes)",
+            "tx_trade_ratio" : "Trade Volume vs Transaction Volume Ratio",
+            "tx_trade_ratio2" : "Chart showing the relationship between BTC transaction volume and USD exchange volume.",
+            "ratio" : "Ratio",
+            "discussion" : "Discussion"
         },
         "home": {
             "other_links": {
@@ -158,7 +162,9 @@
                 "nodes": "Bitcoin Nodes List",
                 "notifications2": "Receive free email notifications when there is activity on your bitcoin addresses",
                 "unconfirmed2": "Transactions waiting to be included in a block",
-                "wallet2": "Manage your money with Bitcoin's most advanced web wallet."
+                "wallet2": "Manage your money with Bitcoin's most advanced web wallet.",
+                "address_tags": "Address Tags",
+                "address_tags2": "Tag your public bitcoin addresses."
             },
             "sub_header": "Most recently mined blocks in the bitcoin block chain",
             "search_explain": "You may enter a block height, address, block hash, transaction hash, hash160, or ipv4 address..",
@@ -206,7 +212,7 @@
             "unknown": "Unknown",
             "and_word" : "and",
             "support_desk" : "Support Desk",
-            "disclaimer" : "Any use of the term money on this website refers to virtual currency only. Exchange rates displayed are provided by 3rd parties and are not an indication of Bitcoin being backed by any commodity or other money."
+            "disclaimer" : "Any use of the term money on this website refers to virtual currency only. We do not guarantee that bitcoins can be redeemed at the purchase price."
         },
         "stats" : {
             "title" : "Bitcoin Statistics - Blockchain.info",
@@ -324,6 +330,8 @@
                 "title" : "Summary",
                 "address" : "Address",
                 "short_link" : "Short Link",
+                "tools" : "Tools",
+                "related_tags" : "Related Tags",
                 "taint_analysis" : "Taint Analysis",
                 "view_analysis" : "View Analysis"
            },
@@ -336,6 +344,7 @@
            },
            "deposit_with_cash" : "Deposit With Cash",
            "request_payment" : "Request Payment",
+           "donation_button" : "Donation Button",
            "sent" : "Sent",
            "received" : "Received",
            "escrow" : "Escrow",
@@ -354,12 +363,12 @@
         },
         "wallet_index" : {
             "title" : "Bitcoin Wallet",
-            "meta_description" : "My Wallet is a free online bitcoin wallet which you can use to make worldwide, anonymous payments for free. We make paying with bitcoins easy and secure.",
+            "meta_description" : "My Wallet is a free online bitcoin wallet which you can use to make worldwide payments for free. We make paying with bitcoins easy and secure.",
             "confused" : {
                 "p1" : "Confused? Read the",
                 "p2" : "Beginners FAQ"
             },
-            "p1" : "My Wallet is a free online bitcoin wallet which you can use to make worldwide, anonymous payments for free. We make paying with bitcoins easy and secure available anywhere on your phone or desktop.",
+            "p1" : "My Wallet is a free online bitcoin wallet which you can use to make worldwide payments for free. We make paying with bitcoins easy and secure available anywhere on your phone or desktop.",
             "p2" : "We are not a bank, you retain complete ownership of your Money. We cannot view your balance, see your transactions or make payments on your behalf.",
             "create_my_free_wallet" : "Create My Free Wallet",
             "try_demo_account" : "Try A Demo Account",
@@ -405,7 +414,9 @@
                 "p1" : "The beauty of bitcoin is that it's fully decentralized, no government or corporation can block payments or revoke accounts.",
                 "p2" : "With My Wallet you retain full control of your",
                 "p3" : "private key",
-                "p4" : "meaning wallets can never be seized or blocked and can be imported into any desktop bitcoin client."
+                "p4" : "meaning wallets can never be seized or blocked and can be imported into any desktop bitcoin client.",
+                "read" : "Read",
+                "how_it_works" : "How It Works"
             },
             "features" : {
                 "title" : "Feature Rich",
@@ -425,6 +436,10 @@
                 "p2" : "My Wallet also includes a built in",
                 "mixing_service" : "mixing service",
                 "p3" : "guaranteeing 100% anonymous transactions."
+            },
+            "deposit" : {
+                "title" : "Instant Deposits",
+                "p1" : "Deposit Bitcoins directly into your My Wallet account in seconds. Via Bank Transfer, Cash Deposit, Barclays PingIt or Phone Billing. Available in the US, UK and 100's of other countries worldwide.",
             },
             "merchants" : {
                 "title" : "Worldwide Merchants",
@@ -486,7 +501,7 @@
         "wallet_new" : {
             "title" : "My Wallet",
             "header1" : "Create A New Wallet.",
-            "sub_header1" : "Simply choose a secure password and press continue.",
+            "sub_header1" : "Please choose an alias and password for the new wallet.",
             "password" : "Password:",
             "confirm_password" : "Confirm Password:",
             "captcha" : "Captcha:",
@@ -501,6 +516,7 @@
             "alias" : "Alias",
             "alias_placeholder" : "Memorable word or nickname",
             "alias_sub" : "You can choose a alias for your wallet which you can login with instead of using an identifier.",
+            "alias_help_block" : "A alias or shortlink to help locate the wallet.",
             "proceed_to_login" : "Proceed To Login",
             "dont_forget_password" : "Don't Forget Your Password!",
             "dont_forget_password_p1" : "As your password is not shared with us it is extremely important to remember it, if necessary write it on a a post-it note now. There is no password recovery process!",
@@ -510,7 +526,8 @@
             "existing_account" : "If you already have a My Wallet account {0}",
             "disclaimer" : "Disclaimer",
             "anonymity_policy" : "Anonymity Policy",
-            "please_read" : "Please read our {0} and {1}"
+            "please_read" : "Please read our {0}.",
+            "optional" : "Optional"
         },
         "wallet_forgot_identifier" : {
             "title" : "Forgot Identifier",
@@ -551,8 +568,21 @@
                     "notifications" : "Notifications",
                     "passwords" : "Passwords",
                     "security" : "Security",
+                    "privacy" : "Privacy",
+                    "logging" : "Logging",
                     "devices" : "Devices"
                 },
+                "time" : "Time",
+                "action" : "Action",
+                "ip_address" : "IP Address",
+                "user_agent" : "User Agent",
+                "logging_deletion" : "Altering the logging level does not delete existing logs. Logs expire after 2 weeks.",
+                "logging_level" : "Logging Level",
+                "logging_disabled" : "Logging Disabled. No actions will be logged.",
+                "logging_level_description" : "The logging level controls what data is recorded when actions are taken using your wallet. By default the logging is turned off apart from actions taken by admins. Enabling it provides better security by providing more information on potential unauthorized access to your wallet however some privacy may be sacrificed.",
+                "logging_disabled" : "Logging Disabled",
+                "logging_hashed" : "Log Actions with Hashed IP Addresses",
+                "logging_full" : "Log Actions with IP Address and User Agent",
                 "recommended" : "Recommended",
                 "optional" : "Optional",
                 "email" : "Email",
@@ -580,7 +610,7 @@
                 "language" : "Language",
                 "language_description" : "Set your preferred language below",
                 "fee_policy" : "Default Fee Policy",
-                "fee_policy_description" : "Blockchain.info transactions are free of charge. However the bitcoin network may require an additional Miners Fee which effects the speed your transactions are verified and helps support the network. Change the settings below to alter the default Miners Fee Policy.",
+                "fee_policy_description" : "Blockchain.info transactions are free of charge. However the bitcoin network may require an additional Miners Fee which affects the speed your transactions are verified and helps support the network. Change the settings below to alter the default Miners Fee Policy.",
                 "fee_policy_low" : "Frugal",
                 "fee_policy_low_description" : "A Miners fee will not be included unless absolutely essential.",
                 "fee_policy_low_warning" : "Transactions will be significantly slower to confirm",
@@ -602,6 +632,8 @@
                 "skype_description" : "You will receive notifications via Skype to the username below:",
                 "boxcar_description_p1" : "Please enter your",
                 "boxcar_description_p2" : "email below:",
+                "html5_notifications" : "HTML 5 Notifications",
+                "html5_notifications_p1" : "HTML 5 Notifications are different from regular pop-ups in that they require the user's permission to be shown. Currently supported in Chrome & Safari.",
                 "notifications_when" : "When My Wallet",
                 "notifications_when_both" : "Sends or Receives Bitcoins",
                 "sends" : "Sends Bitcoins",
@@ -624,12 +656,12 @@
                 "confirm_password" : "Confirm Password:",
                 "update_main_password" : "Update Main Password",
                 "second_password" : "Second Password",
-                "second_password_description" : "You may optionally set a second password which will be required when send funds from your account. For large wallets your browser may become unresponsive for a few minutes when changing this option.",
+                "second_password_description" : "You may optionally set a second password which will be required when you send funds from your account. For large wallets your browser may become unresponsive for a few minutes when changing this option.",
                 "enable_double_encryption" : "Enable Double Encryption",
                 "double_encryption_enabled" : "Double encryption is enabled. A second password will be required before you can send funds.",
                 "disable_double_encryption" : "Disable Double Encryption",
                 "password_hints" : "Password Hints",
-                "password_hints_description" : "If you forget your password(s) hints can be useful to help jog your memory. If there is an email address associated with your account hints can be emailed to you. If no email is associated with your account hints are available to anyone who knows your wallet identifier.",
+                "password_hints_description" : "If you forget your password(s), hints can be useful to help jog your memory. If there is an email address associated with your account, hints can be emailed to you. If no email is associated with your account, hints are available to anyone who knows your wallet identifier.",
                 "for_example" : "For example:",
                 "example_password" : "If your wallet password was: HorseBatteryStaple a good password hint would be: Electric horse?",
                 "main_password_hint" : "Main Password Hint:",
@@ -664,11 +696,13 @@
                 "this_is_your_bitcoin_address" : "This Is Your Bitcoin Address",
                 "share_with_anyone" : "Share this with anyone and they can send you payments.",
                 "deposit" : "Deposit",
+                "deposit_and_withdraw" : "Deposit & Withdraw",
                 "deposit_description" : "The quickest and easiest way to deposit bitcoins into your account is to use the services below.",
                 "cash_deposit" : "Cash Deposit",
                 "pingit_deposit" : "PingIt Deposit",
                 "phone_deposit" : "Phone Deposit",
-                "sofort_deposit" : "Bank Deposit",
+                "sofort_deposit" : "Sofort Banking",
+                "uk_bank_deposit" : "Bank Transfer",
                 "withdraw" : "Withdraw",
                 "withdraw_description" : "Use the services below to convert bitcoins back into you local currency.",
                 "btcpak_withdraw" : "BTCPak Withdraw",
@@ -816,6 +850,8 @@
                 "satoshi_dice_header" : "Bet With SatoshiDICE",
                 "satoshi_dice_sub" : "{0} is the most popular bitcoin betting game. Win up to 64,000x your bet, instantly. All rolls are verifiable using the blockchain.",
                 "place_bet" : "Place Bet!",
+                "repeat_5" : "Repeat x5",
+                "repeat_10" : "Repeat x10",
                 "not_affiliated" : "Blockchain.info is not affiliated with {0}.",
                 "summary" : "Summary:",
                 "number_of_bets" : "Number of Bets:",
@@ -845,7 +881,7 @@
                 "paper_wallet" : "Paper Wallet",
                 "watch_only_title" : "Add Watch Only Bitcoin Address",
                 "watch_only_p1" : "You may add a {0} bitcoin address to your wallet. You will not be able to send bitcoins from this address without later providing the private key",
-                "watch_only_placeholder" : "Bitcoin Addres",
+                "watch_only_placeholder" : "Bitcoin Address",
                 "watch_only_btn" : "Add Watch Only Address",
                 "import_private_key_title" : "Import Private Key",
                 "import_private_key_p1" : "Import an existing private key below. All private key formats are supported.",
@@ -1045,6 +1081,7 @@
                 "error_sending_two_factor_email" : "There was an error sending the two factor authentication code email",
                 "invalid_length" : "Length parameter must be numerical",
                 "invalid_payload" : "Invalid Payload",
+                "invalid_alias" : "Alias Must Be Alphanumeric",
                 "captcha_incorrect" : "Captcha Code Incorrect",
                 "wallet_size_restricted" : "Wallets are restricted to 1MB in size",
                 "error_saving_wallet" : "Error saving wallet",
@@ -1072,13 +1109,15 @@
                 "error_updating_auto_backup" : "Error Updating Automatic Email Backup Settings",
                 "error_updating_auth_saving" : "Error Updating Authentication Saving Settings",
                 "error_updating_alias" : "Error updating alias",
-                "alias_in_use" : "Alias in use by another wallet",
+                "alias_too_long" : "Alias can be a macimum of 25 characters",
+                "error_alias_taken" : "Alias Already Taken",
                 "unknown_currency_code" : "Unknown Currency Code",
                 "error_updating_local_currency" : "Error Updating Local Currency",
                 "error_sending_wallet_backup" : "Error Sending wallet backup",
                 "unknown_language_code" : "Unknown Language Code",
                 "error_updating_language" : "Error Updating Language",
                 "invalid_version" : "Invalid Version",
+                "error_updating_logging_level_updated" : "Error Updating Logging level.",
                 "two_factor_authentication_not_enabled" : "Two Factor Authentication Is Not Enabled On your Account"
             },
             "success" : {
@@ -1098,6 +1137,7 @@
                 "updated_ip_address" : "Ip Addresses Updated",
                 "notification_settings_updated" : "Notifications settings updated",
                 "two_factor_authentication_updated" : "Two factor authentication settings updated.",
+                "logging_level_updated" : "Logging level updated.",
                 "google_secret_generated" : "Google Secret Generated",
                 "skype_updated" : "Skype Username updated",
                 "email_updated" : "Email Updated",
@@ -1190,7 +1230,7 @@
             "availability" : "Availability",
             "about_p1" : "Blockchain.info is Bitcoin's most popular bitcoin wallet and block explorer. As of October 2012 the site receives over 10,000 visitors daily and has over 30,000 Users.",
             "security_p1" : "Our security policy is to hold as little data as possible that in the event of a security breach could affect our users. Using our My Wallet service we do not hold or intercept any passwords or personally identifying information wallet data is only stored in encrypted form. Blockchain.info runs on privately owned dedicated hardware which can only be accessed by the site administrator. We perform regular security reviews of both our code and servers including scanning our site using nmap to detect possible vulnerabilities early. The site can be access securely using https:// verified by GoDaddy.",
-            "privacy_p1" : "We record access logs of all pages on the site for analytics purposes only. Access logs are pruned every 7 days. We do not log any data relating to transactions made through My Wallet or bitcoin addresses used in My Wallet. Any email address, skype name or other personal data provided will not be shared with any other third party or advertisers.",
+            "privacy_p1" : "No Access logs are kept for visits to this website other than simple counters. We do not log any data relating to transactions made through My Wallet or bitcoin addresses used in My Wallet. Any email address, skype name or other personal data provided will not be shared with any other third party or advertisers.",
             "availability_p1" : " We aim for 99.5% up time however this service is provided on a best effort basis. If scheduled maintenance is planned we will notify users by email.",
             "up_time" : "Up Time",
             "response_time" : "Response Time",
@@ -1372,6 +1412,11 @@
             "p1" : "Use this form to request someone sends you bitcoins or simply to show people you have a bitcoin address.",
             "amount" : "Amount:"
         },
+        "donation_button" : {
+            "title" : "Create Donation Button",
+            "p1" : "Insert the following code into the head section of the page.",
+            "p2" : "Insert the following html code at the position where you would like the button to appear"
+        },
         "pools" : {
             "title" : "Bitcoin Hashrate Distribution - Blockchain.info",
             "meta_description" : "A pie chart showing the hashrate distribution between the major bitcoin mining pools",
@@ -1492,6 +1537,7 @@
             "_continue" : "Continue",
             "back" : "Back",
             "reference" : "Reference:",
+            "order_reference" : "Order Reference",
             "you_pay" : "You Pay:",
             "full_instructions" : "Full Instructions",
             "you_receive" : "You Receive:",
@@ -1501,12 +1547,23 @@
             "depsit_with_cash_description" : "Over 700,000 Cash Deposit Locations Worldwide",
             "powered_by" : "Powered By",
             "amount" : "Amount",
+            "name" : "Full Name",
+            "uk_bank_p1" : "Please enter the details of the account holder",
+            "uk_bank_p2" : "Please review the details below",
+            "sort_code" : "Sort Code",
+            "bank_name" : "Bank Name",
+            "valid" : "valid",
+            "chaps" : "CHAPS",
+            "faster_payments" : "Faster Payments",
+            "account" : "Account",
+            "account_number" : "Account Number",
             "fee" : "{0}% Fee",
             "make_anonymous" : "Make Anonymous?",
             "anonymous_help" : "The bitcoins will be sent through our mixer for improved privacy (1.5% Fee).",
             "amount_help" : "Enter the amount to purchase in {0}.",
-            "pingit_p1" : "In order to use our {0} deposit service please verify your Mobile Phone number. If you do not have a PingIt account yet, setup is easy and the app can be downloaded from the app store on your smart phone.",
-            "pingit_instructions_1" : "Please send payment of {0} to {1} using reference {2}.",
+            "please_verify" : "In order to use our {0} deposit service please verify your Mobile Phone number.",
+            "pingit_p1" : "If you do not have a PingIt account yet, setup is easy and the app can be downloaded from the app store on your smart phone.",
+            "pingit_instructions_1" : "To complete this order please send payment of {0} to {1} using reference {2}. Check the reference number carefully.",
             "pingit_instructions_2" : "Payment must be sent from {0}.",
             "sofort_instructions" : "Payment will be made using an instant online bank transfer.",
             "currency" : "Currency:",
@@ -1518,8 +1575,7 @@
             "medium_package" : "Medium Package",
             "large_package" : "Large Package",
             "payment_method" : "Payment Method:",
-            "sms_p1" : " In order to deposit Bitcoins by SMS or landline phone please verify your mobile phone number below. Once verified the actual purchase can be made from a different phone number or landline phone.",
-            "sofort_p1" : " In order to deposit Bitcoins by instant bank transfer please verify your mobile phone number below. "
+            "sms_p1" : "Once verified the actual purchase can be made from a different phone number or landline phone.",
         },
         "transactions_summary" : {
             "you_received" : "You Received",
@@ -1534,6 +1590,7 @@
             "no_double_spend" : "No Double Spend Detected",
             "transaction_is_double_spend" : "This Transaction is a Double Spend!",
             "double_spend" : "Double Spend",
+            "transaction_fee" : "Transaction Fee",
             "maturing" : "{0} needed until spendable",
             "sent_time" : "Sent Time",
             "to_confirm" : "to confirm",
@@ -1570,7 +1627,8 @@
             "invalid_numerical_value" : "Invalid Numerical Value",
             "invalid_block_hash" : "Invalid Block Hash",
             "block_not_found" : "Block Not Found",
-            "missing_parameter" : "Mising Parameter"
+            "missing_parameter" : "Mising Parameter",
+            "unknown_error" : "Unknown Error"
         }
     }
 }
