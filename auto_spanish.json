@@ -1125,9 +1125,13 @@
             "p4":"billeteras significado nunca puede ser incautados o bloqueados y pueden ser importados en cualquier escritorio del cliente Bitcoin.",
             "p3":"clave privada",
             "p2":"Con My Wallet usted conserva el control total de su",
+<<<<<<< HEAD
             "p1":"La elegancia del sistema Bitcoin reside en su completa descentralización, ningún gobierno o corporación puede revocar los pagos o bloquear las cuentas.",
             "how_it_works":"¿Cómo funciona?",
             "read":"Leer"
+=======
+            "p1":"La elegancia del sistema Bitcoin reside en su completa descentralización, ningún gobierno o corporación puede revocar los pagos o bloquear las cuentas."
+>>>>>>> 3f58ea873dc2b576fa06c3d5bad061510a157316
          },
          "slides":{
             "android_app":"Blockchain Android App",
