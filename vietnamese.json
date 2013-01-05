@@ -2,6 +2,9 @@
    "flag":"vn.png",
    "name":"Vietnam",
    "strings":{
+      "connected_nodes":{
+         
+      },
       "home":{
          "other_links":{
             
@@ -13,13 +16,10 @@
             
          }
       },
-      "connected_nodes":{
+      "popular_addresses":{
          
       },
       "transactions_summary":{
-         
-      },
-      "popular_addresses":{
          
       },
       "orphaned_blocks":{
@@ -28,13 +28,10 @@
       "api_index":{
          
       },
-      "deposit":{
-         
-      },
       "transaction":{
          
       },
-      "wallet_forgot_identifier":{
+      "deposit":{
          
       },
       "stats":{
@@ -42,7 +39,7 @@
             
          }
       },
-      "ip_info":{
+      "wallet_forgot_identifier":{
          
       },
       "block":{
@@ -52,6 +49,9 @@
          "summary_table":{
             
          }
+      },
+      "ip_info":{
+         
       },
       "double_spends":{
          
@@ -74,16 +74,19 @@
                
             }
          },
-         "nav":{
+         "receive_money":{
             
          },
-         "receive_money":{
+         "nav":{
             
          },
          "account_settings":{
             "nav":{
                
             }
+         },
+         "login":{
+            
          },
          "import_export":{
             "rpc":{
@@ -96,16 +99,13 @@
                
             }
          },
-         "login":{
-            
-         },
          "wallet_home":{
             
          },
-         "modals":{
+         "success":{
             
          },
-         "success":{
+         "modals":{
             
          }
       },
@@ -161,10 +161,10 @@
          "anonymous":{
             
          },
-         "control":{
+         "merchants":{
             
          },
-         "merchants":{
+         "control":{
             
          },
          "slides":{
@@ -192,23 +192,26 @@
       "push_tx":{
          
       },
-      "startup_message":{
-         
-      },
       "maintenance":{
          
       },
+      "startup_message":{
+         
+      },
+      "blocks":{
+         
+      },
       "emails":{
-         "tx":{
-            
-         },
          "two_factor_reset_request":{
             
          },
-         "password_hints":{
+         "tx":{
             
          },
          "confirmation_code":{
+            
+         },
+         "password_hints":{
             
          },
          "wallet_backup":{
@@ -221,19 +224,16 @@
             
          }
       },
-      "blocks":{
-         
-      },
       "largest_transactions":{
          
       },
       "pools":{
          
       },
-      "header":{
+      "wallet_new":{
          
       },
-      "wallet_new":{
+      "header":{
          
       },
       "misc":{
@@ -247,29 +247,29 @@
             
          }
       },
-      "strange_transactions":{
-         
-      },
       "block_height":{
          
       },
-      "address":{
-         "table_summary":{
-            
-         },
-         "table_transactions":{
-            
-         }
+      "strange_transactions":{
+         
       },
       "notifications":{
          
+      },
+      "address":{
+         "table_transactions":{
+            
+         },
+         "table_summary":{
+            
+         }
       },
       "ip_log":{
          
       }
    },
+   "code":"vi",
    "properties":{
       "extends":"language"
-   },
-   "code":"vi"
+   }
 }

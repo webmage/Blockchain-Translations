@@ -1,94 +1,22 @@
 {
-<<<<<<< HEAD
    "flag":"pl.png",
    "name":"Polish",
    "strings":{
+      "connected_nodes":{
+         
+      },
       "home":{
          "other_links":{
             "strange":"Dziwne transakcje",
             "most_popular":"Najpopularniejsze adresy"
-=======
-   "code": "pl",
-   "flag": "pl.png",
-   "name": "Polish",
-   "properties": {
-      "extends": "auto_polish"
-   },
-   "strings": {
-      "about_us": {
-         "about_p1": "Blockchain.info jest najpopularniejszym Bitcoinowym portfelem oraz eksploratorem bloków. W październiku 2012 serwis odwiedziało dziennie 10 tysięcy użytkowników dziennie, a łącznie posiadał on 30 tysięcy użytkowników.",
-         "availability": "Dostępność",
-         "availability_p1": "Staramy się utrzymać 99.5% czasu dostępności, jednak usługa prowadzaona jest na zasadach best-effort. Informujemy użytkowników drogą mailową o zaplanowanych przerwach technicznych.",
-         "company_footer": "Właścicielem oraz operatorem Blockchain.info jest Qkos Services Ltd zarejestrowany w UK; numer firmy: 05106799",
-         "contact_us": "Skontakuj się z nami",
-         "disclaimer": "Uwaga",
-         "email": "Email:",
-         "media": "Media",
-         "media_sub_header": "Media and Logotypy",
-         "name": "Nazwa:",
-         "privacy": "Prywatność",
-         "privacy_p1": "Rejestrujemy dostęp do wszystkich stron serwisu wyłącznie w celach statystycznych. Logi są usuwane co 7 dni. Nie rejestrujemy żadnych danych dotyczących transakcji przeprowadzonych przy pomocy usługi My Wallet. Każdy adres email, skype oraz inne dane dostarczone przez użytkownika nie są i nie będą współdzielone z innymi podmiotami.",
-         "privacy_policy": "Polityka Prywatności",
-         "response_time": "Czas odpowiedzi",
-         "response_time_alt": "Czas odpowiedzi dla blockchain.info: Ostatnie 30 dni",
-         "security": "Bezpieczeństwo",
-         "security_p1": "Naszą polityką bezpieczeństwa oparta jest o przechowywanie tak możliwie małej ilości danych, tak by żadne naruszenie bezpieczeństwa serwisu nie mogło wpłynąć na jego użytkowników. My Wallet nie przechowywuje żadnych haseł ani danych identyfikacyjnych, a zawartość porfela jest zawsze przechowywana w zaszyfrowanej postaci. Blockchain.info działa na prywatnej, dedykowanej do tego celu infrastrukturze, do której dostęp mają jedynie administratorzy serwisu. Regularnie przeprowadzamy audyty bezpieczeństwa zarówno kodu oraz serwerów. Strona jest dostępna przy pomocy szyfrowanego protokołu https z certyfikatem zweryfikowanym przez GoDaddy.",
-         "sub_header": "Kim jesteśmy i czym się zajmujemy",
-         "support": "Wsparcie:",
-         "tel": "Tel:",
-         "title": "O Nas - Blockchain.info",
-         "up_time": "Up Time",
-         "up_time_alt": "Up time dla blockchain.info: Ostatnie 30 dni",
-         "view_website_status": "Sprawdź status serwisu"
-      },
-      "address": {
-         "bitcoin_address": "Adres Bitcoin",
-         "confirmed": "Potwierdzone",
-         "confirmed_only": "Tylko Potwierdzone",
-         "deposit_with_cash": "Depozyt gotówkowy",
-         "double_spend_warning": "Uwaga! Ten adres Bitcoin zawiera operacje, które mogły być próbami oszustwa. Zalecamy ostrożność przy transakcjach z oraz na ten adres.",
-         "escrow": "Depozyt",
-         "invalid_address": "Przykro mi, to nie jest prawidłowy adres Bitcoin.",
-         "invalid_hash_160": "Przykro mi, to nie jest proawidłowy hash 160",
-         "meta_description": "Transkacje wychodzące oraz przychodzące dla adresu Bitcoin ",
-         "newest_first": "(Od najnowszych)",
-         "next": "Następne",
-         "no_address_provided": "Nie podano adresu",
-         "no_transactions": "Nie odnaleziono transakcji związanych z tym adresem. Prawdopodobnie nigdy nie był on użyty w sieci.",
-         "oldest_first": "(Od najstarszych)",
-         "previous": "Poprzednie",
-         "received": "Otrzymane",
-         "request_payment": "Życzenie zapłaty",
-         "sent": "Wysłano",
-         "sub_header": "Adresy to identyfikatory wykorzystywane do wysyłania Bitcoinów pomiędzy odbiorcami.",
-         "table_summary": {
-            "address": "Adresy",
-            "short_link": "Krótki Link",
-            "taint_analysis": "Analiza Taint",
-            "title": "Podsumowanie",
-            "view_analysis": "Zobacz Analysis"
->>>>>>> 3f58ea873dc2b576fa06c3d5bad061510a157316
          },
-         "table_transactions": {
-            "final_balance": "Bilans",
-            "number_of_transactions": "Liczba transkacji",
-            "title": "Transakcje",
-            "total_received": "Razem otrzymane",
-            "unspent_inputs": "Niewysłane wejścia"
+         "sub_header":"Ostatnio obrabiane bloki w łańcuchu bloków bitcoin",
+         "table_headers":{
+            "sent":"Razem wysłanych"
          },
-         "title": "Adres  Bitcoin {0}",
-         "too_large_to_filter": "Historia transakcji zbyt wielka, by ją przefiltrować.",
-         "transactions": "Transakcje."
-      },
-      "ads": {
-         "bitinstant": {
-            "body": "Kup używając gotówki",
-            "title": "Potrzebujesz Bitcoinów?"
+         "about":{
+            
          }
-      },
-<<<<<<< HEAD
-      "connected_nodes":{
-         
       },
       "popular_addresses":{
          
@@ -97,17 +25,52 @@
          
       },
       "api_index":{
-         "request_limits_p1":"lub Kod API ominąć wniosek limiter proszę",
-         "welcome":"Witaj programisto!",
-         "websocket_description":"Małe opóźnienie kanału gniazdo strumieniowe dostarczanie danych na temat nowych bloków i transakcji. Zapisz się na powiadomienia o blokach, transakcji lub adres i odbieranie obiekty JSON opisujące transakcji lub blokady, gdy wystąpi zdarzenie.",
-         "abuse_notice":"Usługi świadczone przez blockchain.info są bezpłatne. Proszę ich nie nadużywać.",
-         "receive_payments_description":"Niesamowite łatwy sposób na stronach internetowych w celu przyjmowania płatności Bitcoin."
-      },
-      "deposit":{
-         "sms_p1":" W celu złożenia bitcoins przez SMS lub telefon stacjonarny, proszę sprawdzić swój numer telefonu poniżej. Po weryfikacji rzeczywista zakupu mogą być wykonane z innego numeru telefonu lub telefonu stacjonarnego."
+         "welcome_p2":"udostępnione przez inne serwisy.",
+         "data_api_description":"Wykorzystaj dane w formacie JSON na temat transakcji oraz bloków. Prawie wszystkie dane widoczne na tej stronie są dostępne w formacie JSON.",
+         "welcome_p1":"Tutaj odnajdziesz wszystko czego potrzebujesz by rozpocząć pracę nad projektem wykorzystującym system Bitcoin. Możesz użyć informacje Blockchain.info lub",
+         "requests_in_5_minutes":"Zapytania w ciągu 5 minut:",
+         "charts_and_statistics_description":"Feed JSON zawierający dane z wykresów oraz stron ze statusem.",
+         "charts_and_statistics":"Wykresy oraz statystyki",
+         "view_documentation":"Czytaj Dokumentację",
+         "send_description":"Proste wykorzystanie JSON API celem programowego wysłania lub otrzymania Bitcoinów na koncie My Wallet.",
+         "exchange_rates":"Kursy wymiany",
+         "websocket_description":"Kanał komunikacji o niskiej latencji udostępnia dane na temat nowych bloków oraz transakcji. Subskrybuj kanał powiadomień i otrzymuj dane w formacie JSON opisujące aktualne zdarzenia w sieci.",
+         "send_payments":"Wyślij opłaty",
+         "abuse_notice":"Za usługi prowadzone przez blockchain.info nie pobierane są opłaty. Prosimy o nie nadużywanie ich.",
+         "title":"API dla programistów Bitcoin - Blockchain.info",
+         "exchange_rates_data":"Dane na temat waluty z głównych kantorów Bitcoin..",
+         "blockchain_data":"Dane na temat transakcji oraz bloków",
+         "market_data":"Dane z rynku",
+         "welcome":"Witamy Programistów!",
+         "simple_query_api_description":"Proste API w czystym tekście dla zapytań dotyczących danych blockchanu. Kompatybilne z ",
+         "requests_in_8_hours":"Zapytania w ciągu 8 godzin:",
+         "request_limits_p1":"By ominąć limity korzystania z API proszę",
+         "sub_header":"Narzędzia dla programistów dla danych na temat blockchainu",
+         "complete_merchant_solution":"Pełne rozwiązanie dla handlu online.",
+         "account_required":"Wymagane konto w usłude My Wallet",
+         "third_party_apis":"API dla stron trzecich",
+         "data_api":"API danych blockchainu",
+         "up_time":"Up Time",
+         "request_limits":"Limit zapytań",
+         "payment_processing":"Przetwarzanie płatności.",
+         "header":"API dla programistów Bitcoin",
+         "simple_query_api":"Proste API zapytań",
+         "contact_us":"skontaktuj się z nami",
+         "json_rpc":"JSON RPC kompatybilne z Bitcoin-Qt",
+         "no_account_required":"Konto nie jest wymagane",
+         "meta_description":"Blockchain udostępnia darmowe API dla biznesu i programistów.",
+         "bitpay_description":"Blockchain poleca serwis Bitpay - Lidera rozwiązań biznesowych Bitcoin. Bitpay oferuje kompletne rozwiązania płatności Bitcoin, automatyczne przewalutowanie do walut narodowych oraz integrację z istniejącym oprogramowaniem do sprzedaży online.",
+         "maximum":"Maksimum",
+         "up_time_description":"Blockchain.info wykorzystuje kluster bazodanowy o wysokiej dostępności oraz dedykowaną infrastrukturę celem maksymalizacji czasu dostępności oraz obniżenia czasu odpowiedzi na zapytania.",
+         "receive_payments":"Otrzymaj płatność",
+         "json_rpc_description":"Blockchain.info może działać jako serwer RPC bitcoind dla biznesu celem interakcji z ich kontami My Wallet.",
+         "receive_payments_description":"Niezwykle łatwa metoda dla stron internetowych by otrzymywać płatności Bitcoin."
       },
       "transaction":{
          
+      },
+      "deposit":{
+         "sms_p1":" W celu złożenia bitcoins przez SMS lub telefon stacjonarny, proszę sprawdzić swój numer telefonu poniżej. Po weryfikacji rzeczywista zakupu mogą być wykonane z innego numeru telefonu lub telefonu stacjonarnego."
       },
       "stats":{
          "sub_header":"Statystyki waluty bitcoin",
@@ -119,97 +82,11 @@
       "block":{
          "hash_table":{
             
-=======
-      "api_index": {
-         "abuse_notice": "Za usługi prowadzone przez blockchain.info nie pobierane są opłaty. Prosimy o nie nadużywanie ich.",
-         "account_required": "Wymagane konto w usłude My Wallet",
-         "bitpay_description": "Blockchain poleca serwis Bitpay - Lidera rozwiązań biznesowych Bitcoin. Bitpay oferuje kompletne rozwiązania płatności Bitcoin, automatyczne przewalutowanie do walut narodowych oraz integrację z istniejącym oprogramowaniem do sprzedaży online.",
-         "blockchain_data": "Dane na temat transakcji oraz bloków",
-         "charts_and_statistics": "Wykresy oraz statystyki",
-         "charts_and_statistics_description": "Feed JSON zawierający dane z wykresów oraz stron ze statusem.",
-         "complete_merchant_solution": "Pełne rozwiązanie dla handlu online.",
-         "contact_us": "skontaktuj się z nami",
-         "data_api": "API danych blockchainu",
-         "data_api_description": "Wykorzystaj dane w formacie JSON na temat transakcji oraz bloków. Prawie wszystkie dane widoczne na tej stronie są dostępne w formacie JSON.",
-         "exchange_rates": "Kursy wymiany",
-         "exchange_rates_data": "Dane na temat waluty z głównych kantorów Bitcoin..",
-         "header": "API dla programistów Bitcoin",
-         "json_rpc": "JSON RPC kompatybilne z Bitcoin-Qt",
-         "json_rpc_description": "Blockchain.info może działać jako serwer RPC bitcoind dla biznesu celem interakcji z ich kontami My Wallet.",
-         "market_data": "Dane z rynku",
-         "maximum": "Maksimum",
-         "meta_description": "Blockchain udostępnia darmowe API dla biznesu i programistów.",
-         "no_account_required": "Konto nie jest wymagane",
-         "payment_processing": "Przetwarzanie płatności.",
-         "receive_payments": "Otrzymaj płatność",
-         "receive_payments_description": "Niezwykle łatwa metoda dla stron internetowych by otrzymywać płatności Bitcoin.",
-         "request_limits": "Limit zapytań",
-         "request_limits_p1": "By ominąć limity korzystania z API proszę",
-         "requests_in_5_minutes": "Zapytania w ciągu 5 minut:",
-         "requests_in_8_hours": "Zapytania w ciągu 8 godzin:",
-         "send_description": "Proste wykorzystanie JSON API celem programowego wysłania lub otrzymania Bitcoinów na koncie My Wallet.",
-         "send_payments": "Wyślij opłaty",
-         "simple_query_api": "Proste API zapytań",
-         "simple_query_api_description": "Proste API w czystym tekście dla zapytań dotyczących danych blockchanu. Kompatybilne z ",
-         "sub_header": "Narzędzia dla programistów dla danych na temat blockchainu",
-         "third_party_apis": "API dla stron trzecich",
-         "title": "API dla programistów Bitcoin - Blockchain.info",
-         "up_time": "Up Time",
-         "up_time_description": "Blockchain.info wykorzystuje kluster bazodanowy o wysokiej dostępności oraz dedykowaną infrastrukturę celem maksymalizacji czasu dostępności oraz obniżenia czasu odpowiedzi na zapytania.",
-         "view_documentation": "Czytaj Dokumentację",
-         "websocket_description": "Kanał komunikacji o niskiej latencji udostępnia dane na temat nowych bloków oraz transakcji. Subskrybuj kanał powiadomień i otrzymuj dane w formacie JSON opisujące aktualne zdarzenia w sieci.",
-         "welcome": "Witamy Programistów!",
-         "welcome_p1": "Tutaj odnajdziesz wszystko czego potrzebujesz by rozpocząć pracę nad projektem wykorzystującym system Bitcoin. Możesz użyć informacje Blockchain.info lub",
-         "welcome_p2": "udostępnione przez inne serwisy."
-      },
-      "block": {
-         "hash_table": {},
-         "summary_table": {
-            "output_title": "Tytuł Output"
-         }
-      },
-      "block_height": {},
-      "blocks": {},
-      "charts": {
-         "errors": {}
-      },
-      "connected_nodes": {},
-      "deposit": {
-         "sms_p1": " W celu złożenia bitcoins przez SMS lub telefon stacjonarny, proszę sprawdzić swój numer telefonu poniżej. Po weryfikacji rzeczywista zakupu mogą być wykonane z innego numeru telefonu lub telefonu stacjonarnego."
-      },
-      "double_spends": {},
-      "emails": {
-         "account_locked": {},
-         "confirmation_code": {},
-         "password_hints": {},
-         "two_factor_reset_request": {},
-         "tx": {},
-         "wallet_backup": {},
-         "welcome": {}
-      },
-      "error_page": {},
-      "errors": {},
-      "footer": {},
-      "header": {
-         "charts_title": "Wykresy dla Bitcoin",
-         "developer_title": "Narzędzia Blochchain dla deweloperów",
-         "home": "Strona główna",
-         "home_title": "Blockchain.info Strona główna",
-         "stats_title": "Statystyki dla Bitcoin"
-      },
-      "home": {
-         "about": {},
-         "other_links": {
-            "most_popular": "Najpopularniejsze adresy",
-            "strange": "Dziwne transakcje"
->>>>>>> 3f58ea873dc2b576fa06c3d5bad061510a157316
          },
-         "sub_header": "Ostatnio obrabiane bloki w łańcuchu bloków bitcoin",
-         "table_headers": {
-            "sent": "Razem wysłanych"
+         "summary_table":{
+            "output_title":"Tytuł Output"
          }
       },
-<<<<<<< HEAD
       "ip_info":{
          
       },
@@ -235,10 +112,10 @@
             }
          },
          "receive_money":{
-            "anonymous_addresses_description2":"Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
             "sub_header":"Twoje adresy odbiorcze bitcoin",
-            "chord_diagram":"Zobacz diagram powiązań",
+            "anonymous_addresses_description2":"Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
             "new_address":"Nowy adres",
+            "chord_diagram":"Zobacz diagram powiązań",
             "anonymous_addresses":"Adresy anonimowe",
             "archived":"Zarchiwizowane",
             "archived_addresses_description":"Zarchiwizowane adresy może nie trzeba już, że są ukryte w widoku głównym, ale nadal częścią portfela. Możesz rozpakuj je w dowolnym momencie, klikając niebieską ikonę.",
@@ -257,6 +134,9 @@
             "sms_verified":"Zweryfikowano SMS'em",
             "password_hints_description":" Jeśli zapomnisz hasło (s) wskazówki mogą być przydatne do pobiegać pamięć. Jeśli jest adres e-mail związany z twoich aluzji konta można wysłane. Jeśli nie ma e-mail jest powiązany z kontem wskazówki są dostępne dla każdego, kto zna swój identyfikator portfela."
          },
+         "login":{
+            "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdzić e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie można znaleźć e-mail? Kliknij przycisk poniżej, a my prześlemy Ci nowe."
+         },
          "import_export":{
             "rpc":{
                
@@ -267,9 +147,6 @@
             },
             "desktop_sync_step2_p1":" Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:"
          },
-         "login":{
-            "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdzić e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie można znaleźć e-mail? Kliknij przycisk poniżej, a my prześlemy Ci nowe."
-         },
          "wallet_home":{
             "withdraw_description":"Korzystaj z usług poniżej by zamienić bitcoiny na walutę.",
             "final_balance":"Saldo końcowe",
@@ -279,11 +156,11 @@
             "backup_description":"Tworzenie kopii zapasowej portfela jest ważnym krokiem, który jest łatwy do zapomnienia. Blockchain.info podejmuje wszelkie środki ostrożności, aby utrzymać portfel bezpiecznym. Dla większego bezpieczeństwa zalecamy dokonywanie dodatkowej kopi bezpieczeństwa.",
             "phone_deposit":"Zasil telefonem",
             "share_with_anyone":"Podziel się tym adresem z kimkolwiek chcesz by otrzymać płatności.",
-            "pingit_deposit":"Zasil przez PingIt",
             "btcpak_withdraw":"Wypłać przez BTCPak",
+            "pingit_deposit":"Zasil przez PingIt",
             "pingit_withdraw":"Wypłać przez PingIt",
-            "this_is_your_bitcoin_address":"To jest twój główny adres bitcoin",
             "withdraw":"Wypłać środki",
+            "this_is_your_bitcoin_address":"To jest twój główny adres bitcoin",
             "cash_deposit":"Zasil gotówką",
             "total_sent":"Razem wysłanych"
          },
@@ -322,10 +199,10 @@
       "webgl_globe":{
          
       },
-      "error_page":{
+      "payment_request":{
          
       },
-      "payment_request":{
+      "error_page":{
          
       },
       "propagation":{
@@ -333,7 +210,8 @@
       },
       "ads":{
          "bitinstant":{
-            
+            "body":"Kup używając gotówki",
+            "title":"Potrzebujesz Bitcoinów?"
          }
       },
       "translations_page":{
@@ -342,7 +220,24 @@
          }
       },
       "about_us":{
-         "availability_p1":" Dążymy do 99,5%, w czasie, to jednak usługa świadczona jest na zasadzie najwyższej staranności. Jeśli planowane jest planowana konserwacja będziemy powiadamiać użytkowników poprzez email."
+         "sub_header":"Kim jesteśmy i czym się zajmujemy",
+         "support":"Wsparcie:",
+         "disclaimer":"Uwaga",
+         "security_p1":"Naszą polityką bezpieczeństwa oparta jest o przechowywanie tak możliwie małej ilości danych, tak by żadne naruszenie bezpieczeństwa serwisu nie mogło wpłynąć na jego użytkowników. My Wallet nie przechowywuje żadnych haseł ani danych identyfikacyjnych, a zawartość porfela jest zawsze przechowywana w zaszyfrowanej postaci. Blockchain.info działa na prywatnej, dedykowanej do tego celu infrastrukturze, do której dostęp mają jedynie administratorzy serwisu. Regularnie przeprowadzamy audyty bezpieczeństwa zarówno kodu oraz serwerów. Strona jest dostępna przy pomocy szyfrowanego protokołu https z certyfikatem zweryfikowanym przez GoDaddy.",
+         "availability_p1":"Staramy się utrzymać 99.5% czasu dostępności, jednak usługa prowadzaona jest na zasadach best-effort. Informujemy użytkowników drogą mailową o zaplanowanych przerwach technicznych.",
+         "up_time":"Up Time",
+         "privacy_policy":"Polityka Prywatności",
+         "company_footer":"Właścicielem oraz operatorem Blockchain.info jest Qkos Services Ltd zarejestrowany w UK; numer firmy: 05106799",
+         "about_p1":"Blockchain.info jest najpopularniejszym Bitcoinowym portfelem oraz eksploratorem bloków. W październiku 2012 serwis odwiedziało dziennie 10 tysięcy użytkowników dziennie, a łącznie posiadał on 30 tysięcy użytkowników.",
+         "contact_us":"Skontakuj się z nami",
+         "title":"O Nas - Blockchain.info",
+         "up_time_alt":"Up time dla blockchain.info: Ostatnie 30 dni",
+         "response_time":"Czas odpowiedzi",
+         "email":"Email:",
+         "name":"Nazwa:",
+         "privacy_p1":"Rejestrujemy dostęp do wszystkich stron serwisu wyłącznie w celach statystycznych. Logi są usuwane co 7 dni. Nie rejestrujemy żadnych danych dotyczących transakcji przeprowadzonych przy pomocy usługi My Wallet. Każdy adres email, skype oraz inne dane dostarczone przez użytkownika nie są i nie będą współdzielone z innymi podmiotami.",
+         "view_website_status":"Sprawdź status serwisu",
+         "media_sub_header":"Media and Logotypy"
       },
       "wallet_index":{
          "anonymous":{
@@ -358,125 +253,10 @@
             "charts_analytics":"Wykresy i analizy",
             "double_encryption":"Podwójne szyfrowanie",
             "one_click_backups":"Kopia bezpieczeństwa za jednym kliknięciem"
-=======
-      "hub_nodes": {},
-      "ip_info": {},
-      "ip_log": {},
-      "largest_transactions": {},
-      "maintenance": {},
-      "misc": {},
-      "notifications": {},
-      "orphaned_blocks": {},
-      "payment_request": {},
-      "pools": {},
-      "popular_addresses": {},
-      "propagation": {},
-      "push_tx": {},
-      "rejected": {},
-      "relayed_by": {},
-      "startup_message": {},
-      "stats": {
-         "sub_header": "Statystyki waluty bitcoin",
-         "table": {},
-         "title": "Statystyki Bitcoin - Blockchain.info"
-      },
-      "strange_transactions": {},
-      "transaction": {},
-      "transaction_page": {
-         "double_spend": {}
-      },
-      "translations_page": {
-         "steps": {}
-      },
-      "tx_tree": {
-         "cluster_by_address": "Klaster według adresu"
-      },
-      "unconfirmed": {},
-      "wallet": {
-         "slogan": "Bądź własnym bankiem",
-         "start_new": "Utwórz nowy portfel"
-      },
-      "wallet_app": {
-         "account_settings": {
-            "nav": {},
-            "password_hints_description": " Jeśli zapomnisz hasło (s) wskazówki mogą być przydatne do pobiegać pamięć. Jeśli jest adres e-mail związany z twoich aluzji konta można wysłane. Jeśli nie ma e-mail jest powiązany z kontem wskazówki są dostępne dla każdego, kto zna swój identyfikator portfela.",
-            "sms_verified": "Zweryfikowano SMS'em"
          },
-         "errors": {
-            "mobile_identifier_not_found": "Portfel identyfikator nie znaleziono. Twój portfel nie jest jeszcze zapisany na naszym serwerze, jeszcze. Proszę skonfigurować nowe konto, aby uniknąć utraty portfela."
+         "easy":{
+            
          },
-         "import_export": {
-            "desktop_sync_step2_p1": " Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:",
-            "import_wallet_formats": {},
-            "installed_refresh_page": " Po zainstalowaniu należy odświeżyć stronę.",
-            "rpc": {}
-         },
-         "login": {
-            "lost_identifier_p1": " Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdzić e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie można znaleźć e-mail? Kliknij przycisk poniżej, a my prześlemy Ci nowe."
-         },
-         "modals": {
-            "compressed_private_key_p2": "Zalecanym rozwiązaniem do zamiatać funduszy do istniejącego adresu Bitcoin. Chcesz zamiatać klucza prywatnego, a nie?",
-            "send_payment": "Wyślij płatność"
-         },
-         "nav": {
-            "home": "Portfel główny",
-            "send": "Wysyłanie pieniędzy"
-         },
-         "receive_money": {
-            "anonymous_addresses": "Adresy anonimowe",
-            "anonymous_addresses_description": "Płatności otrzymane do adresów anonimowych zostaną przekazane innym adresem w portfelu. Wszelkie płatności otrzymane są wysyłane za pomocą miksera izolujący osobistego portfela od nadawcy. Transakcje otrzymane do anonimowych adresów nie mogą być połączone do zwykłego portfela.",
-            "anonymous_addresses_description2": "Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
-            "archived": "Zarchiwizowane",
-            "archived_addresses_description": "Zarchiwizowane adresy może nie trzeba już, że są ukryte w widoku głównym, ale nadal częścią portfela. Możesz rozpakuj je w dowolnym momencie, klikając niebieską ikonę.",
-            "chord_diagram": "Zobacz diagram powiązań",
-            "new_address": "Nowy adres",
-            "new_address_tooltip": "Kliknij tutaj, aby wygenerować nowy adres bitcoin. Możesz rozpocząć odbieranie bitcoins do tego adresu natychmiast",
-            "new_anonymous_address": "Nowy adres anonimowy",
-            "sub_header": "Twoje adresy odbiorcze bitcoin"
-         },
-         "send_coins": {},
-         "success": {},
-         "tooltips": {
-            "balance": {},
-            "connection_status": {}
-         },
-         "transactions": {},
-         "wallet_home": {
-            "backup_description": "Tworzenie kopii zapasowej portfela jest ważnym krokiem, który jest łatwy do zapomnienia. Blockchain.info podejmuje wszelkie środki ostrożności, aby utrzymać portfel bezpiecznym. Dla większego bezpieczeństwa zalecamy dokonywanie dodatkowej kopi bezpieczeństwa.",
-            "btcpak_withdraw": "Wypłać przez BTCPak",
-            "cash_deposit": "Zasil gotówką",
-            "deposit": "Dodaj środki",
-            "final_balance": "Saldo końcowe",
-            "phone_deposit": "Zasil telefonem",
-            "pingit_deposit": "Zasil przez PingIt",
-            "pingit_withdraw": "Wypłać przez PingIt",
-            "share_with_anyone": "Podziel się tym adresem z kimkolwiek chcesz by otrzymać płatności.",
-            "this_is_your_bitcoin_address": "To jest twój główny adres bitcoin",
-            "total_received": "Razem odebranych",
-            "total_sent": "Razem wysłanych",
-            "total_transactions": "Razem transakcji",
-            "withdraw": "Wypłać środki",
-            "withdraw_description": "Korzystaj z usług poniżej by zamienić bitcoiny na walutę."
-         }
-      },
-      "wallet_index": {
-         "anonymous": {},
-         "confused": {},
-         "control": {},
-         "create_my_free_wallet": "Utwórz mój bezpłatny portfel",
-         "easy": {},
-         "features": {},
-         "merchants": {},
-         "security": {
-            "title": "Bezpieczny"
->>>>>>> 3f58ea873dc2b576fa06c3d5bad061510a157316
-         },
-         "slides": {
-            "charts_analytics": "Wykresy i analizy",
-            "double_encryption": "Podwójne szyfrowanie",
-            "one_click_backups": "Kopia bezpieczeństwa za jednym kliknięciem"
-         },
-<<<<<<< HEAD
          "try_demo_account":"Przetestuj konto demonstracyjne",
          "confused":{
             
@@ -499,23 +279,23 @@
       "push_tx":{
          
       },
-      "maintenance":{
-         
-      },
       "startup_message":{
          
       },
+      "maintenance":{
+         
+      },
       "emails":{
-         "two_factor_reset_request":{
-            
-         },
          "tx":{
             
          },
-         "confirmation_code":{
+         "two_factor_reset_request":{
             
          },
          "password_hints":{
+            
+         },
+         "confirmation_code":{
             
          },
          "wallet_backup":{
@@ -558,22 +338,48 @@
             
          }
       },
-      "block_height":{
-         
-      },
       "strange_transactions":{
          
       },
-      "notifications":{
+      "block_height":{
          
       },
       "address":{
-         "table_transactions":{
-            
-         },
+         "invalid_hash_160":"Przykro mi, to nie jest proawidłowy hash 160",
+         "transactions":"Transakcje.",
+         "sub_header":"Adresy to identyfikatory wykorzystywane do wysyłania Bitcoinów pomiędzy odbiorcami.",
          "table_summary":{
-            
-         }
+            "title":"Podsumowanie",
+            "address":"Adresy",
+            "view_analysis":"Zobacz Analysis",
+            "short_link":"Krótki Link"
+         },
+         "confirmed_only":"Tylko Potwierdzone",
+         "escrow":"Depozyt",
+         "previous":"Poprzednie",
+         "next":"Następne",
+         "request_payment":"Życzenie zapłaty",
+         "no_address_provided":"Nie podano adresu",
+         "received":"Otrzymane",
+         "invalid_address":"Przykro mi, to nie jest prawidłowy adres Bitcoin.",
+         "newest_first":"(Od najnowszych)",
+         "double_spend_warning":"Uwaga! Ten adres Bitcoin zawiera operacje, które mogły być próbami oszustwa. Zalecamy ostrożność przy transakcjach z oraz na ten adres.",
+         "too_large_to_filter":"Historia transakcji zbyt wielka, by ją przefiltrować.",
+         "title":"Adres  Bitcoin {0}",
+         "table_transactions":{
+            "final_balance":"Bilans",
+            "number_of_transactions":"Liczba transkacji",
+            "unspent_inputs":"Niewysłane wejścia",
+            "total_received":"Razem otrzymane"
+         },
+         "sent":"Wysłano",
+         "confirmed":"Potwierdzone",
+         "meta_description":"Transkacje wychodzące oraz przychodzące dla adresu Bitcoin ",
+         "no_transactions":"Nie odnaleziono transakcji związanych z tym adresem. Prawdopodobnie nigdy nie był on użyty w sieci.",
+         "deposit_with_cash":"Depozyt gotówkowy"
+      },
+      "notifications":{
+         
       },
       "ip_log":{
          
@@ -584,15 +390,3 @@
    },
    "code":"pl"
 }
-=======
-         "tooltips": {
-            "offline_transactions_title": "Transakcje offline",
-            "paper_wallet_title": "Portfel papierowy"
-         },
-         "try_demo_account": "Przetestuj konto demonstracyjne"
-      },
-      "wallet_new": {},
-      "webgl_globe": {}
-   }
-}
->>>>>>> 3f58ea873dc2b576fa06c3d5bad061510a157316

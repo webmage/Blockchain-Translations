@@ -4,8 +4,8 @@
    "strings":{
       
    },
-   "code":"ja",
    "properties":{
       "extends":"auto_japanese"
-   }
+   },
+   "code":"ja"
 }

@@ -4,8 +4,8 @@
    "strings":{
       
    },
-   "code":"hi",
    "properties":{
       "extends":"auto_hindi"
-   }
+   },
+   "code":"hi"
 }
