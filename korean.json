@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"ko",
    "properties":{
       "extends":"auto_korean"
-   },
-   "code":"ko"
+   }
 }

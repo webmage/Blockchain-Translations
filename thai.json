@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"th",
    "properties":{
       "extends":"auto_thai"
-   },
-   "code":"th"
+   }
 }
