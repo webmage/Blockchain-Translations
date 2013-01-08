@@ -1,0 +1,11 @@
+{
+   "flag":"ro.png",
+   "name":"Romanian",
+   "strings":{
+      
+   },
+   "code":"ro",
+   "properties":{
+      "extends":"auto_romanian"
+   }
+}

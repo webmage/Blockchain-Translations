@@ -1,0 +1,11 @@
+{
+   "flag":"id.png",
+   "name":"Indonesian",
+   "strings":{
+      
+   },
+   "properties":{
+      "extends":"auto_indonesian"
+   },
+   "code":"id"
+}
