@@ -2,9 +2,6 @@
    "flag":"es.png",
    "name":"Spanish",
    "strings":{
-      "connected_nodes":{
-         
-      },
       "home":{
          "other_links":{
             
@@ -16,10 +13,13 @@
             
          }
       },
-      "transactions_summary":{
+      "connected_nodes":{
          
       },
       "popular_addresses":{
+         
+      },
+      "transactions_summary":{
          
       },
       "orphaned_blocks":{
@@ -28,19 +28,22 @@
       "api_index":{
          
       },
-      "deposit":{
-         "sms_p1":" Para depositar Bitcoins por SMS o por teléfono de línea fija por favor verifique su número de teléfono móvil a continuación. Una vez verificada la compra real se puede hacer de otro número de teléfono o teléfono fijo."
-      },
       "transaction":{
          
       },
-      "wallet_forgot_identifier":{
-         
+      "deposit":{
+         "sms_p1":" Para depositar Bitcoins por SMS o por teléfono de línea fija por favor verifique su número de teléfono móvil a continuación. Una vez verificada la compra real se puede hacer de otro número de teléfono o teléfono fijo."
       },
       "stats":{
          "table":{
             
          }
+      },
+      "wallet_forgot_identifier":{
+         
+      },
+      "ip_info":{
+         
       },
       "block":{
          "hash_table":{
@@ -49,9 +52,6 @@
          "summary_table":{
             
          }
-      },
-      "ip_info":{
-         
       },
       "double_spends":{
          
@@ -74,19 +74,16 @@
                
             }
          },
-         "nav":{
+         "receive_money":{
             
          },
-         "receive_money":{
+         "nav":{
             
          },
          "account_settings":{
             "nav":{
                
             }
-         },
-         "login":{
-            "lost_identifier_p1":" Si usted ha perdido su billetera identificador primero revise el correo electrónico de confirmación que recibió durante su registro. No se puede encontrar el correo electrónico? Haga clic en el botón de abajo y nosotros le enviaremos una nueva."
          },
          "import_export":{
             "rpc":{
@@ -96,18 +93,21 @@
             "import_backup_table":{
                
             },
+            "desktop_sync_step2_p1":" Para que tu navegador para hablar con su cliente de escritorio de su debe habilitar el servidor RPC bitcoin en el archivo bitcoin.conf. Si el archivo no existe, debe crearlo. Por ejemplo:",
             "import_wallet_formats":{
                
-            },
-            "desktop_sync_step2_p1":" Para que tu navegador para hablar con su cliente de escritorio de su debe habilitar el servidor RPC bitcoin en el archivo bitcoin.conf. Si el archivo no existe, debe crearlo. Por ejemplo:"
+            }
+         },
+         "login":{
+            "lost_identifier_p1":" Si usted ha perdido su billetera identificador primero revise el correo electrónico de confirmación que recibió durante su registro. No se puede encontrar el correo electrónico? Haga clic en el botón de abajo y nosotros le enviaremos una nueva."
          },
          "wallet_home":{
             
          },
-         "success":{
+         "modals":{
             
          },
-         "modals":{
+         "success":{
             
          }
       },
@@ -163,10 +163,10 @@
          "anonymous":{
             
          },
-         "merchants":{
+         "control":{
             
          },
-         "control":{
+         "merchants":{
             
          },
          "slides":{
@@ -194,23 +194,26 @@
       "push_tx":{
          
       },
-      "maintenance":{
-         
-      },
       "startup_message":{
          
       },
+      "maintenance":{
+         
+      },
+      "blocks":{
+         
+      },
       "emails":{
-         "tx":{
-            
-         },
          "two_factor_reset_request":{
             
          },
-         "password_hints":{
+         "tx":{
             
          },
          "confirmation_code":{
+            
+         },
+         "password_hints":{
             
          },
          "wallet_backup":{
@@ -223,19 +226,16 @@
             
          }
       },
-      "blocks":{
-         
-      },
       "largest_transactions":{
          
       },
       "pools":{
          
       },
-      "wallet_new":{
+      "header":{
          
       },
-      "header":{
+      "wallet_new":{
          
       },
       "misc":{
@@ -249,29 +249,29 @@
             
          }
       },
-      "block_height":{
-         
-      },
       "strange_transactions":{
          
       },
-      "notifications":{
+      "block_height":{
          
       },
       "address":{
-         "table_transactions":{
-            
-         },
          "table_summary":{
             
+         },
+         "table_transactions":{
+            
          }
+      },
+      "notifications":{
+         
       },
       "ip_log":{
          
       }
    },
+   "code":"es",
    "properties":{
       "extends":"auto_spanish"
-   },
-   "code":"es"
+   }
 }
