@@ -272,6 +272,6 @@
    },
    "code":"es",
    "properties":{
-      "extends":"language"
+      "extends":"auto_spanish"
    }
 }

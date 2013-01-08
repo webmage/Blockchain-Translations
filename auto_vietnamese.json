@@ -2,17 +2,6 @@
    "flag":"vn.png",
    "name":"Vietnam",
    "strings":{
-      "connected_nodes":{
-         "port":"Cổng",
-         "sub_header":"Danh sách các nút blockchain.info được kết nối tới",
-         "title":"Danh sách các nút kết nối Bitcoin",
-         "ip_address":"IP",
-         "connected_time":"Đã kết nối (phút)",
-         "location":"Địa điểm",
-         "total_connected":"Tổng kết nối: {0}",
-         "hostname":"Tên máy",
-         "header":"Các nút kết nối"
-      },
       "home":{
          "other_links":{
             "most_popular":"Địa chỉ phổ biến nhất",
@@ -71,13 +60,16 @@
          "header":"Trang chủ",
          "search_placeholder":"Địa chỉ \/ Firstbits \/ ip \/ SHA hash"
       },
-      "popular_addresses":{
-         "sub_header":"Những địa chỉ bitcoin phổ biến nhất bởi số lượng đầu ra",
-         "title":"100 địa chỉ Bitcoin phổ biến nhất - Blockchain.info",
-         "meta_description":"Danh sách 100 địa chỉ bitcoin hàng đầu phổ biến nhất bởi số lượng đầu ra.",
-         "address":"Địa chỉ",
-         "header":"Những địa chỉ phổ biến",
-         "number_of_outputs":"Số lượng đầu ra"
+      "connected_nodes":{
+         "port":"Cổng",
+         "sub_header":"Danh sách các nút blockchain.info được kết nối tới",
+         "title":"Danh sách các nút kết nối Bitcoin",
+         "ip_address":"IP",
+         "connected_time":"Đã kết nối (phút)",
+         "location":"Địa điểm",
+         "total_connected":"Tổng kết nối: {0}",
+         "hostname":"Tên máy",
+         "header":"Các nút kết nối"
       },
       "transactions_summary":{
          "maturing":"{0} cần thiết cho đến khi spendable",
@@ -97,6 +89,14 @@
          "transaction_is_double_spend":"Giao dịch này là một đôi Dành!",
          "nodes":"Nodes",
          "you_received":"Bạn nhận được"
+      },
+      "popular_addresses":{
+         "sub_header":"Những địa chỉ bitcoin phổ biến nhất bởi số lượng đầu ra",
+         "title":"100 địa chỉ Bitcoin phổ biến nhất - Blockchain.info",
+         "meta_description":"Danh sách 100 địa chỉ bitcoin hàng đầu phổ biến nhất bởi số lượng đầu ra.",
+         "address":"Địa chỉ",
+         "header":"Những địa chỉ phổ biến",
+         "number_of_outputs":"Số lượng đầu ra"
       },
       "orphaned_blocks":{
          "timestamp":"Nhãn thời gian",
@@ -152,6 +152,54 @@
          "json_rpc_description":"Blockchain.info có các hàm như một máy chủ bitcoind RPC cho merchants để giao tiếp với tài khoản dịch vụ Ví của tôi.",
          "receive_payments_description":"Một phương thức tuyệt vời cho website để nhận thanh toán bitcoin."
       },
+      "deposit":{
+         "make_anonymous":"Hãy Không tên?",
+         "valid":"hợp lệ",
+         "bank_name":"Tên ngân hàng",
+         "small_package":"Nhỏ trọn gói",
+         "you_receive":"Nhận:",
+         "instructions":"Hướng dẫn:",
+         "medium_package":"Medium Package",
+         "phone_sms":"Điện thoại \/ SMS",
+         "amount_help":"Nhập số tiền để mua trong {0}.",
+         "sort_code":"Mã Phân loại",
+         "currency":"Tiền tệ:",
+         "amount":"Số tiền",
+         "first_name":"Tên riêng",
+         "you_pay":"Bạn phải trả tiền:",
+         "please_verify":"Để sử dụng dịch vụ {0} tiền gửi của chúng tôi, xin vui lòng xác minh số điện thoại di động của bạn.",
+         "large_package":"Lớn trọn gói",
+         "name":"Họ và tên",
+         "pingit_p1":"Nếu bạn không có một tài khoản PingIt, thiết lập dễ dàng và các ứng dụng có thể được tải về từ các cửa hàng ứng dụng trên điện thoại thông minh của bạn.",
+         "depsit_with_cash":"Lãi suất tiền gửi bằng tiền mặt",
+         "_continue":"Tiếp tục",
+         "depsit_with_cash_description":"Hơn 700.000 tiền gửi địa điểm trên toàn thế giới",
+         "full_instructions":"Full Hướng dẫn",
+         "sofort_instructions":"Thanh toán sẽ được thực hiện bằng cách sử dụng chuyển khoản ngân hàng ngay lập tức trực tuyến.",
+         "order_reference":"Để tham khảo",
+         "account_number":"Số tài khoản",
+         "_package":"Đóng gói:",
+         "anonymous_help":"Các bitcoins sẽ được gửi qua máy trộn của chúng tôi cho sự riêng tư được cải thiện (1,5% phí).",
+         "back":"Lưng",
+         "sms_p1":"Sau khi xác minh thực tế mua, có thể được làm từ một số điện thoại khác nhau hoặc điện thoại cố định.",
+         "select_country":"Chọn một quốc gia",
+         "reference":"Tham khảo:",
+         "country":"Quốc gia:",
+         "powered_by":"Powered By",
+         "fee":"{0}% Phí",
+         "faster_payments":"Nhanh hơn Thanh toán",
+         "uk_bank_p2":"Vui lòng xem chi tiết dưới đây",
+         "uk_bank_p1":"Xin vui lòng nhập các chi tiết của chủ tài khoản",
+         "select_currency":"Chọn tệ",
+         "to_address":"Để Địa chỉ:",
+         "dob":"Ngày sinh",
+         "last_name":"Tên họ",
+         "account":"Tài khoản",
+         "pingit_instructions_1":"Để hoàn thành đơn đặt hàng xin vui lòng gửi thanh toán của {0} {1} sử dụng tài liệu tham khảo {2}. Kiểm tra số tham chiếu một cách cẩn thận.",
+         "pingit_instructions_2":"Thanh toán phải được gửi từ {0}.",
+         "chaps":"CHAPS",
+         "payment_method":"Phương thức thanh toán:"
+      },
       "transaction":{
          "fee":"Phí:",
          "double_spend":"Double Spend!",
@@ -167,50 +215,13 @@
          "spent":"dùng",
          "size":"Kích cỡ:"
       },
-      "deposit":{
-         "make_anonymous":"Hãy Không tên?",
-         "valid":"hợp lệ",
-         "bank_name":"Tên ngân hàng",
-         "small_package":"Nhỏ trọn gói",
-         "you_receive":"Nhận:",
-         "instructions":"Hướng dẫn:",
-         "medium_package":"Medium Package",
-         "phone_sms":"Điện thoại \/ SMS",
-         "amount_help":"Nhập số tiền để mua trong {0}.",
-         "sort_code":"Mã Phân loại",
-         "currency":"Tiền tệ:",
-         "amount":"Số tiền",
-         "you_pay":"Bạn phải trả tiền:",
-         "please_verify":"Để sử dụng dịch vụ {0} tiền gửi của chúng tôi, xin vui lòng xác minh số điện thoại di động của bạn.",
-         "large_package":"Lớn trọn gói",
-         "name":"Họ và tên",
-         "pingit_p1":"Nếu bạn không có một tài khoản PingIt, thiết lập dễ dàng và các ứng dụng có thể được tải về từ các cửa hàng ứng dụng trên điện thoại thông minh của bạn.",
-         "depsit_with_cash":"Lãi suất tiền gửi bằng tiền mặt",
-         "_continue":"Tiếp tục",
-         "depsit_with_cash_description":"Hơn 700.000 tiền gửi địa điểm trên toàn thế giới",
-         "full_instructions":"Full Hướng dẫn",
-         "sofort_instructions":"Thanh toán sẽ được thực hiện bằng cách sử dụng chuyển khoản ngân hàng ngay lập tức trực tuyến.",
-         "account_number":"Số tài khoản",
-         "order_reference":"Để tham khảo",
-         "_package":"Đóng gói:",
-         "anonymous_help":"Các bitcoins sẽ được gửi qua máy trộn của chúng tôi cho sự riêng tư được cải thiện (1,5% phí).",
-         "back":"Lưng",
-         "sms_p1":"Sau khi xác minh thực tế mua, có thể được làm từ một số điện thoại khác nhau hoặc điện thoại cố định.",
-         "select_country":"Chọn một quốc gia",
-         "reference":"Tham khảo:",
-         "country":"Quốc gia:",
-         "powered_by":"Powered By",
-         "fee":"{0}% Phí",
-         "faster_payments":"Nhanh hơn Thanh toán",
-         "uk_bank_p2":"Vui lòng xem chi tiết dưới đây",
-         "uk_bank_p1":"Xin vui lòng nhập các chi tiết của chủ tài khoản",
-         "select_currency":"Chọn tệ",
-         "to_address":"Để Địa chỉ:",
-         "account":"Tài khoản",
-         "pingit_instructions_1":"Để hoàn thành đơn đặt hàng xin vui lòng gửi thanh toán của {0} {1} sử dụng tài liệu tham khảo {2}. Kiểm tra số tham chiếu một cách cẩn thận.",
-         "pingit_instructions_2":"Thanh toán phải được gửi từ {0}.",
-         "chaps":"CHAPS",
-         "payment_method":"Phương thức thanh toán:"
+      "wallet_forgot_identifier":{
+         "sub_header":"Nhập địa chỉ email của bạn hay số sms dưới đây và chúng tôi sẽ gửi lại liên kết xác nhận:",
+         "title":"Quên mật nhận dạng",
+         "send":"Gửi",
+         "email_or_sms":"Email hoặc tin nhắn SMS:",
+         "p1":"Nếu bạn không có một email liên kết với tài khoản của bạn, xin vui lòng liên hệ với chúng tôi ({0}) với bất kỳ thông tin nào bạn có thể cung cấp bao gồm Skype tên người dùng, tên người dùng Google Talk, cụm từ bí mật hoặc bí danh.",
+         "header":"Quên nhận dạng"
       },
       "stats":{
          "sub_header":"Thống kê tiền tệ Bitcoin",
@@ -251,13 +262,12 @@
          "period":"Tất cả các số liệu thống kê trong 24h trước đây trừ khi có quy định khác",
          "header":"Thống kê về tiền tệ"
       },
-      "wallet_forgot_identifier":{
-         "sub_header":"Nhập địa chỉ email của bạn hay số sms dưới đây và chúng tôi sẽ gửi lại liên kết xác nhận:",
-         "title":"Quên mật nhận dạng",
-         "send":"Gửi",
-         "email_or_sms":"Email hoặc tin nhắn SMS:",
-         "p1":"Nếu bạn không có một email liên kết với tài khoản của bạn, xin vui lòng liên hệ với chúng tôi ({0}) với bất kỳ thông tin nào bạn có thể cung cấp bao gồm Skype tên người dùng, tên người dùng Google Talk, cụm từ bí mật hoặc bí danh.",
-         "header":"Quên nhận dạng"
+      "ip_info":{
+         "sub_header":"Các giao dịch đã được chuyển tiếp lần đầu bởi ip {0}",
+         "title":"Các giao dịch đã chuyển tiếp bởi {0} - Blockchain.info",
+         "meta_description":"Các giao dịch bitcoin đã chuyển tiếp bởi địa chỉ ip {0}",
+         "next_page":"Trang kế tiếp",
+         "header":"Các giao dịch đã chuyển tiếp bởi {0}"
       },
       "block":{
          "title":"Khối Bitcoin #{0}",
@@ -294,13 +304,6 @@
          },
          "transactions_sub_header":"Giao dịch chứa trong khối này",
          "click_to_view":"Nhấn để xem"
-      },
-      "ip_info":{
-         "sub_header":"Các giao dịch đã được chuyển tiếp lần đầu bởi ip {0}",
-         "title":"Các giao dịch đã chuyển tiếp bởi {0} - Blockchain.info",
-         "meta_description":"Các giao dịch bitcoin đã chuyển tiếp bởi địa chỉ ip {0}",
-         "next_page":"Trang kế tiếp",
-         "header":"Các giao dịch đã chuyển tiếp bởi {0}"
       },
       "double_spends":{
          "sub_header":"Double spends đã phát hiện trong số 500,000 giao dịch cuối (10 Minute Cache)",
@@ -786,31 +789,34 @@
             "resend_link_btn":"Gửi lại",
             "password_hints_btn":"Gợi ý mật khẩu",
             "resend_link_p1":"Một thư được gửi từ wallet@blockchain.info. Hãy kiểm tra hộp thư rác. Nếu bạn vẫn không thể tìm thấy, nhấn vào nút bên dưới để chúng tôi gửi lại nó.",
+            "resend_sms_link_btn":"Gửi tin nhắn",
             "password":"Mật khẩu:",
+            "resend_sms_link_p1":"Vui lòng kiểm tra tín hiệu mạng của bạn. Tin nhắn có thể mất đến 10 phút để được giao, nếu nó đã được hơn 10 phút nhấp vào nút bên dưới để gửi lại tin nhắn.",
             "lost_two_factor_title":"Mất thông tin xác thực 2 bước.",
             "lost_identifier_title":"Mất định danh hoặc biệt hiệu",
             "open_wallet":"Mở ví",
             "yubikey_help":"Chọn hộp thoại ở trên và nhấn vào đèn led màu xanh trên Yubikey của bạn.",
-            "need_help_p1":"Đọc {0} của chúng tôi",
             "support_pages":"Trang hỗ trợ",
+            "need_help_p1":"Đọc {0} của chúng tôi",
             "need_help":"Cần giúp đỡ?",
             "password_unrecoverable_warning":"Mật khẩu của bạn không bao giờ được chia sẻ với máy chủ của chúng tôi và không thể phục hồi nó nếu mất!",
             "google_authenticator_help":"Vui lòng mở ứng dụng Xác thực Google và nhập vào mã đã hiển thị.",
             "lost_two_factor_p1":"Nếu bạn mất thông tin xác thực 2 bước, ví của bạn vẫn có thể được phục hồi. Tất cả những gì chúng tôi cần là bằng chứng về việc bạn là chủ tài khoản của bạn và cung cấp cho chúng tôi đầy đủ thông tin theo mẫu liên kết ở dưới.",
             "email_code_help":"Một thư chứa nội dung xác thực đã được gửi đến hòm thư của bạn.",
-            "resend_link_title":"Không thể tìm thấy mã thư?",
+            "resend_link_title":"Không thể Tìm Mã Email của bạn?",
             "forgotten_identifier_btn":"Quên định danh",
             "forgotten_something_sub":"Cần giúp đỡ! Tôi bị khóa mất tài khoản",
             "google_authenticator":"Xác thực Google:",
             "two_factor_reset":"Thiết lập lại xác thực 2 bước",
-            "sms_code_help":"Một tin nhắn đã được gửi tới điện thoại của bạn. Vui lòng nhập mã tin nhắn lên trên đây.",
             "lost_identifier_p1":"Nếu bạn mất định danh ví, đầu tiên hãy xác nhận hòm thư mỗi khi bạn đăng kí. Không thể tìm thấy thư? Nhấn vào nút dưới đây và chúng tôi sẽ gửi một cái mới.",
+            "sms_code_help":"Một tin nhắn đã được gửi tới điện thoại của bạn. Vui lòng nhập mã tin nhắn lên trên đây.",
             "welcome_back":"Chào mừng quay trở lại",
             "identifier_placeholder":"Định danh hoặc biệt danh",
             "lost_two_factor":"Mất hoặc quên chi tiết xác thực 2 bước?",
             "email_code":"Mã thư:",
             "sms_code":"Mã SMS:",
             "lost_password_p1":"Ví của bạn được mã hóa bởi trình duyệt trước khi nó được lưu bởi chúng tôi và đó là lí do chúng tôi không thể giúp đỡ bạn lấy lại mật khẩu đã mất. Để tránh mất tiền do quên mật khẩu, khuyến cáo bạn nên tạo một bản sao lưu giấy khóa riêng ví của bạn.",
+            "resend_sms_link_title":"Không nhận được Mã SMS?",
             "please_enter_login_details":"Vui lòng nhập vào thông tin đăng nhập của bạn dưới đây:",
             "identifier":"Định danh:",
             "lost_two_factor_btn":"Thiết lập lại xác thực 2 bước"
@@ -984,9 +990,9 @@
          "sub_header":"Xem thông tin về giao dịch bitcoin",
          "minutes":"Phút",
          "received_time":"Thời gian đã nhận",
-         "network_propagation":"Mạng tuyên truyền (Nhấn để xem)",
          "fees":"Phí",
          "estimated_very_soon":"Rất sớm",
+         "network_propagation":"Mạng tuyên truyền (Nhấn để xem)",
          "decoded":"Giải mã",
          "header":"Giao dịch",
          "size":"Kích cỡ",
@@ -1003,6 +1009,9 @@
       "errors":{
          "unknown_error":"Lỗi không xác định",
          "invalid_bitcoin_adddress":"Địa chỉ Bitcoin không hợp lệ",
+         "invalid_first_name":"Tên không hợp lệ",
+         "invalid_date_of_birth":"Ngày sinh không hợp lệ",
+         "invalid_last_name":"Họ không hợp lệ",
          "missing_parameter":"Mising Thông số",
          "invalid_block_hash":"Khối hash không hợp lệ",
          "invalid_numerical_value":"Giá trị số không hợp lệ",
@@ -1235,36 +1244,20 @@
          "p1":"Trang này cho phép bạn dán một giao dịch thô ở dạng hex (tức là sử dụng ký tự từ 0-9, a-f) sau đó nó sẽ được kiểm tra xem có hợp lệ không và truyền qua mạng.",
          "header":"Phát sóng giao dịch"
       },
-      "maintenance":{
-         "title":"Trang web được bảo trì - Blockchain.info",
-         "p1":"Blockchain.info hiện tại không hoạt động để bảo trì. Đối với các cập nhật trạng thái, xin vui lòng xem {0}. Xin lỗi vì bất kỳ sự bất tiện nào.",
-         "header":"Chúng tôi sẽ quay trở lại trong một thời gian ngắn"
-      },
       "startup_message":{
          "title":"Đang tải trang web - Blockchain.info",
          "p1":"Nên quay trở lại sau một vài giây. Đây có thể là một tính năng mới.",
          "header":"Trang web đang tải..."
       },
+      "maintenance":{
+         "title":"Trang web được bảo trì - Blockchain.info",
+         "p1":"Blockchain.info hiện tại không hoạt động để bảo trì. Đối với các cập nhật trạng thái, xin vui lòng xem {0}. Xin lỗi vì bất kỳ sự bất tiện nào.",
+         "header":"Chúng tôi sẽ quay trở lại trong một thời gian ngắn"
+      },
       "donation_button":{
          "title":"Tạo nút Donation",
          "p2":"Chèn đoạn mã sau html ở vị trí nơi bạn muốn nút để xuất hiện",
          "p1":"Chèn đoạn mã sau vào phần đầu của trang."
-      },
-      "blocks":{
-         "transactions":"Các giao dịch",
-         "title1":"Các khối được tìm thấy gần đây bởi {0}",
-         "previous":"Trước",
-         "hash":"Hash",
-         "title2":"Các khối được khai thác trên",
-         "next":"Kế tiếp",
-         "mined_on":"Các khối được khai thác trên:",
-         "size":"Kích cỡ(KB)",
-         "orphaned":"Orphaned",
-         "blocks_found_by":"Các khối được tìm thấy gần đây bởi {0}",
-         "time":"Thời gian",
-         "height":"Chiều cao",
-         "relayed_by":"Chuyển tiếp bởi",
-         "main_chain":"Chuỗi chính"
       },
       "emails":{
          "two_factor_reset_request":{
@@ -1314,6 +1307,22 @@
             "header":"Tài khoản đã khóa"
          }
       },
+      "blocks":{
+         "transactions":"Các giao dịch",
+         "title1":"Các khối được tìm thấy gần đây bởi {0}",
+         "previous":"Trước",
+         "hash":"Hash",
+         "title2":"Các khối được khai thác trên",
+         "next":"Kế tiếp",
+         "mined_on":"Các khối được khai thác trên:",
+         "size":"Kích cỡ(KB)",
+         "orphaned":"Orphaned",
+         "blocks_found_by":"Các khối được tìm thấy gần đây bởi {0}",
+         "time":"Thời gian",
+         "height":"Chiều cao",
+         "relayed_by":"Chuyển tiếp bởi",
+         "main_chain":"Chuỗi chính"
+      },
       "largest_transactions":{
          "title":"Những giao dịch Bitcoin lớn nhất - Blockchain.info",
          "meta_description":"Danh sách những giao dịch bitcoin lớn nhất gần đây",
@@ -1333,6 +1342,20 @@
          "warning":"Phần lớn các khối Không rõ không có nghĩa là có một cuộc tấn công trên mạng, nó chỉ đơn giản có nghĩa là chúng tôi đã không thể xác định nguồn gốc.",
          "header":"Phân bố tỉ lệ hash",
          "days_4":"4 ngày"
+      },
+      "header":{
+         "home_title":"Trang chủ Blockchain.info",
+         "charts":"Biểu đồ",
+         "home":"Trang chủ",
+         "stats_title":"Dữ liệu thống kê Bitcoin",
+         "logo_alt_title":"Khám phá khối Bitcoin và thống kê tiền tệ",
+         "developer":"Những người phát triển",
+         "stats":"Số liệu thống kê",
+         "charts_title":"Biểu đồ Bitcoin",
+         "wallet_title":"Ví Bitcoin",
+         "developer_title":"Công cụ của nhà phát triển Blockchain",
+         "wallet":"Ví",
+         "search_placeholder":"Tìm kiếm"
       },
       "wallet_new":{
          "disclaimer":"Từ chối",
@@ -1364,20 +1387,6 @@
          "captcha":"Captcha:",
          "dont_forget_password":"Đừng quên mật khẩu của bạn!",
          "alias_placeholder":"Từ dễ nhớ hoặc biệt danh"
-      },
-      "header":{
-         "home_title":"Trang chủ Blockchain.info",
-         "charts":"Biểu đồ",
-         "home":"Trang chủ",
-         "stats_title":"Dữ liệu thống kê Bitcoin",
-         "logo_alt_title":"Khám phá khối Bitcoin và thống kê tiền tệ",
-         "developer":"Những người phát triển",
-         "stats":"Số liệu thống kê",
-         "charts_title":"Biểu đồ Bitcoin",
-         "wallet_title":"Ví Bitcoin",
-         "developer_title":"Công cụ của nhà phát triển Blockchain",
-         "wallet":"Ví",
-         "search_placeholder":"Tìm kiếm"
       },
       "misc":{
          "and_word":"và",
@@ -1496,9 +1505,9 @@
          "days_30":"30 ngày",
          "network_deficit_label":"Mạng Deficit (USD)",
          "avg_confirmation_time":"Thời gian xác nhận giao dịch trung bình",
-         "output_volume2":"Tổng giá trị của tất cả các giao dịch đầu ra mỗi ngày. Bao gồm sự thay đổi của việc trả lại tiền cho người gửi.",
          "total_bitcoins2":"Đồ thị chỉ ra tổng số bitcoin đã được khai thác.",
          "sub_header":"Biểu đồ xếp hạng Bitcoin và số liệu thống kê tiền tệ",
+         "output_volume2":"Tổng giá trị của tất cả các giao dịch đầu ra mỗi ngày. Bao gồm sự thay đổi của việc trả lại tiền cho người gửi.",
          "trade_vol_label":"Khối lượng giao dịch (USD)",
          "trade_vol":"Khối lượng giao dịch trao đổi USD",
          "days_destroyed_filter_year":"Số ngày Bitcoin bị xoá (Đã lọc bởi ít nhất 1 năm)",
@@ -1517,6 +1526,12 @@
          "cost_percent_per_transaction_label":"% của khối lượng giao dịch",
          "days_destroyed_cumulative2":"Số ngày bitcoin bị xoá là 1 biện pháp của giao dịch Bitcoin. Nếu ai đó có 100 BTC mà họ nhận được cách đây 1 tuần và họ tiêu nó. Sau đó 700 ngày bitcoin bị xoá. Nếu họ có 100 BTC và gửi chúng tới vài địa chỉ khác nhau và sau đó tiêu chúng. Mặc dù tổng lượng giao dịch có thể là 1 con số lớn nhưng số ngày bitcoin xoá vẫn là 700.",
          "avg_confirmation_time_label":"Thời gian xác nhận (phút)"
+      },
+      "strange_transactions":{
+         "sub_header":"Các giao dịch có chứa kết quả đầu ra chúng tôi không thể giải mã địa chỉ Bitcoin.",
+         "title":"Những giao dịch lạ - Blockchain.info",
+         "meta_description":"Danh sách Bitcoin với đầu ra không đạt tiêu chuẩn",
+         "header":"Giao dịch lạ"
       },
       "block_height":{
          "summary":"Tóm tắt",
@@ -1543,30 +1558,6 @@
          "output_total":"Tổng đầu ra",
          "nonce":"Vào lúc này",
          "no_blocks":"Không có khối nào được tìm thấy ở độ cao này"
-      },
-      "strange_transactions":{
-         "sub_header":"Các giao dịch có chứa kết quả đầu ra chúng tôi không thể giải mã địa chỉ Bitcoin.",
-         "title":"Những giao dịch lạ - Blockchain.info",
-         "meta_description":"Danh sách Bitcoin với đầu ra không đạt tiêu chuẩn",
-         "header":"Giao dịch lạ"
-      },
-      "notifications":{
-         "two_factor_reset_title":"Thiết lập lại xác thực hai bước",
-         "notifications_limit":"Thanh toán giới hạn thông báo",
-         "payment_sent_body":"Một khoản thanh toán đã được gửi từ ví bitcoin của bạn với giá trị {0} (Approx: {1})",
-         "payment_received_title":"Đã nhận thanh toán Bitcoin",
-         "sms_authentication_code":"Mã xác thực ví của tôi: {0}",
-         "payment_sent_title":"Đã gửi thanh toán Bitcoin",
-         "notifications_limit_body":"Bạn đã đạt đến giới hạn thông báo. Thông báo đã bị vô hiệu hóa trong 24 giờ",
-         "account_locked_title":"Tài khoản ví của bạn đã bị khóa",
-         "malformed_url":"Cố gắng để gửi một email thông báo đến URL không hợp lệ. Thông báo đã bị vô hiệu.",
-         "wallet_backup_title":"Ví sao lưu",
-         "confirmation_code_title":"Mã xác nhận ví của tôi",
-         "password_hints_title":"Những gợi ý mật khẩu ví của tôi",
-         "wallet_login":"Đăng nhập vào ví",
-         "payment_received_body":"Bạn đã nhận được một khoản thanh toán Bitcoin giá trị {0} (Approx: {1})",
-         "unsubscribe":"Hủy đăng ký",
-         "wallet_welcome_title":"Chào mừng đến với ví của tôi"
       },
       "address":{
          "invalid_hash_160":"Xin lỗi, đây không phải là 1 hash160 hợp lệ",
@@ -1609,6 +1600,24 @@
          "no_transactions":"Không có giao dịch nào tìm thấy cho địa chỉ này, nó có thể không được sử dụng trên mạng.",
          "deposit_with_cash":"Lãi suất tiền gửi bằng tiền mặt"
       },
+      "notifications":{
+         "two_factor_reset_title":"Thiết lập lại xác thực hai bước",
+         "notifications_limit":"Thanh toán giới hạn thông báo",
+         "payment_sent_body":"Một khoản thanh toán đã được gửi từ ví bitcoin của bạn với giá trị {0} (Approx: {1})",
+         "payment_received_title":"Đã nhận thanh toán Bitcoin",
+         "sms_authentication_code":"Mã xác thực ví của tôi: {0}",
+         "payment_sent_title":"Đã gửi thanh toán Bitcoin",
+         "notifications_limit_body":"Bạn đã đạt đến giới hạn thông báo. Thông báo đã bị vô hiệu hóa trong 24 giờ",
+         "account_locked_title":"Tài khoản ví của bạn đã bị khóa",
+         "malformed_url":"Cố gắng để gửi một email thông báo đến URL không hợp lệ. Thông báo đã bị vô hiệu.",
+         "wallet_backup_title":"Ví sao lưu",
+         "confirmation_code_title":"Mã xác nhận ví của tôi",
+         "password_hints_title":"Những gợi ý mật khẩu ví của tôi",
+         "wallet_login":"Đăng nhập vào ví",
+         "payment_received_body":"Bạn đã nhận được một khoản thanh toán Bitcoin giá trị {0} (Approx: {1})",
+         "unsubscribe":"Hủy đăng ký",
+         "wallet_welcome_title":"Chào mừng đến với ví của tôi"
+      },
       "ip_log":{
          "port":"Cổng",
          "last_connected":"Kết nối sau cùng",
@@ -1625,8 +1634,8 @@
          "search_placeholder":"Địa chỉ IP hoặc tên máy"
       }
    },
-   "code":"vi",
    "properties":{
       "extends":"language"
-   }
+   },
+   "code":"vi"
 }

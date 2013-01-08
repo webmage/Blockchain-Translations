@@ -868,7 +868,7 @@
       }
    },
    "properties":{
-      "extends":"language"
+      "extends":"auto_french"
    },
    "code":"fr"
 }
