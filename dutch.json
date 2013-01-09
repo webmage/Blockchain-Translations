@@ -4,8 +4,8 @@
    "strings":{
       
    },
-   "code":"nl",
    "properties":{
       "extends":"auto_dutch"
-   }
+   },
+   "code":"nl"
 }

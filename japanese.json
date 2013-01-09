@@ -2,46 +2,6 @@
    "flag":"jp.png",
    "name":"Japanese",
    "strings":{
-      "home":{
-         "other_links":{
-            "strange2":"出力アドレスをデコードすることができなかった取引",
-            "double_spends":"二重払い",
-            "largest2":"最新の5万の取引の中から100の最大取引",
-            "hub_nodes2":"最もよく接続可能なbitcoinスーパーノードのリスト",
-            "wallet":"マイウォレット",
-            "rejected":"拒否一覧",
-            "most_popular2":"最も支払いを受けているアドレス",
-            "nodes2":"blockchain.infoが接続した全てのbitcoinノードのログ",
-            "rejected2":"こちらのノードによって拒否されたブロックや取引",
-            "globe2":"bitcoinノードを示しているWebGLグローブ（Chrome、Safariが必要）",
-            "double_spends2":"最新50万取引で検出された二重払い",
-            "orphaned2":"主要ビットコインチェーンの一部ではない有効ブロック",
-            "header":"その他ビットコインのリンク",
-            "pools2":"上位ビットコイン採掘プールの市場シェアを示す円グラフ",
-            "nodes":"ビットコインノードのリスト",
-            "notifications2":"お客様のビットコインアドレス上で動きがあった場合、電子メール通知を無料で受け取る",
-            "unconfirmed2":"ブロックに含まれるのを待っている取引",
-            "wallet2":"ビットコインでの最も先進的なウェブウォレットでお客様のお金を管理してください。"
-         },
-         "sub_header":"ビットコインブロックチェーンの中で最も最近に採掘されたブロック",
-         "search_explain":"ブロックの高さ、アドレス、ブロックハッシュ、取引ハッシュ、hash160、またはIPv4アドレスを入力できます。",
-         "meta_description":"Bitcoinブロックエクスプローラおよび通貨統計。すべてのビットコイン取引およびブロックの詳細情報を表示します。",
-         "more":"さらに・・・",
-         "table_headers":{
-            "sent":"合計送信額",
-            "height":"ブロック高",
-            "age":"経過時間",
-            "relayed":"中継所",
-            "size":"サイズ（kB）"
-         },
-         "about":{
-            "p3":"ビットコインの概要については{0}を参照してください",
-            "p2":"このサイトでは、ビットコインブロックチェーンを（すべてのトランザクションに関する情報を保持するデータベース）をナビゲートすることができます。我々は、ビットコインで最大かつ最も安全なウォレットサービスを運営しています。",
-            "p1":"ビットコインは、ピア・ツー・ピアの通貨です。ない中央の権威の問題新しいお金やトラックの取引、ピア・ツー・ピアとは中央権力の新規貨幣発行や取引の追跡がないことを意味します。これらのタスクはネットワークによって一括管理されてます。",
-            "header":"ビットコインについて"
-         },
-         "search_placeholder":"アドレス \/ ファーストビッツ \/ IP \/ SHAハッシュを検索"
-      },
       "connected_nodes":{
          "sub_header":"blockchain.infoが接続しているノードのリスト",
          "title":"ビットコイン接続ノードのリスト",
@@ -49,10 +9,45 @@
          "total_connected":"接続合計：{0}",
          "header":"接続ノード"
       },
-      "popular_addresses":{
-         "sub_header":"出力数で最も人気のあるビットコインアドレス",
-         "title":"人気上位100のBitcoinアドレス -  Blockchain.info",
-         "meta_description":"出力数による上位100の最も人気のあるビットコインアドレスリスト。"
+      "home":{
+         "other_links":{
+            "nodes2":"blockchain.infoが接続した全てのbitcoinノードのログ",
+            "rejected2":"こちらのノードによって拒否されたブロックや取引",
+            "globe2":"bitcoinノードを示しているWebGLグローブ（Chrome、Safariが必要）",
+            "double_spends2":"最新50万取引で検出された二重払い",
+            "strange2":"出力アドレスをデコードすることができなかった取引",
+            "double_spends":"二重払い",
+            "largest2":"最新の5万の取引の中から100の最大取引",
+            "orphaned2":"主要ビットコインチェーンの一部ではない有効ブロック",
+            "hub_nodes2":"最もよく接続可能なbitcoinスーパーノードのリスト",
+            "header":"その他ビットコインのリンク",
+            "wallet":"マイウォレット",
+            "pools2":"上位ビットコイン採掘プールの市場シェアを示す円グラフ",
+            "nodes":"ビットコインノードのリスト",
+            "rejected":"拒否一覧",
+            "notifications2":"お客様のビットコインアドレス上で動きがあった場合、電子メール通知を無料で受け取る",
+            "most_popular2":"最も支払いを受けているアドレス",
+            "unconfirmed2":"ブロックに含まれるのを待っている取引",
+            "wallet2":"ビットコインでの最も先進的なウェブウォレットでお客様のお金を管理してください。"
+         },
+         "sub_header":"ビットコインブロックチェーンの中で最も最近に採掘されたブロック",
+         "search_explain":"ブロックの高さ、アドレス、ブロックハッシュ、取引ハッシュ、hash160、またはIPv4アドレスを入力できます。",
+         "table_headers":{
+            "sent":"合計送信額",
+            "height":"ブロック高",
+            "age":"経過時間",
+            "size":"サイズ（kB）",
+            "relayed":"中継所"
+         },
+         "more":"さらに・・・",
+         "meta_description":"Bitcoinブロックエクスプローラおよび通貨統計。すべてのビットコイン取引およびブロックの詳細情報を表示します。",
+         "about":{
+            "p3":"ビットコインの概要については{0}を参照してください",
+            "p2":"このサイトでは、ビットコインブロックチェーンを（すべてのトランザクションに関する情報を保持するデータベース）をナビゲートすることができます。我々は、ビットコインで最大かつ最も安全なウォレットサービスを運営しています。",
+            "p1":"ビットコインは、ピア・ツー・ピアの通貨です。ない中央の権威の問題新しいお金やトラックの取引、ピア・ツー・ピアとは中央権力の新規貨幣発行や取引の追跡がないことを意味します。これらのタスクはネットワークによって一括管理されてます。",
+            "header":"ビットコインについて"
+         },
+         "search_placeholder":"アドレス \/ ファーストビッツ \/ IP \/ SHAハッシュを検索"
       },
       "transactions_summary":{
          "maturing":"使用できるまで{0}必要",
@@ -69,26 +64,31 @@
          "transaction_is_double_spend":"この取引は、二重払いです！",
          "you_received":"受信金額"
       },
+      "popular_addresses":{
+         "sub_header":"出力数で最も人気のあるビットコインアドレス",
+         "title":"人気上位100のBitcoinアドレス -  Blockchain.info",
+         "meta_description":"出力数による上位100の最も人気のあるビットコインアドレスリスト。"
+      },
       "orphaned_blocks":{
          "title":"孤立ブロック -  Blockchain.info",
          "meta_description":"孤立ブロックは、主要ビットコインブロックチェインの一部でない有効ブロックです。",
-         "relayed_by":"中継所",
          "btc_sent":"送信済みBTC",
+         "relayed_by":"中継所",
          "p1":"分離または孤立ブロックは、主要チェインの一部ではない有効ブロックです。 これは同様のタイミングで2ブロックが自然に生成されたり、取引を反転させようとする攻撃者（十分にハッシュパワーを保有している者）が原因で発生することがあります。",
          "header":"孤立ブロック"
       },
       "api_index":{
-         "welcome_p2":"他のサービスより提供されています。",
          "data_api_description":"ブロックとの取引に関するクエリJSONデータ。このウェブサイトでにあるデータのほとんどはJSON形式で提供されています。",
+         "welcome_p2":"他のサービスより提供されています。",
          "welcome_p1":"ここではビットコインコーディングを始めるために必要なもの全てがそろっています。お客様はBlockchain.infoのAPIを使用するか",
          "requests_in_5_minutes":"5分間のリクエスト数：",
          "send_description":"シンプルJSON APIは、プログラムでマイウォレットアカウントからビットコインを送受信するために使用します。",
-         "send_payments":"支払いを送金する",
          "websocket_description":"、新規ブロックおよび取引に関するデータを提供する低レイテンシストリーミングソケットチャネル。ブロック、取引もしくはアドレスに関する通知を購読することにより、イベント発生時に取引やブロックの詳細を記載したJSONオブジェクトを受信することができます。",
+         "send_payments":"支払いを送金する",
          "abuse_notice":"blockchain.infoによって提供されるサービスは無料です。これらを悪用しないでください。",
          "title":"ビットコイン開発者のAPI  -  Blockchain.info",
-         "exchange_rates_data":"主要ビットコイン取引所からの通貨データ。",
          "blockchain_data":"取引およびブロック上のデータ",
+         "exchange_rates_data":"主要ビットコイン取引所からの通貨データ。",
          "simple_query_api_description":"ブロックチェーンデータを照会するための単純なテキストAPIです。互換性は",
          "welcome":"開発者を歓迎します！",
          "requests_in_8_hours":"8時間のリクエスト数：",
@@ -108,6 +108,27 @@
          "json_rpc_description":"相互に作用するBlockchain.infoは、マイウォレットアカウントと相互に作用する事業主のためにbitcoind RPCサーバーとして機能することができる。",
          "receive_payments_description":"ウェブサイトでビットコイン払いを受けるためのとても簡単な方法。"
       },
+      "deposit":{
+         "depsit_with_cash_description":"現金でのお振り込み可能場所は世界中70万箇所以上",
+         "small_package":"小荷物",
+         "you_receive":"お客様の受け取り金額：",
+         "medium_package":"中荷物",
+         "_package":"荷物：",
+         "anonymous_help":"ビットコインは、より改善されたプライバシー（1.5％手数料）にて弊社ミキサーを介して送信されます。",
+         "phone_sms":"電話 \/ SMSの",
+         "back":"戻る",
+         "sms_p1":"SMSまたは固定電話でビットコインを振り込む場合は、以下のお客様の携帯電話番号を認証してください。認証後、実際の購入は別の電話番号または固定電話から行うことができます。",
+         "powered_by":"提供元",
+         "amount":"金額",
+         "you_pay":"お客様の支払い金額：",
+         "large_package":"大荷物",
+         "to_address":"宛先：",
+         "pingit_p1":"弊社の{0}振り込みサービスを利用するためにはお客様の携帯電話番号を認証してください。まだPingItアカウントをお持ちでない場合でも、セットアップは簡単で、アプリケーションを自分のスマートフォンへアプリケーションストアからダウンロードすることができます。",
+         "pingit_instructions_1":"{2}を参照して{0}の金額を{1}へ送金してください。",
+         "pingit_instructions_2":"お支払いは{0}から送金する必要があります。",
+         "depsit_with_cash":"現金での振り込み",
+         "payment_method":"お支払方法："
+      },
       "transaction":{
          "fee":"手数料：",
          "double_spend":"二重払い！",
@@ -115,27 +136,6 @@
          "no_inputs":"入力なし（新しく生成されたコイン）",
          "public_note":"公共金：",
          "spent":"使用済み"
-      },
-      "deposit":{
-         "small_package":"小荷物",
-         "you_receive":"お客様の受け取り金額：",
-         "medium_package":"中荷物",
-         "phone_sms":"電話 \/ SMSの",
-         "amount":"金額",
-         "you_pay":"お客様の支払い金額：",
-         "large_package":"大荷物",
-         "pingit_p1":"弊社の{0}振り込みサービスを利用するためにはお客様の携帯電話番号を認証してください。まだPingItアカウントをお持ちでない場合でも、セットアップは簡単で、アプリケーションを自分のスマートフォンへアプリケーションストアからダウンロードすることができます。",
-         "depsit_with_cash":"現金での振り込み",
-         "depsit_with_cash_description":"現金でのお振り込み可能場所は世界中70万箇所以上",
-         "_package":"荷物：",
-         "anonymous_help":"ビットコインは、より改善されたプライバシー（1.5％手数料）にて弊社ミキサーを介して送信されます。",
-         "back":"戻る",
-         "sms_p1":"SMSまたは固定電話でビットコインを振り込む場合は、以下のお客様の携帯電話番号を認証してください。認証後、実際の購入は別の電話番号または固定電話から行うことができます。",
-         "powered_by":"提供元",
-         "to_address":"宛先：",
-         "pingit_instructions_1":"{2}を参照して{0}の金額を{1}へ送金してください。",
-         "pingit_instructions_2":"お支払いは{0}から送金する必要があります。",
-         "payment_method":"お支払方法："
       },
       "stats":{
          "meta_description":"100種類以上のビットコイン市場とネットワーク統計。ノード数、取引量、およびその他採掘の難しさなど。",
@@ -154,12 +154,30 @@
             "hash_rate":"ハッシュ率",
             "total_output_volume":"合計出力量",
             "total_transaction_fees":"合計取引手数料",
-            "total_miners_revenue":"合計採掘利益",
             "weighted":"加重",
+            "total_miners_revenue":"合計採掘利益",
             "hash_rate_electricity":"ハッシュ率と消費電力",
             "mining_cost":"採掘費"
          },
          "period":"特に指定がない限り、全ての統計情報は過去24時間のものです"
+      },
+      "block":{
+         "title":"ビットコインブロック＃{0}",
+         "no_block_index":"ブロックインデックスが提供されていません",
+         "meta_description":"ビットコインブロック内に含まれている取引",
+         "hash_table":{
+            
+         },
+         "network_propagation":"伝搬ネットワーク",
+         "summary_table":{
+            "output_title":"合計出力",
+            "height":"ブロック高",
+            "relayed_by":"中継所",
+            "received_time":"受け取り時刻",
+            "difficulty":"難易度",
+            "estimated_transaction_volume":"推定取引量"
+         },
+         "click_to_view":"クリックして表示する"
       },
       "ip_info":{
          "sub_header":"IP{0}によって最初に中継された取引",
@@ -167,30 +185,12 @@
          "meta_description":"IPアドレス{0}によって中継されたビットコインの取引",
          "header":"{0}によって中継された取引"
       },
-      "block":{
-         "title":"ビットコインブロック＃{0}",
-         "meta_description":"ビットコインブロック内に含まれている取引",
-         "no_block_index":"ブロックインデックスが提供されていません",
-         "hash_table":{
-            
-         },
-         "network_propagation":"伝搬ネットワーク",
-         "summary_table":{
-            "output_title":"合計出力",
-            "received_time":"受け取り時刻",
-            "estimated_transaction_volume":"推定取引量",
-            "difficulty":"難易度",
-            "height":"ブロック高",
-            "relayed_by":"中継所"
-         },
-         "click_to_view":"クリックして表示する"
-      },
       "double_spends":{
          "sub_header":"最新50万取引（10分キャッシュ）で検出された二重支払い",
          "title":"ビットコイン - Blockchain.info",
          "included_in_block":"ブロックに{0}含まれている",
-         "warning":"このページの二重支払いは意図的なものではないかもしれません。このページに故意に作成された二重支払いが記載された場合には、それが成功したかもしくはいずれかの加盟店、ユーザーが結果としてお金を失ったことを示すものではありません。",
-         "header":"二重支払い"
+         "header":"二重支払い",
+         "warning":"このページの二重支払いは意図的なものではないかもしれません。このページに故意に作成された二重支払いが記載された場合には、それが成功したかもしくはいずれかの加盟店、ユーザーが結果としてお金を失ったことを示すものではありません。"
       },
       "wallet_app":{
          "transactions":{
@@ -203,81 +203,81 @@
          "loading":"ロード中",
          "account_settings":{
             "local_currency_description":"右上の残高をクリックすることでビットコインおよび現地通貨間の表示を素早く切り替えることができます。",
+            "my_wallet_verifier_description":"もしお客様がセキュリティに不安がありましたら、{0}ブラウザ拡張機能をインストールすることを強く推奨します。マイウォレット認証機能を利用すると、サーバー側でのハッキング、悪意のあるJavaScriptやフィッシング攻撃に対する保護っを受けることができます。",
+            "email_verified":"メール認証済み",
             "example_password":"お客様の財布のパスワードが次であった場合：HorseBatteryStaple、良いパスワードのヒントは電気馬ってところしょうか？",
             "alias_description":"エイリアスとは識別子を記憶することなく素早いアカウントアクセスを可能にした記憶可能な短いリンクのことです",
             "fee_policy_normal":"通常",
+            "sms_verification_placeholder":"SMS認証コード",
+            "fee_policy_low_description":"必須でない限り、採掘手数料は含まれません。",
             "password_hints_description":"パスワードを忘れた場合、ヒントはお客様の記憶を呼び起こすために役立ちます。お客様のアカウントにメールアドレスが関連付けられていればヒントをメールで送信することができます。アカウントメールアドレスが関連付けられていない場合のヒントはウォレット識別子を知っていれば誰でも確認できます。",
             "device_pairing_description":"以下のコードをiPhoneまたはAndroidデバイスでスキャンし、アカウントとペアリングしてください。",
             "notifications_confirmations":"確認後",
             "confirm_password":"確認パスワード：",
             "my_wallet_verifier":"マイウォレットの認証",
             "skype_description":"お客様の下記のユーザ名宛にSkype経由で通知を送信します：",
-            "receives":"ビットコインの受け取り",
-            "fee_policy_low":"節約",
-            "fee_policy":"既定手数料指針",
-            "notifications_when_both":"ビットコインを送金または受け取ったら",
-            "for_example":"たとえば",
-            "multiple_ip_comma_seperated":"複数のIPアドレスは、コンマで区切ってください。",
-            "automatic_email_backups":"自動メールバックアップ",
-            "automatic_email_backups_description":"ウォレットが更新されたときに自動的に新しいバックアップを受け取りたい場合はこれをチェック：",
-            "boxcar_description_p2":"入力してください：",
-            "boxcar_description_p1":"以下にお客様のメールアドレスを",
-            "two_factor_authentication_description":"二要素認証では、パスワードの他にセキュリティレイヤーを追加します。",
-            "two_confirmations":"第2認証",
-            "fee_policy_high_description":"取引の優先度を確実に高くするために手数料が設定されます（0.001 BTCの基本料金）。",
-            "send_sms_code":"SMSコードを送信",
-            "fee_policy_high":"寛大",
-            "recommended":"推奨",
-            "google_authenticator_warning":"携帯アプリとのペアリングやGoogle Authenticatorの無効化を実行せずにこのページから移動した場合は、アカウントからロックアウトされる可能性があります。",
-            "google_talk_description":"Googleトーク経由で通知を受け取ります。",
-            "fee_policy_normal_description":"メインビットコインクライアントによって提供されている手数料ポリシーに従ってください。",
-            "title":"アカウント設定",
-            "second_password":"第2パスワード",
-            "second_password_description":"必要に応じてお客様の口座から資金を送金する際に必要となる第2パスワードを設定することができます。大きいウォレットの場合このオプションを変更するときに、お使いのブラウザが数分間応答しなくなることがあります。",
-            "email_placeholder":"お客様のメール",
-            "fee_policy_description":"Blockchain.info取引手数料は無料です。しかしビットコインネットワークより、お客様の取引が確認される速度にも影響し、かつネットワークをサポートするのに役立つ追加採掘手数料が必要な場合があります。既定の採掘手数料方針を変更するには、以下の設定を変更してください。",
-            "email_notifications_description":"電子メールを介して通知を受け取ります。準備ができていない場合メールアドレスを確認してください。",
-            "never_remember_two_factor_description":"規定の設定では一度2要素認証でログインするとしばらくの間お使いのブラウザが記憶され、再認証しなくても再度ログインすることができます。この動作を無効にし、認証を毎回要求したい場合はこれをチェックします。",
-            "enter_sms_code":"確認SMSメッセージに記載されているコードを入力してください。",
-            "enable_disable":"有効化 \/ 無効化：",
-            "restrict_to_ip":"IP制限",
-            "integrity_check_description":"お客様のウォレット内にあるすべてのキーが正しいビットコインアドレスと一致することを確認し、ウォレットを再暗号化します。一部のブラウザではこの作業が長時間を要する場合があります。",
-            "my_wallet_verifier_description":"もしお客様がセキュリティに不安がありましたら、{0}ブラウザ拡張機能をインストールすることを強く推奨します。マイウォレット認証機能を利用すると、サーバー側でのハッキング、悪意のあるJavaScriptやフィッシング攻撃に対する保護っを受けることができます。",
-            "email_verified":"メール認証済み",
-            "sms_verification_placeholder":"SMS認証コード",
-            "fee_policy_low_description":"必須でない限り、採掘手数料は含まれません。",
             "optional":"オプション",
+            "receives":"ビットコインの受け取り",
             "email_not_verified":"メール未認証",
+            "fee_policy_low":"節約",
             "notifications_when":"ウォレットが",
             "forgot_password_warning_p2":"パスワードを忘れってしまった場合は、ウォレットにアクセスできなくなります。パスワード回復方法はありません！",
             "email_description":"メール経由での二要素認証がアカウントで有効になっています。ログイン時に必要な認証コードが記載されたを{0}に送信されます。",
-            "two_factor_authentication_not_enabled":"二要素認証がアカウントで有効になっていません",
             "notifications_description":"ウォレットより送金や受け取りがあった場合、必要に応じて通知を受け取ります。",
+            "two_factor_authentication_not_enabled":"二要素認証がアカウントで有効になっていません",
+            "fee_policy":"既定手数料指針",
+            "notifications_when_both":"ビットコインを送金または受け取ったら",
             "restrict_to_ip_description":"お客様のウォレットへのアクセスを特定のIPアドレスまたは複数のIPアドレスへ制限するにはこれを有効にしアドレスをカンマで区切ってください。静的IPアドレスを持っている場合にのみこれを有効にしてください。指定されたネットワーク外にあるパソコンからのAPIへのアクセスやログインはできませんが、一度ペアリングした携帯機器の携帯アプリは動作します。",
-            "three_confirmations":"第3認証",
+            "for_example":"たとえば",
+            "multiple_ip_comma_seperated":"複数のIPアドレスは、コンマで区切ってください。",
             "language_description":"以下でご希望の言語を設定してください",
-            "google_authenticator_description":"Google認証システムアプリケーションを開いて、以下のQRコードをスキャンしペアリングプロセスを完了してください。",
+            "three_confirmations":"第3認証",
             "five_confirmations":"第5認証",
+            "google_authenticator_description":"Google認証システムアプリケーションを開いて、以下のQRコードをスキャンしペアリングプロセスを完了してください。",
             "one_confirmation":"第1認証",
+            "automatic_email_backups":"自動メールバックアップ",
             "yubikey_description":"お客様のアカウントと認証キーをペアリングするには、下のテキストボックスを選択し、お客様のYubikeyデバイス上の緑色のLEDボタンを押してください。",
+            "boxcar_description_p2":"入力してください：",
+            "automatic_email_backups_description":"ウォレットが更新されたときに自動的に新しいバックアップを受け取りたい場合はこれをチェック：",
+            "boxcar_description_p1":"以下にお客様のメールアドレスを",
+            "two_factor_authentication_description":"二要素認証では、パスワードの他にセキュリティレイヤーを追加します。",
             "alias_placeholder":"ニックネームもしくは他の記憶可能な言葉",
+            "two_confirmations":"第2認証",
             "verify_email_btn":"認証",
+            "fee_policy_high_description":"取引の優先度を確実に高くするために手数料が設定されます（0.001 BTCの基本料金）。",
             "mobile_number_description":"以下に携帯電話番号を入力してください。国際SMSメッセージは不安定になることがあり、いくつかの国やネットワークでは利用できない場合があります。",
+            "send_sms_code":"SMSコードを送信",
+            "fee_policy_high":"寛大",
             "lock_to_ip":"IPロック：",
+            "recommended":"推奨",
+            "google_authenticator_warning":"携帯アプリとのペアリングやGoogle Authenticatorの無効化を実行せずにこのページから移動した場合は、アカウントからロックアウトされる可能性があります。",
             "secret_phrase_description":"秘密のフレーズは、失ってしまったウォレット識別子やYubikeyの場合にお客様を識別するために使用することができます。これは最大255文字の単語もしくは文章で作成可能です。",
+            "google_talk_description":"Googleトーク経由で通知を受け取ります。",
             "sends":"ビットコインを送金",
+            "fee_policy_normal_description":"メインビットコインクライアントによって提供されている手数料ポリシーに従ってください。",
+            "title":"アカウント設定",
+            "second_password":"第2パスワード",
             "password_notice":"お客様のパスワードは、いかなる形での弊社サーバーと共有することはありません。これは弊社サーバーがハッキングされた場合でもお客様のウォレットが安全であることを意味します。またこれにより弊社がお客様の口座残高や取引履歴を閲覧することを防止できます。",
-            "email_notifications":"メール通知",
+            "second_password_description":"必要に応じてお客様の口座から資金を送金する際に必要となる第2パスワードを設定することができます。大きいウォレットの場合このオプションを変更するときに、お使いのブラウザが数分間応答しなくなることがあります。",
+            "email_placeholder":"お客様のメール",
             "four_confirmations":"第4認証",
+            "email_notifications":"メール通知",
+            "fee_policy_description":"Blockchain.info取引手数料は無料です。しかしビットコインネットワークより、お客様の取引が確認される速度にも影響し、かつネットワークをサポートするのに役立つ追加採掘手数料が必要な場合があります。既定の採掘手数料方針を変更するには、以下の設定を変更してください。",
+            "email_notifications_description":"電子メールを介して通知を受け取ります。準備ができていない場合メールアドレスを確認してください。",
             "resend_link":"リンクの再送",
+            "never_remember_two_factor_description":"規定の設定では一度2要素認証でログインするとしばらくの間お使いのブラウザが記憶され、再認証しなくても再度ログインすることができます。この動作を無効にし、認証を毎回要求したい場合はこれをチェックします。",
             "double_encryption_enabled":"二重暗号化が有効になっています。お客様が資金を送る前に、第2パスワードが必要となります。",
             "six_confirmations":"第6認証",
+            "enter_sms_code":"確認SMSメッセージに記載されているコードを入力してください。",
             "fee_policy_low_warning":"取引認証が大幅に遅くなります",
+            "never_remember_two_factor":"二要素認証を記憶しない",
             "nav":{
                
             },
-            "never_remember_two_factor":"二要素認証を記憶しない",
-            "sms_verified":"認証済みSMS"
+            "enable_disable":"有効化 \/ 無効化：",
+            "sms_verified":"認証済みSMS",
+            "restrict_to_ip":"IP制限",
+            "integrity_check_description":"お客様のウォレット内にあるすべてのキーが正しいビットコインアドレスと一致することを確認し、ウォレットを再暗号化します。一部のブラウザではこの作業が長時間を要する場合があります。"
          },
          "wallet_home":{
             "withdraw_description":"以下のサービスを利用することでビットコインを元の現地通貨に変換できます。",
@@ -291,11 +291,11 @@
             "backup_description":"忘れがちであるお客様のウォレットをバックアップすることは重要な作業です。Blockchain.infoはお客様のウォレットを安全に保つためにあらゆる予防措置を講じていますが、念のためにローカルコピーを保持することをお勧めします。",
             "phone_deposit":"電話振り込み",
             "share_with_anyone":"誰とでもこれを共有することで、皆さんはお客様に支払いを送金することができます。",
-            "pingit_deposit":"PingIt振り込み",
-            "btcpak_withdraw":"BTCPak引き出し",
             "pingit_withdraw":"PingIt引き出し",
-            "withdraw":"引き出し",
+            "btcpak_withdraw":"BTCPak引き出し",
+            "pingit_deposit":"PingIt振り込み",
             "this_is_your_bitcoin_address":"これはお客様のビットコインアドレスです",
+            "withdraw":"引き出し",
             "cash_deposit":"現金振り込み",
             "total_sent":"合計送金額"
          },
@@ -304,26 +304,48 @@
             "add_watch_only_address_p1":"{0}アドレス{1}に追加ご確認ください。",
             "verify_message_p1":"特定のビットコインアドレスの所有者によって署名されたメッセージを認証するにはこのツールを使用してください。",
             "sweep_keys":"スウィープキー",
+            "sweep_to":"へスウィープ：",
+            "add_address":"アドレスを追加",
             "forward_to_client":"デスクトップクライアントにフォワードする",
             "send_payment":"支払いを送金す送る",
             "watch_only":"閲覧のみ",
             "address_qr_code":"QRコードアドレス",
+            "label_placeholder":"ラベルの例：貯蓄",
+            "please_check_details":"以下の詳細をご確認ください：",
             "sweep_key":"スウィープキー",
+            "verify_result":"このメッセージは、アドレス{0}によって署名されました。 <br \/>これはお客様が期待していたアドレスと一致していますか？",
+            "label":"ラベル：",
+            "ask_for_anonymous_p1":"弊社ビットコインミキサーはお客様のコインを必要としています。匿名でこの取引を送信し、{0}％のボーナスを獲得できます<\/b>（送信アドレスに{1}BTCが返却されます）。取引には約{2}の遅延が発生します。",
+            "sweep_keys_p1":"スイープとは1つ以上の別のアドレスにある資金を別のアドレスへ移動することを意味します。選択したアドレスをお客様がスウィープしたい場所のアドレスを選んでください（バランス{0}）。",
             "delete_private_key_only":"プライベートキーのみ削除。",
+            "claim_desktop_placeholder":"お客様のビットコインアドレス",
             "miners_fee_recommended_warning":"お客様がこの取引に手数料を含めない場合、認証を受けるのに長い時間がかかることがあります。すべての資金は、約24時間以内にお客様に返還されます。",
-            "claim_to_desktop":"デスクトップクライアントのビットコインアドレスを入力してください：",
+            "miners_fee_recommended":"採掘手数料を推奨します",
             "never_ask_again":"二度と尋ねない。",
-            "verify_signature_placeholder":"認証するために署名を入力してください",
+            "claim_to_desktop":"デスクトップクライアントのビットコインアドレスを入力してください：",
+            "confirm_delete_p1":"アドレスを削除してもよろしいでしょうか？このアドレスからビットコインの送金や受け取りができなくなります。このアドレスの残高は：",
             "compressed_private_key":"検出された圧縮されたプライベートキー",
+            "verify_signature_placeholder":"認証するために署名を入力してください",
+            "add_fee":"手数料を追加",
+            "ask_for_anonymous_warning":"お客様の送信アドレスに支払いが戻って予定である場合は受け入れないでください。匿名での取引はSatoshiDICE、BitLottoおよびその他多数のビットコインゲームとの互換性がありません。",
+            "message_placeholder":"お客様が署名したいメッセージを入力してください",
             "watch_only_warning_p3":"お客様が紙の財布やその他のバックアップをお持ちでない場合は、このアドレスにコインを引き出すか、誰がこのアドレスでお客様のコインを送信するように指示するべきではありません",
             "watch_only_warning_p2":"{0}のアドレスは、お客様だけのこのアドレスで取引を閲覧することができることを意味します。お客様が他の場所にプライベートキーを保存していない限り、お客様はこのアドレスの資金を所有しません。",
             "address_book_label_placeholder":"人や事業主の名前",
+            "password_change_p1":"お客様のパスワードはすぐに更新されます。この新しいパスワードは失った場合復元できないため、必ず書き留めておいてください！お客様が暗号化されたバックアップウォレットをおもちの場合、古いパスワードを使用してそれを解読することが可能となるため、これらのバックアップの削除をお勧めします。",
             "first_relayed":"最初の中継地点",
+            "login_to_my_wallet":"マイウォレットにログインする",
+            "created_offline_p1":"お客様の取引は正常に作成されましたが、まだP2Pネットワークに送信されていません。",
             "add_watch_only_address":"閲覧専用のビットコインアドレスを追加する",
+            "compressed_private_key_p1":"現在圧縮されたプライベートキーは、Androidアプリ、iPhoneアプリやマーチャントAPIに対応していません。お客様が直接圧縮されたプライベートキーをインポートした場合は、先に記載されているデバイスを使用して、そのアドレスでの資金の使用はできません。",
             "address_not_synced":"アドレスが保存されていません",
             "second_password_p1":"このアクションには、お客様のウォレットを完全に解読するための第2パスワードが必要です。信頼のないパソコンでの第2パスワードの入力は絶対に行わないでください。キーロガーに対する保護としてオンスクリーンキーボードを使用してください。",
+            "please_confirm":"お客様は{0}したいことを確認してください",
             "second_password_needed":"第2パスワードが必要です",
+            "compressed_private_key_p2":"推奨される解決策は、既存のビットコインアドレスに資金をスイープすることである。代わりにこのプライベートキーをスイープしますか？",
+            "watch_only_warning":"閲覧専用アドレスの警告",
             "address_book_label_help":"このアドレスのラベルを入力します。例えば個人または会社の名前。",
+            "address_not_synced_p1":"この警告を受けている理由は、クリップボードと同期してしないアドレスをコピーしたからです。このアドレスはまだ我々のサーバーに保存されていなため、おそらくこのページから移動後失われてしまいます。",
             "address_placeholder":"ビットコインアドレス",
             "send_via_email_h3":"{1} へ{0}BTC送金する",
             "confirm_delete_warning":"誤ったアドレスを削除すると金銭的な損失が発生します。お客様が何をしているかわからない場合は今すぐにキャンセルを押してください",
@@ -331,47 +353,25 @@
             "continue_btn":"続行",
             "leaving_wallet":"ウォレットを退室する",
             "send_transaction":"取引を送信する",
+            "claim_p1":"お客様のビットコインを獲得するには、以下のいずれかのオプションを選択してください。獲得されるまで、送信者がこの支払いを中止することができます。",
+            "confirm_delete_countdown":"残り{0}秒考え直す時間があります...",
+            "add_address_book_entry_placeholder":"お客様のアドレス帳に追加したいビットコインアドレスを入力してください。",
+            "enter_private_key":"プライベートキーを入力してください",
+            "label_help":"ラベルはこのアドレスを判別しやすくするために使用されます。これは、個人名や会社名などにすることができます。",
             "delete_both":"アドレスおよびプライベートキーを削除する",
+            "miners_fee_recommended_p1":"この取引は優先順位が低いです。採掘者に確実に処理してもらうためにも、少なくとも0.0005 BTCの取引手数料を含めることをお勧めします。",
             "claim_zero_balance":"このビットコインアドレスの残高はゼロです。支払いはすでに受け取っている、または取引が送信者によって逆転されている可能性があります。",
             "verify_message_placeholder":"認証のためのメッセージを入力してください",
             "password_change":"パスワードの変更を確認",
             "offline_instructions":"取引を完了するには{0}を開いてください。取引を完了するために以下のテキストをコピーしてテキストエリアに貼り付け、送信ボタンを押してください<\/p>",
-            "creating_transaction":"取引の作成",
-            "signing_please_wait":"お待ちください。入力番号{0}のうちの{1}を署名しています ...",
-            "sweep_to":"へスウィープ：",
-            "add_address":"アドレスを追加",
-            "label_placeholder":"ラベルの例：貯蓄",
-            "please_check_details":"以下の詳細をご確認ください：",
-            "verify_result":"このメッセージは、アドレス{0}によって署名されました。 <br \/>これはお客様が期待していたアドレスと一致していますか？",
-            "label":"ラベル：",
-            "ask_for_anonymous_p1":"弊社ビットコインミキサーはお客様のコインを必要としています。匿名でこの取引を送信し、{0}％のボーナスを獲得できます<\/b>（送信アドレスに{1}BTCが返却されます）。取引には約{2}の遅延が発生します。",
-            "sweep_keys_p1":"スイープとは1つ以上の別のアドレスにある資金を別のアドレスへ移動することを意味します。選択したアドレスをお客様がスウィープしたい場所のアドレスを選んでください（バランス{0}）。",
-            "claim_desktop_placeholder":"お客様のビットコインアドレス",
-            "confirm_delete_p1":"アドレスを削除してもよろしいでしょうか？このアドレスからビットコインの送金や受け取りができなくなります。このアドレスの残高は：",
-            "miners_fee_recommended":"採掘手数料を推奨します",
-            "message_placeholder":"お客様が署名したいメッセージを入力してください",
-            "ask_for_anonymous_warning":"お客様の送信アドレスに支払いが戻って予定である場合は受け入れないでください。匿名での取引はSatoshiDICE、BitLottoおよびその他多数のビットコインゲームとの互換性がありません。",
-            "add_fee":"手数料を追加",
-            "password_change_p1":"お客様のパスワードはすぐに更新されます。この新しいパスワードは失った場合復元できないため、必ず書き留めておいてください！お客様が暗号化されたバックアップウォレットをおもちの場合、古いパスワードを使用してそれを解読することが可能となるため、これらのバックアップの削除をお勧めします。",
-            "login_to_my_wallet":"マイウォレットにログインする",
-            "created_offline_p1":"お客様の取引は正常に作成されましたが、まだP2Pネットワークに送信されていません。",
-            "compressed_private_key_p1":"現在圧縮されたプライベートキーは、Androidアプリ、iPhoneアプリやマーチャントAPIに対応していません。お客様が直接圧縮されたプライベートキーをインポートした場合は、先に記載されているデバイスを使用して、そのアドレスでの資金の使用はできません。",
-            "please_confirm":"お客様は{0}したいことを確認してください",
-            "watch_only_warning":"閲覧専用アドレスの警告",
-            "compressed_private_key_p2":"推奨される解決策は、既存のビットコインアドレスに資金をスイープすることである。代わりにこのプライベートキーをスイープしますか？",
-            "address_not_synced_p1":"この警告を受けている理由は、クリップボードと同期してしないアドレスをコピーしたからです。このアドレスはまだ我々のサーバーに保存されていなため、おそらくこのページから移動後失われてしまいます。",
-            "enter_private_key":"プライベートキーを入力してください",
-            "add_address_book_entry_placeholder":"お客様のアドレス帳に追加したいビットコインアドレスを入力してください。",
-            "confirm_delete_countdown":"残り{0}秒考え直す時間があります...",
-            "claim_p1":"お客様のビットコインを獲得するには、以下のいずれかのオプションを選択してください。獲得されるまで、送信者がこの支払いを中止することができます。",
-            "label_help":"ラベルはこのアドレスを判別しやすくするために使用されます。これは、個人名や会社名などにすることができます。",
-            "miners_fee_recommended_p1":"この取引は優先順位が低いです。採掘者に確実に処理してもらうためにも、少なくとも0.0005 BTCの取引手数料を含めることをお勧めします。",
-            "private_key_needed_p1":"このアクションには、ビットコインアドレス{0}のプライベートキーが必要です。以下にプライベートキーを入力してください。",
             "address":"アドレス：",
+            "private_key_needed_p1":"このアクションには、ビットコインアドレス{0}のプライベートキーが必要です。以下にプライベートキーを入力してください。",
+            "creating_transaction":"取引の作成",
             "send_via_email":"メール経由で送信する",
+            "signing_please_wait":"お待ちください。入力番号{0}のうちの{1}を署名しています ...",
             "private_key_needed":"プライベートキーが必要です",
-            "sign_message_sub":"お客様がアドレスを所有していることを証明するメッセージで署名するにはこのツールを使用してください。不明メッセージには絶対に署名せず、お客様が完全に同意するメッセージにのみ署名してください。「メッセージの署名」を押した後、お使いのブラウザが数秒間応答しなくなる場合があります。",
-            "continue_without_fee":"手数料なしで継続する"
+            "continue_without_fee":"手数料なしで継続する",
+            "sign_message_sub":"お客様がアドレスを所有していることを証明するメッセージで署名するにはこのツールを使用してください。不明メッセージには絶対に署名せず、お客様が完全に同意するメッセージにのみ署名してください。「メッセージの署名」を押した後、お使いのブラウザが数秒間応答しなくなる場合があります。"
          },
          "title":"マイウォレット",
          "errors":{
@@ -395,8 +395,8 @@
             "error_updating_alias":"エイリアスの更新エラー",
             "payload_null":"深刻なエラー！ペイロードはNullのようです",
             "error_sending_wallet_backup":"ウォレットバックアップの送信エラー",
-            "error_updating_sms":"SMS番号を更新エラー",
             "error_sending_password_hints":"パスワードのヒントの送信に不明なエラー",
+            "error_updating_sms":"SMS番号を更新エラー",
             "error_updating_auto_backup":"メールの自動バックアップ設定の更新エラー",
             "error_saving_to_dropbox":"Dropboxへの保存エラー",
             "error_sending_sms_code":"お客様のSMSへの認証コード送信にエラーが発生しました。",
@@ -424,8 +424,8 @@
             "wallet_size_restricted":"ウォレットはサイズが1MBに制限されています",
             "error_validating_yubikey":"Yubikeyの認証エラー",
             "error_updating_local_currency":"現地通貨の更新エラー",
-            "unknown_language_code":"不明な言語コード",
             "unknown_identifier":"不明なウォレット識別子です。正しく入力されているかご確認ください。",
+            "unknown_language_code":"不明な言語コード",
             "error_generating_google_secret":"Google認証システムの秘密キーワード生成エラー"
          },
          "send_coins":{
@@ -440,10 +440,10 @@
             "quick_send":"クイック送金",
             "facebook_help":"Facebook受信者の名前を入力してください",
             "amount":"金額",
-            "satoshi_dice_sub":"{0}は最も人気のあるビットコインカジノゲームです。賭け金の最大64000倍を瞬時に当選。すべてのロールはblockchainを使用して認証されています。",
             "pending":"保留",
-            "email_address_tooltip":"これはお客様がビットコインを送金したい人のメールアドレスです。",
+            "satoshi_dice_sub":"{0}は最も人気のあるビットコインカジノゲームです。賭け金の最大64000倍を瞬時に当選。すべてのロールはblockchainを使用して認証されています。",
             "refresh":"更新",
+            "email_address_tooltip":"これはお客様がビットコインを送金したい人のメールアドレスです。",
             "from_address_tooltip":"必要な場合は、お客様の財布で特定された住所からは、コインを送信することを選択できます。",
             "place_bet":"賭ける！",
             "transaction_types":"取引種別",
@@ -497,52 +497,34 @@
             "receive":"受け取り"
          },
          "receive_money":{
+            "sub_header":"お客様の受け取りビットコインアドレス",
             "bitcoin_address":"ビットコインアドレス",
+            "new_address":"新しいアドレス",
             "verify_message":"認証メッセージ",
+            "archived_addresses_description":"アーカイブされたアドレスは依然としてウォレットの一部でありつつ、ウォレット上の表示より隠されたもう必要のないアドレスです。青のアイコンをクリックすることにより、いつでもアーカイブを解除することができます。",
             "expires_in":"残り有効期限時間",
             "anonymous":"匿名",
+            "anonymous_addresses_description2":"匿名アドレスは1回の取引の間み有効であり、1.5％の取引手数料がかかります。",
             "sweep_keys":"スウィープキー",
             "balance":"残高",
             "archived":"アーカイブ済み",
-            "anonymous_addresses_description":"匿名アドレスにて受け取った資金は、ウォレットの別のアドレスに転送されます。受け取った資金は送信者より個人的なウォレットを分離し、ミキサーを介して送信されます。匿名アドレスにて受け取った取引については、通常のウォレットにリンクすることはできません。",
-            "new_address_tooltip":"新しいビットコインアドレスを生成するためにはここをクリックしてください。お客様はすぐにこのアドレスでビットコインの受け取りができます",
-            "sub_header":"お客様の受け取りビットコインアドレス",
-            "new_address":"新しいアドレス",
-            "archived_addresses_description":"アーカイブされたアドレスは依然としてウォレットの一部でありつつ、ウォレット上の表示より隠されたもう必要のないアドレスです。青のアイコンをクリックすることにより、いつでもアーカイブを解除することができます。",
-            "anonymous_addresses_description2":"匿名アドレスは1回の取引の間み有効であり、1.5％の取引手数料がかかります。",
             "forward_to":"転送先",
-            "sweep_keys_tooltip":"選択したキー内のビットコインを他のビットコインアドレスに移動します。"
-         },
-         "login":{
-            "lost_password":"パスワードの紛失",
-            "resend_link_btn":"リンクの再送",
-            "resend_link_p1":"メールがwallet@blockchain.infoより送られます。迷惑メールフォルダも併せて確認しください。それでも見つからない場合は、以下のボタンをクリックしメールを再送信してください。",
-            "lost_two_factor_title":"二要素認証詳細の紛失。",
-            "lost_identifier_title":"識別子またはエイリアスの紛失",
-            "yubikey_help":"上のテキストボックスを選択して、お客様のYubikeyにある緑色のLEDライトを押してください。",
-            "password_unrecoverable_warning":"お客様のパスワードは、当社のサーバーと共有することはありませんし、忘れた場合は復元できません！",
-            "google_authenticator_help":"お客様のGoogle認証システムアプリケーションを開き、表示されたコードを入力してください。",
-            "lost_two_factor_p1":"お客様は2要素認証の詳細を紛失した場合、お客様の財布はまだ完全に回復可能です。我々が必要なのは、以下のリンク先のフォームに記入して提供することができるアカウントの所有者である合理的な証拠である。",
-            "email_code_help":"一時的な確認コードが記載されたメールがお客様のアカウントに送信されました。",
-            "resend_link_title":"お客様の電子メールのコードを見つけることができませんか？",
-            "sms_code_help":"テキストメッセージは、お客様の携帯電話に送信されました。上記のそのメッセージ内のコードを入力してください。",
-            "lost_identifier_p1":"?お客様の財布の識別子を紛失した場合は、最初の登録時に受け取った確認メールを確認してください。電子メールを見つけることができませんか？下のボタンをクリックして、我々はお客様に新しいものを送ることができます。",
-            "lost_two_factor":"二要素認証の詳細情報を紛失したり忘れたりしましたか？",
-            "lost_password_p1":"紛失したパスワードを復元できない理由はパスワードが我々に到達する前にご使用ののブラウザによって暗号化されるためです。パスワード紛失による金銭的損失を避けるためにも、ウォレットプライベートキーを紙にメモすることをお勧めします。",
-            "lost_two_factor_btn":"二要素認証のリセット"
+            "anonymous_addresses_description":"匿名アドレスにて受け取った資金は、ウォレットの別のアドレスに転送されます。受け取った資金は送信者より個人的なウォレットを分離し、ミキサーを介して送信されます。匿名アドレスにて受け取った取引については、通常のウォレットにリンクすることはできません。",
+            "sweep_keys_tooltip":"選択したキー内のビットコインを他のビットコインアドレスに移動します。",
+            "new_address_tooltip":"新しいビットコインアドレスを生成するためにはここをクリックしてください。お客様はすぐにこのアドレスでビットコインの受け取りができます"
          },
          "import_export":{
             "import_backup":"インポートのバックアップ",
             "advanced_warning_sub":"こちらのセクションでは複雑なウォレット設定の変更を行えます。これ以降は経験豊富なビットコインユーザのみのご利用を推奨します。プライベートキーがどのようなものでありビットコインとの関連性を理解している必要があります。",
-            "import_wallet_btn":"ウォレットをインポートする",
             "import_paper_p1":"紙ウォレットからQRコードをスキャンするには、ウェブカメラを使用してください",
-            "watch_only_title":"閲覧用ビットコインアドレスの追加",
+            "import_wallet_btn":"ウォレットをインポートする",
             "export_unencrypted_title":"エクスポート非暗号化",
+            "watch_only_title":"閲覧用ビットコインアドレスの追加",
             "select_private_key_format":"プライベートキーの形式を選択してください。",
             "advanced_warning_title":"アドバンス警告",
             "import_private_key_p1":"以下に既存のプライベートキーをインポートします。すべてのプライベートキー形式がサポートされています。",
-            "export_unencrypted_p1":"以下はお客様のJSON形式プライベートキーです。警告！このデータは暗号化されていません安全に管理してください。",
             "leave_encrypted":"プライベートキーを暗号化された状態のまま残す",
+            "export_unencrypted_p1":"以下はお客様のJSON形式プライベートキーです。警告！このデータは暗号化されていません安全に管理してください。",
             "desktop_sync_change_password":"ユーザ名およびパスワードをお客様のご希望のものに変更します。",
             "rpc":{
                "balance":"残高",
@@ -572,29 +554,47 @@
                "aes":"blockchain.infoのAES暗号化されたバックアップ。(同じパスワードで暗号化する必要があります)",
                "plain":"blockchain.infoのテキスト形式JSONバックアップ"
             },
-            "import_textarea_placeholder":"こちらの箇所にウォレットデータをコピーして貼り付けてください",
             "brain_wallet_p1":"ブレインウォレットは、記憶用パスフレーズから派生したプライベートキーです。このアドレスの資金をウォレットのバックアップを必要とすることなく復元するために、このパスワードを利用することができます。",
+            "import_textarea_placeholder":"こちらの箇所にウォレットデータをコピーして貼り付けてください",
             "desktop_sync_p1":"このツールはbitcoin.orgから入手できる公式のデスクトップクライアントとお客様のウォレットを同期することができます。",
-            "paper_wallet":"ペーパーウォレット",
             "watch_only_p1":"お客様のウォレットに9{0}個ビットコインアドレスを追加することが可能です。後でプライベートキーを提供せずにこのアドレスからビットコインを送金することはできません",
+            "paper_wallet":"ペーパーウォレット",
             "brain_wallet_title":"ブレインウォレット",
             "desktop_sync_title":"デスクトップクライアントとの同期",
             "desktop_sync_instructions":"Google Chrome用の{0}もしくはMozilla FirefoxやAppleのSafari(V> = 1.9が必要)用の{1}をインストールしてください。",
             "watch_only_btn":"閲覧のみ用アドレスの追加",
             "export_p1":"以下はAES暗号化されたプライベートキーです。"
          },
+         "login":{
+            "email_code_help":"一時的な確認コードが記載されたメールがお客様のアカウントに送信されました。",
+            "resend_link_title":"お客様の電子メールのコードを見つけることができませんか？",
+            "lost_password":"パスワードの紛失",
+            "resend_link_btn":"リンクの再送",
+            "lost_identifier_p1":"?お客様の財布の識別子を紛失した場合は、最初の登録時に受け取った確認メールを確認してください。電子メールを見つけることができませんか？下のボタンをクリックして、我々はお客様に新しいものを送ることができます。",
+            "sms_code_help":"テキストメッセージは、お客様の携帯電話に送信されました。上記のそのメッセージ内のコードを入力してください。",
+            "resend_link_p1":"メールがwallet@blockchain.infoより送られます。迷惑メールフォルダも併せて確認しください。それでも見つからない場合は、以下のボタンをクリックしメールを再送信してください。",
+            "lost_two_factor":"二要素認証の詳細情報を紛失したり忘れたりしましたか？",
+            "lost_two_factor_title":"二要素認証詳細の紛失。",
+            "lost_identifier_title":"識別子またはエイリアスの紛失",
+            "yubikey_help":"上のテキストボックスを選択して、お客様のYubikeyにある緑色のLEDライトを押してください。",
+            "password_unrecoverable_warning":"お客様のパスワードは、当社のサーバーと共有することはありませんし、忘れた場合は復元できません！",
+            "google_authenticator_help":"お客様のGoogle認証システムアプリケーションを開き、表示されたコードを入力してください。",
+            "lost_password_p1":"紛失したパスワードを復元できない理由はパスワードが我々に到達する前にご使用ののブラウザによって暗号化されるためです。パスワード紛失による金銭的損失を避けるためにも、ウォレットプライベートキーを紙にメモすることをお勧めします。",
+            "lost_two_factor_btn":"二要素認証のリセット",
+            "lost_two_factor_p1":"お客様は2要素認証の詳細を紛失した場合、お客様の財布はまだ完全に回復可能です。我々が必要なのは、以下のリンク先のフォームに記入して提供することができるアカウントの所有者である合理的な証拠である。"
+         },
          "success":{
             "sms_code_sent":"SMS認証コードが送信されました",
             "saved_to_dropbox":"正常にウォレットがDropboxに保存されました。このウィンドウを閉じてください",
             "two_factor_authentication_request_approved":"二要素認証のリセット要求が承認されました。まもなく要求を確認できます。",
-            "email_verified":"メールが正常に認証されました",
             "email_code_resent":"メールコードが再送されました。迷惑メールフォルダをチェックしてください！各申請はログイン失敗1回分として数えられます",
+            "email_verified":"メールが正常に認証されました",
             "two_factor_reset_request_submitted":"二要素認証をリセットするための申請はすでに送信されています。",
-            "yubikey_updated":"Yubikeyが正常に更新されました",
-            "email_updated":"メールが更新されました",
             "unsubscribed":"お客様のメールアドレスへのすべての通知登録を解除しました",
-            "wallet_synced":"ウォレットが正常にサーバーと同期されました",
+            "email_updated":"メールが更新されました",
+            "yubikey_updated":"Yubikeyが正常に更新されました",
             "google_secret_generated":"Googleシークレットが生成されました",
+            "wallet_synced":"ウォレットが正常にサーバーと同期されました",
             "auto_backup_disabled":"自動電子メールバックアップ無効",
             "saved_to_google_drive":"正常にウォレットがGoogleドライブに保存されました。このウィンドウを閉じてください",
             "updated_password_hint":"パスワードヒントが更新されました",
@@ -610,15 +610,15 @@
             "language_updated":"言語が正常に更新されました",
             "wallet_backup_sent":"ウォレットバックアップが正常に送信されました。",
             "success":"成功しました！",
-            "create_wallet_success":"新規ウォレットが正常に保存されました",
-            "secret_phrase_updated":"シークレットフレーズが正常に更新されました"
+            "secret_phrase_updated":"シークレットフレーズが正常に更新されました",
+            "create_wallet_success":"新規ウォレットが正常に保存されました"
          }
       },
       "unconfirmed":{
          "disconnected":"切断されました",
          "sub_header":"新規ビットコイン取引リストの実況更新",
-         "new_transaction":"新規取引",
          "title":"{0}の未確認取引",
+         "new_transaction":"新規取引",
          "meta_description":"未確認のビットコイン取引リスト",
          "connected":"接続済み",
          "header":"{0}の未確認取引",
@@ -640,29 +640,29 @@
          "relay_count":"中継数"
       },
       "transaction_page":{
-         "confirmations":"認証済み",
-         "hide_scripts":"スクリプトおよびコインベースを隠す",
-         "total_input":"合計インプット",
-         "total_output":"合計アウトプット",
-         "strange":"奇妙な取引",
-         "title":"{0}ビットコイン取引",
-         "inputs_and_outputs":"インプットおよびアウトプット",
-         "estimated_btc_transacted":"推定取引完了BTC",
-         "ok":"OK",
-         "estimated_possibly_never":"恐らく永遠にない（2重支払い）",
          "sub_header":"ビットコイン取引の詳細情報を閲覧する",
+         "confirmations":"認証済み",
          "received_time":"受け取り時刻",
+         "hide_scripts":"スクリプトおよびコインベースを隠す",
          "network_propagation":"ネットワーク伝播（クリックして表示する）",
          "decoded":"デコード済み",
+         "total_input":"合計インプット",
+         "total_output":"合計アウトプット",
          "header":"取引",
          "double_spend":{
             "p2":"この送信者と取引を行う際は最善の注意を払ってください。",
             "p1":"警告！この取引は、次の二重支払い"
          },
+         "strange":"奇妙な取引",
          "show_scripts":"スクリプトおよびコインベースを表示する",
+         "title":"{0}ビットコイン取引",
          "meta_description":"ビットコイン取引{0}に関する情報を表示します",
          "estimated_time":"推定確認時間",
          "relayed_by_ip":"IPによる中継",
+         "inputs_and_outputs":"インプットおよびアウトプット",
+         "estimated_btc_transacted":"推定取引完了BTC",
+         "ok":"OK",
+         "estimated_possibly_never":"恐らく永遠にない（2重支払い）",
          "included_in_blocks":"ブロックに含まれています"
       },
       "errors":{
@@ -681,8 +681,8 @@
          "header":"拒否一覧"
       },
       "webgl_globe":{
-         "online_now":"オンライン",
          "title":"ビットコインノードWebGL Globe -  Blockchain.info",
+         "online_now":"オンライン",
          "header":"グローバルビットコインノード",
          "miners":"採掘者"
       },
@@ -697,13 +697,13 @@
          "pay_me":"私へのお支払いはビットコインでお願いします"
       },
       "propagation":{
-         "probable_owner":"推定される持ち主",
          "disconnected":"切断されました",
-         "first_relayed":"最初の中継所",
+         "probable_owner":"推定される持ち主",
+         "first_seen":"最初の記録",
          "sub_header":"ネットワーク全体の取引やブロックの分布を表示します",
+         "first_relayed":"最初の中継所",
          "nodes_connected":"接続済みノード",
          "connected":"接続されました",
-         "first_seen":"最初の記録",
          "last_seen":"最終記録"
       },
       "ads":{
@@ -715,13 +715,13 @@
       "translations_page":{
          "sub_header":"Blockchain.infoは16の言語で利用可能になりました。",
          "title":"Blockchain.infoの翻訳ボランティアを募集しています",
-         "how_to_help":"参加方法",
          "p2":"：お客様は{0}と{1}以下の指示に従って精通している場合",
+         "how_to_help":"参加方法",
          "p1":"Blockchain.infoは16の言語で利用可能になりました。しかし翻訳は主に翻訳機械によって行われており、私たちはより良い翻訳を提供するため皆様のお力が必要です。",
          "steps":{
             "_7":"終了後ファイルを送信し、{0}を提出してください。",
-            "_8":"奨金用にビットコインアドレスもしくはホームページのリンクにご自分のウェブサイトを記載してください。",
             "pull_request":"プルリクエスト",
+            "_8":"奨金用にビットコインアドレスもしくはホームページのリンクにご自分のウェブサイトを記載してください。",
             "_3":"JSONエディタをダウンロードしてください。我々は、Windows、MacおよびLinux用ソフト'Sublime Text 2'をお勧めします。",
             "_4":"ファイルauto_{あなたの言語}.jsonおよび{あなたの言語}を横並びに開きます。",
             "_5":"自動生成されたファイル内の誤った表現をもう一つのファイルにコピーし、間違いを訂正してください。",
@@ -731,51 +731,20 @@
          }
       },
       "about_us":{
-         "about_us":"会社概要",
          "sub_header":"弊社および事業内容について",
-         "security_p1":"弊社のセキュリティポリシーでは、セキュリティ侵害が発生した場合においてユーザーへの影響を考慮し最小限のデータのみ保有することとなっています。マイウォレットサービスを利用することで当社がパスワードや個人情報の傍受や保有することはありません。ウォレットデータは暗号化された状態で保存されます。 Blockchain.infoは、サイト管理者のみがアクセスできる個人所有の専用ハードウェア上で運営されています。我々は早期に脆弱性を検出するためにnmapによるサイトのスキャンを含むコードおよびサーバー両方のセキュリティーの見直しを定期的に行っています。当サイトはGoDaddyによる認証によってhttps:\/\/を使用して安全にアクセスすることができます。",
-         "availability_p1":"我々は99.5パーセントのサーバ稼働時間を目指していますが、このサービスはベストエフォート型として提供されています。定期メンテナンスが予定された場合はメールにてユーザー皆様に通知いたします。",
-         "up_time":"稼働時間",
-         "privacy_policy":"プライバシーポリシー",
-         "company_footer":"Blockchain.infoはイギリス企業番号05106799 Qkos Services Ltd.による所有および運営となっております。",
-         "about_p1":"Blockchain.infoは、業界で最も人気のあるビットコインウォレットおよびブロックブラウザです。 2012年10月時点でこのサイトは毎日1万人以上の訪問者よりアクセスがあり、30,000以上のユーザーに使用されています。",
+         "about_us":"会社概要",
          "up_time_alt":"blockchain.infoのサーバ作動時間：過去30日",
          "email":"メール：",
+         "security_p1":"弊社のセキュリティポリシーでは、セキュリティ侵害が発生した場合においてユーザーへの影響を考慮し最小限のデータのみ保有することとなっています。マイウォレットサービスを利用することで当社がパスワードや個人情報の傍受や保有することはありません。ウォレットデータは暗号化された状態で保存されます。 Blockchain.infoは、サイト管理者のみがアクセスできる個人所有の専用ハードウェア上で運営されています。我々は早期に脆弱性を検出するためにnmapによるサイトのスキャンを含むコードおよびサーバー両方のセキュリティーの見直しを定期的に行っています。当サイトはGoDaddyによる認証によってhttps:\/\/を使用して安全にアクセスすることができます。",
          "privacy_p1":"弊社では分析目的のためにのみ全サイトのページ別アクセスログを記録します。アクセスログは7日ごとに整理されます。弊社では、マイウォレットやウォレット内のアドレスを経由しての取引に関連するすべてのログデータは記録していません。お客様のメールアドレス、スカイプ名、または提供されているその他個人データは、他の第三者や広告主とは共有されません。",
+         "availability_p1":"我々は99.5パーセントのサーバ稼働時間を目指していますが、このサービスはベストエフォート型として提供されています。定期メンテナンスが予定された場合はメールにてユーザー皆様に通知いたします。",
+         "up_time":"稼働時間",
+         "company_footer":"Blockchain.infoはイギリス企業番号05106799 Qkos Services Ltd.による所有および運営となっております。",
+         "privacy_policy":"プライバシーポリシー",
+         "about_p1":"Blockchain.infoは、業界で最も人気のあるビットコインウォレットおよびブロックブラウザです。 2012年10月時点でこのサイトは毎日1万人以上の訪問者よりアクセスがあり、30,000以上のユーザーに使用されています。",
          "availability":"稼働状況"
       },
       "wallet_index":{
-         "control":{
-            "title":"あなたがビットコイン財布を完全に管理します",
-            "p4":"　どのデスクトップのビットコインクライアントからもインポートすることが可能であり、ビットコイン財布は盗まれたり、ブロックされることがないことを意味します。",
-            "p3":"完全管理ができます",
-            "p2":"ビットコイン財布を使用することで、あなたの財布はプライベートキーによって。",
-            "p1":"ビットコインの良い点は、第３者（政府、業者、銀行等）にコントロールされないという点です；口座凍結、口座解約、支払いの停止等を第３者が出来ないという事です。"
-         },
-         "slides":{
-            "mobile_support":"モバイルサポート",
-            "charts_analytics":"チャートおよび分析",
-            "charts_analytics_img_title":"内蔵チャート＆分析",
-            "charts_analytics_p1":"ビットコイン取引のグラフやレポートを生成します。あなたの口座残高、一日の取引回数や収入を確認出来ます。",
-            "payment_notifications_p1":"ビットコイン財布に送受信があった際に通知されます。通知の平均遅延時間は50ms（ミリ秒）以下です。ビットコイン財布にログイン中に支払いを受けとった場合は音が鳴り、ページの更新をすることなくインターフェイスは瞬時に更新されます。",
-            "payment_notifications_skype":"スカイプビットコイン支払通知",
-            "payment_notifications_gtalk":"Googleトーク支払い通知",
-            "double_encryption_p1":"お客様のビットコイン財布が当社のサーバーに保存される前に、ブラウザーでAES 256ビットで暗号化されます。お客様のパスワードは弊社と共有されはないため、我々もお客様のビットコイン財布を開くことができません。それだけではなく, ビットコイン財布は第2のパスワードでさらに暗号化する事ができます；、1つ目はログイン用、もうひとつは取引用に使用します。これでも足りないという方の為に、弊社はMt.GoxのYubikeyを含むさまざまな二要素認証方式もサポートしています。",
-            "mobile_support_p2":"ご使用の携帯電話を紛失したり盗まれた場合でも、お客様のビットコイン財布は安全に弊社のサーバーにバックアップされています。",
-            "one_click_backups_p1":"我々は、お客様のビットコイン財布が安全にバックアップされるように様々な対策を取っています。しかし自分のPC上のバックアップにとって代わるものはありません。ボタンを押すだけで暗号化された財布がお客様へメールで送信、Dropboxアカウント、もしくはローカルエリアに保存することができます。blockchain.infoが万が一データの損失やお客様の資金にアクセスできなくなってしまった場合でも自分の資金にアクセスできます。",
-            "mobile_support_p1":"弊社のウェブインターフェイスはを含むすべての一般的なモバイル機器をサポートします"
-         },
-         "p2":"我々は、銀行ではなので、お客様にビットコインの完全な所有権があります。我々は、お客様のビットコイン残高、取引の参照、そしてお客様に代わって支払いを行うことはできません。",
-         "confused":{
-            "p1":"疑問がありますか？読んで下さい"
-         },
-         "p1":"ビットコイン財布はお客様が自由に世界中に支払いを行うために使用できる無料のビットコイン用財布です。携帯電話やコンピュータからビットコインで簡単かつ安全にどこへでも支払いが可能です。",
-         "techradar_quote":"2015年には現金は絶滅寸前の動物のようなものになっているかもしれない",
-         "security":{
-            "p3":"ビットコイン財布はお客様がビットコインを安全に保つために様々なセキュリティ機能を提供しています：",
-            "p2":"を使用し、泥棒やハッカーからお客様の財布を保護するために暗号化しています。驚くべき部分は、弊社のサーバーで保存される前にお客様のブラウザで暗号化される事です；従って弊社もお客様のアカウントへアクセス出来ません！",
-            "p1":"Blockchain.infoは、業界標準"
-         },
          "anonymous":{
             "p1":"我々が必要とするすべてのアカウントには、パスワードですが、他の個人を特定できるような情報は必要ありません。私たちは、自分の公開鍵を参照してくださいお客様のトランザクションを表示したり、アカウントの残高を確認することはできません。"
          },
@@ -784,13 +753,38 @@
             "p2":"ビットコインを受けいれている業者のリストです",
             "p1":"1000社以上がすでにビットコインでの支払いを受け入れています。そして、日々新しい会社がビットコインを受け入れています。オンラインポーカーからオーガニックコーヒー等あらゆるもをビットコインで購入することができます。"
          },
+         "control":{
+            "title":"あなたがビットコイン財布を完全に管理します",
+            "p4":"　どのデスクトップのビットコインクライアントからもインポートすることが可能であり、ビットコイン財布は盗まれたり、ブロックされることがないことを意味します。",
+            "p3":"完全管理ができます",
+            "p2":"ビットコイン財布を使用することで、あなたの財布はプライベートキーによって。",
+            "p1":"ビットコインの良い点は、第３者（政府、業者、銀行等）にコントロールされないという点です；口座凍結、口座解約、支払いの停止等を第３者が出来ないという事です。"
+         },
          "title":"ビットコイン財布",
          "meta_description":"ビットコイン財布はお客様が自由に世界中に支払いを行うために使用できる無料のオンラインのbitcoin用財布です。簡単かつ安全にビットコインでお支払いください。",
+         "slides":{
+            "charts_analytics":"チャートおよび分析",
+            "mobile_support":"モバイルサポート",
+            "payment_notifications_p1":"ビットコイン財布に送受信があった際に通知されます。通知の平均遅延時間は50ms（ミリ秒）以下です。ビットコイン財布にログイン中に支払いを受けとった場合は音が鳴り、ページの更新をすることなくインターフェイスは瞬時に更新されます。",
+            "payment_notifications_skype":"スカイプビットコイン支払通知",
+            "charts_analytics_img_title":"内蔵チャート＆分析",
+            "payment_notifications_gtalk":"Googleトーク支払い通知",
+            "charts_analytics_p1":"ビットコイン取引のグラフやレポートを生成します。あなたの口座残高、一日の取引回数や収入を確認出来ます。",
+            "double_encryption_p1":"お客様のビットコイン財布が当社のサーバーに保存される前に、ブラウザーでAES 256ビットで暗号化されます。お客様のパスワードは弊社と共有されはないため、我々もお客様のビットコイン財布を開くことができません。それだけではなく, ビットコイン財布は第2のパスワードでさらに暗号化する事ができます；、1つ目はログイン用、もうひとつは取引用に使用します。これでも足りないという方の為に、弊社はMt.GoxのYubikeyを含むさまざまな二要素認証方式もサポートしています。",
+            "mobile_support_p2":"ご使用の携帯電話を紛失したり盗まれた場合でも、お客様のビットコイン財布は安全に弊社のサーバーにバックアップされています。",
+            "mobile_support_p1":"弊社のウェブインターフェイスはを含むすべての一般的なモバイル機器をサポートします",
+            "one_click_backups_p1":"我々は、お客様のビットコイン財布が安全にバックアップされるように様々な対策を取っています。しかし自分のPC上のバックアップにとって代わるものはありません。ボタンを押すだけで暗号化された財布がお客様へメールで送信、Dropboxアカウント、もしくはローカルエリアに保存することができます。blockchain.infoが万が一データの損失やお客様の資金にアクセスできなくなってしまった場合でも自分の資金にアクセスできます。"
+         },
          "easy":{
             "send_via":"Facebook、電子メールまたはSMS経由で送信します。",
             "title":"簡単",
             "p2":"と同じような感じでしよう出来ます。ログイン時に残高と最近の履歴が表示されます",
             "p1":"ビットコイン財布はオンラインバンキングや"
+         },
+         "p2":"我々は、銀行ではなので、お客様にビットコインの完全な所有権があります。我々は、お客様のビットコイン残高、取引の参照、そしてお客様に代わって支払いを行うことはできません。",
+         "p1":"ビットコイン財布はお客様が自由に世界中に支払いを行うために使用できる無料のビットコイン用財布です。携帯電話やコンピュータからビットコインで簡単かつ安全にどこへでも支払いが可能です。",
+         "confused":{
+            "p1":"疑問がありますか？読んで下さい"
          },
          "tooltips":{
             "paper_wallet":"紙の財布はお客様のbitcoinsを回復するために必要なすべての情報が含まれて印刷可能なドキュメントです。",
@@ -798,6 +792,12 @@
          },
          "features":{
             
+         },
+         "techradar_quote":"2015年には現金は絶滅寸前の動物のようなものになっているかもしれない",
+         "security":{
+            "p3":"ビットコイン財布はお客様がビットコインを安全に保つために様々なセキュリティ機能を提供しています：",
+            "p2":"を使用し、泥棒やハッカーからお客様の財布を保護するために暗号化しています。驚くべき部分は、弊社のサーバーで保存される前にお客様のブラウザで暗号化される事です；従って弊社もお客様のアカウントへアクセス出来ません！",
+            "p1":"Blockchain.infoは、業界標準"
          }
       },
       "tx_tree":{
@@ -806,35 +806,32 @@
       "push_tx":{
          "p1":"このページでは、（すなわち文字0?9、A?F）これは、それが有効であるかチェックして、ネットワークを介して送信される十六進法における生のトランザクションを貼り付けることができます。"
       },
-      "startup_message":{
-         
-      },
       "maintenance":{
          
       },
-      "blocks":{
+      "startup_message":{
          
       },
       "emails":{
-         "tx":{
-            "sent_p1":"支払はお客様のbitcoinの財布から送られてきた。",
-            "received_p1":"支払はお客様のbitcoinウォレットに受信されています。"
-         },
          "two_factor_reset_request":{
             "p4":"それは多分悪意を持ってお客様のbitcoinウォレットにアクセスしようとしている可能性誰かである。この要求を無視しないでください。",
             "p3":"このリクエストはお客様によって作られていなかった場合は、この要求を拒否するには、次のURLを開いてください。",
             "p2":"このリクエストはお客様によって作られていた場合は、このリクエストを承認するには、次のURLを開いてください。"
          },
-         "password_hints":{
-            
+         "tx":{
+            "sent_p1":"支払はお客様のbitcoinの財布から送られてきた。",
+            "received_p1":"支払はお客様のbitcoinウォレットに受信されています。"
          },
          "confirmation_code":{
             "p1":"試みは、IPアドレス{0}から財布アカウントにログインするためになされた。自分のアカウントにアクセスするには、以下の確認コードを入力します。それはお客様がこのメールを無視することができ、このログイン試みを試みた人ならなかった場合。"
          },
+         "password_hints":{
+            
+         },
+         "tip_backup":"Dropboxを使ってbitcoin・ウォレットをバックアップします。それは無料です、使いやすく、固定します。",
          "wallet_backup":{
             "p1":"この電子メールに添付すると、お客様のbitcoinのバランスを回復するために必要なすべてが含まれているAES暗号化ウォレットのバックアップです。お客様は、{0}またはサードパーティを使用して{1}のデスクトップクライアントでいつでも財布を復元するためにそれを使用することができます。"
          },
-         "tip_backup":"Dropboxを使ってbitcoin・ウォレットをバックアップします。それは無料です、使いやすく、固定します。",
          "your_wallet_identifier":"お客様の財布識別子は以下の通りです。",
          "welcome":{
             "p1":"この電子メールは、お客様の新しいbitcoin・ウォレットに関する重要な情報が含まれています。これは安全でお客様のパスワードとは別に格納されておいてください。"
@@ -844,25 +841,28 @@
             "p1":"失敗した試行回数は、マイウォレットアカウントにログインするになされている。お客様の保護のために新たなログイン試行がされるまで無効にされている{0}"
          }
       },
+      "blocks":{
+         
+      },
       "largest_transactions":{
          
       },
       "pools":{
          
       },
-      "header":{
-         
-      },
       "wallet_new":{
-         "email_sub":"お客様は私たちがお客様へのリンクをメールで送信したい場合、新しい財布は下記にメールアドレスを入力してください。",
+         "fav_recommendation":"それが今、お客様のお気に入りにこのことを追加することをお勧めします。",
          "please_read":"私達の{0}を読んでくださいと{1}",
+         "existing_account":"お客様はすでに私の財布のアカウントをお持ちの場合は{0}",
+         "dont_forget_password_p1":"お客様のパスワードは私達と共有されないように必要なそれのAAの上に書くかどうかは、それを覚えておくことが極めて重要であるポストそれは今も注意してください。パスワード回復プロセスはありません！",
          "password_strength_p1":"私達は私達のデータベースに障害が発生した場合でも、お客様の財布には安全性が維持されるように長さは少なくとも10文字のパスワードが必要です。長さのパスワードを10文字の暗号を解除するために1000年以上かかります。",
+         "email_sub":"お客様は私たちがお客様へのリンクをメールで送信したい場合、新しい財布は下記にメールアドレスを入力してください。",
          "wallet_created_p1":"お客様の新しいオンラインウォレットが正常に作成されました。それはお客様の財布のIDとパスワードの両方を安全に保つことが重要です。私達はお客様が有効な電子メールアドレスを提供してくれる場合に失わ財布識別子を回復するのに役立つことができます。私たちは、失われたパスワードを回復するのに役立つことができません！",
          "alias_sub":"お客様が代わりに識別子を使用してログインすることができますお客様の財布のエイリアスを選択することができます。",
-         "restore_link_title":"お客様が訪問して、いつでもこの財布を復元することができる：",
-         "existing_account":"お客様はすでに私の財布のアカウントをお持ちの場合は{0}",
-         "fav_recommendation":"それが今、お客様のお気に入りにこのことを追加することをお勧めします。",
-         "dont_forget_password_p1":"お客様のパスワードは私達と共有されないように必要なそれのAAの上に書くかどうかは、それを覚えておくことが極めて重要であるポストそれは今も注意してください。パスワード回復プロセスはありません！"
+         "restore_link_title":"お客様が訪問して、いつでもこの財布を復元することができる："
+      },
+      "header":{
+         
       },
       "misc":{
          "disclaimer":"このウェブサイト上の長期資金の利用は、仮想通貨だけを指します。表示された為替レートは、第三者によって提供され、任意の商品やその他のお金によってバックアップされているBitcoinの指標ではありません。"
@@ -871,40 +871,40 @@
          
       },
       "charts":{
+         "days_destroyed_filter_month":"Bitcoin・デイズ（1ヶ月分の年齢別のフィルタ）破壊された",
          "errors":{
             
          },
          "cost_percent_per_transaction":"トランザクション・ボリュームのコスト％",
-         "days_destroyed_filter_month":"Bitcoin・デイズ（1ヶ月分の年齢別のフィルタ）破壊された",
          "days_destroyed_filter_year":"Bitcoin・デイズ（1年分の年齢別のフィルタ）破壊された",
          "transaction_fees_usd_label":"取引手数料（BTC）"
+      },
+      "strange_transactions":{
+         
       },
       "block_height":{
          
       },
-      "strange_transactions":{
-         
+      "address":{
+         "table_transactions":{
+            
+         },
+         "table_summary":{
+            
+         },
+         "request_payment":"リクエスト・お支払い"
       },
       "notifications":{
          "payment_sent_body":"支払いは、値{0}のお客様のbitcoinの財布から送られた（約：{1}）",
          "notifications_limit_body":"お客様の通知の上限に達しました。通知は24時間では無効化されてい",
          "payment_received_body":"お客様は、値{0}のbitcoin支払を受け取った（約：{1}）"
       },
-      "address":{
-         "table_summary":{
-            
-         },
-         "request_payment":"リクエスト・お支払い",
-         "table_transactions":{
-            
-         }
-      },
       "ip_log":{
          
       }
    },
+   "code":"ja",
    "properties":{
       "extends":"auto_japanese"
-   },
-   "code":"ja"
+   }
 }

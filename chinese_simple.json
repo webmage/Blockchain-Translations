@@ -4,8 +4,8 @@
    "strings":{
       
    },
-   "code":"zh-cn",
    "properties":{
       "extends":"auto_chinese_simple"
-   }
+   },
+   "code":"zh-cn"
 }

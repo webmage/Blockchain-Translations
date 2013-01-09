@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"ro",
    "properties":{
       "extends":"auto_romanian"
-   },
-   "code":"ro"
+   }
 }

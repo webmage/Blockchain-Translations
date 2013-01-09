@@ -30,7 +30,7 @@
             "errors": {
                 "no_stats": "No Stats Found For This Period"
             },
-            "n_transactions_excluding_popular2": "A chart of the total number of unique bitcoin transactions per day excluding transactions with involve on of the top 100 most",
+            "n_transactions_excluding_popular2": "A chart showing the total number of unique bitcoin transactions per day excluding transactions which involve any of the top 100 most popular addresses",
             "total_bitcoins_label": "Total Bitcoins (BTC)",
             "my_wallet_n_users_label": "User Count",
             "day_average_7": "7 day average",
@@ -116,6 +116,7 @@
             "days_destroyed_filter_year": "Bitcoin Days Destroyed (Filtered By Min Age 1 Year)",
             "estimated_transaction_volume": "Estimated Transaction Volume",
             "n_of_transactions_per_day": "Number Of transactions Per Day",
+            "n_transactions_total": "Total Number Of transactions",
             "hash_rate": "Hash Rate",
             "transaction_fees_usd_label": "Transaction Fees (USD)",
             "market_cap": "Market Capitalization",
