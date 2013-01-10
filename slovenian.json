@@ -1,0 +1,11 @@
+{
+   "flag":"sl.png",
+   "name":"Slovenian",
+   "strings":{
+      
+   },
+   "code":"sl",
+   "properties":{
+      "extends":"auto_slovenian"
+   }
+}
