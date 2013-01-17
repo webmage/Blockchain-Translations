@@ -30,7 +30,7 @@
             "errors": {
                 "no_stats": "No Stats Found For This Period"
             },
-            "n_transactions_excluding_popular2": "A chart showing the total number of unique bitcoin transactions per day excluding transactions which involve any of the top 100 most popular addresses",
+            "n_transactions_excluding_popular2": "A chart showing the total number of unique bitcoin transactions per day excluding those which involve any of the top 100 most popular addresses",
             "total_bitcoins_label": "Total Bitcoins (BTC)",
             "my_wallet_n_users_label": "User Count",
             "day_average_7": "7 day average",
@@ -520,7 +520,7 @@
             "alias_help_block" : "A alias or shortlink to help locate the wallet.",
             "proceed_to_login" : "Proceed To Login",
             "dont_forget_password" : "Don't Forget Your Password!",
-            "dont_forget_password_p1" : "As your password is not shared with us it is extremely important to remember it, if necessary write it on a a post-it note now. There is no password recovery process!",
+            "dont_forget_password_p1" : "WARNING: Forgotten passwords are UNRECOVERABLE and will results in <b>LOSS of ALL of your bitcoins!</b>",
             "password_strength" : "Password Strength",
             "password_strength_p1" : "We require a password of at least 10 characters in length to ensure that even if our database is compromised your wallet will remain secure. A password 10 characters in length will take over 1000 years to decrypt.",
             "is_already_registered" : "Already registered?",
@@ -528,7 +528,11 @@
             "disclaimer" : "Disclaimer",
             "anonymity_policy" : "Anonymity Policy",
             "please_read" : "Please read our {0}.",
-            "optional" : "Optional"
+            "optional" : "Optional",
+            "mnemonic_modal_title" : "Password Recovery Mnemonic",
+            "mnemonic_modal_p1" : "Your wallet has been created successfully. If you forget the password the mnemonic below can be used to recover it.",
+            "mnemonic_please_write_down" : "Please Write Down the Following:",
+            "mnemonic_modal_p2" : "Without the mnemonic we cannot help recover forgotten passwords and will result in <b>LOSS of ALL of your bitcoins!</b>."
         },
         "wallet_forgot_identifier" : {
             "title" : "Forgot Identifier",
@@ -587,7 +591,7 @@
                 "recommended" : "Recommended",
                 "optional" : "Optional",
                 "email" : "Email",
-                "email_description" : "An email is needed to help recover a lost wallet identifier and for payment notifications.",
+                "email_verification_description" : "An email is needed to help recover a lost wallet identifier and for payment notifications.",
                 "email_placeholder" : "Your Email",
                 "email_verified" : "Email Verified",
                 "email_verification_code" : "Email Verification Code:",
@@ -649,9 +653,13 @@
                 "six_confirmations" : "6 Confirmations",
                 "device_pairing" : "Device Pairing",
                 "device_pairing_description" : "Scan the code below with your iPhone or Android device to pair it with your account.",
+                "show_hide_pairing_code" : "Show / Hide Pairing Code.",
                 "forgot_password_warning" : "Warning!",
                 "forgot_password_warning_p2" : "Any forgotten passwords will result in your wallet being un-accessible. There is no password recovery process!",
-                "password_notice" : "Your password is never shared with our servers in any shape or form. This means your wallet would still be safe in the event our servers were hacked. It also prevents us from viewing your account balance or transaction history.",
+                "password_notice" : "Your password is never shared with our servers in any shape or form. This means your wallet would still be safe in the event our servers were compromised. However it means there is no password reset functionality.",          
+                "password_mnemonic" : "Password Mnemonic",
+                "password_mnemonic_description" : "Password Mnemonics can be used to recover your wallet password if forgotten. Without the mnemonic there is no way we can help recover a forgotten password. When changing wallet passwords the mnemonic will change.",
+                "show_hide_password_mnemonic" : "Show / Hide Password Mnemonic",
                 "main_password" : "Main Password",
                 "password" : "Password:",
                 "confirm_password" : "Confirm Password:",
@@ -673,7 +681,7 @@
                 "sms_message" : "SMS Message",
                 "two_factor_authentication_not_enabled" : "Two factor authentication is not enabled on your account",
                 "yubikey_description" : "To pair your key with your account select the text box below and press the green LED button on your yubikey device.",
-                "email_description" : "Two factor authentication via email is enabled on your account. An email will be sent to {0} containing a confirmation code which will need to be provided at login.",
+                "email_description" : "You will receive an authentication codes via email.",
                 "google_authenticator_description" : "Open the Google Authenticator app and scan the QR code below to complete the pairing process.",
                 "google_authenticator_warning" : "You maybe locked out of your account if you leave this page without pairing with the mobile app or disabling Google Authenticator.",
                 "secret_phrase" : "Secret Phrase",
@@ -688,7 +696,10 @@
                 "restrict_to_ip_description" : "Enable this to restrict access to your wallet to a specific ip address or multiple ip addresses comma separated. Only enable this if you have a static ip address. You will not be able to login or access any API's from any computers not on the specified network however the mobile apps will continue to function once paired.",
                 "lock_to_ip" : "Lock To IP:",
                 "multiple_ip_comma_seperated" : "Multiple ip addresses should be comma separated.",
-                "current_ip" : "Current IP:"
+                "current_ip" : "Current IP:",
+                "security_warning_title" : "Sensitive Data",
+                "security_warning_sub" : "Account Settings displays sensitive data which should not be shown to other people. It is recommended you do not open this section in public places or take screenshots of this section.",
+                "security_warning_continue" : "Continue",
             },
             "wallet_home" : {
                 "total_transactions" : "Total Transactions",
@@ -778,6 +789,7 @@
                 "lost_password" : "Lost Password",
                 "lost_password_p1" : "Your wallet is encrypted by your browser before it reaches us and for this reason we are unable to help recover lost passwords. To avoid any possible monetary loss due to forgotten passwords it is recommended you make a paper backup of your wallet's private keys.",
                 "password_hints_btn" : "Password Hints",
+                "forgot_password_btn" : "Forgot Password",
                 "need_help" : "Need Help?",
                 "need_help_p1" : "Read our {0}",
                 "support_pages" : "Support Pages"
@@ -953,6 +965,9 @@
                 "send" : "Send",
                 "second_password_needed" : "Second Password Needed",
                 "second_password_p1" : "This action requires that you enter your second password which is needed fully decrypt your wallet. You should never enter your second password on an untrusted computer. Use the onscreen keyboard to provide some protection from keyloggers.",
+                "main_password_needed" : "Main Password Needed",
+                "main_password" : "Main Password",
+                "main_password_p1" : "This action requires you re-enter your main password. Please enter it carefully or you may be be logged out.",
                 "transaction_information" : "Transaction Information",
                 "first_seen" : "First Seen",
                 "last_seen" : "Last Seen",
@@ -1100,6 +1115,7 @@
                 "error_generating_google_secret" : "Error Generating Google Authenticator Secret",
                 "error_updating_skype" : "Error updating Skype username",
                 "invalid_email" : "Invalid Email",
+                "please_verify_email" : "Please verify your email in Account Settings",
                 "error_updating_email" : "Error Updating Email",
                 "error_updating_password_hint" : "Error Updating Password Hint",
                 "error_updating_yubikey" : "Error updating yubikey",
@@ -1123,10 +1139,13 @@
                 "error_updating_language" : "Error Updating Language",
                 "invalid_version" : "Invalid Version",
                 "error_updating_logging_level_updated" : "Error Updating Logging level.",
-                "two_factor_authentication_not_enabled" : "Two Factor Authentication Is Not Enabled On your Account"
+                "two_factor_authentication_not_enabled" : "Two Factor Authentication Is Not Enabled On your Account",
+                "reminder_recently_sent" : "An reminder message was recently sent.",
             },
             "success" : {
+                "logged_out" : "You have been logged out",
                 "confirmation_email_sent" : "Confirmation Email Sent",
+                "confirmation_sms_sent" : "Confirmation SMS Sent",
                 "unsubscribed" : "Your email has been unsubscribed from all notifications",
                 "password_hints_sent" : "Password Hints Successfully Sent",
                 "saved_to_dropbox" : "Wallet successfully saved to dropbox. You may now close this window",
@@ -1604,6 +1623,19 @@
             "to_confirm" : "to confirm",
             "nodes" : "Nodes"
         },
+        "export_history" : {
+            "title" : "Export History",
+            "alt" : "Export History",
+            "p1" : "Export transaction history.",
+            "from" : "From",
+            "addresses" : "Addresses",
+            "to" : "To"
+        },
+        "redirect_page" : {
+            "title" : "You are being redirected",
+            "slow_page" : "If this page appears for more than a few seconds",
+            "click_here" : "click here"
+        },
         "translations_page" : {
             "title" : "Help Translate Blockchain.info",
             "header" : "Translations",
@@ -1631,6 +1663,7 @@
                 }
         },
         "errors" : {
+            "invalid_format_type" : "Invalid Format Type",
             "invalid_first_name" : "Invalid First Name",
             "invalid_last_name" : "Invalid Last Name",
             "invalid_date_of_birth" : "Invalid Date Of Birth",
