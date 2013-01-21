@@ -762,9 +762,9 @@
          "header":"块的高度{0}",
          "title":"比特币的块高度{0}",
          "meta_description":"块在比特币数据链中的高度{0}",
-         "relayed_by":"接收自",
          "nonce":"单次值",
          "output_total":"输出总数",
+         "relayed_by":"接收自",
          "no_blocks":"在这一个高度，发现没有块"
       },
       "notifications":{

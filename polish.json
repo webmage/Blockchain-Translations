@@ -1,474 +1,526 @@
 {
-   "code": "pl",
-   "flag": "pl.png",
-   "name": "Polish",
-   "properties": {
-      "extends": "auto_polish"
+   "flag":"pl.png",
+   "name":"Polish",
+   "strings":{
+      "home":{
+         "other_links":{
+            "most_popular":"Najpopularniejsze adresy",
+            "strange":"Dziwne transakcje"
+         },
+         "sub_header":"Ostatnio obrabiane bloki w łańcuchu bloków bitcoin",
+         "table_headers":{
+            "sent":"Razem wysłanych"
+         },
+         "about":{
+            
+         }
+      },
+      "connected_nodes":{
+         
+      },
+      "popular_addresses":{
+         
+      },
+      "orphaned_blocks":{
+         
+      },
+      "api_index":{
+         "data_api_description":"Wykorzystaj dane w formacie JSON na temat transakcji oraz bloków. Prawie wszystkie dane widoczne na tej stronie są dostępne w formacie JSON.",
+         "welcome_p2":"udostępnione przez inne serwisy.",
+         "welcome_p1":"Tutaj odnajdziesz wszystko czego potrzebujesz by rozpocząć pracę nad projektem wykorzystującym system Bitcoin. Możesz użyć informacje Blockchain.info lub",
+         "requests_in_5_minutes":"Zapytania w ciągu 5 minut:",
+         "charts_and_statistics_description":"Feed JSON zawierający dane z wykresów oraz stron ze statusem.",
+         "charts_and_statistics":"Wykresy oraz statystyki",
+         "exchange_rates":"Kursy wymiany",
+         "send_description":"Proste wykorzystanie JSON API celem programowego wysłania lub otrzymania Bitcoinów na koncie My Wallet.",
+         "view_documentation":"Czytaj Dokumentację",
+         "send_payments":"Wyślij opłaty",
+         "websocket_description":"Kanał komunikacji o niskiej latencji udostępnia dane na temat nowych bloków oraz transakcji. Subskrybuj kanał powiadomień i otrzymuj dane w formacie JSON opisujące aktualne zdarzenia w sieci.",
+         "abuse_notice":"Za usługi prowadzone przez blockchain.info nie pobierane są opłaty. Prosimy o nie nadużywanie ich.",
+         "title":"API dla programistów Bitcoin - Blockchain.info",
+         "exchange_rates_data":"Dane na temat waluty z głównych kantorów Bitcoin..",
+         "blockchain_data":"Dane na temat transakcji oraz bloków",
+         "market_data":"Dane z rynku",
+         "welcome":"Witamy Programistów!",
+         "simple_query_api_description":"Proste API w czystym tekście dla zapytań dotyczących danych blockchanu. Kompatybilne z ",
+         "requests_in_8_hours":"Zapytania w ciągu 8 godzin:",
+         "request_limits_p1":"By ominąć limity korzystania z API proszę",
+         "sub_header":"Narzędzia dla programistów dla danych na temat blockchainu",
+         "complete_merchant_solution":"Pełne rozwiązanie dla handlu online.",
+         "account_required":"Wymagane konto w usłude My Wallet",
+         "data_api":"API danych blockchainu",
+         "third_party_apis":"API dla stron trzecich",
+         "up_time":"Up Time",
+         "request_limits":"Limit zapytań",
+         "payment_processing":"Przetwarzanie płatności.",
+         "header":"API dla programistów Bitcoin",
+         "contact_us":"skontaktuj się z nami",
+         "simple_query_api":"Proste API zapytań",
+         "no_account_required":"Konto nie jest wymagane",
+         "json_rpc":"JSON RPC kompatybilne z Bitcoin-Qt",
+         "meta_description":"Blockchain udostępnia darmowe API dla biznesu i programistów.",
+         "bitpay_description":"Blockchain poleca serwis Bitpay - Lidera rozwiązań biznesowych Bitcoin. Bitpay oferuje kompletne rozwiązania płatności Bitcoin, automatyczne przewalutowanie do walut narodowych oraz integrację z istniejącym oprogramowaniem do sprzedaży online.",
+         "maximum":"Maksimum",
+         "up_time_description":"Blockchain.info wykorzystuje kluster bazodanowy o wysokiej dostępności oraz dedykowaną infrastrukturę celem maksymalizacji czasu dostępności oraz obniżenia czasu odpowiedzi na zapytania.",
+         "receive_payments":"Otrzymaj płatność",
+         "json_rpc_description":"Blockchain.info może działać jako serwer RPC bitcoind dla biznesu celem interakcji z ich kontami My Wallet.",
+         "receive_payments_description":"Niezwykle łatwa metoda dla stron internetowych by otrzymywać płatności Bitcoin."
+      },
+      "deposit":{
+         "sms_p1":" W celu złożenia bitcoins przez SMS lub telefon stacjonarny, proszę sprawdzić swój numer telefonu poniżej. Po weryfikacji rzeczywista zakupu mogą być wykonane z innego numeru telefonu lub telefonu stacjonarnego."
+      },
+      "transaction":{
+         
+      },
+      "stats":{
+         "sub_header":"Statystyki waluty bitcoin",
+         "title":"Statystyki Bitcoin - Blockchain.info",
+         "table":{
+            
+         }
+      },
+      "ip_info":{
+         
+      },
+      "block":{
+         "title":"Blok Bitcoin #{0}",
+         "meta_description":"Transakcje zawarte w bloku Bitcoin",
+         "no_block_index":"Brak indeksu bloku",
+         "hash_table":{
+            "title":"Hash-e",
+            "hash":"Hash",
+            "next_block":"Następne Bloki",
+            "merkle_root":"Merkle Root",
+            "previous_block":"Poprzednie Bloki"
+         },
+         "network_propagation":"Propagacja w sieci",
+         "header":"Blok",
+         "summary_table":{
+            "timestamp":"Timestamp",
+            "output_title":"Sumaryczny wynik",
+            "title":"Podsumowanie",
+            "block_reward":"Nagroda",
+            "relayed_by":"Przesłany przez",
+            "nonce":"Nonce",
+            "main_chain":"Główny łańcuch",
+            "received_time":"Czas otrzymania",
+            "estimated_transaction_volume":"Szacowany wolumen transakcji"
+         },
+         "transactions_sub_header":"Transakcje zawarte w tym bloku",
+         "click_to_view":"Kliknij by zobaczyć"
+      },
+      "double_spends":{
+         
+      },
+      "wallet_app":{
+         "transactions":{
+            
+         },
+         "errors":{
+            "mobile_identifier_not_found":"Portfel identyfikator nie znaleziono. Twój portfel nie jest jeszcze zapisany na naszym serwerze, jeszcze. Proszę skonfigurować nowe konto, aby uniknąć utraty portfela."
+         },
+         "send_coins":{
+            
+         },
+         "tooltips":{
+            "connection_status":{
+               
+            },
+            "balance":{
+               
+            }
+         },
+         "nav":{
+            "home":"Portfel główny",
+            "send":"Wysyłanie pieniędzy"
+         },
+         "receive_money":{
+            "anonymous_addresses_description2":"Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
+            "sub_header":"Twoje adresy odbiorcze bitcoin",
+            "chord_diagram":"Zobacz diagram powiązań",
+            "new_address":"Nowy adres",
+            "anonymous_addresses":"Adresy anonimowe",
+            "archived":"Zarchiwizowane",
+            "archived_addresses_description":"Zarchiwizowane adresy może nie trzeba już, że są ukryte w widoku głównym, ale nadal częścią portfela. Możesz rozpakuj je w dowolnym momencie, klikając niebieską ikonę.",
+            "new_anonymous_address":"Nowy adres anonimowy",
+            "anonymous_addresses_description":"Płatności otrzymane do adresów anonimowych zostaną przekazane innym adresem w portfelu. Wszelkie płatności otrzymane są wysyłane za pomocą miksera izolujący osobistego portfela od nadawcy. Transakcje otrzymane do anonimowych adresów nie mogą być połączone do zwykłego portfela.",
+            "new_address_tooltip":"Kliknij tutaj, aby wygenerować nowy adres bitcoin. Możesz rozpocząć odbieranie bitcoins do tego adresu natychmiast"
+         },
+         "account_settings":{
+            "nav":{
+               
+            },
+            "sms_verified":"Zweryfikowano SMS'em",
+            "password_hints_description":" Jeśli zapomnisz hasło (s) wskazówki mogą być przydatne do pobiegać pamięć. Jeśli jest adres e-mail związany z twoich aluzji konta można wysłane. Jeśli nie ma e-mail jest powiązany z kontem wskazówki są dostępne dla każdego, kto zna swój identyfikator portfela."
+         },
+         "import_export":{
+            "rpc":{
+               
+            },
+            "installed_refresh_page":" Po zainstalowaniu należy odświeżyć stronę.",
+            "desktop_sync_step2_p1":" Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:",
+            "import_wallet_formats":{
+               
+            }
+         },
+         "login":{
+            "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdzić e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie można znaleźć e-mail? Kliknij przycisk poniżej, a my prześlemy Ci nowe."
+         },
+         "wallet_home":{
+            "withdraw_description":"Korzystaj z usług poniżej by zamienić bitcoiny na walutę.",
+            "final_balance":"Saldo końcowe",
+            "total_transactions":"Razem transakcji",
+            "deposit":"Dodaj środki",
+            "total_received":"Razem odebranych",
+            "backup_description":"Tworzenie kopii zapasowej portfela jest ważnym krokiem, który jest łatwy do zapomnienia. Blockchain.info podejmuje wszelkie środki ostrożności, aby utrzymać portfel bezpiecznym. Dla większego bezpieczeństwa zalecamy dokonywanie dodatkowej kopi bezpieczeństwa.",
+            "phone_deposit":"Zasil telefonem",
+            "share_with_anyone":"Podziel się tym adresem z kimkolwiek chcesz by otrzymać płatności.",
+            "btcpak_withdraw":"Wypłać przez BTCPak",
+            "pingit_deposit":"Zasil przez PingIt",
+            "pingit_withdraw":"Wypłać przez PingIt",
+            "this_is_your_bitcoin_address":"To jest twój główny adres bitcoin",
+            "withdraw":"Wypłać środki",
+            "cash_deposit":"Zasil gotówką",
+            "total_sent":"Razem wysłanych"
+         },
+         "modals":{
+            "send_payment":"Wyślij płatność",
+            "compressed_private_key_p2":"Zalecanym rozwiązaniem do zamiatać funduszy do istniejącego adresu Bitcoin. Chcesz zamiatać klucza prywatnego, a nie?"
+         },
+         "success":{
+            
+         }
+      },
+      "wallet":{
+         "slogan":"Bądź własnym bankiem",
+         "start_new":"Utwórz nowy portfel"
+      },
+      "unconfirmed":{
+         
+      },
+      "hub_nodes":{
+         
+      },
+      "transaction_page":{
+         "double_spend":{
+            
+         }
+      },
+      "errors":{
+         
+      },
+      "relayed_by":{
+         
+      },
+      "rejected":{
+         
+      },
+      "webgl_globe":{
+         
+      },
+      "payment_request":{
+         
+      },
+      "error_page":{
+         
+      },
+      "propagation":{
+         
+      },
+      "ads":{
+         "bitinstant":{
+            "body":"Kup używając gotówki",
+            "title":"Potrzebujesz Bitcoinów?"
+         }
+      },
+      "translations_page":{
+         "steps":{
+            
+         }
+      },
+      "about_us":{
+         "sub_header":"Kim jesteśmy i czym się zajmujemy",
+         "support":"Wsparcie:",
+         "disclaimer":"Uwaga",
+         "security_p1":"Naszą polityką bezpieczeństwa oparta jest o przechowywanie tak możliwie małej ilości danych, tak by żadne naruszenie bezpieczeństwa serwisu nie mogło wpłynąć na jego użytkowników. My Wallet nie przechowywuje żadnych haseł ani danych identyfikacyjnych, a zawartość porfela jest zawsze przechowywana w zaszyfrowanej postaci. Blockchain.info działa na prywatnej, dedykowanej do tego celu infrastrukturze, do której dostęp mają jedynie administratorzy serwisu. Regularnie przeprowadzamy audyty bezpieczeństwa zarówno kodu oraz serwerów. Strona jest dostępna przy pomocy szyfrowanego protokołu https z certyfikatem zweryfikowanym przez GoDaddy.",
+         "availability_p1":"Staramy się utrzymać 99.5% czasu dostępności, jednak usługa prowadzaona jest na zasadach best-effort. Informujemy użytkowników drogą mailową o zaplanowanych przerwach technicznych.",
+         "up_time":"Up Time",
+         "privacy_policy":"Polityka Prywatności",
+         "company_footer":"Właścicielem oraz operatorem Blockchain.info jest Qkos Services Ltd zarejestrowany w UK; numer firmy: 05106799",
+         "about_p1":"Blockchain.info jest najpopularniejszym Bitcoinowym portfelem oraz eksploratorem bloków. W październiku 2012 serwis odwiedziało dziennie 10 tysięcy użytkowników dziennie, a łącznie posiadał on 30 tysięcy użytkowników.",
+         "contact_us":"Skontakuj się z nami",
+         "title":"O Nas - Blockchain.info",
+         "response_time":"Czas odpowiedzi",
+         "up_time_alt":"Up time dla blockchain.info: Ostatnie 30 dni",
+         "email":"Email:",
+         "privacy_p1":"Rejestrujemy dostęp do wszystkich stron serwisu wyłącznie w celach statystycznych. Logi są usuwane co 7 dni. Nie rejestrujemy żadnych danych dotyczących transakcji przeprowadzonych przy pomocy usługi My Wallet. Każdy adres email, skype oraz inne dane dostarczone przez użytkownika nie są i nie będą współdzielone z innymi podmiotami.",
+         "name":"Nazwa:",
+         "view_website_status":"Sprawdź status serwisu",
+         "media_sub_header":"Media and Logotypy"
+      },
+      "wallet_index":{
+         "anonymous":{
+            
+         },
+         "control":{
+            
+         },
+         "merchants":{
+            
+         },
+         "slides":{
+            "charts_analytics":"Wykresy i analizy",
+            "double_encryption":"Podwójne szyfrowanie",
+            "one_click_backups":"Kopia bezpieczeństwa za jednym kliknięciem"
+         },
+         "easy":{
+            
+         },
+         "confused":{
+            
+         },
+         "try_demo_account":"Przetestuj konto demonstracyjne",
+         "tooltips":{
+            "offline_transactions_title":"Transakcje offline",
+            "paper_wallet_title":"Portfel papierowy"
+         },
+         "features":{
+            
+         },
+         "create_my_free_wallet":"Utwórz mój bezpłatny portfel",
+         "security":{
+            "title":"Bezpieczny"
+         }
+      },
+      "tx_tree":{
+         "cluster_by_address":"Klaster według adresu"
+      },
+      "push_tx":{
+         
+      },
+      "maintenance":{
+         
+      },
+      "startup_message":{
+         
+      },
+      "blocks":{
+         "relayed_by":"Przesłany przez",
+         "hash":"Hash",
+         "main_chain":"Główny łańcuch",
+         "title2":"Bloki znalezione",
+         "mined_on":"Bloki znalezione:"
+      },
+      "emails":{
+         "two_factor_reset_request":{
+            
+         },
+         "tx":{
+            
+         },
+         "confirmation_code":{
+            
+         },
+         "password_hints":{
+            
+         },
+         "wallet_backup":{
+            
+         },
+         "welcome":{
+            
+         },
+         "account_locked":{
+            
+         }
+      },
+      "largest_transactions":{
+         
+      },
+      "pools":{
+         
+      },
+      "header":{
+         "home_title":"Blockchain.info Strona główna",
+         "home":"Strona główna",
+         "stats_title":"Statystyki dla Bitcoin",
+         "charts_title":"Wykresy dla Bitcoin",
+         "developer_title":"Narzędzia Blochchain dla deweloperów"
+      },
+      "wallet_new":{
+         
+      },
+      "misc":{
+         
+      },
+      "footer":{
+         
+      },
+      "charts":{
+         "market_price2":"Wykres pokazujący cenę 1 BTC wyrażoną w USD na giełdzie Mt.gox",
+         "market_cap2":"Wykres pokazujący całkowitą liczbę Bitcoinów w cyrkulacji razy ich cenę w USD.",
+         "total_bitcoins":"Całkowita liczba Bitcoinów w cyrkulacji",
+         "hash_rate_label":"Hash Rate GH\/s",
+         "n_unique_addresses2":"Wykres pokazujący liczbę unikalnych adresów Bitcoin wykorzystanych do transakcji w ciągu całego dnia.",
+         "n_transactions":"Liczba transkacji",
+         "my_wallet_n_tx":"Dzienna liczba transakcji My Wallet",
+         "trade_vol2":"Wykres pokazujący wolumen transakcji na gdziełkie USD z największych giełd.",
+         "n_transactions_excluding_popular3":"Popularne adresy",
+         "n_transactions_excluding_popular2":"Liczb transakcji z wyłączeniem najpopularniejszych adresów (100 najpopularniejszych)",
+         "errors":{
+            "no_stats":"Brak statystyk dla wybranego okresu"
+         },
+         "total_bitcoins_label":"Liczba Bitcoinów (BTC)",
+         "day_average_7":"średnia z 7 dni",
+         "my_wallet_n_users2":"Liczba portfeli zarejestrowanych w usłudzeMy Wallet.",
+         "days_destroyed_filter_week2":"Filtrowane dla Bitcoinów o wieku minimum 1 tygodnia.",
+         "output_volume":"Całkowity wolumen",
+         "my_wallet_transaction_volume2":"24-godzinny wolumen transakcji wykonanych przy pomocy usługi My Wallet.",
+         "output_volume_label":"Wolumen (BTC)",
+         "operating_margin2":"Wykres pokazujący dochód minerów pomniejszony o szacowankowy koszt prądu i połączenie z Internetem.",
+         "header":"Wykresy Bitcoin",
+         "mywallet_n_transactions_per_day":"My Wallet: Liczba transkacji na dzień",
+         "blockchain_size_label":"MB",
+         "my_wallet_transaction_volume_label":"Wolumen transakcji (BTC)",
+         "estimated_transaction_volume_usd":"Szacowany wolument transakcji (USD)",
+         "transaction_fees2":"Wykres pokazujący całkowitą wartość (BTC) opłat za transakcje, które minerzy otrzymują dziennie.",
+         "miners_revenue_label":"Dochody Minerów (BTC)",
+         "hash_rate2":"Szacowana liczba Giga-Hashy na sekundę (miliardów hashy na sekundę): operacji wykonywanych przez sieć Bitcoin.",
+         "balance_of_address":"Balans adresów Bitcoin:",
+         "days_destroyed_filter_year2":"Filtrowane dla Bitcoinów o wieku minimum 1 roku.",
+         "title":"Wykresy Bitcoin - Blockchain.info",
+         "my_wallet_n_tx2":"Liczba transakcji w ciągu jednego dnia wykonany przy pomocy usługi My Wallet.",
+         "market_price_usd":"Cena rynkowa (USD)",
+         "n_transactions2":"Wykres pokazujący całkowitą liczbę unikalnych transakcji Bitcoin na dzień.",
+         "total_receive_per_day":"Całkowita liczba BTC wysłanych w ciągu dnia do:",
+         "network_deficit2":"Pokazuje różnicę pomiędzy opłatami za transakcji a kosztem minerów.",
+         "blockchain_size2":"Łączny rozmiar wszystkich nagłówków bloku oraz transakcji. Bez indeksów baz danych.",
+         "btc_received":"BTC otrzymanych",
+         "mywallet_balance_over_time":"My Wallet: Bilans w czasie",
+         "days_destroyed_filter_week":"Zniszczone Bitcoin-Dni (dla Bitcoinów o wieku minimum 1 tygodnia)",
+         "n_transactions_per_block2":"Wykres pokazujący liczbę transakcji per blok.",
+         "my_wallet_transaction_volume":"Wolumen transkacji My Wallet ",
+         "n_transactions_excluding_popular":"Liczb transakcji z wyłączeniem najpopularniejszych adresów.",
+         "estimated_transaction_volume_usd_label":"Wolumen transkacji (USD)",
+         "days_destroyed_label":"Zniszczonych dni",
+         "days_destroyed2":"Nie kumulatywna liczba Zniszczonych Bitcoin-Dni.",
+         "network_deficit":"Trudność sieci",
+         "cost_percent_per_transaction":"Koszt (procentowy) wolumenu transakcji",
+         "total_received_to_address":"Razem wysłanych na adress:",
+         "estimated_transaction_volume2":"Podobny do całkowitego wolumenu transkacji, ale po użyciu algorytmu, który próbuje skorygować zmianę całkowitej liczby Bitcoinów. To może dokładnie oddawać prawdziwy wolumen transakcji.",
+         "operating_margin_label":"Dochód operacyjny %",
+         "operating_margin":"Opłacalność działalności minerów",
+         "cost_per_transaction_usd":"Koszt per transakcja (USD)",
+         "days_destroyed_filter_month":"Zniszczone Bitcoin-Dni (dla Bitcoinów o wieku minimum 1 miesiąca)",
+         "cost_per_transaction2":"Wykres dochodów podzielony przez liczba transakcji.",
+         "number_of_transactions":"Liczba transkacji",
+         "cost_per_transaction":"Koszt per transakcja",
+         "days_destroyed_filter_month2":"Filtrowane dla Bitcoinów o wieku minimum 1 miesiąca.",
+         "raw_values":"Raw values",
+         "transaction_fees":"Całkowite opłaty za transakcje",
+         "linear_scale":"Skala liniowa",
+         "mywallet_total_btc_received":"My Wallet: Otrzymane BTC",
+         "n_unique_addresses":"Liczba wykorzystanych unikalnych adresów Bitcoin",
+         "n_transactions_per_block":"Liczba transakcji per blok",
+         "avg_confirmation_time2":"Średni czas do zaakceptowania transakcji w bloku.",
+         "mywallet_total_Received_per_day":"My Wallet: Razem otrzymanych na dzień.",
+         "log_scale":"Skala logarytmiczna",
+         "my_wallet_n_users":"Liczba użytkowników My Wallet",
+         "estimated_transaction_volume_usd2":"Szacowany wolument transakcji wyrażony w USD.",
+         "transaction_fees_label":"Opłaty za transakcje (BTC)",
+         "final_balance":"Bilans końcowy",
+         "days_destroyed_cumulative":"Kumulatywna liczba Zniszczone Bitcoin-Dni",
+         "estimated_transaction_volume_label":"Wolumen transkacji (BTC)",
+         "total_received":"Razem otrzymanych",
+         "days_destroyed":"Zniszczone Bitcoin-Dni",
+         "cost_percent_per_transaction2":"Wykres pokazujący dochód minerów jako procent wolumenu transakcji.",
+         "n_transactions_per_day_to":"Liczba transkacji dziennie do:",
+         "blockchain_size":"Rozmiar Łańcuch Bloków",
+         "network_deficit_label":"Deficyt sieci (USD)",
+         "avg_confirmation_time":"Średni czas potwierdzenie transakcji.",
+         "total_bitcoins2":"Wykres pokazujący historyczną ilość Bitcoinów które zostały utworzone.",
+         "output_volume2":"Całkowity wolumen transakcji wliczając w to Bitcoiny zwrócone wysyłającemu.",
+         "sub_header":"Różne wykresy i statystyki związane z siecią Bitcoin",
+         "trade_vol_label":"Wolumen transakcji (USD)",
+         "trade_vol":"Wykres wolumenu transakcji na giełdzie USD",
+         "days_destroyed_filter_year":"Zniszczone Bitcoin-Dni (dla Bitcoinów o wieku minimum 1 roku).",
+         "estimated_transaction_volume":"Szacowany wolumen transakcji",
+         "hash_rate":"Hash Rate",
+         "n_of_transactions_per_day":"Liczba transkacji na dzień",
+         "transaction_fees_usd_label":"Opłaty za transakcje (BTC)",
+         "market_cap":"Kapitalizacja Rynku",
+         "transactions_per_block":"Transakcje per blok",
+         "meta_description":"Najbardziej popularne wykresy i statystyki dotyczące sieci Bitcoin. Liczba transakcji dziennie, wolumen, cena rynkowa itd.",
+         "miners_revenue2":"Historyczny wykres pokazujący liczbę Bitcoinów tworzonych dziennie plus opłaty za transkacje razy ich aktualną wartość rynkową.",
+         "market_price":"Cena rynkowa (USD)",
+         "miners_revenue":"Dochody minerów",
+         "cost_percent_per_transaction_label":"Procent wolumenu transakcji",
+         "days_destroyed_cumulative2":"Zniszczone Bitcoin-Dni to miara wolumenu transakcji w sieci Bitcoin. Jeżeli ktoś otrzymał 100 BTC  i wyda je po 7 dniach to zniszczył 700 Bitcoin-Dni.",
+         "avg_confirmation_time_label":"Czas potwierdzenia (Minuty)"
+      },
+      "block_height":{
+         "summary":"Podsumowanie",
+         "sub_header":"Bloki o wysokości {0} w łańcuchu bloków",
+         "block_reward":"Nagroda",
+         "hash":"Hash",
+         "received_time":"Czas otrzymania",
+         "merkle_root":"Merkle Root",
+         "previous_block":"Poprzedni blok",
+         "estimated_transaction_volume":"Szacowany wolumen transakcji",
+         "error_fetching_blocks":"Unknown Error Fetching Blocks From Database",
+         "title":"Bloki o wysokości {0} w łańcuchu bloków",
+         "meta_description":"Bloki Bitcoin o wysokości {0} w łańcuchu bloków",
+         "nonce":"Nonce",
+         "output_total":"Sumaryczny wynik",
+         "relayed_by":"Przesłany przez",
+         "no_blocks":"Nie znaleziono bloków o podanej wysokości"
+      },
+      "strange_transactions":{
+         
+      },
+      "notifications":{
+         
+      },
+      "address":{
+         "invalid_hash_160":"Przykro mi, to nie jest proawidłowy hash 160",
+         "transactions":"Transakcje.",
+         "sub_header":"Adresy to identyfikatory wykorzystywane do wysyłania Bitcoinów pomiędzy odbiorcami.",
+         "table_summary":{
+            "title":"Podsumowanie",
+            "address":"Adresy",
+            "view_analysis":"Zobacz Analysis",
+            "short_link":"Krótki Link"
+         },
+         "confirmed_only":"Tylko Potwierdzone",
+         "escrow":"Depozyt",
+         "previous":"Poprzednie",
+         "next":"Następne",
+         "request_payment":"Życzenie zapłaty",
+         "no_address_provided":"Nie podano adresu",
+         "received":"Otrzymane",
+         "invalid_address":"Przykro mi, to nie jest prawidłowy adres Bitcoin.",
+         "newest_first":"(Od najnowszych)",
+         "double_spend_warning":"Uwaga! Ten adres Bitcoin zawiera operacje, które mogły być próbami oszustwa. Zalecamy ostrożność przy transakcjach z oraz na ten adres.",
+         "sent":"Wysłano",
+         "table_transactions":{
+            "final_balance":"Bilans",
+            "number_of_transactions":"Liczba transkacji",
+            "unspent_inputs":"Niewysłane wejścia",
+            "total_received":"Razem otrzymane"
+         },
+         "title":"Adres  Bitcoin {0}",
+         "too_large_to_filter":"Historia transakcji zbyt wielka, by ją przefiltrować.",
+         "meta_description":"Transkacje wychodzące oraz przychodzące dla adresu Bitcoin ",
+         "confirmed":"Potwierdzone",
+         "no_transactions":"Nie odnaleziono transakcji związanych z tym adresem. Prawdopodobnie nigdy nie był on użyty w sieci.",
+         "deposit_with_cash":"Depozyt gotówkowy"
+      },
+      "ip_log":{
+         
+      }
    },
-   "strings": {
-      "about_us": {
-         "about_p1": "Blockchain.info jest najpopularniejszym Bitcoinowym portfelem oraz eksploratorem bloków. W październiku 2012 serwis odwiedziało dziennie 10 tysięcy użytkowników dziennie, a łącznie posiadał on 30 tysięcy użytkowników.",
-         "availability": "Dostępność",
-         "availability_p1": "Staramy się utrzymać 99.5% czasu dostępności, jednak usługa prowadzaona jest na zasadach best-effort. Informujemy użytkowników drogą mailową o zaplanowanych przerwach technicznych.",
-         "company_footer": "Właścicielem oraz operatorem Blockchain.info jest Qkos Services Ltd zarejestrowany w UK; numer firmy: 05106799",
-         "contact_us": "Skontakuj się z nami",
-         "disclaimer": "Uwaga",
-         "email": "Email:",
-         "media": "Media",
-         "media_sub_header": "Media and Logotypy",
-         "name": "Nazwa:",
-         "privacy": "Prywatność",
-         "privacy_p1": "Rejestrujemy dostęp do wszystkich stron serwisu wyłącznie w celach statystycznych. Logi są usuwane co 7 dni. Nie rejestrujemy żadnych danych dotyczących transakcji przeprowadzonych przy pomocy usługi My Wallet. Każdy adres email, skype oraz inne dane dostarczone przez użytkownika nie są i nie będą współdzielone z innymi podmiotami.",
-         "privacy_policy": "Polityka Prywatności",
-         "response_time": "Czas odpowiedzi",
-         "response_time_alt": "Czas odpowiedzi dla blockchain.info: Ostatnie 30 dni",
-         "security": "Bezpieczeństwo",
-         "security_p1": "Naszą polityką bezpieczeństwa oparta jest o przechowywanie tak możliwie małej ilości danych, tak by żadne naruszenie bezpieczeństwa serwisu nie mogło wpłynąć na jego użytkowników. My Wallet nie przechowywuje żadnych haseł ani danych identyfikacyjnych, a zawartość porfela jest zawsze przechowywana w zaszyfrowanej postaci. Blockchain.info działa na prywatnej, dedykowanej do tego celu infrastrukturze, do której dostęp mają jedynie administratorzy serwisu. Regularnie przeprowadzamy audyty bezpieczeństwa zarówno kodu oraz serwerów. Strona jest dostępna przy pomocy szyfrowanego protokołu https z certyfikatem zweryfikowanym przez GoDaddy.",
-         "sub_header": "Kim jesteśmy i czym się zajmujemy",
-         "support": "Wsparcie:",
-         "tel": "Tel:",
-         "title": "O Nas - Blockchain.info",
-         "up_time": "Up Time",
-         "up_time_alt": "Up time dla blockchain.info: Ostatnie 30 dni",
-         "view_website_status": "Sprawdź status serwisu"
-      },
-      "address": {
-         "bitcoin_address": "Adres Bitcoin",
-         "confirmed": "Potwierdzone",
-         "confirmed_only": "Tylko Potwierdzone",
-         "deposit_with_cash": "Depozyt gotówkowy",
-         "double_spend_warning": "Uwaga! Ten adres Bitcoin zawiera operacje, które mogły być próbami oszustwa. Zalecamy ostrożność przy transakcjach z oraz na ten adres.",
-         "escrow": "Depozyt",
-         "invalid_address": "Przykro mi, to nie jest prawidłowy adres Bitcoin.",
-         "invalid_hash_160": "Przykro mi, to nie jest proawidłowy hash 160",
-         "meta_description": "Transkacje wychodzące oraz przychodzące dla adresu Bitcoin ",
-         "newest_first": "(Od najnowszych)",
-         "next": "Następne",
-         "no_address_provided": "Nie podano adresu",
-         "no_transactions": "Nie odnaleziono transakcji związanych z tym adresem. Prawdopodobnie nigdy nie był on użyty w sieci.",
-         "oldest_first": "(Od najstarszych)",
-         "previous": "Poprzednie",
-         "received": "Otrzymane",
-         "request_payment": "Życzenie zapłaty",
-         "sent": "Wysłano",
-         "sub_header": "Adresy to identyfikatory wykorzystywane do wysyłania Bitcoinów pomiędzy odbiorcami.",
-         "table_summary": {
-            "address": "Adresy",
-            "short_link": "Krótki Link",
-            "taint_analysis": "Analiza Taint",
-            "title": "Podsumowanie",
-            "view_analysis": "Zobacz Analysis"
-         },
-         "table_transactions": {
-            "final_balance": "Bilans",
-            "number_of_transactions": "Liczba transkacji",
-            "title": "Transakcje",
-            "total_received": "Razem otrzymane",
-            "unspent_inputs": "Niewysłane wejścia"
-         },
-         "title": "Adres  Bitcoin {0}",
-         "too_large_to_filter": "Historia transakcji zbyt wielka, by ją przefiltrować.",
-         "transactions": "Transakcje."
-      },
-      "ads": {
-         "bitinstant": {
-            "body": "Kup używając gotówki",
-            "title": "Potrzebujesz Bitcoinów?"
-         }
-      },
-      "api_index": {
-         "abuse_notice": "Za usługi prowadzone przez blockchain.info nie pobierane są opłaty. Prosimy o nie nadużywanie ich.",
-         "account_required": "Wymagane konto w usłude My Wallet",
-         "bitpay_description": "Blockchain poleca serwis Bitpay - Lidera rozwiązań biznesowych Bitcoin. Bitpay oferuje kompletne rozwiązania płatności Bitcoin, automatyczne przewalutowanie do walut narodowych oraz integrację z istniejącym oprogramowaniem do sprzedaży online.",
-         "blockchain_data": "Dane na temat transakcji oraz bloków",
-         "charts_and_statistics": "Wykresy oraz statystyki",
-         "charts_and_statistics_description": "Feed JSON zawierający dane z wykresów oraz stron ze statusem.",
-         "complete_merchant_solution": "Pełne rozwiązanie dla handlu online.",
-         "contact_us": "skontaktuj się z nami",
-         "data_api": "API danych blockchainu",
-         "data_api_description": "Wykorzystaj dane w formacie JSON na temat transakcji oraz bloków. Prawie wszystkie dane widoczne na tej stronie są dostępne w formacie JSON.",
-         "exchange_rates": "Kursy wymiany",
-         "exchange_rates_data": "Dane na temat waluty z głównych kantorów Bitcoin..",
-         "header": "API dla programistów Bitcoin",
-         "json_rpc": "JSON RPC kompatybilne z Bitcoin-Qt",
-         "json_rpc_description": "Blockchain.info może działać jako serwer RPC bitcoind dla biznesu celem interakcji z ich kontami My Wallet.",
-         "market_data": "Dane z rynku",
-         "maximum": "Maksimum",
-         "meta_description": "Blockchain udostępnia darmowe API dla biznesu i programistów.",
-         "no_account_required": "Konto nie jest wymagane",
-         "payment_processing": "Przetwarzanie płatności.",
-         "receive_payments": "Otrzymaj płatność",
-         "receive_payments_description": "Niezwykle łatwa metoda dla stron internetowych by otrzymywać płatności Bitcoin.",
-         "request_limits": "Limit zapytań",
-         "request_limits_p1": "By ominąć limity korzystania z API proszę",
-         "requests_in_5_minutes": "Zapytania w ciągu 5 minut:",
-         "requests_in_8_hours": "Zapytania w ciągu 8 godzin:",
-         "send_description": "Proste wykorzystanie JSON API celem programowego wysłania lub otrzymania Bitcoinów na koncie My Wallet.",
-         "send_payments": "Wyślij opłaty",
-         "simple_query_api": "Proste API zapytań",
-         "simple_query_api_description": "Proste API w czystym tekście dla zapytań dotyczących danych blockchanu. Kompatybilne z ",
-         "sub_header": "Narzędzia dla programistów dla danych na temat blockchainu",
-         "third_party_apis": "API dla stron trzecich",
-         "title": "API dla programistów Bitcoin - Blockchain.info",
-         "up_time": "Up Time",
-         "up_time_description": "Blockchain.info wykorzystuje kluster bazodanowy o wysokiej dostępności oraz dedykowaną infrastrukturę celem maksymalizacji czasu dostępności oraz obniżenia czasu odpowiedzi na zapytania.",
-         "view_documentation": "Czytaj Dokumentację",
-         "websocket_description": "Kanał komunikacji o niskiej latencji udostępnia dane na temat nowych bloków oraz transakcji. Subskrybuj kanał powiadomień i otrzymuj dane w formacie JSON opisujące aktualne zdarzenia w sieci.",
-         "welcome": "Witamy Programistów!",
-         "welcome_p1": "Tutaj odnajdziesz wszystko czego potrzebujesz by rozpocząć pracę nad projektem wykorzystującym system Bitcoin. Możesz użyć informacje Blockchain.info lub",
-         "welcome_p2": "udostępnione przez inne serwisy."
-      },
-      "block": {
-         "click_to_view": "Kliknij by zobaczyć",
-         "hash_table": {
-            "hash": "Hash",
-            "merkle_root": "Merkle Root",
-            "next_block": "Następne Bloki",
-            "previous_block": "Poprzednie Bloki",
-            "title": "Hash-e"
-         },
-         "header": "Blok",
-         "meta_description": "Transakcje zawarte w bloku Bitcoin",
-         "network_propagation": "Propagacja w sieci",
-         "no_block_index": "Brak indeksu bloku",
-         "summary_table": {
-            "bits": "Bity",
-            "block_reward": "Nagroda",
-            "difficulty": "Trudność",
-            "estimated_transaction_volume": "Szacowany wolumen transakcji",
-            "height": "Wysokość",
-            "main_chain": "Główny łańcuch",
-            "nonce": "Nonce",
-            "number_of_transactions": "Liczba transakcji",
-            "orphaned": "Osierocony",
-            "output_title": "Sumaryczny wynik",
-            "received_time": "Czas otrzymania",
-            "relayed_by": "Przesłany przez",
-            "size": "Rozmiar",
-            "timestamp": "Timestamp",
-            "title": "Podsumowanie",
-            "transaction_fees": "Opłaty za transakcje",
-            "version": "Wersja"
-         },
-         "title": "Blok Bitcoin #{0}",
-         "transactions_header": "Transakcje",
-         "transactions_sub_header": "Transakcje zawarte w tym bloku"
-      },
-      "block_height": {
-         "block_reward": "Nagroda",
-         "difficulty": "Trudność",
-         "error_fetching_blocks": "Unknown Error Fetching Blocks From Database",
-         "estimated_transaction_volume": "Szacowany wolumen transakcji",
-         "hash": "Hash",
-         "header": "Wysokość bloku {0}",
-         "height": "Wysokość",
-         "merkle_root": "Merkle Root",
-         "meta_description": "Bloki Bitcoin o wysokości {0} w łańcuchu bloków",
-         "next_blocks": "Następne bloki",
-         "no_blocks": "Nie znaleziono bloków o podanej wysokości",
-         "nonce": "Nonce",
-         "number_of_transactions": "Liczba transakcji",
-         "output_total": "Sumaryczny wynik",
-         "previous_block": "Poprzedni blok",
-         "received_time": "Czas otrzymania",
-         "relayed_by": "Przesłany przez",
-         "size": "Rozmiar",
-         "sub_header": "Bloki o wysokości {0} w łańcuchu bloków",
-         "summary": "Podsumowanie",
-         "time": "Czas",
-         "title": "Bloki o wysokości {0} w łańcuchu bloków",
-         "transaction_fees": "Opłaty za transakcje",
-         "version": "Wersja"
-      },
-      "blocks": {
-         "blocks_found_by": "Ostatnie bloki znalezione przez {0}",
-         "hash": "Hash",
-         "height": "Wysokość",
-         "main_chain": "Główny łańcuch",
-         "mined_on": "Bloki znalezione:",
-         "next": "Następny",
-         "orphaned": "Osierocony",
-         "previous": "Poprzedni",
-         "relayed_by": "Przesłany przez",
-         "size": "Rozmiar (KB)",
-         "time": "Czas",
-         "title1": "Ostatnie bloki znalezione przez {0}",
-         "title2": "Bloki znalezione",
-         "transactions": "Transakcje"
-      },
-      "charts": {
-         "all_time": "All Time",
-         "avg_confirmation_time": "Średni czas potwierdzenie transakcji.",
-         "avg_confirmation_time2": "Średni czas do zaakceptowania transakcji w bloku.",
-         "avg_confirmation_time_label": "Czas potwierdzenia (Minuty)",
-         "balance_of_address": "Balans adresów Bitcoin:",
-         "blockchain_size": "Rozmiar Łańcuch Bloków",
-         "blockchain_size2": "Łączny rozmiar wszystkich nagłówków bloku oraz transakcji. Bez indeksów baz danych.",
-         "blockchain_size_label": "MB",
-         "btc_received": "BTC otrzymanych",
-         "cost_per_transaction": "Koszt per transakcja",
-         "cost_per_transaction2": "Wykres dochodów podzielony przez liczba transakcji.",
-         "cost_per_transaction_usd": "Koszt per transakcja (USD)",
-         "cost_percent_per_transaction": "Koszt (procentowy) wolumenu transakcji",
-         "cost_percent_per_transaction2": "Wykres pokazujący dochód minerów jako procent wolumenu transakcji.",
-         "cost_percent_per_transaction_label": "Procent wolumenu transakcji",
-         "day_average_7": "średnia z 7 dni",
-         "days_180": "180 dni",
-         "days_30": "30 dni",
-         "days_60": "60 dni",
-         "days_destroyed": "Zniszczone Bitcoin-Dni",
-         "days_destroyed2": "Nie kumulatywna liczba Zniszczonych Bitcoin-Dni.",
-         "days_destroyed_cumulative": "Kumulatywna liczba Zniszczone Bitcoin-Dni",
-         "days_destroyed_cumulative2": "Zniszczone Bitcoin-Dni to miara wolumenu transakcji w sieci Bitcoin. Jeżeli ktoś otrzymał 100 BTC  i wyda je po 7 dniach to zniszczył 700 Bitcoin-Dni.",
-         "days_destroyed_filter_month": "Zniszczone Bitcoin-Dni (dla Bitcoinów o wieku minimum 1 miesiąca)",
-         "days_destroyed_filter_month2": "Filtrowane dla Bitcoinów o wieku minimum 1 miesiąca.",
-         "days_destroyed_filter_week": "Zniszczone Bitcoin-Dni (dla Bitcoinów o wieku minimum 1 tygodnia)",
-         "days_destroyed_filter_week2": "Filtrowane dla Bitcoinów o wieku minimum 1 tygodnia.",
-         "days_destroyed_filter_year": "Zniszczone Bitcoin-Dni (dla Bitcoinów o wieku minimum 1 roku).",
-         "days_destroyed_filter_year2": "Filtrowane dla Bitcoinów o wieku minimum 1 roku.",
-         "days_destroyed_label": "Zniszczonych dni",
-         "errors": {
-            "no_stats": "Brak statystyk dla wybranego okresu"
-         },
-         "estimated_transaction_volume": "Szacowany wolumen transakcji",
-         "estimated_transaction_volume2": "Podobny do całkowitego wolumenu transkacji, ale po użyciu algorytmu, który próbuje skorygować zmianę całkowitej liczby Bitcoinów. To może dokładnie oddawać prawdziwy wolumen transakcji.",
-         "estimated_transaction_volume_label": "Wolumen transkacji (BTC)",
-         "estimated_transaction_volume_usd": "Szacowany wolument transakcji (USD)",
-         "estimated_transaction_volume_usd2": "Szacowany wolument transakcji wyrażony w USD.",
-         "estimated_transaction_volume_usd_label": "Wolumen transkacji (USD)",
-         "final_balance": "Bilans końcowy",
-         "hash_rate": "Hash Rate",
-         "hash_rate2": "Szacowana liczba Giga-Hashy na sekundę (miliardów hashy na sekundę): operacji wykonywanych przez sieć Bitcoin.",
-         "hash_rate_label": "Hash Rate GH/s",
-         "header": "Wykresy Bitcoin",
-         "hide_data_points": "Ukryj punkty danych",
-         "linear_scale": "Skala liniowa",
-         "log_scale": "Skala logarytmiczna",
-         "market_cap": "Kapitalizacja Rynku",
-         "market_cap2": "Wykres pokazujący całkowitą liczbę Bitcoinów w cyrkulacji razy ich cenę w USD.",
-         "market_cap_label": "Market Cap (USD)",
-         "market_price": "Cena rynkowa (USD)",
-         "market_price2": "Wykres pokazujący cenę 1 BTC wyrażoną w USD na giełdzie Mt.gox",
-         "market_price_usd": "Cena rynkowa (USD)",
-         "meta_description": "Najbardziej popularne wykresy i statystyki dotyczące sieci Bitcoin. Liczba transakcji dziennie, wolumen, cena rynkowa itd.",
-         "miners_revenue": "Dochody minerów",
-         "miners_revenue2": "Historyczny wykres pokazujący liczbę Bitcoinów tworzonych dziennie plus opłaty za transkacje razy ich aktualną wartość rynkową.",
-         "miners_revenue_label": "Dochody Minerów (BTC)",
-         "my_wallet_n_tx": "Dzienna liczba transakcji My Wallet",
-         "my_wallet_n_tx2": "Liczba transakcji w ciągu jednego dnia wykonany przy pomocy usługi My Wallet.",
-         "my_wallet_n_tx_label": "Liczba transakcji",
-         "my_wallet_n_users": "Liczba użytkowników My Wallet",
-         "my_wallet_n_users2": "Liczba portfeli zarejestrowanych w usłudzeMy Wallet.",
-         "my_wallet_n_users_label": "Liczba użytkowników",
-         "my_wallet_transaction_volume": "Wolumen transkacji My Wallet ",
-         "my_wallet_transaction_volume2": "24-godzinny wolumen transakcji wykonanych przy pomocy usługi My Wallet.",
-         "my_wallet_transaction_volume_label": "Wolumen transakcji (BTC)",
-         "mywallet_balance_over_time": "My Wallet: Bilans w czasie",
-         "mywallet_n_transactions_per_day": "My Wallet: Liczba transkacji na dzień",
-         "mywallet_total_Received_per_day": "My Wallet: Razem otrzymanych na dzień.",
-         "mywallet_total_btc_received": "My Wallet: Otrzymane BTC",
-         "n_of_transactions_per_day": "Liczba transkacji na dzień",
-         "n_transactions": "Liczba transkacji",
-         "n_transactions2": "Wykres pokazujący całkowitą liczbę unikalnych transakcji Bitcoin na dzień.",
-         "n_transactions_excluding_popular": "Liczb transakcji z wyłączeniem najpopularniejszych adresów.",
-         "n_transactions_excluding_popular2": "Liczb transakcji z wyłączeniem najpopularniejszych adresów (100 najpopularniejszych)",
-         "n_transactions_excluding_popular3": "Popularne adresy",
-         "n_transactions_per_block": "Liczba transakcji per blok",
-         "n_transactions_per_block2": "Wykres pokazujący liczbę transakcji per blok.",
-         "n_transactions_per_day_to": "Liczba transkacji dziennie do:",
-         "n_unique_addresses": "Liczba wykorzystanych unikalnych adresów Bitcoin",
-         "n_unique_addresses2": "Wykres pokazujący liczbę unikalnych adresów Bitcoin wykorzystanych do transakcji w ciągu całego dnia.",
-         "network_deficit": "Trudność sieci",
-         "network_deficit2": "Pokazuje różnicę pomiędzy opłatami za transakcji a kosztem minerów.",
-         "network_deficit_label": "Deficyt sieci (USD)",
-         "number_of_addresses": "Liczba adresów",
-         "number_of_transactions": "Liczba transkacji",
-         "operating_margin": "Opłacalność działalności minerów",
-         "operating_margin2": "Wykres pokazujący dochód minerów pomniejszony o szacowankowy koszt prądu i połączenie z Internetem.",
-         "operating_margin_label": "Dochód operacyjny %",
-         "output_volume": "Całkowity wolumen",
-         "output_volume2": "Całkowity wolumen transakcji wliczając w to Bitcoiny zwrócone wysyłającemu.",
-         "output_volume_label": "Wolumen (BTC)",
-         "raw_values": "Raw values",
-         "show_data_points": "Pokaż punkty danych",
-         "source": "Źródło: blockchain.info",
-         "sub_header": "Różne wykresy i statystyki związane z siecią Bitcoin",
-         "title": "Wykresy Bitcoin - Blockchain.info",
-         "total_bitcoins": "Całkowita liczba Bitcoinów w cyrkulacji",
-         "total_bitcoins2": "Wykres pokazujący historyczną ilość Bitcoinów które zostały utworzone.",
-         "total_bitcoins_label": "Liczba Bitcoinów (BTC)",
-         "total_receive_per_day": "Całkowita liczba BTC wysłanych w ciągu dnia do:",
-         "total_received": "Razem otrzymanych",
-         "total_received_to_address": "Razem wysłanych na adress:",
-         "trade_vol": "Wykres wolumenu transakcji na giełdzie USD",
-         "trade_vol2": "Wykres pokazujący wolumen transakcji na gdziełkie USD z największych giełd.",
-         "trade_vol_label": "Wolumen transakcji (USD)",
-         "transaction_fees": "Całkowite opłaty za transakcje",
-         "transaction_fees2": "Wykres pokazujący całkowitą wartość (BTC) opłat za transakcje, które minerzy otrzymują dziennie.",
-         "transaction_fees_label": "Opłaty za transakcje (BTC)",
-         "transaction_fees_usd": "Opłaty za transakcje w USD",
-         "transaction_fees_usd_label": "Opłaty za transakcje (BTC)",
-         "transactions_per_block": "Transakcje per blok",
-         "year_1": "1 Rok"
-      },
-      "connected_nodes": {},
-      "deposit": {
-         "sms_p1": " W celu złożenia bitcoins przez SMS lub telefon stacjonarny, proszę sprawdzić swój numer telefonu poniżej. Po weryfikacji rzeczywista zakupu mogą być wykonane z innego numeru telefonu lub telefonu stacjonarnego."
-      },
-      "double_spends": {},
-      "emails": {
-         "account_locked": {},
-         "confirmation_code": {},
-         "password_hints": {},
-         "two_factor_reset_request": {},
-         "tx": {},
-         "wallet_backup": {},
-         "welcome": {}
-      },
-      "error_page": {},
-      "errors": {},
-      "footer": {},
-      "header": {
-         "charts_title": "Wykresy dla Bitcoin",
-         "developer_title": "Narzędzia Blochchain dla deweloperów",
-         "home": "Strona główna",
-         "home_title": "Blockchain.info Strona główna",
-         "stats_title": "Statystyki dla Bitcoin"
-      },
-      "home": {
-         "about": {},
-         "other_links": {
-            "most_popular": "Najpopularniejsze adresy",
-            "strange": "Dziwne transakcje"
-         },
-         "sub_header": "Ostatnio obrabiane bloki w łańcuchu bloków bitcoin",
-         "table_headers": {
-            "sent": "Razem wysłanych"
-         }
-      },
-      "hub_nodes": {},
-      "ip_info": {},
-      "ip_log": {},
-      "largest_transactions": {},
-      "maintenance": {},
-      "misc": {},
-      "notifications": {},
-      "orphaned_blocks": {},
-      "payment_request": {},
-      "pools": {},
-      "popular_addresses": {},
-      "propagation": {},
-      "push_tx": {},
-      "rejected": {},
-      "relayed_by": {},
-      "startup_message": {},
-      "stats": {
-         "sub_header": "Statystyki waluty bitcoin",
-         "table": {},
-         "title": "Statystyki Bitcoin - Blockchain.info"
-      },
-      "strange_transactions": {},
-      "transaction": {},
-      "transaction_page": {
-         "double_spend": {}
-      },
-      "translations_page": {
-         "steps": {}
-      },
-      "tx_tree": {
-         "cluster_by_address": "Klaster według adresu"
-      },
-      "unconfirmed": {},
-      "wallet": {
-         "slogan": "Bądź własnym bankiem",
-         "start_new": "Utwórz nowy portfel"
-      },
-      "wallet_app": {
-         "account_settings": {
-            "nav": {},
-            "password_hints_description": " Jeśli zapomnisz hasło (s) wskazówki mogą być przydatne do pobiegać pamięć. Jeśli jest adres e-mail związany z twoich aluzji konta można wysłane. Jeśli nie ma e-mail jest powiązany z kontem wskazówki są dostępne dla każdego, kto zna swój identyfikator portfela.",
-            "sms_verified": "Zweryfikowano SMS'em"
-         },
-         "errors": {
-            "mobile_identifier_not_found": "Portfel identyfikator nie znaleziono. Twój portfel nie jest jeszcze zapisany na naszym serwerze, jeszcze. Proszę skonfigurować nowe konto, aby uniknąć utraty portfela."
-         },
-         "import_export": {
-            "desktop_sync_step2_p1": " Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:",
-            "import_wallet_formats": {},
-            "installed_refresh_page": " Po zainstalowaniu należy odświeżyć stronę.",
-            "rpc": {}
-         },
-         "login": {
-            "lost_identifier_p1": " Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdzić e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie można znaleźć e-mail? Kliknij przycisk poniżej, a my prześlemy Ci nowe."
-         },
-         "modals": {
-            "compressed_private_key_p2": "Zalecanym rozwiązaniem do zamiatać funduszy do istniejącego adresu Bitcoin. Chcesz zamiatać klucza prywatnego, a nie?",
-            "send_payment": "Wyślij płatność"
-         },
-         "nav": {
-            "home": "Portfel główny",
-            "send": "Wysyłanie pieniędzy"
-         },
-         "receive_money": {
-            "anonymous_addresses": "Adresy anonimowe",
-            "anonymous_addresses_description": "Płatności otrzymane do adresów anonimowych zostaną przekazane innym adresem w portfelu. Wszelkie płatności otrzymane są wysyłane za pomocą miksera izolujący osobistego portfela od nadawcy. Transakcje otrzymane do anonimowych adresów nie mogą być połączone do zwykłego portfela.",
-            "anonymous_addresses_description2": "Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
-            "archived": "Zarchiwizowane",
-            "archived_addresses_description": "Zarchiwizowane adresy może nie trzeba już, że są ukryte w widoku głównym, ale nadal częścią portfela. Możesz rozpakuj je w dowolnym momencie, klikając niebieską ikonę.",
-            "chord_diagram": "Zobacz diagram powiązań",
-            "new_address": "Nowy adres",
-            "new_address_tooltip": "Kliknij tutaj, aby wygenerować nowy adres bitcoin. Możesz rozpocząć odbieranie bitcoins do tego adresu natychmiast",
-            "new_anonymous_address": "Nowy adres anonimowy",
-            "sub_header": "Twoje adresy odbiorcze bitcoin"
-         },
-         "send_coins": {},
-         "success": {},
-         "tooltips": {
-            "balance": {},
-            "connection_status": {}
-         },
-         "transactions": {},
-         "wallet_home": {
-            "backup_description": "Tworzenie kopii zapasowej portfela jest ważnym krokiem, który jest łatwy do zapomnienia. Blockchain.info podejmuje wszelkie środki ostrożności, aby utrzymać portfel bezpiecznym. Dla większego bezpieczeństwa zalecamy dokonywanie dodatkowej kopi bezpieczeństwa.",
-            "btcpak_withdraw": "Wypłać przez BTCPak",
-            "cash_deposit": "Zasil gotówką",
-            "deposit": "Dodaj środki",
-            "final_balance": "Saldo końcowe",
-            "phone_deposit": "Zasil telefonem",
-            "pingit_deposit": "Zasil przez PingIt",
-            "pingit_withdraw": "Wypłać przez PingIt",
-            "share_with_anyone": "Podziel się tym adresem z kimkolwiek chcesz by otrzymać płatności.",
-            "this_is_your_bitcoin_address": "To jest twój główny adres bitcoin",
-            "total_received": "Razem odebranych",
-            "total_sent": "Razem wysłanych",
-            "total_transactions": "Razem transakcji",
-            "withdraw": "Wypłać środki",
-            "withdraw_description": "Korzystaj z usług poniżej by zamienić bitcoiny na walutę."
-         }
-      },
-      "wallet_index": {
-         "anonymous": {},
-         "confused": {},
-         "control": {},
-         "create_my_free_wallet": "Utwórz mój bezpłatny portfel",
-         "easy": {},
-         "features": {},
-         "merchants": {},
-         "security": {
-            "title": "Bezpieczny"
-         },
-         "slides": {
-            "charts_analytics": "Wykresy i analizy",
-            "double_encryption": "Podwójne szyfrowanie",
-            "one_click_backups": "Kopia bezpieczeństwa za jednym kliknięciem"
-         },
-         "tooltips": {
-            "offline_transactions_title": "Transakcje offline",
-            "paper_wallet_title": "Portfel papierowy"
-         },
-         "try_demo_account": "Przetestuj konto demonstracyjne"
-      },
-      "wallet_new": {},
-      "webgl_globe": {}
+   "code":"pl",
+   "properties":{
+      "extends":"auto_polish"
    }
 }
