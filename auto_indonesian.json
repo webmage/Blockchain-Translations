@@ -371,11 +371,11 @@
             "address_not_synced_p1":"Alamat ini belum disimpan di server kami belum dan mungkin hilang setelah meninggalkan halaman ini.",
             "label_address":"Label Alamat",
             "add_address_book_entry":"Tambahkan Entri Buku Alamat",
-            "add_address_book_entry_placeholder":"Masukkan Alamat Bitcoin yang ingin Anda tambahkan ke buku alamat Anda.",
             "mining_pools":"Pertambangan Pools",
+            "add_address_book_entry_placeholder":"Masukkan Alamat Bitcoin yang ingin Anda tambahkan ke buku alamat Anda.",
             "enter_private_key":"Masukkan Kunci Pribadi",
-            "confirm_delete_countdown":"Anda memiliki {0} detik untuk mengubah pikiran Anda ...",
             "claim_p1":"Silakan pilih salah satu opsi di bawah untuk mengklaim bitcoins Anda. Sampai diklaim pengirim mampu membalikkan pembayaran ini.",
+            "confirm_delete_countdown":"Anda memiliki {0} detik untuk mengubah pikiran Anda ...",
             "label_help":"Sebuah label digunakan untuk membantu Anda mengingat apa alamat ini adalah untuk. Hal ini dapat nama seseorang atau perusahaan.",
             "miners_fee_recommended_p1":"Transaksi ini merupakan prioritas rendah. Disarankan Anda menyertakan setidaknya biaya transaksi 0,0005 BTC untuk memastikan penambang memprosesnya.",
             "message":"Pesan:",
@@ -737,6 +737,19 @@
             "create_wallet_success":"New dompet berhasil disimpan"
          }
       },
+      "wallet":{
+         "new_users":"New Pengguna",
+         "slogan":"Jadilah Bank Pernah",
+         "help":"Bantuan Dan Dukungan",
+         "existing_users_p1":"Jika sebelumnya Anda telah membuat account Dompet saya klik di bawah ini untuk login.",
+         "existing_users":"Pengguna yang sudah ada",
+         "my_wallet":"Saya Dompet",
+         "support_pages":"Dukungan Pages",
+         "new_users_p1":"Membuat dompet Bitcoin baru mengambil harfiah beberapa detik. Anda akan dapat mengirim dan menerima pembayaran segera.",
+         "help_p1":"Silakan berkonsultasi FAQ untuk pertanyaan yang sering diajukan. Untuk setiap masalah dengan situs silahkan hubungi kami.",
+         "login_now":"Masuk Sekarang",
+         "start_new":"Start A New Dompet"
+      },
       "unconfirmed":{
          "disconnected":"Terputus",
          "summary":"Ringkasan",
@@ -750,19 +763,6 @@
          "advanced":"Maju",
          "header":"{0} Unconfirmed Transaksi",
          "total_fees":"Jumlah Biaya"
-      },
-      "wallet":{
-         "new_users":"New Pengguna",
-         "slogan":"Jadilah Bank Pernah",
-         "help":"Bantuan Dan Dukungan",
-         "existing_users_p1":"Jika sebelumnya Anda telah membuat account Dompet saya klik di bawah ini untuk login.",
-         "existing_users":"Pengguna yang sudah ada",
-         "my_wallet":"Saya Dompet",
-         "support_pages":"Dukungan Pages",
-         "new_users_p1":"Membuat dompet Bitcoin baru mengambil harfiah beberapa detik. Anda akan dapat mengirim dan menerima pembayaran segera.",
-         "help_p1":"Silakan berkonsultasi FAQ untuk pertanyaan yang sering diajukan. Untuk setiap masalah dengan situs silahkan hubungi kami.",
-         "login_now":"Masuk Sekarang",
-         "start_new":"Start A New Dompet"
       },
       "hub_nodes":{
          "sub_header":"Menunjukkan node yang telah disampaikan transaksi yang paling pertama blockchain.info. Node pada halaman ini terhubung dengan baik sering node hub bagi pedagang atau penambang.",
@@ -797,9 +797,9 @@
          "sub_header":"Lihat informasi tentang transaksi Bitcoin",
          "minutes":"menit",
          "received_time":"Diterima Waktu",
-         "fees":"Biaya",
          "estimated_very_soon":"Sangat Segera",
          "network_propagation":"Jaringan Propagasi (Klik untuk melihat)",
+         "fees":"Biaya",
          "decoded":"decode",
          "header":"Transaksi",
          "size":"Ukuran",
@@ -987,15 +987,15 @@
          },
          "create_my_free_wallet":"Buat Dompet gratis saya"
       },
-      "startup_message":{
-         "title":"Situs Memuat - Blockchain.info",
-         "p1":"Harus kembali dalam beberapa detik. Ada bahkan mungkin fitur baru.",
-         "header":"Situs yang Memuat ..."
-      },
       "maintenance":{
          "title":"Site Under Maintenance - Blockchain.info",
          "p1":"Blockchain.info sedang ditutup untuk pemeliharaan. Untuk update status silakan lihat {0}. Permintaan maaf atas ketidaknyamanan yang terjadi.",
          "header":"Kami akan kembali lama"
+      },
+      "startup_message":{
+         "title":"Situs Memuat - Blockchain.info",
+         "p1":"Harus kembali dalam beberapa detik. Ada bahkan mungkin fitur baru.",
+         "header":"Situs yang Memuat ..."
       },
       "donation_button":{
          "title":"Buat Tombol Donasi",
@@ -1065,20 +1065,6 @@
          "warning":"Sebagian besar blok diketahui tidak berarti serangan pada jaringan, itu hanya berarti kita telah dapat menentukan asal.",
          "days_4":"4 Hari"
       },
-      "header":{
-         "home_title":"Blockchain.info Depan",
-         "home":"Rumah",
-         "charts":"Charts",
-         "stats_title":"Bitcoin Statistik",
-         "logo_alt_title":"Bitcoin blok explorer dan statistik mata uang",
-         "stats":"Statistik",
-         "developer":"Pengembang",
-         "charts_title":"Bitcoin Charts",
-         "developer_title":"Blockchain Developer Tools",
-         "wallet_title":"Bitcoin Dompet",
-         "wallet":"Dompet",
-         "search_placeholder":"Cari"
-      },
       "wallet_new":{
          "disclaimer":"Sangkalan",
          "email_sub":"Jika Anda ingin kami untuk email Anda link ke Anda dompet yang baru silahkan masukkan alamat email Anda di bawah ini.",
@@ -1113,6 +1099,20 @@
          "captcha":"Captcha:",
          "alias_placeholder":"Kenangan kata atau nama panggilan",
          "dont_forget_password":"Jangan Lupa Password Anda!"
+      },
+      "header":{
+         "home_title":"Blockchain.info Depan",
+         "home":"Rumah",
+         "charts":"Charts",
+         "stats_title":"Bitcoin Statistik",
+         "logo_alt_title":"Bitcoin blok explorer dan statistik mata uang",
+         "stats":"Statistik",
+         "developer":"Pengembang",
+         "charts_title":"Bitcoin Charts",
+         "developer_title":"Blockchain Developer Tools",
+         "wallet_title":"Bitcoin Dompet",
+         "wallet":"Dompet",
+         "search_placeholder":"Cari"
       },
       "strange_transactions":{
          "sub_header":"Transaksi yang mengandung output dari mana kita tidak mampu untuk memecahkan kode alamat Bitcoin.",
@@ -1152,6 +1152,11 @@
          "hostname":"Hostname",
          "header":"Nodes Bitcoin Log",
          "search_placeholder":"Ip Alamat atau Hostname"
+      },
+      "redirect_page":{
+         "title":"Anda sedang diarahkan",
+         "click_here":"klik di sini",
+         "slow_page":"Jika halaman ini muncul selama lebih dari beberapa detik"
       },
       "home":{
          "other_links":{
@@ -1210,11 +1215,6 @@
          "latest_transactions":"Latest Transaksi",
          "header":"Rumah",
          "search_placeholder":"Alamat \/ Firstbits \/ ip \/ hash SHA"
-      },
-      "redirect_page":{
-         "title":"Anda sedang diarahkan",
-         "click_here":"klik di sini",
-         "slow_page":"Jika halaman ini muncul selama lebih dari beberapa detik"
       },
       "transactions_summary":{
          "maturing":"{0} diperlukan sampai dihamburkan",
