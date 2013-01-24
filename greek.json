@@ -20,8 +20,8 @@
          "slogan":"Να γίνεστε δική σας τράπεζα"
       }
    },
-   "code":"el",
    "properties":{
       "extends":"auto_greek"
-   }
+   },
+   "code":"el"
 }
