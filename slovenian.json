@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"sl",
    "properties":{
       "extends":"auto_slovenian"
-   },
-   "code":"sl"
+   }
 }
