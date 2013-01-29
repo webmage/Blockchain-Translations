@@ -100,7 +100,9 @@
             "escrow":"Deponirana",
             "detailed":"Podrobno",
             "received":"Prejeto",
+            "view":"Poglej",
             "no_transactions":"Običajno bi se vaše Bitcoin transakcije so tukaj naštete, vendar niste na nobenih.",
+            "filter":"Filter",
             "header":"Posli",
             "all":"Vsi"
          },
@@ -150,7 +152,7 @@
             "send_sms_code":"Pošlji SMS zakoniku",
             "fee_policy_high":"Velikodušno",
             "recommended":"Priporočena",
-            "google_authenticator_warning":"Si morda izpasti svoj račun, če zapustite to stran, ne da bi seznanjanje z mobilno aplikacijo ali onemogočite Google Authenticator.",
+            "google_authenticator_warning":"Morda boste morali izpasti svoj račun, če zapustite to stran, ne da bi seznanjanje z mobilno aplikacijo ali onemogočite Google Authenticator.",
             "google_talk_description":"Boste prejeli obvestila prek storitve Google Talk.",
             "fee_policy_normal_description":"Sledite pristojbin politiko jo je predlagala stranka Bitcoin voljo v družbi.",
             "email_verification_description":"E je potrebno, da pomaga obnoviti izgubljeno denarnico identifikator in obvestila o plačilih.",
@@ -172,6 +174,7 @@
             "mobile_number":"Mobilna številka",
             "enable_disable":"Vklop \/ izklop:",
             "user_agent":"Uporabniški vmesnik",
+            "always_keep_local_backup_description":"Omogočite to možnost, da prisili denarnice backup je treba shraniti v vaš brskalnik lokalno shranjevanje tudi, ko je vključen faktor 2 pristnosti. Če omogočeno, bo napadalec dostop do vašega brskalnika lahko izognejo 2 faktorja preverjanje pristnosti, če pa je denarnica dostopate z uporabo katerega koli drugega računalnika ali brskalnika je še vedno zaščiteno z 2 faktorja preverjanje pristnosti.",
             "restrict_to_ip":"Omeji Za OP",
             "http_notifications":"Http Obvestila",
             "integrity_check_description":"Pregledi vse ključe v vaši denarnici tekmo pravi naslov Bitcoin in ponovno šifrira vaše denarnice. To lahko traja dolgo časa, v nekaterih brskalnikih.",
@@ -182,6 +185,7 @@
             "never_remember":"Nikoli ne pozabite",
             "sms_verification_placeholder":"SMS Potrditvena koda",
             "fee_policy_low_description":"Rudarji pristojbina ne bo, razen če je nujno potrebno.",
+            "always_keep":"Vedno shranjujte",
             "password":"Geslo:",
             "device_pairing":"Seznanjanje naprave",
             "optional":"Neobvezno",
@@ -194,7 +198,7 @@
             "notifications_when":"Ko Moja Denarnica",
             "security_warning_sub":"Nastavitve računa prikaže občutljivih podatkov, ki ne smejo biti prikazane z drugimi ljudmi. Priporočljivo je, da ne odprete ta del na javnih mestih, ali pa screenshots tega oddelka.",
             "forgot_password_warning_p2":"Vse pozabljenih gesel se bo odražalo v vaši denarnici, pa un-dostopnost. Geslo ni proces okrevanja!",
-            "email_description":"Prejeli boste za avtentikacijo kod prek e-pošte.",
+            "email_description":"Prejeli boste pristnosti kode po elektronski pošti.",
             "two_factor_authentication_not_enabled":"Dva faktorja preverjanje pristnosti ni omogočen v vašem računu",
             "notifications_description":"Če želite prejemati obvestila, ko je plačilo pošlje ali prejme iz svoje denarnice.",
             "local_currency":"Lokalna valuta",
@@ -215,6 +219,7 @@
             "verify_email_btn":"Preverite",
             "two_factor_authentication":"Dve Factor Authentication",
             "mobile_number_description":"Vnesite številko svojega mobilnega telefona spodaj. Mednarodna SMS sporočila je včasih lahko nezanesljiv in morda ni na voljo v nekaterih državah in omrežjih.",
+            "always_keep_local_backup":"Vedno shranjujte brskalnika Backup",
             "lock_to_ip":"Zaklepanje Za OP:",
             "logging_deletion":"Spreminjanje ravni beleženja ne izbriše obstoječih dnevnikov. Dnevniki poteče po 2 tednih.",
             "secret_phrase_description":"Skrivnost stavek se lahko uporabijo, da nam potrdi svojo identiteto, v primeru izgubljene denarnice identifikator ali yubikey. To je lahko ena sama beseda ali stavek, do 255 znakov.",
@@ -277,6 +282,7 @@
             "backup":"Varnostno kopiranje"
          },
          "modals":{
+            "scan_qr_code":"Skeniraj QR koda",
             "add_watch_only_address_p3":"Če niste jasno razliko med naslovom Bitcoin in zasebnega ključa, potem je to verjetno ni možnost, ki jo želite.",
             "add_watch_only_address_p1":"Potrdite, da bi dodati {0} {1} naslov.",
             "verify_message_p1":"Uporabite to orodje za preverjanje sporočilo podpisano s strani lastnika določen naslov Bitcoin",
@@ -368,9 +374,10 @@
             "watch_only_warning":"Oglejte si edini naslov Opozorilo",
             "label_address_p1":"Vnesite oznako za naslov {0}",
             "compressed_private_key_p2":"Priporočena rešitev je, da pomete sredstva v obstoječem naslov Bitcoin. Bi radi, da pomete to zasebnega ključa namesto tega?",
-            "address_not_synced_p1":"Ta naslov ni bil shranjen na naših strežnikih in morda še izgubili po prenehanju te strani.",
+            "address_not_synced_p1":"Ta naslov ni bil shranjen na naših strežnikih vendar pa se lahko izgubili po prenehanju te strani.",
             "label_address":"Oznaka Naslov",
             "add_address_book_entry":"Dodaj vnos Adresar",
+            "restore_backup_instructions_title":"Restore Backup Navodila",
             "mining_pools":"Rudarstvo Bazeni",
             "add_address_book_entry_placeholder":"Vpišite Bitcoin naslov, ki ga želite dodati v imenik.",
             "enter_private_key":"Vpišite zasebni ključ",
@@ -591,6 +598,7 @@
             "forgotten_something":"Kaj pozabili?",
             "lost_password":"Izgubljeno geslo",
             "resend_link_btn":"Znova Link",
+            "download_backup_btn":"Download Backup",
             "password_hints_btn":"Geslo Nasveti",
             "resend_link_p1":"E-pošta bo poslana od wallet@blockchain.info. Bodite prepričani, da preverite vaš spam mapo. Če še vedno ne najdete e-poštni kliknite na spodnji gumb, da ga poslati.",
             "resend_sms_link_btn":"Znova sporočilo",
@@ -797,9 +805,9 @@
          "sub_header":"Prikaz informacij o transakciji Bitcoin",
          "minutes":"min",
          "received_time":"Prejete čas",
-         "estimated_very_soon":"Zelo kmalu",
          "network_propagation":"Mreža Čebelarstvo (kliknite za ogled)",
          "fees":"Pristojbine",
+         "estimated_very_soon":"Zelo kmalu",
          "decoded":"dekodirajo",
          "header":"Transakcijski",
          "size":"Velikost",
@@ -1004,7 +1012,7 @@
       },
       "emails":{
          "two_factor_reset_request":{
-            "p4":"Možno je nekdo morda poskuša zlonamerno dostop do vaše denarnice Bitcoin. Prosim, ne ignorirajte to zahtevo.",
+            "p4":"To je lahko mogoče nekdo poskuša zlonamerno dostop do vaše denarnice Bitcoin. Prosim, ne ignorirajte to zahtevo.",
             "p3":"Če je bila ta zahteva ne naredi vas prosimo, odprite naslednji URL zavrniti to zahtevo:",
             "p2":"Če je ta zahteva, ki jo vi prosim odprite naslednji URL, da sprejmete to zahtevo:",
             "p1":"Zahtevek je bil vložen za odstranjevanje 2-faktor avtentikacije Moj račun Denarnica:",
@@ -1558,7 +1566,7 @@
          "network_deficit":"Primanjkljaj omrežje",
          "cost_percent_per_transaction":"Stroški% obsega transakcij",
          "total_received_to_address":"Skupaj prejeta na naslov Bitcoin:",
-         "estimated_transaction_volume2":"Podobno kot v skupni proizvodnji z dodatkom algoritma, ki poskuša odstraniti spremembo od skupne vrednosti. To morda bolj natančen odraz dejanskega obsega transakcij.",
+         "estimated_transaction_volume2":"Podobno kot v skupni proizvodnji z dodatkom algoritma, ki poskuša odstraniti spremembo od skupne vrednosti. To je lahko bolj natančen odraz dejanskega obsega transakcij.",
          "operating_margin_label":"Poslovni izid iz poslovanja%",
          "year_1":"1 leto",
          "operating_margin":"Rudarstvo operativna marža",
@@ -1666,7 +1674,7 @@
          "received":"Prejeto",
          "invalid_address":"Žal to ne velja, je Bitcoin naslov",
          "newest_first":"(Najprej novejši)",
-         "double_spend_warning":"Opozorilo! Ta naslov vsebuje Bitcoin transakcije, ki so morda dvakrat preživi. Moral bi biti zelo previdni, ko zaupamo vse transakcije ali iz tega naslova.",
+         "double_spend_warning":"Opozorilo! Ta naslov vsebuje Bitcoin transakcije, ki so lahko dvojno preživi. Moral bi biti zelo previdni, ko zaupamo vse transakcije ali iz tega naslova.",
          "too_large_to_filter":"To Naslov knjige je prevelika za filtriranje",
          "table_transactions":{
             "title":"Posli",
@@ -1684,8 +1692,8 @@
          "deposit_with_cash":"Depozit z gotovino"
       }
    },
-   "code":"sl",
    "properties":{
       "extends":"language"
-   }
+   },
+   "code":"sl"
 }
