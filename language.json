@@ -491,7 +491,7 @@
                     "hash" : "Hash",
                     "previous_block" : "Previous Block",
                     "next_block" : "Next Block(s)",
-                    "merkle_root" : "Merkle Root",
+                    "merkle_root" : "Merkle Root"
                 },
                 "network_propagation" : "Network Propagation",
                 "click_to_view" : "Click To View",
@@ -552,7 +552,7 @@
                 "transactions" : "My Transactions",
                 "send" : "Send Money",
                 "receive" : "Receive Money",
-                "import_export" : "Import / Export",
+                "import_export" : "Import / Export"
             },
             "tooltips" : {
                 "balance" : {
@@ -711,7 +711,7 @@
                 "current_ip" : "Current IP:",
                 "security_warning_title" : "Sensitive Data",
                 "security_warning_sub" : "Account Settings displays sensitive data which should not be shown to other people. It is recommended you do not open this section in public places or take screenshots of this section.",
-                "security_warning_continue" : "Continue",
+                "security_warning_continue" : "Continue"
             },
             "wallet_home" : {
                 "total_transactions" : "Total Transactions",
@@ -1160,7 +1160,7 @@
                 "invalid_version" : "Invalid Version",
                 "error_updating_logging_level_updated" : "Error Updating Logging level.",
                 "two_factor_authentication_not_enabled" : "Two Factor Authentication Is Not Enabled On your Account",
-                "reminder_recently_sent" : "An reminder message was recently sent.",
+                "reminder_recently_sent" : "An reminder message was recently sent."
             },
             "success" : {
                 "logged_out" : "You have been logged out",
@@ -1624,7 +1624,7 @@
             "medium_package" : "Medium Package",
             "large_package" : "Large Package",
             "payment_method" : "Payment Method:",
-            "sms_p1" : "Once verified the actual purchase can be made from a different phone number or landline phone.",
+            "sms_p1" : "Once verified the actual purchase can be made from a different phone number or landline phone."
         },
         "transactions_summary" : {
             "you_received" : "You Received",
