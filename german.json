@@ -3,7 +3,7 @@
    "name":"German",
    "strings":{
       "connected_nodes":{
-         "sub_header":"Liste der verbundenen Knoten mit blockchain.info",
+         "sub_header":"Liste der verbundenen Knoten mit blockchain.info-test",
          "title":"Liste der verbundenen Bitcoin-Knoten",
          "connected_time":"Verbindungszeit (Minuten)",
          "total_connected":"Insgesamt verbunden: {0}",
