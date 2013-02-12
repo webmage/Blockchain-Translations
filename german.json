@@ -55,7 +55,12 @@
                 "size": "Größe (kB)"
             },
             "about": {
-                "p3": "Für eine Einführung in Bitcoin siehe {0}"
+                "p3": "Für eine Einführung in Bitcoin siehe {0}",
+                "p2": "Diese Website ermöglicht es Ihnen, die Bitcoin Blockchain (eine Datenbank mit Informationen aller Transaktionen) zu erkunden. Außerdem betreiben wir die größte und sicherste online Bitcoin-Wallet",
+                "p1": "Bitcoin ist eine Peer-to-Peer-Währung. Peer-to-Peer bedeutet, dass keine zentrale Stelle gibt, die für die Geld-Erzeugung oder die Durchführung von Transaktionen zuständig ist. Diese Aufgaben werden kollektiv durch alle Teilnehmer des Netzwerkes verwaltet und überwacht.",
+                "header": "Über uns",
+                "link_txt": "weusecoins.com",
+                "link_href": "http://www.weusecoins.com/"
             },
             "header": "Startseite",
             "title": "Bitcoin Block-Explorer - Blockchain.info",
@@ -72,12 +77,59 @@
             "relayed_by": "Weitergeleitet von"
         },
         "api_index": {},
-        "transaction": {},
+        "transaction": {
+            "public_note": "Öffentlicher Hinweis:",
+            "size": "Größe:",
+            "fee": "Gebühr:",
+            "escrow": "Treuhand",
+            "output": "Ausgang",
+            "input_decode_error": "Kann Eingangs-Adresse nicht dekodieren",
+            "output_decode_error": "Kann Ausgangs-Adresse nicht dekodieren",
+            "no_inputs": "Keine Eingänge (neu generierte Coins)",
+            "spent": "Verbraucht",
+            "unspent": "Unverbraucht",
+            "unconfirmed_transaction": "Unbestätigte Transaktion!",
+            "confirmations": "Bestätigungen",
+            "double_spend": "Double-Spend!"
+        },
         "stats": {
             "table": {
                 "mining_profits": "Mining Profit",
-                "time_between_blocks": "Zeit zwischen den Blöcken"
-            }
+                "time_between_blocks": "Zeit zwischen den Blöcken",
+                "minutes": "minuten",
+                "blocks_mined": "Blöcke gefunden",
+                "bitcoins_mined": "Bitcoins gefunden",
+                "total_transaction_fees": "Gesamte Transaktions-Kosten",
+                "number_of_transactions": "Anzahl der Transaktionen",
+                "total_output_volume": "Total Output Volume",
+                "estimated_transaction_volume": "Geschätztes Transaktions Volumen",
+                "market_summary": "Marktübersicht",
+                "total_market_cap": "Gesamter Börsenwert",
+                "million": "Million",
+                "market_price": "Marktpreis",
+                "trade_volume": "Handelsvolumen",
+                "mining_cost": "Mining-Kosten",
+                "total_miners_revenue": "Gesamter Mining-Gewinn",
+                "percent_earned_from_fees": "% verdient aus Transaktionsgebühren",
+                "percent_of_transaction_volume": "% des Transaktionsvolumens",
+                "cost_per_transaction": "Kosten pro Transaktion",
+                "hash_rate_electricity": "Hash-Rate und Stromverbrauch",
+                "difficulty": "Schwierigkeit",
+                "hash_rate": "Hash-Rate",
+                "electricity_consumption": "Stromverbrauch",
+                "electricity_cost": "Stromkosten",
+                "operating_profit": "Betriebsgewinn",
+                "profit_margin": "Gewinnspanne",
+                "operating_margin": "operative Marge",
+                "weighted": "gewichtet"
+            },
+            "title": "Bitcoin Statistik - Blockchain.info",
+            "header": "Währungs Statistik",
+            "meta_description": "Über 100 verschiedene Bitcoin Börsen- und Netzwerk-Statistiken. Anzahl der Knoten, Transaktionsvolumen, Mining-Schwierigkeit und mehr.",
+            "sub_header": "Bitcoin Währungs Statistiken",
+            "period": "Alle Statistiken sind für die vergangenen 24 Stunden - sofern nicht anders angegeben",
+            "notice1": "Der Stromverbrauch wird basierend auf einen Stromverbrauch von 650 Watt pro Giga-Hash und einen Strompreis von 15 Cent pro Kilowattstunde geschätzt. In Wirklichkeit arbeiten einige Miner mehr oder weniger effizient.",
+            "notice2": "Für die Gewinnmarge werden Hardware-Kosten auf $1000 pro Giga-Hash auf 2 Jahre und die Bandbreite wird mit $1 pro Giga-Hash pro Jahr gerschätzt"
         },
         "block": {
             "hash_table": {
@@ -238,9 +290,16 @@
         },
         "wallet": {
             "new_users": "Neuer Benutzer",
-            "existing_users_p1": "Wenn Sie zuvor ein Konto erstellt haben, klicken Sie unten um sich anzumelden.",
-            "new_users_p1": "Erstellen eine neue Bitcoin-Breiftasche es dauert nur ein paar Sekunden. Sie können sofort Zahlungen senden und empfangen.",
-            "start_new": "Starten Sie eine neue Brieftasche"
+            "existing_users_p1": "Wenn Sie bereits ein My Wallet-Konto erstellt haben, klicken Sie unten um sich anzumelden.",
+            "new_users_p1": "Erstellen eines neuen Bitcoin-Wallet dauert nur ein paar Sekunden. Sie können sofort Zahlungen senden und empfangen.",
+            "start_new": "Erstellen Sie ein neues Wallet",
+            "my_wallet": "My Wallet",
+            "slogan": "Be Your Own Bank",
+            "existing_users": "Bereits registrierte Benutzer",
+            "help": "Hilfe und Unterstützung",
+            "help_p1": "Bitte lesen Sie die FAQs um Antworten auf häufig gestellte Fragen zu finden. Bei etwaigen Probleme mit der Website kontaktieren Sie bitte uns.",
+            "login_now": "Einloggen",
+            "support_pages": "Support-Seiten"
         },
         "unconfirmed": {
             "sub_header": "Live-Update Liste der neuen Bitcoin Transaktionen",
@@ -249,8 +308,42 @@
         "hub_nodes": {},
         "transaction_page": {
             "double_spend": {
-                "p1": "Warnung! Diese Transaktion wurde doppelt ausgegeben"
-            }
+                "p1": "Achtung! Diese Transaktion ist ein Double-Spend (mehrfach ausgegeben)",
+                "p2": "Sie sollten sehr vorsichtig sein, wenn Sie Transaktionen von/zu diesem Teilnehmer erhalten bzw. senden."
+            },
+            "title": "Bitcoin Transaktion {0}",
+            "header": "Transaktion",
+            "meta_description": "Informationen zu einer Bitcoin Transaktion anzeigen {0}",
+            "sub_header": "Informationen zu einer Bitcoin Transaktion anzeigen",
+            "summary": "Zusammenfassung",
+            "bytes": "Bytes",
+            "received_time": "Empfangszeit",
+            "size": "Größe",
+            "included_in_blocks": "Enthalten in folgenden Blöcken",
+            "minutes": "Minuten",
+            "confirmations": "Bestätigungen",
+            "estimated_time": "Geschätzte Dauer bis zur Bestätigung",
+            "estimated_possibly_never": "Möglicherweise nie (Double-Spend)",
+            "estimated_very_soon": "Sehr bald",
+            "estimated_unknown": "Unbekannt",
+            "reward_from_block": "Belohnung von Block",
+            "scripts": "Scripts",
+            "hide_scripts": "Scripts & coinbase ausblenden",
+            "show_scripts": "Scripts & coinbase anzeigen",
+            "relayed_by_ip": "Weitergeleitet von IP",
+            "visualize": "Visualisieren",
+            "tree_chart": "Baum Chart anzeigen",
+            "inputs_and_outputs": "Ein- und Ausgänge",
+            "total_input": "Insgesamte Eingänge",
+            "total_output": "Insgesamte Ausgänge",
+            "fees": "Gebühren",
+            "estimated_btc_transacted": "BTC übertragen, geschätzt",
+            "network_propagation": "Netzwerk Ausbreitung (Klicken um anzuzeigen)",
+            "decoded": "decodiert",
+            "input_scripts": "Eingang Scripts",
+            "output_scripts": "Ausgänge Scripts",
+            "strange": "Seltsame",
+            "ok": "Ok"
         },
         "errors": {},
         "relayed_by": {},
@@ -268,13 +361,58 @@
         "wallet_index": {
             "anonymous": {},
             "merchants": {},
-            "control": {},
-            "slides": {},
-            "easy": {},
-            "confused": {},
+            "control": {
+                "title": "Behalten Sie die Kontrolle"
+            },
+            "slides": {
+                "mobile_support": "Smartphone Support",
+                "mobile_support_p1": "Unsere Web-Interface unterstützt alle gängigen Smartphones, wie",
+                "mobile_support_p2": "Wenn Ihr Telefon verloren geht oder gestohlen wird, ist ihre Brieftasche dennoch sicher auf unseren Servern.",
+                "android_app": "Blockchain Android App",
+                "iphone_app": "Blockchain iPhone App",
+                "double_encryption": "Doppelte-Verschlüsselung",
+                "double_encryption_p1": "Bevor Ihr Bitcoin-Wallet zu unsere Server übertragen wird, wird es direkt im Browser mittels AES 256-Bit verschlüsselt. Ihr Passwort wird nie zu uns übertragen - dadurch haben wir keine Möglichkeit Ihr Wallet zu öffnen. Zusätzlich dazu gibt es noch die optionale Möglichkeit das Bitcoin Wallet so zu sichern, dass ausgehende Transaktionen ein zweites Passwort benötigen. Falls das noch immer nicht genug an Sicherheit für Sie bedeutet, gibt es noch eine Vielzahl an Two-Factor Logins wie zum Beispiel Mt.Gox Yubikeys.",
+                "one_click_backups": "Ein-Klick Backups",
+                "one_click_backups_p1": "Wir bemühen uns Ihre Wallet sicher zu verwahren. Allerdings gibt es keinen Ersatz für eine Sicherung auf Ihrem eigenen PC. Mittels einem Knopfdruck können Sie Ihre verschlüsseltes Wallet gemailt, auf Ihre Dropbox-Konto oder lokal gespeichert bekommen. Dadurch haben Sie, auch wenn blockchain.info einen Datenverlust erleidet oder offline geht, immer noch Zugriff auf Ihr Geld.",
+                "payment_notifications": "Zahlungs-Benachrichtigungen",
+                "payment_notifications_p1": "Erhalten Sie Benachrichtigungen, wenn eine Zahlung gesendet oder von Ihrem Bitcoin-Wallet erhalten wurde. Die durchschnittliche Verzögerung zwischen Zahlung und Meldungen ist weniger als 50ms. Wenn Sie in ihrem My Wallet angemeldet sind und eine Zahlung erhalten, erklingt ein Signalton und die Anzeige wird sofort aktualisiert, ohne dass eine Seite neu zu laden aktualisieren.",
+                "charts_analytics": "Charts und Analysen",
+                "charts_analytics_p1": "Erstellen Sie Diagramme und Berichte über die aktuellsten Bitcoin Transaktionen. Betrachten Sie Ihren Kontostand im Verlauf der Zeit, die Anzahl der Transaktionen und den Umsatz pro Tag.",
+                "charts_analytics_img_title": "Eingebaute Charts & Analytics",
+                "payment_notifications_skype": "Bitcoin Zahlungs-Benachrichtigungen per Skype",
+                "payment_notifications_gtalk": "Bitcoin Zahlungs-Benachrichtigungen per Google Talk"
+            },
+            "easy": {
+                "title": "Einfach zu bedienen",
+                "p1": "My Wallet ist ähnlich zu benutzen wie",
+                "p2": "oder Online-Banking. Nach der Anmeldung sehen sie ihren Kontostand und die Liste der letzten Transaktionen",
+                "send_via": "Via Facebook, E-Mail oder SMS senden."
+            },
+            "confused": {
+                "p1": "Verwirrt? Lesen Sie die",
+                "p2": "Einsteiger FAQs"
+            },
             "tooltips": {},
             "features": {},
-            "security": {}
+            "security": {
+                "title": "Sicher",
+                "p1": "Blockchain.info benutzt Industrie-Standards",
+                "p2": "Verschlüsselung, um Ihr Wallet vor Dieben und Hackern zu schützen. Das erstaunliche an der Verschlüsselung ist, dass alles direkt im Browser erfolgt, bevor es überhaupt auf unsere Servern gelangt. Dadurch haben nicht einmal wir Zugriff auf Ihr Konto!",
+                "p3": "My Wallet baut auf die Sicherheit des Bitcoin-Netzwerkes und bietet dadurch eine Vielzahl von Funktionen, die Ihnen helfen Ihr Geld sicher zu verwalten. Zum Beispiel",
+                "paper_wallets": "Paper Wallets",
+                "offline_transactions": "Offline-Transaktionen",
+                "remote_backups": "Remote Backups"
+            },
+            "title": "Bitcoin Wallet",
+            "meta_description": "My Wallet ist eine kostenlose online Bitcoin-Brieftasche. Sie können mit dieser weltweit kostenlose Zahlungen durchführen. Wir machen das Bezahlen mit Bitcoins einfach und sicher.",
+            "p1": "My Wallet ist eine kostenlose online Bitcoin-Brieftasche. Sie können mit dieser weltweit kostenlose Zahlungen durchführen. Wir machen das Bezahlen mit Bitcoins einfach und sicher - egal ob mit Smartphone oder PC.",
+            "p2": "Wir sind keine Banke - Sie behalten volle Kontrolle über ihr Geld. Wir können weder ihren Kontostand sehen, noch Transaktionen in Ihrem Namen durchführen.",
+            "create_my_free_wallet": "Gratis My Wallet erstellen",
+            "try_demo_account": "Testen sie den Demo-Zugang",
+            "techradar_quote": "Bis 2015 könnten Cash einer bedrohte Tierart ähneln",
+            "introduction_video": "Bitcoin Einführung anzeigen",
+            "free_open_source": "Free. Open Source.",
+            "successfully_transacted": "Erfolgreich abgewickelt."
         },
         "tx_tree": {},
         "push_tx": {},
@@ -295,9 +433,26 @@
         "wallet_new": {},
         "header": {
             "home": "Startseite",
-            "developer_title": "Blockchain Entwickler Werkzeuge"
+            "developer_title": "Blockchain Entwickler Werkzeuge",
+            "home_title": "Blockchain.info Startseite",
+            "charts": "Charts",
+            "stats_title": "Bitcoin Statistiken",
+            "logo_alt_title": "Bitcoin Block Explorer und Währungs Statistiken",
+            "developer": "Entwickler",
+            "stats": "Statistiken",
+            "wallet_title": "Bitcoin Wallet",
+            "charts_title": "Bitcoin Charts",
+            "wallet": "Wallet",
+            "search_placeholder": "Suche"
         },
-        "misc": {},
+        "misc": {
+            "recommended": "Empfohlen",
+            "unknown_exception": "Unerwarteter Fehler",
+            "unknown": "Unbekannt",
+            "and_word": "und",
+            "support_desk": "Support Desk",
+            "disclaimer": "Jede Verwendung des Begriffs Geld auf dieser Website bezieht sich auf eine virtuelle Währung. Wir garantieren nicht, dass Bitcoins zum Kaufpreis eingelöst werden können."
+        },
         "footer": {
             "nodes_connected": "Knoten verbunden",
             "advanced": "Erweitert:",
@@ -367,15 +522,45 @@
             "estimated_transaction_volume": "Geschätztes Transaktions Volumen"
         },
         "address": {
-            "invalid_hash_160": "Leider ist dies keine gültiger Hash 160",
+            "invalid_hash_160": "Leider ist dies keine gültiger Hash160",
             "table_transactions": {
                 "number_of_transactions": "Anzahl der Transaktionen",
-                "unspent_inputs": "Unverbrauchte Eingänge"
+                "unspent_inputs": "Unverbrauchte Eingänge",
+                "title": "Transaktionen",
+                "total_received": "Insgesamt empfangen",
+                "final_balance": "Schlussbilanz"
             },
-            "table_summary": {},
+            "table_summary": {
+                "title": "Zusammenfassung",
+                "address": "Adresse",
+                "short_link": "Short Link",
+                "tools": "Tools",
+                "related_tags": "Kennzeichnungen",
+                "taint_analysis": "Taint Analyse",
+                "view_analysis": "Analyse anzeigen"
+            },
             "request_payment": "Zahlungsanfrage",
             "invalid_address": "Leider ist dies keine gültige Bitcoin-Adresse",
-            "double_spend_warning": "Warnung! Diese bitcoin Adresse enthält Transaktionen, die vielleicht doppelte verbringt. Sie sollten sehr vorsichtig sein, wenn Vertrauen keine Geschäfte zu / von dieser Adresse."
+            "double_spend_warning": "Warnung! Diese Bitcoin Adresse enthält Doubel-Spends. Sie sollten sehr vorsichtig sein, wenn sie Bitcoin-Transaktionen mit dieser Adresse betreiben.",
+            "title": "Bitcoin Adresse {0}",
+            "meta_description": "Transaktionen gesendet und empfangen über Bitcoin Adresse",
+            "bitcoin_address": "Bitcoin Adresse",
+            "sub_header": "Adressen sind Kennungen, die verwenden werden um Bitcoins an eine andere Person senden.",
+            "deposit_with_cash": "Bargeld überweisen",
+            "donation_button": "Spenden-Button",
+            "sent": "Gesendete",
+            "received": "Empfangene",
+            "escrow": "Treuhand",
+            "confirmed": "Bestätigt",
+            "confirmed_only": "Nur Bestätigte",
+            "newest_first": "(Neueste zuerst)",
+            "oldest_first": "(Älteste zuerst)",
+            "transactions": "Transaktionen",
+            "no_transactions": "Keine Transaktionen für diese Adresse gefunden - diese wurde wahrscheinlich im Netzwerk noch nicht verwendet.",
+            "previous": "Ältere",
+            "next": "Nächste",
+            "too_large_to_filter": "Die Anzahl der Transaktionen ist zu groß, um diese zu filtern",
+            "no_address_provided": "Keine Adresse angegeben"
         },
         "notifications": {
             "notifications_limit": "Benachrichtigungen begrenzen",
