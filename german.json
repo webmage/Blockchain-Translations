@@ -134,11 +134,28 @@
         "block": {
             "hash_table": {
                 "hash": "Hash",
-                "next_block": "Nächster Block (s)",
-                "previous_block": "Vorheriger Block"
+                "next_block": "Nächster Block",
+                "previous_block": "Vorheriger Block",
+                "title": "Hashes",
+                "merkle_root": "Merkle Root"
             },
             "summary_table": {
-                "relayed_by": "Weitergeleitet von"
+                "relayed_by": "Weitergeleitet von",
+                "title": "Zusammenfassung",
+                "number_of_transactions": "Anzahl der Transaktionen",
+                "estimated_transaction_volume": "Geschätztes Transaktions Volumen",
+                "transaction_fees": "Transaktionsgebühren",
+                "height": "Height",
+                "timestamp": "Timestamp",
+                "main_chain": "Hauptchain",
+                "orphaned": "Verwaist",
+                "received_time": "Empfangszeit",
+                "difficulty": "Schwierigkeit",
+                "bits": "Bits",
+                "size": "Größe",
+                "version": "Version",
+                "nonce": "Nonce",
+                "block_reward": "Block Reward"
             }
         },
         "ip_info": {},
@@ -181,13 +198,21 @@
             },
             "tooltips": {
                 "connection_status": {
-                    "tip": "Falls die Verbindung unterbrochen wird, müssen Sie die Seite aktualisieren, um neue Geschäfte zu sehen. Sobald die Verbindung hergestellt werden die neuen Transaktionen sofort angezeigt."
+                    "tip": "Falls die Verbindung unterbrochen wurde müssen Sie die Seite neu laden, damit Sie neue Transaktionen sehen. Wenn eine Verbindung besteht, werden neue Transaktionen sofort angezeigt.",
+                    "title": "Verbindungsstatus"
                 },
                 "balance": {
-                    "tip": "Dies zeigt das Gleichgewicht Ihrer Bitcoin Brieftasche. Sie sind möglicherweise nicht in der Lage, diesen Betrag zu verbringen, bis alle Transaktionen bestätigt werden."
+                    "tip": "Hier sehen sie die Bilanz ihrer Bitcoin Wallet. Sie können Transaktionen erst wieder ausgeben, sobald diese als bestätigt angezeigt werden.",
+                    "title": "Ihre Bilanz"
                 }
             },
-            "nav": {},
+            "nav": {
+                "home": "Wallet Home",
+                "transactions": "Meine Transaktionen",
+                "send": "Geld senden",
+                "receive": "Geld empfangen",
+                "import_export": "Import / Export"
+            },
             "receive_money": {
                 "anonymous_addresses_description2": "Anonyme Adressen sind für eine Transaktion gültig und verursachen eine 1,5% Transaktionsgebühr.",
                 "anonymous_addresses": "Anonyme Adressen",
@@ -207,7 +232,7 @@
                 "two_factor_authentication_not_enabled": "Zwei-Stufen-Authentifizierung ist nicht auf Ihrem Konto aktiviert",
                 "fee_policy_high_description": "Die Gebühren werden gesetzt, um sicherzustellen, dass Transaktionen mit hoher Priorität (0,001 BTC Base Fee) gesendet werden.",
                 "notifications_description": "Optionale Benachrichtigungen, wenn eine Zahlung gesendet wird, oder Sie eine Zahlung erhalten.",
-                "mobile_number_description": "Bitte geben Sie Ihre Handynummer ein. Internationale SMS können manchmal unzuverlässig sein und stehen einigen Ländern und Netzwerken nicht zur Verfügung.",
+                "mobile_number_description": "Bitte geben Sie Ihre Handynummer ein. Internationale SMS können manchmal unzuverlässig sein und stehen in einigen Ländern und Netzwerken nicht zur Verfügung.",
                 "restrict_to_ip_description": "Aktivieren Sie diese Option, um den Zugriff auf Ihre Brieftasche zu einer bestimmten IP-Adresse oder mehrere IP-Adressen durch Komma getrennt zu beschränken. Nur aktivieren, wenn Sie über eine statische IP-Adresse verfügen. Sie werden nicht in der Lage sein, sich anmelden oder auf jede API von allen Computern, die nicht im angegebenen Netzwerk sind. Die Mobile-App wird jedoch, wenn gepaart weiterhin funktionieren.",
                 "multiple_ip_comma_seperated": "Mehrere IP-Adressen müssen durch Kommata getrennt werden.",
                 "language_description": "Wählen Sie Ihre bevorzugte Sprache",
@@ -216,16 +241,57 @@
                 "google_authenticator_description": "Öffnen Sie die Google Authenticator-App und scannen den QR-Code unten ein, um die Anmeldung abzuschliessen.",
                 "yubikey_description": "Um Ihren Schlüssel mit Ihrem Account verbinden wählen Sie das Textfeld unten und drücken Sie die grüne LED-Taste auf Ihrem Yubikey.",
                 "device_pairing": "Geräte verknüpfen",
-                "automatic_email_backups_description": "Aktivieren Sie diese Option, um ein neues Backup automatisch erhalten, wenn Ihre Brieftasche updates erhält:",
+                "automatic_email_backups_description": "Aktivieren Sie diese Option, um automatisch ein neues Backup zu erhalten, wenn es Änderungen bei Ihre Wallet gibt:",
                 "secret_phrase": "Geheimfrage",
                 "nav": {
-                    "general": "Allgemein"
+                    "general": "Allgemein",
+                    "header": "Account-Informationen",
+                    "personal": "Persönlich",
+                    "notifications": "Benachrichtigungen",
+                    "passwords": "Passwörter",
+                    "security": "Sicherheit",
+                    "privacy": "Privacy",
+                    "logging": "Protokollierung",
+                    "devices": "Geräte"
                 },
                 "password_notice": "Ihr Passwort wird nie zu unseren Servern in irgendeiner Form übertragen. Dies bedeutet, dass Ihre Geldbörse auch wenn unsere Servern gehackt würden sicher ist. Es hindert uns auch daran, Ihren Kontostand oder Transaktion-Verlauf zu sehen.",
                 "two_factor_authentication_description": "Zwei-Stufen-Authentifizierung bietet Ihnen zusächliche Sicherheit bei der Anmeldung.",
                 "update_main_password": "Haupt Passwort aktualisieren",
                 "second_password_hint": "Zweiter Passwort-Hinweis:",
-                "alias_placeholder": "Ein Nickname oder ein anderes denkwürdiges Wort"
+                "alias_placeholder": "Ein Nickname oder ein anderes einprägsames Wort",
+                "title": "Account-Einstellungen",
+                "time": "Zeit",
+                "action": "Aktion",
+                "ip_address": "IP Adresse",
+                "user_agent": "User Agent",
+                "logging_deletion": "Wenn sie das Logging Level ändern, bleiben bestehende Protokolle erhalten. Protokolle-Einträge werden nach 2 Wochen gelöscht.",
+                "logging_level": "Logging Level",
+                "logging_disabled": "Protokollierung deaktiviert",
+                "logging_hashed": "Protokollierung der Aktionen mit gehashten IP-Adressen",
+                "logging_full": "Protokollierung der Aktionen mit IP-Adresse und User Agent",
+                "recommended": "Empfohlen",
+                "optional": "Optional",
+                "email": "E-Mail",
+                "email_placeholder": "Ihre E-Mail",
+                "email_verified": "E-Mail bestätigt",
+                "email_verification_code": "E-Mail Bestätigungs-Code:",
+                "verify_email_btn": "Überprüfen",
+                "resend_link": "Link erneut senden",
+                "email_not_verified": "E-Mail nicht verifiziert",
+                "alias": "Alias",
+                "email_verification_description": "Eine E-Mail wird benötigt, um eine verlorene Wallet Kennung wiederherzustellen und zur Benachrichtigung bei Zahlungen.",
+                "logging_level_description": "Das Logging Level konfiguriert welche Daten bei diversen Aktionen erfasst werden. Standardmäßig ist die Protokollierung ausgeschaltet, mit Ausnahme der Aktionen von Admins durchgeführt werden. Aktivieren der Protokollierung bietet Ihnen mehr Sicherheit durch mehr Informationen über potenzielle unbefugte Zugriffe, aber bedeutet auch einige Einschnitte bei der Privatsphäre.",
+                "alias_description": "Ein Alias ​​ist ein Short-Link, der den einfachen Zugriff auf Ihr Wallet Konto ermöglicht. Dadurch ersparten Sie Sich die Kennung merken zu müssen.",
+                "mobile_number": "Handynummer",
+                "sms_verified": "SMS verifziert",
+                "send_sms_code": "SMS-Code senden",
+                "enter_sms_code": "Geben Sie den Code aus der SMS-Nachricht ein.",
+                "verify_sms_btn": "Verifizieren ",
+                "sms_verification_placeholder": "SMS Bestätigungscode",
+                "automatic_email_backups": "Automatische E-Mail-Backups",
+                "local_currency": "Lokale Währung",
+                "local_currency_description": "Sie können schnell zwischen Bitcoin und Ihre lokale Währung umschalten, indem Sie Ihre Bilanz (oben rechts) anklicken.",
+                "language": "Sprache"
             },
             "login": {
                 "email_code_help": "Eine E-Mail mit einem temporären Bestätigungscode von Ihrem Konto wurde gesendet.",
@@ -359,8 +425,19 @@
             "availability": " Wir streben 99,5% up time dieser Dienst jedoch auf einer Best-Effort-Basis. Wenn Wartungsarbeiten geplant werden wir die Nutzer per E-Mail benachrichtigen."
         },
         "wallet_index": {
-            "anonymous": {},
-            "merchants": {},
+            "anonymous": {
+                "title": "Anonym",
+                "p1": "Alles was wir für ein Konto verlangen ist ein Passwort, es werden keine andere persönlichen Informationen benötigt. Es ist uns nicht möglich Ihre öffentlichen Schlüssel, Ihre Transaktionen oder Ihren Kontostand zu sehen.",
+                "p2": "My Wallet beinhaltet auch eine eingebautes",
+                "mixing_service": "mixing service",
+                "p3": "welches 100% anonym Transaktionen garantiert."
+            },
+            "merchants": {
+                "title": "Weltweit erreichbare Händler",
+                "p1": "Mehr als 1000 Händler weltweit akzeptieren bereits Bitcoin und es werden immer mehr. Alles vorstellbare, angefangen von Online Poker bis Bio-Kaffee können Sie mit bitcoins kaufen.",
+                "p2": "Eine vollständige Liste der Bitcoin Händlern finden Sie auf der",
+                "wiki": "offiziellen Wiki"
+            },
             "control": {
                 "title": "Behalten Sie die Kontrolle"
             },
@@ -392,8 +469,28 @@
                 "p1": "Verwirrt? Lesen Sie die",
                 "p2": "Einsteiger FAQs"
             },
-            "tooltips": {},
-            "features": {},
+            "tooltips": {
+                "aes_title": "AES-Verschlüsselung",
+                "paper_wallet_title": "Paper Wallet",
+                "remote_backup_title": "Remote Backups",
+                "offline_transactions_title": "Offline-Transaktionen",
+                "paypal_title": "PayPal",
+                "paypal": "PayPal ist ein veralteter Payment-Anbieter",
+                "private_key_title": "Private Key",
+                "private_key": "Bitcoin-Adressen bestehen aus zwei Teilen. Der private Schlüssel ist der Teil, der Sie als Besitzer einer Adresse auszeichnet und benötigt wird um Geld abheben zu können. Dieser sollte unter allen Umständen sicher aufbewahrt werden."
+            },
+            "features": {
+                "title": "Vielzahl an Funktionen",
+                "p1": "Das fortschrittlichste online Wallet das es gibt",
+                "full_list": "Hier finden sie eine vollständige Liste der Funktionen",
+                "free": "Kostenlose, keine Gebühren",
+                "two_factor": "Two Factor Authentication",
+                "client_side_encryption": "Sichere clientseitige Verschlüsselung",
+                "live_update": "Live-Updates ohne neuladen der Seite",
+                "backups": "Mit der Möglichkeit eigenen Backups zu machen.",
+                "import_export": "Import / Export privater Schlüssel.",
+                "payment_notifications": "SMS & Email Meldungen bei Überweisungen"
+            },
             "security": {
                 "title": "Sicher",
                 "p1": "Blockchain.info benutzt Industrie-Standards",
@@ -430,7 +527,41 @@
         "blocks": {},
         "largest_transactions": {},
         "pools": {},
-        "wallet_new": {},
+        "wallet_new": {
+            "title": "Meine Wallet",
+            "header1": "Erstellen Sie eine neues Wallet.",
+            "sub_header1": "Wählen Sie einen Alias und ein sicheres Passwort für das neue Wallet",
+            "password": "Passwort:",
+            "confirm_password": "Passwort bestätigen:",
+            "captcha": "Captcha:",
+            "continue_btn": "Weiter",
+            "wallet_created": "Neues Wallet erstellt!",
+            "wallet_created_p1": "Ihr neues My Wallet wurde erstellt. Es ist wichtig, dass sie die Kennung und das Passwort geheim halten. Wir sind nur dann in der Lage Ihre Kennung wiederherzustellen, wenn Sie eine gültige E-Mail-Adresse angegeben haben. Es besteht für uns keine Möglichkeit ein verlorenes Passwort wiederherzustellen!",
+            "restore_link_title": "Sie können diese Wallet jederzeit wiederherstellen, indem Sie folgenden Link aufrufen:",
+            "fav_recommendation": "Es ist empfehlenswert den Link in zu den Browser-Favoriten hinzuzufügen.",
+            "email": "E-Mail",
+            "email_placeholder": "E-Mail-Adresse",
+            "email_sub": "Wenn Sie eine E-Mail-Adresse angeben, senden wir Ihnen einen Zugangs-Link für Ihr My Wallet",
+            "alias": "Alias",
+            "alias_placeholder": "Einprägsames Wort oder Nickname",
+            "alias_sub": "Sie können einen Alias für Ihr Wallet angeben, mit diesem können Sie sich anstatt mit der Kennung anmelden.",
+            "alias_help_block": "Ein Alias oder Shortlink damit Sie das Wallet einfach wiederfinden.",
+            "proceed_to_login": "Anmelden",
+            "dont_forget_password": "Vergessen Sie Ihr Passwort nicht!",
+            "dont_forget_password_p1": "WARNUNG: Vergessene Passwörter sind NICHT WIEDERHERSTELLBAR und führen zum <b>Verlust aller Ihrer Bitcoins!</b>",
+            "password_strength": "Passwort Stärke",
+            "password_strength_p1": "Wir benötigen ein Passwort mit mindestens 10 Zeichen, um sicherzustellen dass, selbst wenn unsere Datenbank in falsche Hände gerät ist Ihre Wallet nicht in Gefahr. Um ein Passwort mit 10 Zeichen zu entschlüsseln dauert es mehr als 1000 Jahre.",
+            "is_already_registered": "Bereits registriert?",
+            "existing_account": "Wenn Sie bereits ein My Wallet-Konto haben {0}",
+            "disclaimer": "Haftungsausschluss",
+            "anonymity_policy": "Anonymitäts Richtlinie",
+            "please_read": "Bitte lesen Sie unsere {0}.",
+            "optional": "Optional",
+            "mnemonic_modal_title": "Gedächtnisstütze für Password-Wiederherstellung",
+            "mnemonic_modal_p1": "Das Wallet wurde erfolgreich erstellt. Wenn Sie das Kennwort vergessen, können Sie die unten angegebene Gedächtnisstütze verwenden, um es wiederherzustellen.",
+            "mnemonic_please_write_down": "Bitte notieren Sie sich Folgendes:",
+            "mnemonic_modal_p2": "Ohne diese Gedächtnisstütze können wir Ihnen nicht bei der Wiederherstellung vergessener Passwörter helfen, was den <b>Verlust aller Ihrer Bitcoins bedeutet!.</b>"
+        },
         "header": {
             "home": "Startseite",
             "developer_title": "Blockchain Entwickler Werkzeuge",
