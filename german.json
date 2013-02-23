@@ -613,7 +613,11 @@
             "techradar_quote": "Bis 2015 könnten Cash einer bedrohte Tierart ähneln",
             "introduction_video": "Bitcoin Einführung anzeigen",
             "free_open_source": "Free. Open Source.",
-            "successfully_transacted": "Erfolgreich abgewickelt."
+            "successfully_transacted": "Erfolgreich abgewickelt.",
+            "deposit": {
+                "title": "Sofort überweisen",
+                "p1": "Überweisen sie Bitcoins in sekundenschnelle direkt in Ihr My Wallet. Mittels Bank Transfer, Bargeld Überweisung, Barclays PingIt oder Mehrwertnummer. Verfügbar in den USA, UK und mehr als 100 Länder weltweit."
+            }
         },
         "tx_tree": {},
         "push_tx": {},
@@ -862,6 +866,14 @@
         "ip_log": {
             "sub_header": "Liste der Bitcoin Knoten, die mit blockchain.info in der Vergangenheit verbunden waren.",
             "meta_description": "Eine Liste aller IP-Adressen, die mit dem Bitcoin Netzwerk angeschlossen haben."
+        },
+        "wallet_forgot_identifier": {
+            "title": "Kennung vergessen",
+            "header": "Kennung vergessen",
+            "sub_header": "Geben Sie einfach Ihre E-Mail-Adresse oder SMS-Nummer ein und wir senden Ihnen den Bestätigungs-Link erneut:",
+            "email_or_sms": "E-Mail oder SMS:",
+            "send": "Senden",
+            "p1": "Wenn Sie keine E-Mail-Adresse mit Ihrem Account verknüpft haben, kontaktieren ({0}) Sie uns bitte mit allen relevanten Informationen, wie zum Beispiel Skype Benutzernamen, Google Talk Benutzername, geheime Phrase oder Alias."
         }
     }
 }
