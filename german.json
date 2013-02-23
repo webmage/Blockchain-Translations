@@ -66,7 +66,10 @@
             "title": "Bitcoin Block-Explorer - Blockchain.info",
             "more": "Mehr ...",
             "search": "Suchen",
-            "meta_description": "Bitcoin Block-Explorer & Währungs Statistik. Detaillierte Informationen zu allen Bitcoin Transaktionen und Blöcken."
+            "meta_description": "Bitcoin Block-Explorer & Währungs Statistik. Detaillierte Informationen zu allen Bitcoin Transaktionen und Blöcken.",
+            "latest_transactions": "Neueste Transaktionen",
+            "search_placeholder": "Adresse / Firstbits / IP / SHA-Hash",
+            "search_explain": "Sie können Blockhöhe, Adresse, Blockhash, Transaktions-Hash, hash160 oder IPv4-Adresse eingeben."
         },
         "popular_addresses": {
             "sub_header": "Populärste Bitcoin Adressen, Anzahl der Ausgänge",
@@ -155,8 +158,17 @@
                 "size": "Größe",
                 "version": "Version",
                 "nonce": "Nonce",
-                "block_reward": "Block Reward"
-            }
+                "block_reward": "Block Reward",
+                "output_title": "Ausgang insgesamt"
+            },
+            "title": "Bitcoin Block # {0}",
+            "meta_description": "Transaktionen die in diesem Bitcoin Block enthalten sind",
+            "header": "Block",
+            "network_propagation": "Netzwerk Ausbreitung",
+            "click_to_view": "Klicken um anzuzeigen",
+            "transactions_header": "Transaktionen",
+            "transactions_sub_header": "Transaktionen die in diesem Block enthalten sind",
+            "no_block_index": "Kein Block-Index übergeben"
         },
         "ip_info": {
             "next_page": "Nächste Seite"
@@ -167,7 +179,17 @@
         },
         "wallet_app": {
             "transactions": {
-                "no_transactions": "Normalerweise würden Ihre Bitcoin Transaktionen würde hier aufgelistet werden, aber Sie haben keine abgegeben."
+                "no_transactions": "Normalerweise würden Ihre Bitcoin Transaktionen hier aufgelistet werden, aber Sie haben noch keine durchgeführt.",
+                "escrow": "Treuhandservice",
+                "received": "Erhaltene",
+                "sent": "Gesendete",
+                "all": "Alle",
+                "filter": "Filtern",
+                "view": "Anzeige",
+                "detailed": "Detailiert",
+                "compact": "Kompakt",
+                "sub_header": "Zusammenfassung Ihrer letzten Transaktionen",
+                "header": "Transaktionen"
             },
             "errors": {
                 "login_attempts_left": "{0} Login-Versuche verbleibend",
@@ -185,9 +207,9 @@
             },
             "send_coins": {
                 "public_note_tooltip": "Fügen Sie eine Notiz dieser Transaktion hinzu, die auf blockchain.info sichtbar sein wird.",
-                "sms_number_tooltip": "Geben Sie die SMS-Nummer der Person ein, der Sie Bitcoin senden möchten.",
+                "sms_number_tooltip": "Geben Sie die SMS-Nummer der Person ein, der Sie Bitcoins senden möchten.",
                 "quick_send": "Schnelles senden",
-                "amount_help": "Geben Sie die Menge der zu sendenden Bitcoins ein",
+                "amount_help": "Geben Sie den zu sendenden Betrag in Bitcoins ein",
                 "facebook_help": "Geben Sie den Namen des fFcebook Empfängers ein",
                 "email_address_help": "Geben Sie die Email-Adresse des Empfängers ein",
                 "send_via": "Senden über",
@@ -196,7 +218,50 @@
                 "satoshi_dice_sub": "{0} ist das beliebteste Bitcoin Tippspiel. Gewinnen Sie sofort bis zu 64.000 x Ihre Wette. Alle Wetten sind nachweisbar mit der Bitcoin-Blockkette.",
                 "remove_recipient": "Empfänger entfernen",
                 "email_address_tooltip": "Dies ist die E-Mail-Adresse der Person, der Sie Bitcoins senden möchten.",
-                "send_via_sms_sub": "Benutzen Sie das Formular unten, um Bitcoins via SMS zu senden."
+                "send_via_sms_sub": "Benutzen Sie das Formular unten, um Bitcoins via SMS zu senden.",
+                "transaction_types": "Art der Transaktion",
+                "custom": "Custom",
+                "anonymous": "Anonym",
+                "escrow": "Treuhandservice",
+                "email": "E-Mail",
+                "sms_message": "SMS-Nachricht",
+                "games": "Spiele",
+                "tools": "Tools",
+                "address_book": "Adressbuch",
+                "quick_send_sub": "Benutzen Sie das Formular unten, um eine Zahlung an eine Bitcoin Adresse zu senden.",
+                "to_address": "An Adresse",
+                "to": "An:",
+                "to_address_placeholder": "Bitcoin Adresse",
+                "to_address_help": "Geben Sie die Bitcoin Adresse des Empfängers ein",
+                "amount": "Betrag",
+                "amount_tooltip": "Der zu sendende Betrag in Bitcoin",
+                "send_payment": "Zahlung senden",
+                "send_payment_tooltip": "Klicken Sie hier um die Zahlung senden. Es gibt danach keine weitere Möglichkeit, die Transaktion zu überprüfen oder abzubrechen.",
+                "send_via_sms": "Via SMS senden",
+                "sms_number": "SMS-Nummer",
+                "sms_number_help": "Geben Sie hier die SMS-Nummer des Empfängers ein.",
+                "send_via_email": "Via E-Mail senden",
+                "send_via_email_sub": "Benutzen Sie das Formular unten um Bitcoins an eine E-Mail-Adresse senden.",
+                "email_address": "E-Mail-Adresse",
+                "send_anonymously": "Anonym senden",
+                "send_anonymously_sub": "Verwenden Sie \"Anonym senden\", wenn Sie vermeiden wollen dass es eine Zurückverfolgbarkeit der Transaktion zwischen Sender und Empfänger gibt.",
+                "send_anonymously_total": "Anfallende Gebühren der gesamten Transaktion: {0}",
+                "send_anonymously_free": "Der Mischer ist derzeit gratis verfügbar.",
+                "send_anonymously_bonus": "Der Mischer zahlt derzeit eine Prämie für frische Münzen. Es werden keine Gebühren für diese Transaktion anfallen und einer Prämie von {0} BTC gezahlt.",
+                "review_payment": "Überweisung kontrollieren",
+                "review_payment_tooltip": "Klicken Sie hier, um Zahlungen zu überprüfen. Es besteht noch die Möglichkeit die Transaktion zu bestätigen oder abzubrechen.",
+                "anonymous_transaction_fees": "Bei allen anonymen Transaktion fällt eine Gebühr von {0}% an.",
+                "custom_transaction": "Benutzerdefinierte Transaktion",
+                "custom_transaction_sub": "Verwenden Sie das untenstehende Formular, um eine Zahlung an eine oder mehrere Bitcoin-Adressen zu senden. Vor der endgültigen Durchführung gibt es noch die Möglichkeit die Transaktion zu kontrollieren.",
+                "from_address": "Von Adresse",
+                "from_address_tooltip": "Bei Bedarf können Sie auswählen von welcher Adresse die Münzen gesendet werden.",
+                "from": "Von:",
+                "remove_recipient_tooltip": "Entfernen Sie den letzten Empfänger.",
+                "add_recipient": "Empfänger hinzufügen",
+                "add_recipient_tooltip": "Wenn Sie Bitcoins an mehrere Empfänger auf einmal senden möchten, fügen Sie hier eine zusätzliche Adresse hinzu",
+                "miners_fee": "Miner Gebühr",
+                "miners_fee_tooltip": "Diese Gebühr wird an den Bitcoin-Miner überwießen und kann helfen, dass Ihre Transaktion schneller verarbeitet wird",
+                "change_address": "Wechselgeld Adresse"
             },
             "tooltips": {
                 "connection_status": {
@@ -299,17 +364,40 @@
                 "email_code_help": "Eine E-Mail mit einem temporären Bestätigungscode von Ihrem Konto wurde gesendet.",
                 "forgotten_something_sub": "Hilfe! Ich habe mich von meinem Konto ausgesperrt",
                 "two_factor_reset": "Zwei-Stufen-Authentifizierung zurücksetzen",
-                "lost_identifier_p1": "Wenn Sie Ihre Brieftaschen-Bezeichnung verloren haben, suchen Sie zuerst die Bestätigungsmail, die Sie während der Registrierung erhalten haben. Können Sie die E-Mail nicht finden? Klicken Sie auf die Schaltfläche unten und wir schicken Ihnen eine neue.",
-                "resend_link_p1": "Die E-Mail wird von wallet@blockchain.info gesendet werden. Achten Sie darauf, Ihren Spam-Ordner zu überprüfen. Wenn Sie die E-Mail noch nicht finden können klicken Sie auf die Schaltfläche unten, um es erneut zu senden.",
+                "lost_identifier_p1": "Wenn Sie Ihre Wallet-Bezeichnung verloren haben, suchen Sie zuerst die Bestätigungsmail, die Sie während der Registrierung erhalten haben. Können Sie die E-Mail nicht finden? Klicken Sie auf die Schaltfläche unten und wir schicken Ihnen eine neue.",
+                "resend_link_p1": "Die E-Mail wird von wallet@blockchain.info gesendet werden. Überprüfen Sie Ihren Spam-Ordner zu überprüfen. Wenn Sie die E-Mail noch nicht finden können klicken Sie auf die Schaltfläche unten, um es erneut zu senden.",
                 "lost_two_factor_title": "Verlorene Zwei-Stufen-Authentifizierungs Details.",
-                "lost_two_factor": "Zwei-Stufen-Authentifizierung Daten verloren oder vergessen?",
-                "open_wallet": "Brieftasche öffnen",
+                "lost_two_factor": "Haben sie die Daten für die Zwei-Stufen-Authentifizierung verloren oder vergessen?",
+                "open_wallet": "Wallet öffnen",
                 "yubikey_help": "Wählen Sie das Textfeld oben aus und drücken Sie die grüne LED auf Ihrem Yubikey.",
-                "password_unrecoverable_warning": "Ihr Passwort wird nie mit unseren Servern geteilt und kann nicht wiederhergestellt werden, wenn vergessen wird!",
+                "password_unrecoverable_warning": "Ihr Passwort wird nie mit unseren Servern geteilt. Sollten Sie es verlieren oder vergessen kann es daher nicht wiederhergestellt werden!",
                 "google_authenticator_help": "Bitte öffnen Sie Ihre Google Authenticator-App und geben Sie den angezeigten Code ein.",
                 "please_enter_login_details": "Bitte geben Sie Ihre Login-Daten unten ein:",
                 "lost_two_factor_btn": "Zurücksetzen der Zwei-Stufen-Authentifizierung",
-                "lost_two_factor_p1": "Wenn Sie Ihre Zwei-Stufen-Authentifizierungs Details verloren haben, ist Ihre Brieftasche noch voll erstattungsfähig. Alles was wir brauchen ist ein vernünftiger Beweis, dass Sie der Kontoinhaber sind. Bitte klicken Sie auf den Knopf unten und füllen das Formular aus."
+                "lost_two_factor_p1": "Wenn Sie Ihre Zwei-Stufen-Authentifizierungs Details verloren haben, ist Ihr Wallet dennoch wiederherstellbar. Alles was wir brauchen ist ein vernünftiger Beweis, dass Sie der Kontoinhaber sind. Bitte klicken Sie auf den Knopf unten und füllen das Formular aus.",
+                "welcome_back": "Willkommen zurück",
+                "identifier": "Kennung:",
+                "identifier_placeholder": "Kennung oder Alias",
+                "password": "Passwort:",
+                "google_authenticator": "Google Authenticator:",
+                "email_code": "E-Mail-Code:",
+                "sms_code": "SMS-Code:",
+                "sms_code_help": "Eine Textnachricht wurde auf Ihr Handy geschickt. Bitte geben Sie den Code dieser Nachricht ein.",
+                "resend_link_title": "Haben Sie den E-Mail-Code nicht erhalten?",
+                "resend_link_btn": "Erneut senden",
+                "resend_sms_link_title": "Haben Sie den SMS-Code nicht erhalten?",
+                "resend_sms_link_p1": "Bitte überprüfen Sie ob Ihr Handy Empfang hat. Der Nachrichten Versand kann bis zu 10 Minuten benötgen - sollte es dennoch nicht angekommen sein, klicken Sie auf die Schaltfläche unten, um es erneut zu senden.",
+                "resend_sms_link_btn": "Erneut senden",
+                "forgotten_something": "Etwas vergessen?",
+                "lost_identifier_title": "Kennung oder Alias verloren",
+                "forgotten_identifier_btn": "Kennung vergessen",
+                "download_backup_btn": "Backup herunterladen",
+                "lost_password": "Passwort vergessen",
+                "password_hints_btn": "Passwort Hinweise",
+                "forgot_password_btn": "Passwort vergessen",
+                "need_help": "Benötigen Sie Hilfe?",
+                "need_help_p1": "Lesen Sie unsere {0}",
+                "support_pages": "Support-Seiten"
             },
             "import_export": {},
             "wallet_home": {
@@ -354,7 +442,11 @@
                 "address_book_label_help": "Geben Sie ein Label für diese Adresse ein. z.B. der Name der Person oder Firma.",
                 "watch_only_warning_p1": "Sie erhalten diese Warnung, weil Sie eine {0} Adresse in die Zwischenablage kopiert haben.",
                 "scan_using_webcam": "Mir Webcam einscannen"
-            }
+            },
+            "title": "My Wallet",
+            "loading": "Lade",
+            "status": "Status: ",
+            "disconnected": "VERBINDUNG GETRENNT"
         },
         "wallet": {
             "new_users": "Neuer Benutzer",
@@ -441,7 +533,13 @@
                 "wiki": "offiziellen Wiki"
             },
             "control": {
-                "title": "Behalten Sie die Kontrolle"
+                "title": "Behalten Sie die Kontrolle",
+                "p1": "Das schöne an Bitcoin ist, dass es komplett dezentralisiert ist - keine Regierung und kein Unternehmen kann dadurch Transaktionen unterbinden oder Konten sperren.",
+                "p2": "Mit My Wallet behalten sie die volle Kontrolle über Ihren",
+                "p3": "privaten Schlüssel",
+                "p4": " - das bedeutet Wallets können nicht beschlagnahmt oder gesperrt werden. Aber es ist ganz einfach den Schlüssel in einen anderen Client zu importieren.",
+                "read": "Lesen Sie",
+                "how_it_works": "Wie das funktioniert."
             },
             "slides": {
                 "mobile_support": "Smartphone Support",
@@ -479,7 +577,11 @@
                 "paypal_title": "PayPal",
                 "paypal": "PayPal ist ein veralteter Payment-Anbieter",
                 "private_key_title": "Private Key",
-                "private_key": "Bitcoin-Adressen bestehen aus zwei Teilen. Der private Schlüssel ist der Teil, der Sie als Besitzer einer Adresse auszeichnet und benötigt wird um Geld abheben zu können. Dieser sollte unter allen Umständen sicher aufbewahrt werden."
+                "private_key": "Bitcoin-Adressen bestehen aus zwei Teilen. Der private Schlüssel ist der Teil, der Sie als Besitzer einer Adresse auszeichnet und benötigt wird um Geld abheben zu können. Dieser sollte unter allen Umständen sicher aufbewahrt werden.",
+                "aes": "Ein extrem starker Verschlüsselungs-Standard der von der US-Regierung verwendet wird und mittlerweile auch weltweit für VPNs und verschlüsselte Kommunikation verwendet wird",
+                "paper_wallet": "Ein Paper Wallet ist ein ausdruckbares Dokument, welches alle nötigen Informationen beinhaltet um Zugriff auf ihre Bitcoins zu erhalten",
+                "remote_backup": "Remote Backup bedeutet, dass eine Kopie Ihres Wallets an einem anderen Ort als Ihren PC sicher verwahrt wird. Dies ist wichtig um auch nach einem Festplatten-Ausfall oder andersartigen Fehler noch Zugriff auf Ihre Bitcoins zu haben",
+                "offline_transactions": "Offline-Transaktionen sind Bitcoin-Transaktionen, die ohne aktive Internet-Verbindung vorbereitet werden. Diese gelten als sicherer, da Ihr PC nicht direkt mit dem Internet verbunden sein muss."
             },
             "features": {
                 "title": "Vielzahl an Funktionen",
@@ -634,7 +736,7 @@
             "blockchain_size_label": "MB",
             "my_wallet_transaction_volume_label": "Transaktions Volumen (BTC)",
             "estimated_transaction_volume_usd": "Geschätzter USD Transaktions Volumen",
-            "transaction_fees2": "Dieses Diagramm zeigt die Summe der Transaktionsgebühren in BTC, den die Miner pro tag verdienen.",
+            "transaction_fees2": "Dieses Diagramm zeigt die Summe der Transaktionsgebühren in BTC, den die Miner pro Tag verdienen.",
             "miners_revenue_label": "Gewinn der Miner (BTC)",
             "hash_rate2": "Die geschätzte Zahl der Giga-Hashes pro Sekunde (Milliarden von Hashes pro Sekunde) die das Bitcoin Netzwerk ausführt.",
             "balance_of_address": "Bilanz der Bitcoin Adresse",
@@ -687,7 +789,8 @@
             "days_destroyed_cumulative": "Kumulierte Bitcoin Tage zerstört",
             "estimated_transaction_volume_label": "Transaktions Volumen (BTC)",
             "total_received": "Insgesamt empfangen",
-            "days_destroyed": "Bitcoin Tagen zerstört"
+            "days_destroyed": "Bitcoin Tagen zerstört",
+            "n_transactions_per_day_to": "Anzahl der Transaktionen pro Tag:"
         },
         "strange_transactions": {
             "meta_description": "Eine Liste der Bitcoins mit Nicht-Standard-Ausgänge"
