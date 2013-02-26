@@ -564,7 +564,18 @@
             "strange": "Seltsame",
             "ok": "Ok"
         },
-        "errors": {},
+        "errors": {
+            "invalid_format_type": "Ungültiges Format",
+            "invalid_first_name": "Ungültiger Vorname",
+            "invalid_last_name": "Ungültiger Nachname",
+            "invalid_date_of_birth": "Ungültiges Geburtsdatum",
+            "invalid_bitcoin_adddress": "Ungültige Bitcoin Adresse",
+            "invalid_numerical_value": "Ungültiger numerischer Wert",
+            "invalid_block_hash": "Ungültiger Blockhash",
+            "block_not_found": "Block nicht gefunden",
+            "missing_parameter": "Fehlender Parameter",
+            "unknown_error": "Unbekannter Fehler"
+        },
         "relayed_by": {},
         "rejected": {},
         "webgl_globe": {},
@@ -572,7 +583,10 @@
         "error_page": {},
         "propagation": {},
         "ads": {
-            "bitinstant": {}
+            "bitinstant": {
+                "title": "Brauchen Sie Bitcoins?",
+                "body": "Kaufen mit Bargeld"
+            }
         },
         "about_us": {
             "availability": " Wir streben 99,5% up time dieser Dienst jedoch auf einer Best-Effort-Basis. Wenn Wartungsarbeiten geplant werden wir die Nutzer per E-Mail benachrichtigen."
@@ -683,13 +697,48 @@
         "maintenance": {},
         "startup_message": {},
         "emails": {
-            "tx": {},
-            "two_factor_reset_request": {},
-            "password_hints": {},
-            "confirmation_code": {},
-            "wallet_backup": {},
-            "welcome": {},
-            "account_locked": {}
+            "tx": {
+                "header_sent": "Benachrichtigung über gesendete Zahlung",
+                "header_received": "Benachrichtigung über empfangene Zahlung",
+                "sent_p1": "Eine Zahlung wurde von Ihrem Bitcoin Wallet gesendet.",
+                "received_p1": "Eine Zahlung ist in Ihrem Bitcoin Wallet eingegangen."
+            },
+            "two_factor_reset_request": {
+                "header": "Two Factor Authentication Zurücksetzung",
+                "p1": "Eine Anfrage wurde gesendet, um die Two Factor Authentication von Ihrem My Wallet-Konto zu entfernen:",
+                "p2": "Wenn diese Anfrage von Ihnen gesendet wurde, öffnen Sie bitte die folgende URL, um diese Anforderung zu genehmigen:",
+                "p3": "Wenn diese Anfrage nicht von Ihnen gesendet wurde, öffnen Sie bitte die folgende URL, um diese Anforderung abzulehnen:",
+                "p4": "Es ist möglich, dass jemand versucht, böswillig auf Ihr Bitcoin Wallet zuzugreifen. Bitte ignorieren diese Anfrage nicht."
+            },
+            "password_hints": {
+                "header": "My Wallet Passwort Hinweise",
+                "p1": "Sie erhalten diese E-Mail, weil eine Anfrage gesendet wurde, um Ihre Hinweise für das Wallet Passwort anzuzeigen.",
+                "main_hint": "Passwort-Haupthinweis:",
+                "second_hint": "Zweiter Passwort-Hinweis:"
+            },
+            "confirmation_code": {
+                "header": "Bestätigung erforderlich",
+                "p1": "Ein Versuch auf Ihr My Wallet-Konto zuzugreifen erfolgte von der IP-Adresse {0}. Geben Sie den Bestätigungscode unten ein, um auf Ihr Konto zuzugreifen. Wenn der Loginversuch nicht von Ihnen erfolgte, können Sie diese Nachricht ignorieren."
+            },
+            "wallet_backup": {
+                "header": "Wallet Backup",
+                "p1": "An diese E-Mail ist ein AES verschlüsseltes Wallet Backup angehängt, das alles beinhaltet was Sie benötigen, um Ihren Bitcoin Kontostand wiederherzustellen. Sie können das Backup verwenden, um das Wallet jederzeit auf {0} oder mit dem Drittanbieter {1} Desktop-Client wiederherzustellen."
+            },
+            "welcome": {
+                "header": "Willkommen in meinem My Wallet",
+                "p1": "Diese E-Mail enthält wichtige Informationen zu Ihrem neuen Bitcoin Wallet. Bitte bewahren Sie diese Informationen sicher und getrennt von Ihrem Passwort auf.",
+                "login_link": "Login Link:",
+                "notifications": "Hinweise:",
+                "alias": "Alias:",
+                "confirmation_code": "Bestätigungs-Code:",
+                "notifications_enabled": "Benachrichtigungen aktiviert",
+                "notifications_disabled": "Benachrichtigungen deaktiviert"
+            },
+            "account_locked": {
+                "header": "Konto gesperrt",
+                "p1": "Einige fehlgeschlagenen Versuche wurden unternommen, um sich zu Ihrem My Wallet-Konto anzumelden. Zu Ihrem eigenen Schutz wurden die neuen Login-Versuche bis {0} deaktiviert.",
+                "p2": "Wenn diese Login-Versuche nicht von Ihnen vorgenommen wurden, wird empfohlen, dass Sie Ihr Passwort ändern, sobald das Konto wieder verfügbar ist. Wenn Sie besonders besorgt sind, kontaktieren Sie uns bitte und wir werden die Sperre verlängern."
+            }
         },
         "blocks": {},
         "largest_transactions": {},
@@ -933,6 +982,106 @@
             "email_or_sms": "E-Mail oder SMS:",
             "send": "Senden",
             "p1": "Wenn Sie keine E-Mail-Adresse mit Ihrem Account verknüpft haben, kontaktieren ({0}) Sie uns bitte mit allen relevanten Informationen, wie zum Beispiel Skype Benutzernamen, Google Talk Benutzername, geheime Phrase oder Alias."
+        },
+        "translations_page": {
+            "steps": {
+                "_1": "{0} die Übersetzungen von git-Repository {1}.",
+                "_2": "Klonen Sie die neue Fork des Übersetzungsprojekts.",
+                "_3": "Laden Sie eine guten JSON-Editor herunter. Wir empfehlen \"Sublime Text 2\", kostenlos erhältlich für Windows, Mac und Linux.",
+                "_4": "Öffnen Sie die Dateien auto_ {Ihre_Sprache}.json und {Ihre_Sprache}.json nebeneinander.",
+                "_5": "Alle Sätze in der automatisch generierten Datei, die keinen Sinn machen, kopieren Sie in die andere Datei und korrigieren dort die Fehler.",
+                "_6": "Die JSON Struktur muss in beiden Dateien identisch sein, die Key Names auf keinen Fall bearbeiten.",
+                "_7": "Wenn Sie fertig sind, die Änderungen übernehmen und einen {0} hinzufügen.",
+                "_8": "Geben Sie Ihre Bitcoin Adresse für eine Belohnung an oder wenn Sie es vorziehen, ändern Sie den Link auf der Homepage zu Ihrer eigenen Website.",
+                "pull_request": "Pull Request",
+                "fork": "Fork"
+            },
+            "title": "Helfen Sie, Blockchain.info zu übersetzen.",
+            "header": "Übersetzungen",
+            "sub_header": "Blockchain.info ist bereits in 16 Sprachen verfügbar.",
+            "how_to_help": "So kannst Du mithelfen.",
+            "p1": "Blockchain.info ist bereits in 16 verschiedenen Sprachen erhältlich. Die Übersetzung wurde jedoch in erster Linie automatisch generiert, und wir brauchen Ihre Hilfe, um bessere Übersetzungen erstellen zu können.",
+            "p2": "Wenn Sie mit {0} und {1} vertraut sind, folgen Sie den Anweisungen unten:"
+        },
+        "redirect_page": {
+            "title": "Sie werden weitergeleitet",
+            "slow_page": "Wenn diese Seite länger als ein paar Sekunden erscheint,",
+            "click_here": "klicken Sie hier"
+        },
+        "export_history": {
+            "title": "Verlauf exportieren",
+            "alt": "Verlauf exportieren",
+            "p1": "Transaktionsverlauf exportieren",
+            "from": "Von",
+            "addresses": "Adressen",
+            "to": "Bis"
+        },
+        "transactions_summary": {
+            "you_received": "Sie haben erhalten",
+            "you_moved": "Sie haben verschoben",
+            "you_sent": "Sie haben gesendet",
+            "value_at_time": "Wert zum Zeitpunkt der Transaktion",
+            "unknown": "Unbekannt",
+            "excellent": "Ausgezeichnet",
+            "good": "Gut",
+            "poor": "Schlecht",
+            "very_poor": "Sehr schlecht",
+            "no_double_spend": "Keine Double-Spends erkannt",
+            "transaction_is_double_spend": "Diese Transaktion ist ein Double-Spend!",
+            "double_spend": "Double-Spend",
+            "transaction_fee": "Transaktionsgebühr",
+            "maturing": "{0} bis zur Verwendung benötigt",
+            "sent_time": "Sendezeitpunkt",
+            "to_confirm": "zu bestätigen",
+            "nodes": "Knoten"
+        },
+        "deposit": {
+            "phone_sms": "Telefon / SMS",
+            "_continue": "Weiter",
+            "back": "Zurück",
+            "you_pay": "Sie zahlen:",
+            "full_instructions": "Ausführliche Anleitung",
+            "you_receive": "Sie erhalten:",
+            "to_address": "An Adresse:",
+            "instructions": "Anleitung:",
+            "depsit_with_cash": "Barzahlung",
+            "depsit_with_cash_description": "Über 700.000 Standorte mit Barzahlung weltweit",
+            "powered_by": "Powered by",
+            "amount": "Betrag",
+            "name": "Vollständiger Name",
+            "uk_bank_p1": "Bitte geben Sie die Informationen des Kontoinhabers an",
+            "uk_bank_p2": "Bitte überprüfen Sie die Informationen unten",
+            "sort_code": "Bankleitzahl",
+            "bank_name": "Name der Bank",
+            "first_name": "Vorname",
+            "last_name": "Nachname",
+            "dob": "Geburtsdatum",
+            "valid": "gültig",
+            "chaps": "CHAPS",
+            "faster_payments": "Schnellere Bezahlung",
+            "account": "Konto",
+            "account_number": "Kontonummer",
+            "fee": "{0} % Gebühr",
+            "make_anonymous": "Anonym durchführen?",
+            "anonymous_help": "Die Bitcoins werden über unseren Mixer für verbesserte Privatsphäre gesendet (1,5% Gebühr).",
+            "amount_help": "Geben Sie den gewünschten Betrag in {0} ein.",
+            "please_verify": "Um unser {0} Einzahlungsservice nutzen zu können, überprüfen Sie Ihre Handy-Nummer.",
+            "pingit_p1": "Wenn Sie noch kein PingIt Konto haben, ist die Installation einfach und die App kann aus dem App Store auf Ihr Mobiltelefon heruntergeladen werden.",
+            "pingit_instructions_1": "Um die Bestellung abschließen zu können, senden Sie Ihre Zahlung von {0} an {1} mit der Referenz {2}. Bitte überprüfen Sie die Referenznummer sorgfältig.",
+            "pingit_instructions_2": "Die Zahlung muss von {0} gesendet werden.",
+            "sofort_instructions": "Die Zahlung erfolgt über eine sofortige Online-Überweisung.",
+            "currency": "Währung:",
+            "select_currency": "Wählen Sie eine Währung",
+            "country": "Land:",
+            "select_country": "Wählen Sie ein Land",
+            "_package": "Package",
+            "small_package": "Small Package",
+            "medium_package": "Medium Package",
+            "large_package": "Large Package",
+            "payment_method": "Zahlungsart:",
+            "sms_p1": "Nach der Überprüfung kann der aktuelle Kaufs von einer anderen Telefonnummer oder Festnetznummer aus durchgeführt werden.",
+            "reference": "Referenz:",
+            "order_reference": "Bestellnummer"
         }
     }
 }
