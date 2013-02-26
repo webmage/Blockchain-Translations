@@ -1693,7 +1693,7 @@
             "invalid_numerical_value" : "Invalid Numerical Value",
             "invalid_block_hash" : "Invalid Block Hash",
             "block_not_found" : "Block Not Found",
-            "missing_parameter" : "Mising Parameter",
+            "missing_parameter" : "Missing Parameter",
             "unknown_error" : "Unknown Error"
         }
     }
