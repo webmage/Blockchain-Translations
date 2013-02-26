@@ -122,7 +122,7 @@
             "market_cap": "Market Capitalization",
             "transactions_per_block": "Transactions per block",
             "meta_description": "The most popular charts and statistics about the bitcoin network. Number of transactions Per Day, Market Price, Volume charts etc.",
-            "miners_revenue2": "Historical chart showing number of bitcoins mined per day +  transaction fees * market price.",
+            "miners_revenue2": "Historical chart showing (number of bitcoins mined per day + transaction fees) * market price.",
             "market_price": "Market Price (USD)",
             "source": "Source: blockchain.info",
             "miners_revenue": "Miners Revenue",
