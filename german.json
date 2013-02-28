@@ -72,12 +72,24 @@
             "search_explain": "Sie können Blockhöhe, Adresse, Blockhash, Transaktions-Hash, hash160 oder IPv4-Adresse eingeben."
         },
         "popular_addresses": {
-            "sub_header": "Populärste Bitcoin Adressen, Anzahl der Ausgänge",
-            "title": "100 Most populärsten Bitcoin Adressen - Blockchain.info",
-            "meta_description": "Eine Liste der 100 beliebtesten Bitcoin Adressen mit Anzahl der Ausgänge."
+            "sub_header": "Meist verwendete Bitcoin Adressen nach Anzahl der Ausgänge",
+            "title": "Die 100 beliebtesten Bitcoin Adressen - Blockchain.info",
+            "meta_description": "Eine Liste der 100 meist benutzten Bitcoin Adressen nach Anzahl der Ausgänge.",
+            "header": "Meist verwendete Adressen",
+            "address": "Adresse",
+            "number_of_outputs": "Anzahl der Ausgänge"
         },
         "orphaned_blocks": {
-            "relayed_by": "Weitergeleitet von"
+            "relayed_by": "Weitergeleitet von",
+            "title": "Verwaiste Blöcke - Blockchain.info",
+            "meta_description": "Verwaiste Blöcke sind gültige Blöcke, die jedoch nicht Teil der Haupt-Bitcoin-Blockchain sind.",
+            "header": "Verwaiste Blöcke",
+            "p1": "Getrennte oder Verwaiste Blöcke sind gültige Blöcke, die nicht Teil der Hauptkette sind. Sie können natürlich auftreten, wenn zwei Miner Blöcke zu ähnlichen Zeiten geminet, oder sie können von einem Angreifer (mit genügend Rechenleistung) verursacht werden, der versucht Transaktionen rückgängig zu machen.",
+            "previous_page": "Vorherige Seite",
+            "next_page": "Nächste Seite",
+            "timestamp": "Zeitstempel",
+            "btc_sent": "BTC gesendet",
+            "number_of_transactions": "Anzahl der Transaktionen"
         },
         "api_index": {},
         "transaction": {
@@ -638,7 +650,16 @@
             "sub_header": "Live-Update Liste der neuen Bitcoin Transaktionen",
             "meta_description": "Eine Liste der unbestätigten Bitcoin Transaktionen"
         },
-        "hub_nodes": {},
+        "hub_nodes": {
+            "title": "Bitcoin Verteilerknoten - Blockchain.info",
+            "meta_description": "IP-Adressen von Bitcoin-Knoten, die die meisten Transaktionen an blockchain.info weiterleiten",
+            "header": "Verteilerknoten",
+            "sub_header": "Zeigt die Knoten, die die meisten Transaktionen an blockchain.info weitergeleitet haben. Die Knoten auf dieser Seite sind oft auch Verteilerknoten für Kaufleute oder Miner, wenn sie gut verbunden sind.",
+            "ip_address": "IP-Adresse",
+            "relay_count": "Weiterleitungszähler",
+            "location": "Herkunft",
+            "hostname": "Hostname"
+        },
         "transaction_page": {
             "double_spend": {
                 "p1": "Achtung! Diese Transaktion ist ein Double-Spend (mehrfach ausgegeben)",
@@ -680,9 +701,22 @@
         },
         "errors": {},
         "relayed_by": {},
-        "rejected": {},
+        "rejected": {
+            "title": "Abgelehnte Transaktionen & Blocks - Blockchain.info",
+            "header": "Abgelehntes Inventory",
+            "sub_header": "Transaktionen und Blöcke, die von unseren Bitcoin Knoten abgelehnt wurden.",
+            "hash": "Hash",
+            "reason": "Grund",
+            "time": "Zeit"
+        },
         "webgl_globe": {},
-        "payment_request": {},
+        "payment_request": {
+            "title": "Zahlungsanforderung {0}",
+            "please_send": "Bitte senden Sie die Zahlung an die Bitcoin-Adresse",
+            "pay_me": "Zahlen Sie mit Bitcoin",
+            "p1": "Verwenden Sie dieses Formular, um Bitcoins empfangen zu können oder einfach nur um anderen zu zeigen, dass Sie eine Bitcoin-Adresse besitzen.",
+            "amount": "Betrag:"
+        },
         "error_page": {},
         "propagation": {},
         "ads": {
@@ -792,22 +826,92 @@
                 "p1": "Überweisen sie Bitcoins in sekundenschnelle direkt in Ihr My Wallet. Mittels Bank Transfer, Bargeld Überweisung, Barclays PingIt oder Mehrwertnummer. Verfügbar in den USA, UK und mehr als 100 Länder weltweit."
             }
         },
-        "tx_tree": {},
-        "push_tx": {},
+        "tx_tree": {
+            "title": "Transaktion {0} visualisieren - Blockchain.info",
+            "meta_description": "Ein Baumdiagramm, das die Ausgänge der Bitcoin Transaktion {0} darstellt",
+            "header": "Transaktionsdarstellung",
+            "output_spent": "Ausgang ist ausgegeben - Klicken, um untergeordnete Transaktionen zu laden.",
+            "output_unspent": "Der Ausgang ist nicht ausgegeben und hat keine untergeordneten Transaktionen.",
+            "no_clustering": "Nicht clustern",
+            "cluster_by_address": "Nach Adresse clustern"
+        },
+        "push_tx": {
+            "title": "Broadcast Transaktion - Blockchain.info",
+            "header": "Broadcast Transaktion",
+            "p1": "Auf dieser Seite können Sie eine Raw Transaktion hexadezimal (d. h. Zeichen 0-9, a-f) aus der Zwischenablage einfügen, wird dies dann überprüft es gültig ist und über das Netzwerk.",
+            "submit": "Transaktion Senden"
+        },
         "maintenance": {},
-        "startup_message": {},
-        "emails": {
-            "tx": {},
-            "two_factor_reset_request": {},
-            "password_hints": {},
-            "confirmation_code": {},
-            "wallet_backup": {},
-            "welcome": {},
-            "account_locked": {}
+        "startup_message": {
+            "title": "Website wird geladen - Blockchain.info",
+            "header": "Seite wird geladen...",
+            "p1": "Sollten in ein paar Sekunden zurück sein. Es könnte sogar neue Features geben."
+        },
+       "emails": {
+            "tx": {
+                "header_sent": "Benachrichtigung über gesendete Zahlung",
+                "header_received": "Benachrichtigung über empfangene Zahlung",
+                "sent_p1": "Eine Zahlung wurde von Ihrem Bitcoin Wallet gesendet.",
+                "received_p1": "Eine Zahlung ist in Ihrem Bitcoin Wallet eingegangen."
+            },
+            "two_factor_reset_request": {
+                "header": "Two Factor Authentication Zurücksetzung",
+                "p1": "Eine Anfrage wurde gesendet, um die Two Factor Authentication von Ihrem My Wallet-Konto zu entfernen:",
+                "p2": "Wenn diese Anfrage von Ihnen gesendet wurde, öffnen Sie bitte die folgende URL, um diese Anforderung zu genehmigen:",
+                "p3": "Wenn diese Anfrage nicht von Ihnen gesendet wurde, öffnen Sie bitte die folgende URL, um diese Anforderung abzulehnen:",
+                "p4": "Es ist möglich, dass jemand versucht, böswillig auf Ihr Bitcoin Wallet zuzugreifen. Bitte ignorieren diese Anfrage nicht."
+            },
+            "password_hints": {
+                "header": "My Wallet Passwort Hinweise",
+                "p1": "Sie erhalten diese E-Mail, weil eine Anfrage gesendet wurde, um Ihre Hinweise für das Wallet Passwort anzuzeigen.",
+                "main_hint": "Passwort-Haupthinweis:",
+                "second_hint": "Zweiter Passwort-Hinweis:"
+            },
+            "confirmation_code": {
+                "header": "Bestätigung erforderlich",
+                "p1": "Ein Versuch auf Ihr My Wallet-Konto zuzugreifen erfolgte von der IP-Adresse {0}. Geben Sie den Bestätigungscode unten ein, um auf Ihr Konto zuzugreifen. Wenn der Loginversuch nicht von Ihnen erfolgte, können Sie diese Nachricht ignorieren."
+            },
+            "wallet_backup": {
+                "header": "Wallet Backup",
+                "p1": "An diese E-Mail ist ein AES verschlüsseltes Wallet Backup angehängt, das alles beinhaltet was Sie benötigen, um Ihren Bitcoin Kontostand wiederherzustellen. Sie können das Backup verwenden, um das Wallet jederzeit auf {0} oder mit dem Drittanbieter {1} Desktop-Client wiederherzustellen."
+            },
+            "welcome": {
+                "header": "Willkommen in meinem My Wallet",
+                "p1": "Diese E-Mail enthält wichtige Informationen zu Ihrem neuen Bitcoin Wallet. Bitte bewahren Sie diese Informationen sicher und getrennt von Ihrem Passwort auf.",
+                "login_link": "Login Link:",
+                "notifications": "Hinweise:",
+                "alias": "Alias:",
+                "confirmation_code": "Bestätigungs-Code:",
+                "notifications_enabled": "Benachrichtigungen aktiviert",
+                "notifications_disabled": "Benachrichtigungen deaktiviert"
+            },
+            "account_locked": {
+                "header": "Konto gesperrt",
+                "p1": "Einige fehlgeschlagenen Versuche wurden unternommen, um sich zu Ihrem My Wallet-Konto anzumelden. Zu Ihrem eigenen Schutz wurden die neuen Login-Versuche bis {0} deaktiviert.",
+                "p2": "Wenn diese Login-Versuche nicht von Ihnen vorgenommen wurden, wird empfohlen, dass Sie Ihr Passwort ändern, sobald das Konto wieder verfügbar ist. Wenn Sie besonders besorgt sind, kontaktieren Sie uns bitte und wir werden die Sperre verlängern."
+            },
+            "your_wallet_identifier": "Ihre Wallet Kennung lautet:",
+            "top_tip": "Top Tip",
+            "tip_backup": "Sichern Sie Ihr Bitcoin Wallet mit Dropbox. Es ist kostenlos, einfach zu bedienen und sicher.",
+            "tip_reversible": "Diese Zahlung kann durch den Absender rückgängig gemacht werden, bis sie angenommen wird."
         },
         "blocks": {},
         "largest_transactions": {},
-        "pools": {},
+        "pools": {
+            "title": "Bitcoin Hashrate Verteilung - Blockchain.info",
+            "meta_description": "Dieses Tortendiagramm zeigt die Hashrate Verteilung zwischen den größten Bitcoin-Mining-Pools",
+            "header": "Hashrate Verteilung",
+            "sub_header": "Eine Abschätzung der Hashrate Verteilung unter den größten Mining-Pools",
+            "p1": "Das folgende Diagramm zeigt den Marktanteil der größten Bitcoin Mining-Pools. Es sollte jedoch nur für eine grobe Abschätzung verwendet werden und ist aus verschiedenen Gründen nicht zu 100% korrekt.",
+            "warning": "Ein Großteil der unbekannte Blöcke bedeutet nicht einen Angriff auf das Netzwerk, es bedeutet einfach, dass wir nicht in der Lage waren, die Herkunft zu bestimmen.",
+            "hours_24": "24 Stunden",
+            "hours_48": "48 Stunden",
+            "days_4": "4 Tage",
+            "known_blocks": "Bekannte Blocks.",
+            "relayed_by": "Weitergeleitet von",
+            "count": "Anzahl",
+            "unknown_blocks": "Unbekannte Blöcke."
+        },
         "wallet_new": {
             "title": "Meine Wallet",
             "header1": "Erstellen Sie eine neues Wallet.",
@@ -998,7 +1102,10 @@
             "discussion": "Diskussion"
         },
         "strange_transactions": {
-            "meta_description": "Eine Liste der Bitcoins mit Nicht-Standard-Ausgänge"
+            "meta_description": "Eine Liste der Bitcoins mit Nicht-Standard-Ausgängen",
+            "title": "Seltsame Transaktionen - Blockchain.info",
+            "header": "Seltsame Transaktionen",
+            "sub_header": "Transaktionen mit Ausgängen, von denen wir keine Bitcoin Adresse dekodieren konnten."
         },
         "block_height": {
             "sub_header": "Blocks in der Tiefe {0} in der Bitcoin Blockchain",
@@ -1075,6 +1182,11 @@
             "email_or_sms": "E-Mail oder SMS:",
             "send": "Senden",
             "p1": "Wenn Sie keine E-Mail-Adresse mit Ihrem Account verknüpft haben, kontaktieren ({0}) Sie uns bitte mit allen relevanten Informationen, wie zum Beispiel Skype Benutzernamen, Google Talk Benutzername, geheime Phrase oder Alias."
+        },
+        "donation_button": {
+            "title": "Spenden-Button erstellen",
+            "p1": "Geben Sie den folgenden Code im oberen Bereich der Seite ein.",
+            "p2": "Fügen Sie den folgenden HTML-Code an der Stelle ein, an der der Button erscheinen soll"
         }
     }
 }
