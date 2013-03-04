@@ -431,7 +431,6 @@
             "email_code_sent":"Dubbele Authenticatie E-mail Verzonden",
             "local_currency_updated":"Lokale valuta succesvol bijgewerkt",
             "language_updated":"Taal succesvol aangepast",
-            "wallet_backup_sent":"Portemonnee back-up succesvol verzonden.",
             "wallet_synced":"Portemonnee succesvol gesynchroniseerd met de server",
             "create_wallet_success":"Nieuwe portemonnee succesvol opgeslagen"
          }
