@@ -84,14 +84,17 @@
             "title": "Verwaiste Blöcke - Blockchain.info",
             "meta_description": "Verwaiste Blöcke sind gültige Blöcke, die jedoch nicht Teil der Haupt-Bitcoin-Blockchain sind.",
             "header": "Verwaiste Blöcke",
-            "p1": "Getrennte oder Verwaiste Blöcke sind gültige Blöcke, die nicht Teil der Hauptkette sind. Sie können natürlich auftreten, wenn zwei Miner Blöcke zu ähnlichen Zeiten geminet, oder sie können von einem Angreifer (mit genügend Rechenleistung) verursacht werden, der versucht Transaktionen rückgängig zu machen.",
+            "p1": "Getrennte oder Verwaiste Blöcke sind gültige Blöcke, die nicht Teil der Hauptkette sind. Sie können natürlich auftreten, wenn zwei Miner Blöcke zu ähnlichen Zeiten gemint haben. Oder sie können von einem Angreifer (mit genügend Rechenleistung) verursacht werden, der versucht Transaktionen rückgängig zu machen.",
             "previous_page": "Vorherige Seite",
             "next_page": "Nächste Seite",
             "timestamp": "Zeitstempel",
             "btc_sent": "BTC gesendet",
             "number_of_transactions": "Anzahl der Transaktionen"
         },
-        "api_index": {},
+        "api_index": {
+            "title": "Bitcoin Developer API's - Blockchain.info",
+            "meta_description": "Blockchain stellt eine kostenlos API für Bitcoin Händlern und Entwicklern bereit."
+        },
         "transaction": {
             "public_note": "Öffentlicher Hinweis:",
             "size": "Größe:",
@@ -183,7 +186,11 @@
             "no_block_index": "Kein Block-Index übergeben"
         },
         "ip_info": {
-            "next_page": "Nächste Seite"
+            "next_page": "Nächste Seite",
+            "sub_header": "Transaktionen, die zuerst von IP {0} weitergeleitet wurden",
+            "header": "Von {0} weitergeleitete Transaktionen ",
+            "meta_description": "Bitcoin Transaktionen die von der IP-Adresse {0} weitergeleitet wurden",
+            "title": "Weitergeleitete Transaktionen von {0} - Blockchain.info"
         },
         "double_spends": {
             "sub_header": "Doppelte Ausgaben, die in den letzten 500.000 Transaktionen (10 Minuten Cache) erkannt wurden",
@@ -215,19 +222,21 @@
                 "error_updating_skype": "Fehler beim aktualisieren des Skype-Benutzernamens",
                 "unknown_language_code": "Unbekannter Sprachcode",
                 "unknown_identifier": "Unbekannter Wallet Bezeichner. Bitte überprüfen Sie Ihre Eingabe.",
-                "error_updating_yubikey": "Fehler beim Aktualisieren des Yubikey"
+                "error_updating_yubikey": "Fehler beim Aktualisieren des Yubikey",
+                "account_locked": "Dieses Konto wurde gesperrt",
+                "invalid_sms_number": "Ungültige SMS-Nummer"
             },
             "send_coins": {
                 "public_note_tooltip": "Fügen Sie eine Notiz dieser Transaktion hinzu, die auf blockchain.info sichtbar sein wird.",
                 "sms_number_tooltip": "Geben Sie die SMS-Nummer der Person ein, der Sie Bitcoins senden möchten.",
                 "quick_send": "Schnelles senden",
                 "amount_help": "Geben Sie den zu sendenden Betrag in Bitcoins ein",
-                "facebook_help": "Geben Sie den Namen des fFcebook Empfängers ein",
+                "facebook_help": "Geben Sie den Namen des Facebook Empfängers ein",
                 "email_address_help": "Geben Sie die Email-Adresse des Empfängers ein",
                 "send_via": "Senden über",
                 "to_address_tooltip": "Dies ist die Bitcoin Adresse des Empfängers.",
                 "public_note_placeholder": "Diese Nachricht wird dauerhaft in der Blockkette eingebettet werden. Jeder kann es lesen.",
-                "satoshi_dice_sub": "{0} ist das beliebteste Bitcoin Tippspiel. Gewinnen Sie sofort bis zu 64.000 x Ihre Wette. Alle Wetten sind nachweisbar mit der Bitcoin-Blockkette.",
+                "satoshi_dice_sub": "{0} ist das beliebteste Bitcoin Tippspiel. Gewinnen Sie sofort das bis zu 64.000 x Ihre Wette. Alle Wetten sind für jeden in der Bitcoin-Blockchain überprüfbar.",
                 "remove_recipient": "Empfänger entfernen",
                 "email_address_tooltip": "Dies ist die E-Mail-Adresse der Person, der Sie Bitcoins senden möchten.",
                 "send_via_sms_sub": "Benutzen Sie das Formular unten, um Bitcoins via SMS zu senden.",
@@ -273,7 +282,26 @@
                 "add_recipient_tooltip": "Wenn Sie Bitcoins an mehrere Empfänger auf einmal senden möchten, fügen Sie hier eine zusätzliche Adresse hinzu",
                 "miners_fee": "Miner Gebühr",
                 "miners_fee_tooltip": "Diese Gebühr wird an den Bitcoin-Miner überwießen und kann helfen, dass Ihre Transaktion schneller verarbeitet wird",
-                "change_address": "Wechselgeld Adresse"
+                "change_address": "Wechselgeld Adresse",
+                "change_address_tooltip": "Das Wechselgeld dieser Transaktion wird an diese Adresse gesendet",
+                "public_note": "Öffentliche Anmerkung",
+                "reset_form": "Formular zurücksetzen",
+                "satoshi_dice_header": "Wetten Sie mit SatoshiDICE",
+                "place_bet": "Wette platzieren!",
+                "repeat_5": "5 mal wiederholen",
+                "repeat_10": "10 mal wiederholen",
+                "not_affiliated": "Blockchain.info nicht mit {0} affiliiert.",
+                "summary": "Zusammenfassung:",
+                "number_of_bets": "Anzahl der Wetten:",
+                "winnings": "Gewinnsumme:",
+                "refresh": "Aktualisieren",
+                "pending": "Ausstehende",
+                "btcdice_header": "Wetten Sie mit BTCDice",
+                "btcdice_sub": "{0} - Wählen Sie die Gewinnchance, platzieren Sie eine Wette und Sie erhalten Ihre Gewinn in Sekunden.",
+                "send_via_facebook": "Senden Via Facebook",
+                "send_via_facebook_sub": "Benutzen Sie das Formular unten, um Bitcoins mittels Facebook an einen Freund zu senden.",
+                "address_book_sub": "Das Adressbuch enthält eine Liste Sende-Adressen. Sie können es verwenden, um Bitcoin Adressen von Freunden oder Händler zu verwalten.",
+                "add_new_entry": "Neuen Eintrag hinzufügen"
             },
             "tooltips": {
                 "connection_status": {
@@ -509,7 +537,79 @@
                 "support_pages": "Support-Seiten",
                 "lost_password_p1": "Bevor Ihr Bitcoin-Wallet zu unsere Server übertragen wird, wird es direkt im Browser verschlüsselt. Ihr Passwort wird nie zu uns übertragen - dadurch haben wir keine Möglichkeit dieses wiederherzustellen. Um etwaigen Verlust durch vergessene Passwörter vorzubeugen, sollten Sie ein sogenanntes Paper-Backup ihrer Private-Keys machen."
             },
-            "import_export": {},
+            "import_export": {
+                "advanced_warning_title": "Warnung, nur für Fortgeschrittene!",
+                "advanced_warning_sub": "In diesem Abschnitt können Sie Änderungen an Ihrem Wallet durchführen, die kompliziert und verwirrend sein können. Es wird nur erfahrenen Bitcoin Benutzer empfohlen hier Änderungen durchzuführen. Sie sollten mit dem Konzept von private Keys und zugehörigen Bitcoin Adressen vertraut sein.",
+                "advanced_warning_continue": "Okay, ich verstehe",
+                "import_export": "Import / Export",
+                "import_menu": "Import",
+                "import_backup": "Backup importieren",
+                "import_backup_sub": "Eine Liste der Wallet Backups die sich auf unserem Cloud-Storage-Servern befinden.",
+                "export_encrypted": "Verschlüsselt exportieren",
+                "export_unencrypted": "Unverschlüsselt exportieren",
+                "desktop_sync": "Desktop-Sync",
+                "paper_wallet": "Paper Wallet",
+                "watch_only_title": "Eine \"Watch Only\"-Bitcoin Adresse hinzufügen",
+                "watch_only_p1": "Sie können einen {0} Bitcoin Adresse Ihrem Wallet hinzufügen. Es ist nich möglich, Bitcoins von dieser Adresse zu senden, es sei denn Sie importieren später den privaten Schlüssel dieser Adresse.",
+                "watch_only_placeholder": "Bitcoin Adresse",
+                "watch_only_btn": "\"Watch Only\"-Bitcoin Adresse hinzufügen",
+                "import_private_key_title": "Privaten Key importieren",
+                "import_private_key_p1": "Importieren Sie eine vorhandenen Private-Key. Alle Private-Key Formate werden unterstützt.",
+                "import_private_key_btn": "Private-Key hinzufügen",
+                "brain_wallet_title": "Brain Wallet",
+                "brain_wallet_p1": "Ein Brain Wallet ist ein privater Schlüssel der von einer Passphrase abgeleitet wird. Durch dies ist es möglich auf sein Guthaben auf dieser Adresse zugreifen zu können, nur indem man sich die Passphrase merkt. Der Private Key wird nirgends gespeichert und ist daher sicher vor unerlaubtem Zugriff.",
+                "brain_wallet_p2": "Die minimale Länge der Passphrase beträgt 15 Zeichen. Es wird dringend empfohlen, dass Sie dennoch regelmäßige Wallet Backups durchführen auch wenn Sie Sich die Pass-Phrase gemerkt haben.",
+                "brain_wallet_btn": "Schlüssel generieren",
+                "import_paper_title": "Import eines Paper-Wallets",
+                "import_paper_p1": "Benutzen Sie Ihre Webcam, um den QR-Code des Paper-Wallets zu scannen",
+                "import_paper_btn": "Mit Webcam scannen",
+                "import_wallet_title": "Wallet importieren",
+                "import_wallet_p1": "Sie können die Schlüssel in verschiedenen Formaten importieren.",
+                "import_wallet_formats": {
+                    "aes": "AES verschlüsseltes Backup von blockchain.info. (Muss mit dem gleichen Passwort verschlüsselt werden)",
+                    "plain": "Plaintext JSON Sicherung von blockchain.info",
+                    "output_from": "Ausgabe von {0}"
+                },
+                "import_backup_table": {
+                    "file_name": "Dateiname",
+                    "last_modified": "Letzte Änderung",
+                    "size": "Größe",
+                    "action": "Aktion"
+                },
+                "rpc": {
+                    "action": "Aktion",
+                    "balance": "Kontostand",
+                    "label": "Kennzeichnung",
+                    "address": "Adresse",
+                    "download_address_list": "Adressliste herunterladen",
+                    "password": "Wallet Passwort:",
+                    "password_help": "Wenn Ihr Bitcoin-Qt Wallet verschlüsselt ist, bitte das Kennwort hier eingeben.",
+                    "ssl_help": "SSL wird derzeit nicht unterstützt",
+                    "rpc_password": "RPC Passwort:",
+                    "rpc_port": "RPC-Port:",
+                    "rpc_username": "RPC Benutzername:",
+                    "_continue": "Fortsetzen"
+                },
+                "import_keys_limit": "Bitte beachten Sie, es gibt derzeit eine Obergrenze von 400 Private Keys pro Wallet. Bei großen Wallets kann Ihre Browser möglicherweise sehr langsam reagieren.",
+                "import_textarea_placeholder": "Kopieren Sie Ihre Wallet Daten in dieses Textfeld",
+                "import_wallet_btn": "Wallet importieren",
+                "export_title": "Exportieren",
+                "export_p1": "Hier finden Sie Ihren AES-verschlüsselten Private-Key",
+                "export_btn": "Backup herunterladen",
+                "export_unencrypted_title": "Unverschlüsselt exportieren",
+                "export_unencrypted_p1": "Hier finden Sie Ihren unverschlüsselten Private-Key im JSON Format. Achtung! Diese Daten sind unverschlüsselt - verwahren Sie sie sicher!",
+                "leave_encrypted": "Private-Keys verschlüsselt ausgeben",
+                "select_private_key_format": "Wählen Sie das gewünschte Format für die Private-Keys",
+                "desktop_sync_title": "Desktop Client-Synchronisierung",
+                "desktop_sync_p1": "Dieses Tool ermöglicht es Ihnen, Ihre Wallet mit dem offiziellen Desktop-Client von bitcoin.org zu synchronisieren.",
+                "desktop_sync_step1": "Schritt 1. Installation der Browser-Extension",
+                "desktop_sync_instructions": "Bitte installieren Sie die {0} für Google Chrome oder das {1} für Mozilla Firefox und Apple Safari (V > = 1,9 erforderlich).",
+                "installed_refresh_page": "Nach der Installation, laden Sie diese Seite bitte neu.",
+                "desktop_sync_step2": "Schritt 2. Aktivieren Sie Bitcoin RPC",
+                "desktop_sync_step2_p1": "Damit Ihr Browser auf den Desktop Client zugreifen kann, muss dieser als RPC-Server fungieren. Dies muss in der bitcoin.conf Datei eingestellt werden. Wenn die Datei nicht existiert, müssen Sie diese zuerst erstellen. Zum Beispiel:",
+                "desktop_sync_change_password": "Ändern Sie den Benutzernamen und das Passwort nach Belieben.",
+                "desktop_sync_step2_further_instructions": "Sobald Sie die Datei gespeichert haben, starten Sie den Bitcoin Client neu. Für weitere Informationen über die Bitcoin RPC-Schnittstelle finden Sie in der {0}"
+            },
             "wallet_home": {
                 "share_with_anyone": "Geben Sie diese an die Personen weiter von denen Sie Zahlungen erhalten wollen.",
                 "this_is_your_bitcoin_address": "Das ist Ihre Bitcoin Adresse",
@@ -729,7 +829,26 @@
             "amount": "Betrag:"
         },
         "error_page": {},
-        "propagation": {},
+        "propagation": {
+            "title": "Bitcoin Netzwerk Ausbreitung - Blockchain.info",
+            "disconnected": "Getrennt",
+            "connected": "Verbunden",
+            "header": "Netzwerk Ausbreitung",
+            "sub_header": "Zeigt die Ausbreitung einer Transaktion oder Blockes über das Netzwerk",
+            "h3": "Inventar Hash: {0}",
+            "node_list": "Liste der Nodes",
+            "node_list_sub": "Alle Nodes, die dieses Inventar weitergeleitet haben",
+            "summary": "Zusammenfassung",
+            "type": "Typ",
+            "first_seen": "Erstmals gesehen",
+            "last_seen": "Zuletzt gesehen",
+            "first_relayed": "Erste Weiterleitung",
+            "probable_owner": "Möglicher Besitzer",
+            "nodes_connected": "Nodes Connected",
+            "total_relayed": "Insgesamte Weiterleitungen",
+            "network_percent": "Prozent des Netzwerkes",
+            "mining_pools": "Mining Pools"
+        },
         "ads": {
             "bitinstant": {
                 "title": "Brauchen Sie Bitcoins?",
@@ -910,7 +1029,11 @@
             "tip_reversible": "Diese Zahlung kann durch den Absender rückgängig gemacht werden, bis sie angenommen wird."
         },
         "blocks": {},
-        "largest_transactions": {},
+        "largest_transactions": {
+            "title": "Größte Bitcoin Transaktionen - Blockchain.info",
+            "meta_description": "Eine Liste der größten letzten Bitcoin-Transaktionen",
+            "header": "Größte aktuelle Transaktionen"
+        },
         "pools": {
             "title": "Bitcoin Hashrate Verteilung - Blockchain.info",
             "meta_description": "Dieses Tortendiagramm zeigt die Hashrate Verteilung zwischen den größten Bitcoin-Mining-Pools",
@@ -1187,7 +1310,18 @@
         },
         "ip_log": {
             "sub_header": "Liste der Bitcoin Knoten, die mit blockchain.info in der Vergangenheit verbunden waren.",
-            "meta_description": "Eine Liste aller IP-Adressen, die mit dem Bitcoin Netzwerk angeschlossen haben."
+            "meta_description": "Eine Liste aller IP-Adressen, die mit dem Bitcoin Netzwerk verbunden haben.",
+            "next": "Weiter",
+            "previous": "Zurück",
+            "hostname": "Hostname",
+            "location": "Ort",
+            "last_connected": "Zuletzt verbunden",
+            "port": "Port",
+            "search": "Suchen",
+            "search_placeholder": "IP-Adresse oder Hostname",
+            "header": "Bitcoin-Nodes Log",
+            "total_unique": "Anzahl eindeutiger IP-Adressen:",
+            "title": "Bitcoin-Nodes Log"
         },
         "wallet_forgot_identifier": {
             "title": "Kennung vergessen",
