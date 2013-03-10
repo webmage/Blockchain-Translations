@@ -2,9 +2,6 @@
    "flag":"vn.png",
    "name":"Vietnam",
    "strings":{
-      "connected_nodes":{
-         
-      },
       "home":{
          "other_links":{
             
@@ -16,10 +13,13 @@
             
          }
       },
-      "popular_addresses":{
+      "connected_nodes":{
          
       },
       "transactions_summary":{
+         
+      },
+      "popular_addresses":{
          
       },
       "orphaned_blocks":{
@@ -28,10 +28,13 @@
       "api_index":{
          
       },
+      "deposit":{
+         
+      },
       "transaction":{
          
       },
-      "deposit":{
+      "wallet_forgot_identifier":{
          
       },
       "stats":{
@@ -39,7 +42,7 @@
             
          }
       },
-      "wallet_forgot_identifier":{
+      "ip_info":{
          
       },
       "block":{
@@ -49,9 +52,6 @@
          "summary_table":{
             
          }
-      },
-      "ip_info":{
-         
       },
       "double_spends":{
          
@@ -74,10 +74,10 @@
                
             }
          },
-         "receive_money":{
+         "nav":{
             
          },
-         "nav":{
+         "receive_money":{
             
          },
          "account_settings":{
@@ -87,9 +87,6 @@
             "second_password_description":"Bạn có thể tùy chọn cài đặt một mật khẩu phụ để yêu cầu mỗi khi tài khoản của bạn thực hiện giao dịch gửi. Đối với những ví có số dư lớn, trình duyệt của bạn có thể sẽ không có phản hồi trong vài phút khi thay đổi tùy chọn này.",
             "fee_policy_description":"Giao dịch tại Blockchain.info là miễn phí. Tuy nhiên mạng bitcoin có thể yêu cầu phí thợ mỏ bổ sung. Điều này sẽ ảnh hưởng tới tốc độ giao dịch của bạn và hỗ trợ mạng lưới. Thay đổi các thiết lập dưới đây để thay đổi các chính sách phí thợ mỏ mặc định",
             "password_hints_description":"Nếu bạn quên mật khẩu, gợi ý mật khẩu sẽ hữu dụng trong việc nhớ lại. Nếu nó là 1 địa chỉ hòm thư liên kết với tài khoản của bạn, gợi ý có thể được gửi qua hòm thư cho bạn. Nếu không có hòm thư nào liên kết với tài khoản của bạn, gợi ý sẽ có sẵn cho bất kì ai biết định danh ví của bạn."
-         },
-         "login":{
-            "resend_link_title":"Không thể tìm thấy mã thư?"
          },
          "import_export":{
             "rpc":{
@@ -102,13 +99,16 @@
                
             }
          },
+         "login":{
+            "resend_link_title":"Không thể tìm thấy mã thư?"
+         },
          "wallet_home":{
             
          },
-         "success":{
+         "modals":{
             
          },
-         "modals":{
+         "success":{
             
          }
       },
@@ -164,23 +164,23 @@
          "anonymous":{
             
          },
-         "merchants":{
-            
-         },
          "control":{
             
          },
-         "meta_description":"Ví của tôi là 1 ví bitcoin trực tuyến miễn phí nơi bạn có thể sử dụng trên toàn thế giới, thanh toán với bất kì ai hoàn toàn miễn phí. Chúng tôi thực hiện thanh toán với bitcoin hoàn toàn dễ dàng và an toàn.",
+         "merchants":{
+            
+         },
          "slides":{
             
          },
+         "meta_description":"Ví của tôi là 1 ví bitcoin trực tuyến miễn phí nơi bạn có thể sử dụng trên toàn thế giới, thanh toán với bất kì ai hoàn toàn miễn phí. Chúng tôi thực hiện thanh toán với bitcoin hoàn toàn dễ dàng và an toàn.",
          "easy":{
             
          },
-         "p1":"Ví của tôi là 1 ví bitcoin trực tuyến miễn phí nơi bạn có thể sử dụng trên toàn thế giới, thanh toán với bất kì ai hoàn toàn miễn phí. Chúng tôi thực hiện thanh toán với bitcoin hoàn toàn dễ dàng và an toàn ở bất kì đâu bằng điện thoại hoặc máy tính của bạn.",
          "confused":{
             
          },
+         "p1":"Ví của tôi là 1 ví bitcoin trực tuyến miễn phí nơi bạn có thể sử dụng trên toàn thế giới, thanh toán với bất kì ai hoàn toàn miễn phí. Chúng tôi thực hiện thanh toán với bitcoin hoàn toàn dễ dàng và an toàn ở bất kì đâu bằng điện thoại hoặc máy tính của bạn.",
          "tooltips":{
             
          },
@@ -197,26 +197,23 @@
       "push_tx":{
          
       },
-      "maintenance":{
-         
-      },
       "startup_message":{
          
       },
-      "blocks":{
+      "maintenance":{
          
       },
       "emails":{
-         "two_factor_reset_request":{
-            
-         },
          "tx":{
             
          },
-         "confirmation_code":{
+         "two_factor_reset_request":{
             
          },
          "password_hints":{
+            
+         },
+         "confirmation_code":{
             
          },
          "wallet_backup":{
@@ -229,17 +226,20 @@
             
          }
       },
+      "blocks":{
+         
+      },
       "largest_transactions":{
          
       },
       "pools":{
          
       },
-      "wallet_new":{
-         "please_read":"Vui lòng đọc {0} và {1} của chúng tôi"
-      },
       "header":{
          
+      },
+      "wallet_new":{
+         "please_read":"Vui lòng đọc {0} và {1} của chúng tôi"
       },
       "misc":{
          "disclaimer":"Việc sử dụng thuật ngữ tiền trong trang web này chỉ là đề cập đến tiền ảo. Tỷ giá hối đoái hiển thị được cung cấp bởi bên thứ 3 và không phải là 1 dấu hiệu rằng Bitcoin được hỗ trợ bởi bất kì hàng hoá hay tiền bạc nào khác."
@@ -253,29 +253,29 @@
          },
          "transaction_fees_usd_label":"Phí giao dịch (BTC)"
       },
-      "block_height":{
-         
-      },
       "strange_transactions":{
          
       },
-      "notifications":{
+      "block_height":{
          
       },
       "address":{
-         "table_transactions":{
-            
-         },
          "table_summary":{
             
+         },
+         "table_transactions":{
+            
          }
+      },
+      "notifications":{
+         
       },
       "ip_log":{
          
       }
    },
-   "code":"vi",
    "properties":{
       "extends":"auto_vietnamese"
-   }
+   },
+   "code":"vi"
 }
