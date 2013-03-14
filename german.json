@@ -26,7 +26,7 @@
                 "double_spends2": "Double-Spends, die in den letzten 500.000 Transaktionen erkannt wurden",
                 "strange2": "Transaktionen, deren Ausgabe-Adressen wir nicht dekodieren konnten",
                 "double_spends": "Double-Spends",
-                "orphaned2": "Gültige Blöcke, die nicht Teil der Haupt-Kette von Bitcoin sind",
+                "orphaned2": "Gültige Blöcke, die nicht Teil der Haupt-Chain von Bitcoin sind",
                 "hub_nodes2": "Eine Liste der am besten verbundenen Bitcoin-Superknoten",
                 "pools": "Mining Pool Statistiken",
                 "pools2": "Dieses Tortendiagramm zeigt den Marktanteil der größten Bitcoin Mining Pools",
@@ -49,7 +49,7 @@
                 "address_tags2": "Kennzeichnen Sie Ihre öffentlichen Bitcoin Adressen.",
                 "largest2": "Die 100 größten Transaktionen der letzten 50.000 Transaktionen"
             },
-            "sub_header": "Die aktuellsten gefundenen Blöcke der Bitcoin Blockkette",
+            "sub_header": "Die aktuell gefundenen Blöcke in der Bitcoin Blockchain",
             "table_headers": {
                 "sent": "Insgesamt gesendet",
                 "relayed": "Weitergeleitet von",
@@ -61,7 +61,7 @@
             "about": {
                 "p3": "Für eine Einführung in Bitcoin siehe {0}",
                 "p2": "Diese Website ermöglicht es Ihnen, die Bitcoin Blockchain (eine Datenbank mit Informationen aller Transaktionen) zu erkunden. Außerdem betreiben wir die größte und sicherste online Bitcoin-Wallet",
-                "p1": "Bitcoin ist eine Peer-to-Peer-Währung. Peer-to-Peer bedeutet, dass keine zentrale Stelle gibt, die für die Geld-Erzeugung oder die Durchführung von Transaktionen zuständig ist. Diese Aufgaben werden kollektiv durch alle Teilnehmer des Netzwerkes verwaltet und überwacht.",
+                "p1": "Bitcoin ist eine Peer-to-Peer-Währung. Peer-to-Peer bedeutet, dass es keine zentrale Stelle gibt, die für die Geld-Erzeugung oder die Durchführung von Transaktionen zuständig ist. Diese Aufgaben werden kollektiv durch alle Teilnehmer des Netzwerkes verwaltet und überwacht.",
                 "header": "Über uns",
                 "link_txt": "weusecoins.com",
                 "link_href": "http://www.weusecoins.com/"
@@ -344,8 +344,8 @@
                 "email_address_help": "Geben Sie die Email-Adresse des Empfängers ein",
                 "send_via": "Senden über",
                 "to_address_tooltip": "Dies ist die Bitcoin Adresse des Empfängers.",
-                "public_note_placeholder": "Diese Nachricht wird dauerhaft in der Blockkette eingebettet werden. Jeder kann es lesen.",
-                "satoshi_dice_sub": "{0} ist das beliebteste Bitcoin Tippspiel. Gewinnen Sie sofort das bis zu 64.000 x Ihre Wette. Alle Wetten sind für jeden in der Bitcoin-Blockchain überprüfbar.",
+                "public_note_placeholder": "Diese Nachricht wird dauerhaft in der Blockchain eingebettet werden. Jeder kann sie lesen.",
+                "satoshi_dice_sub": "{0} ist das beliebteste Bitcoin Glücksspiel. Gewinnen Sie sofort das bis zu 64.000-fache Ihre Wette. Alle Wetten sind für jeden mittels der Bitcoin-Blockchain überprüfbar.",
                 "remove_recipient": "Empfänger entfernen",
                 "email_address_tooltip": "Dies ist die E-Mail-Adresse der Person, der Sie Bitcoins senden möchten.",
                 "send_via_sms_sub": "Benutzen Sie das Formular unten, um Bitcoins via SMS zu senden.",
@@ -418,7 +418,7 @@
                     "title": "Verbindungsstatus"
                 },
                 "balance": {
-                    "tip": "Hier sehen sie die Bilanz ihrer Bitcoin Wallet. Sie können Transaktionen erst wieder ausgeben, sobald diese als bestätigt angezeigt werden.",
+                    "tip": "Hier sehen sie die Bilanz ihrer Bitcoin Wallet. Sie können Transaktionen erst wieder ausgeben, wenn diese als bestätigt angezeigt werden.",
                     "title": "Ihre Bilanz"
                 }
             },
@@ -464,7 +464,7 @@
                 "my_wallet_verifier_description": "Wenn Sie über die Sicherheit besorgt sind empfehlen wir Ihnen die Installation dieser {0} Browser-Erweiterung. Die My Wallet Verifizierung erhöht den Schutz gegen Server-seitige Cracking-Attacken, bösartigen Javascript und Phishing-Attacken.",
                 "two_factor_authentication": "Zwei-Stufen-Authentifizierung",
                 "two_factor_authentication_not_enabled": "Zwei-Stufen-Authentifizierung ist nicht für Ihre Konto aktiviert",
-                "fee_policy_high_description": "Es werden Gebühren gewählt die sicherstellen, dass Transaktionen mit hoher Priorität gesendet werden (0,001 BTC Basis Gebühr).",
+                "fee_policy_high_description": "Die Gebühren werden so gewählt, dass Ihre Transaktionen mit hoher Priorität behandelt werden (0,001 BTC Basis Gebühr).",
                 "notifications_description": "Optionale Benachrichtigungen, wenn eine Zahlung gesendet wird, oder Sie eine Zahlung erhalten.",
                 "mobile_number_description": "Bitte geben Sie Ihre Handynummer ein. Internationale SMS können manchmal unzuverlässig sein und stehen in einigen Ländern und Netzwerken nicht zur Verfügung.",
                 "restrict_to_ip_description": "Aktivieren Sie diese Option, um den Zugriff auf Ihre Brieftasche auf eine oder mehrer bestimmte IP-Adresse(n) zu beschränken. Mehrere Adressen können sie durch ein Komma getrennt angeben. Aktivieren Sie diese Option nur wenn Sie über eine statische IP-Adresse verfügen. Ansonsten sind Sie nicht mehr in der Lage, sich anzumelden oder auf die API zuzugreifen. Die Mobile-App wird jedoch weiterhin funktionieren - sofern bereits ein gültiges Pairing besteht.",
@@ -513,7 +513,7 @@
                 "resend_link": "Link erneut senden",
                 "email_not_verified": "E-Mail nicht verifiziert",
                 "alias": "Alias",
-                "email_verification_description": "Eine E-Mail wird benötigt, um eine verlorene Wallet Kennung wiederherzustellen und zur Benachrichtigung bei Zahlungen.",
+                "email_verification_description": "Eine E-Mail wird benötigt, um eine verlorene Wallet Kennung wiederherstellen zu können und um Benachrichtigung bei Zahlungen zu erhalten.",
                 "logging_level_description": "Das Logging Level konfiguriert welche Daten bei diversen Aktionen erfasst werden. Standardmäßig ist die Protokollierung ausgeschaltet, mit Ausnahme der Aktionen von Admins durchgeführt werden. Aktivieren der Protokollierung bietet Ihnen mehr Sicherheit durch mehr Informationen über potenzielle unbefugte Zugriffe, aber bedeutet auch einige Einschnitte bei der Privatsphäre.",
                 "alias_description": "Ein Alias ​​ist ein Short-Link, der den einfachen Zugriff auf Ihr Wallet Konto ermöglicht. Dadurch ersparten Sie Sich die Kennung merken zu müssen.",
                 "mobile_number": "Handynummer",
@@ -572,7 +572,7 @@
                 "device_pairing_description": "Scannen Sie den unten ausgegebenen Code mit Ihrem iPhone oder Android-Smartphone, um es mit Ihrem Account zu koppeln.",
                 "show_hide_pairing_code": "Koppel-Code anzeigen / verbergen",
                 "forgot_password_warning": "Warnung!",
-                "forgot_password_warning_p2": "Vergessene Passwörter führen dazu, dass sie keinen Zugriff mehr auf Ihr My Wallet und die darin verwalteten Bitcoins haben. Es gibt keinen Passwort Recovery Prozess!",
+                "forgot_password_warning_p2": "Vergessene Passwörter führen dazu, dass sie keinen Zugriff mehr auf Ihr My Wallet und die darin verwalteten Bitcoins haben. Es gibt keine Möglichkeit ein vergessenes Passwort wiederherzustellen!",
                 "password_mnemonic": "Gedächtnisstütze für Ihr Passwort",
                 "password_mnemonic_description": "Sollten Sie ihr Passwort vergessen, ist diese Gedächtnisstütze die einzige Möglichkeit das Passwort wiederherzustellunen. Wenn das Passwort geändert wird, ändert sich auch diese Gedächtnisstütze.",
                 "show_hide_password_mnemonic": "Password Gedächtnisstütze anzeigen / verbergen",
@@ -772,7 +772,7 @@
                 "saved_to_dropbox": "Wallet erfolgreich in Dropbox gespeichert. Sie können dieses Fenster nun schließen",
                 "sms_code_sent": "SMS Verifikations Code gesendet",
                 "email_code_resent": "E-Mail-Code erneut gesendet. Überprüfen Sie Ihren Spam-Ordner! Jede manuelle E-Mail Anfrage zählt als fehlgeschlagener Anmeldeversuch",
-                "success": "Fertig!",
+                "success": "Erledigt!",
                 "updated_ip_lock": "Einstellungen für IP-Sperrung ändern",
                 "updated_ip_address": "IP-Adressen aktualisiert",
                 "logging_level_updated": "Logging-Level aktualisiert.",
@@ -905,14 +905,14 @@
         },
         "wallet": {
             "new_users": "Neuer Benutzer",
-            "existing_users_p1": "Wenn Sie bereits ein My Wallet-Konto erstellt haben, klicken Sie unten um sich anzumelden.",
+            "existing_users_p1": "Wenn Sie bereits ein My Wallet-Konto erstellt haben, klicken Sie hier um sich anzumelden.",
             "new_users_p1": "Erstellen eines neuen Bitcoin-Wallet dauert nur ein paar Sekunden. Sie können sofort Zahlungen senden und empfangen.",
             "start_new": "Erstellen Sie ein neues Wallet",
             "my_wallet": "My Wallet",
             "slogan": "Be Your Own Bank",
             "existing_users": "Bereits registrierte Benutzer",
             "help": "Hilfe und Unterstützung",
-            "help_p1": "Bitte lesen Sie die FAQs um Antworten auf häufig gestellte Fragen zu finden. Bei etwaigen Probleme mit der Website kontaktieren Sie bitte uns.",
+            "help_p1": "Lesen Sie die FAQs um Antworten auf häufig gestellte Fragen zu finden. Bei etwaigen Problemen mit der Website kontaktieren Sie bitte uns.",
             "login_now": "Einloggen",
             "support_pages": "Support-Seiten"
         },
@@ -1104,20 +1104,20 @@
                 "p3": "privaten Schlüssel",
                 "p4": " - das bedeutet Wallets können nicht beschlagnahmt oder gesperrt werden. Aber es ist ganz einfach den Schlüssel in einen anderen Client zu importieren.",
                 "read": "Lesen Sie",
-                "how_it_works": "Wie das funktioniert."
+                "how_it_works": "Wie funktioniert das."
             },
             "slides": {
                 "mobile_support": "Smartphone Support",
                 "mobile_support_p1": "Unsere Web-Interface unterstützt alle gängigen Smartphones, wie",
-                "mobile_support_p2": "Wenn Ihr Telefon verloren geht oder gestohlen wird, ist ihre Brieftasche dennoch sicher auf unseren Servern.",
+                "mobile_support_p2": "Wenn Ihr Telefon verloren geht oder gestohlen wird, ist Ihr Wallet dennoch sicher auf unseren Servern verwahrt.",
                 "android_app": "Blockchain Android App",
                 "iphone_app": "Blockchain iPhone App",
-                "double_encryption": "Doppelte-Verschlüsselung",
+                "double_encryption": "Doppelte Verschlüsselung",
                 "double_encryption_p1": "Bevor Ihr Bitcoin-Wallet zu unsere Server übertragen wird, wird es direkt im Browser mittels AES 256-Bit verschlüsselt. Ihr Passwort wird nie zu uns übertragen - dadurch haben wir keine Möglichkeit Ihr Wallet zu öffnen. Zusätzlich dazu gibt es noch die optionale Möglichkeit das Bitcoin Wallet so zu sichern, dass ausgehende Transaktionen ein zweites Passwort benötigen. Falls das noch immer nicht genug an Sicherheit für Sie bedeutet, gibt es noch eine Vielzahl an Two-Factor Logins wie zum Beispiel Mt.Gox Yubikeys.",
                 "one_click_backups": "Ein-Klick Backups",
-                "one_click_backups_p1": "Wir bemühen uns Ihre Wallet sicher zu verwahren. Allerdings gibt es keinen Ersatz für eine Sicherung auf Ihrem eigenen PC. Mittels einem Knopfdruck können Sie Ihre verschlüsseltes Wallet gemailt, auf Ihre Dropbox-Konto oder lokal gespeichert bekommen. Dadurch haben Sie, auch wenn blockchain.info einen Datenverlust erleidet oder offline geht, immer noch Zugriff auf Ihr Geld.",
+                "one_click_backups_p1": "Wir bemühen uns Ihre Wallet sicher zu verwahren. Trotzdem sollten Sie nie auf ein eigenes Backup verzichten. Mittels eines Knopfdruckes können Sie Ihre verschlüsseltes Wallet gemailt, auf Ihre Dropbox-Konto oder lokal gespeichert bekommen. Dadurch haben Sie, auch wenn blockchain.info einen Datenverlust erleidet oder offline geht, immer noch Zugriff auf Ihr Geld.",
                 "payment_notifications": "Zahlungs-Benachrichtigungen",
-                "payment_notifications_p1": "Erhalten Sie Benachrichtigungen, wenn eine Zahlung gesendet oder von Ihrem Bitcoin-Wallet erhalten wurde. Die durchschnittliche Verzögerung zwischen Zahlung und Meldungen ist weniger als 50ms. Wenn Sie in ihrem My Wallet angemeldet sind und eine Zahlung erhalten, erklingt ein Signalton und die Anzeige wird sofort aktualisiert, ohne dass eine Seite neu zu laden aktualisieren.",
+                "payment_notifications_p1": "Erhalten Sie Benachrichtigungen, wenn eine Zahlung gesendet oder von Ihrem Bitcoin-Wallet erhalten wurde. Die durchschnittliche Verzögerung zwischen Zahlung und Meldungen ist weniger als 50ms. Wenn Sie in ihrem My Wallet angemeldet sind und eine Zahlung erhalten, erklingt ein Signalton und die Anzeige wird sofort aktualisiert - ohne das die Seite neu geladen werden muss.",
                 "charts_analytics": "Charts und Analysen",
                 "charts_analytics_p1": "Erstellen Sie Diagramme und Berichte über die aktuellsten Bitcoin Transaktionen. Betrachten Sie Ihren Kontostand im Verlauf der Zeit, die Anzahl der Transaktionen und den Umsatz pro Tag.",
                 "charts_analytics_img_title": "Eingebaute Charts & Analytics",
@@ -1162,8 +1162,8 @@
             },
             "security": {
                 "title": "Sicher",
-                "p1": "Blockchain.info benutzt Industrie-Standards",
-                "p2": "Verschlüsselung, um Ihr Wallet vor Dieben und Hackern zu schützen. Das erstaunliche an der Verschlüsselung ist, dass alles direkt im Browser erfolgt, bevor es überhaupt auf unsere Servern gelangt. Dadurch haben nicht einmal wir Zugriff auf Ihr Konto!",
+                "p1": "Blockchain.info benutzt den Industrie-Standard",
+                "p2": "zur Verschlüsselung und um Ihr Wallet vor Dieben und Hackern zu schützen. Das bemerkenswerte an unserer Implementierung ist, dass alles direkt im Browser erfolgt, bevor es überhaupt auf unsere Servern gelangt. Dadurch haben nicht einmal wir Zugriff auf Ihr Konto!",
                 "p3": "My Wallet baut auf die Sicherheit des Bitcoin-Netzwerkes und bietet dadurch eine Vielzahl von Funktionen, die Ihnen helfen Ihr Geld sicher zu verwalten. Zum Beispiel",
                 "paper_wallets": "Paper Wallets",
                 "offline_transactions": "Offline-Transaktionen",
@@ -1172,7 +1172,7 @@
             "title": "Bitcoin Wallet",
             "meta_description": "My Wallet ist eine kostenlose online Bitcoin-Brieftasche. Sie können mit dieser weltweit kostenlose Zahlungen durchführen. Wir machen das Bezahlen mit Bitcoins einfach und sicher.",
             "p1": "My Wallet ist eine kostenlose online Bitcoin-Brieftasche. Sie können mit dieser weltweit kostenlose Zahlungen durchführen. Wir machen das Bezahlen mit Bitcoins einfach und sicher - egal ob mit Smartphone oder PC.",
-            "p2": "Wir sind keine Banke - Sie behalten volle Kontrolle über ihr Geld. Wir können weder ihren Kontostand sehen, noch Transaktionen in Ihrem Namen durchführen.",
+            "p2": "Wir sind keine Bank - Sie behalten volle Kontrolle über ihr Geld. Wir können weder ihren Kontostand einsehen, noch Transaktionen in Ihrem Namen durchführen.",
             "create_my_free_wallet": "Gratis My Wallet erstellen",
             "try_demo_account": "Testen sie den Demo-Zugang",
             "techradar_quote": "Bis 2015 könnten Cash einer bedrohte Tierart ähneln",
@@ -1363,7 +1363,7 @@
             "currency": "Währung:"
         },
         "charts": {
-            "sub_header": "Verschiedene Bitcoin Charts und Währung Statistiken",
+            "sub_header": "Verschiedene Bitcoin Charts und Währungs Statistiken",
             "errors": {
                 "no_stats": "Keine Daten für diesen Zeitraum vorhanden"
             },
@@ -1494,7 +1494,7 @@
         "block_height": {
             "sub_header": "Blöcke au der Höhe {0} in der Bitcoin Blockchain",
             "title": "Bitcoin Blöcke auf Höhe {0}",
-            "meta_description": "Bitcoin-Blöcke auf Höhe {0} in der Bitcoin Blockkette",
+            "meta_description": "Bitcoin-Blöcke auf Höhe {0} in der Bitcoin Blockchain",
             "relayed_by": "Weitergeleitet von",
             "output_total": "Ausgang insgesamt",
             "received_by": "Empfangszeit",
