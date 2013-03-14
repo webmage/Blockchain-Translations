@@ -2,6 +2,13 @@
    "flag":"de.png",
    "name":"German",
    "strings":{
+      "connected_nodes":{
+         "sub_header":"Liste der verbundenen Knoten mit blockchain.info",
+         "title":"Liste der verbundenen Bitcoin-Knoten",
+         "connected_time":"Verbindungszeit (Minuten)",
+         "total_connected":"Insgesamt verbunden: {0}",
+         "header":"Verbundene Knoten"
+      },
       "home":{
          "other_links":{
             "most_popular":"Populärste Adressen",
@@ -31,13 +38,6 @@
          },
          "header":"Startseite"
       },
-      "connected_nodes":{
-         "sub_header":"Liste der verbundenen Knoten mit blockchain.info",
-         "title":"Liste der verbundenen Bitcoin-Knoten",
-         "connected_time":"Verbindungszeit (Minuten)",
-         "total_connected":"Insgesamt verbunden: {0}",
-         "header":"Verbundene Knoten"
-      },
       "popular_addresses":{
          "sub_header":"Populärste Bitcoin Adressen, Anzahl der Ausgänge",
          "title":"100 Most populärsten Bitcoin Adressen - Blockchain.info",
@@ -58,9 +58,6 @@
             "time_between_blocks":"Zeit zwischen den Blöcken"
          }
       },
-      "ip_info":{
-         
-      },
       "block":{
          "hash_table":{
             "hash":"Hash",
@@ -70,6 +67,9 @@
          "summary_table":{
             "relayed_by":"Weitergeleitet von"
          }
+      },
+      "ip_info":{
+         
       },
       "double_spends":{
          "sub_header":"Doppelte Ausgaben, die in den letzten 500.000 Transaktionen (10 Minuten Cache) erkannt wurden",
@@ -81,16 +81,16 @@
          },
          "errors":{
             "login_attempts_left":"{0} Login-Versuche verbleibend",
-            "alias_in_use":"Alias \u200B\u200Bvon einer anderen Brieftasche",
             "two_factor_authentication_request_declined":"Anfrage der zurücksetzung der Zwei-Stufen-Authentifizierung abgelehnt",
-            "unknown_currency_code":"Unbekannter Währungscode",
+            "alias_in_use":"Alias \u200B\u200Bvon einer anderen Brieftasche",
             "error_saving_to_google_drive":"Fehler beim Speichern auf Google-Drive",
+            "unknown_currency_code":"Unbekannter Währungscode",
             "wallet_size_restricted":"Wallets sind auf die grösse von 1MB beschränkt",
-            "error_updating_secret_phrase":"Fehler beim Aktualisieren der Geheimfrage",
             "error_validating_yubikey":"Fehler bei der Überprüfung des Yubikey",
+            "error_updating_secret_phrase":"Fehler beim Aktualisieren der Geheimfrage",
             "error_updating_skype":"Fehler beim aktualisieren des Skype-Benutzernamens",
-            "unknown_identifier":"Unbekannter Wallet Bezeichner. Bitte überprüfen Sie Ihre Eingabe.",
             "unknown_language_code":"Unbekannter Sprachcode",
+            "unknown_identifier":"Unbekannter Wallet Bezeichner. Bitte überprüfen Sie Ihre Eingabe.",
             "error_updating_yubikey":"Fehler beim Aktualisieren des Yubikey"
          },
          "send_coins":{
@@ -116,19 +116,19 @@
                "tip":"Dies zeigt das Gleichgewicht Ihrer Bitcoin Brieftasche. Sie sind möglicherweise nicht in der Lage, diesen Betrag zu verbringen, bis alle Transaktionen bestätigt werden."
             }
          },
+         "nav":{
+            
+         },
          "receive_money":{
             "anonymous_addresses_description2":"Anonyme Adressen sind für eine Transaktion gültig und verursachen eine 1,5% Transaktionsgebühr.",
             "anonymous_addresses":"Anonyme Adressen",
-            "delete_keys":"Schlüssel löschen",
             "archived_addresses_description":"Archivierte Adressen sind Adressen, die Sie nicht mehr brauchen, die aus der Hauptansicht versteckt, aber immer noch Teil Ihrer Brieftasche sind. Sie können Sie jederzeit durch Klicken auf das blaue Symbol zurückholen.",
+            "delete_keys":"Schlüssel löschen",
             "delete_keys_tooltip":"Löschen Sie die ausgewählten privaten Schlüssel.",
             "new_anonymous_address":"Neue anonyme Adresse",
             "anonymous_addresses_description":"Einzahlungen auf anonyme Adressen werden an eine andere Adresse in Ihrer Brieftasche weitergeleitet. Sämtliche Zahlungen werden durch den Mischer isolieren Ihre persönliche Brieftasche aus den Absender geschickt. Transaktionen eingegangen, um anonyme Adressen können nicht zu Ihrem regulären Geldbörse verknüpft werden.",
-            "new_address_tooltip":"Klicken Sie hier, um eine neue Bitcoin Adresse zu erzeugen. Sie können sofort, Bitcoin über diese Adresse empfangen",
-            "sweep_keys_tooltip":"Verschieben Sie alle Bitcoin in den ausgewählten Schlüssel zu einer anderen Bitcoin Adresse."
-         },
-         "nav":{
-            
+            "sweep_keys_tooltip":"Verschieben Sie alle Bitcoin in den ausgewählten Schlüssel zu einer anderen Bitcoin Adresse.",
+            "new_address_tooltip":"Klicken Sie hier, um eine neue Bitcoin Adresse zu erzeugen. Sie können sofort, Bitcoin über diese Adresse empfangen"
          },
          "account_settings":{
             "sub_header":"Ändern Sie Ihre My Wallet Konto-Einstellungen.",
@@ -152,14 +152,11 @@
             "nav":{
                "general":"Allgemein"
             },
-            "two_factor_authentication_description":"Zwei-Stufen-Authentifizierung bietet Ihnen zusächliche Sicherheit bei der Anmeldung.",
             "password_notice":"Ihr Passwort wird nie zu unseren Servern in irgendeiner Form übertragen. Dies bedeutet, dass Ihre Geldbörse auch wenn unsere Servern gehackt würden sicher ist. Es hindert uns auch daran, Ihren Kontostand oder Transaktion-Verlauf zu sehen.",
+            "two_factor_authentication_description":"Zwei-Stufen-Authentifizierung bietet Ihnen zusächliche Sicherheit bei der Anmeldung.",
             "update_main_password":"Haupt Passwort aktualisieren",
             "second_password_hint":"Zweiter Passwort-Hinweis:",
             "alias_placeholder":"Ein Nickname oder ein anderes denkwürdiges Wort"
-         },
-         "import_export":{
-            
          },
          "login":{
             "email_code_help":"Eine E-Mail mit einem temporären Bestätigungscode von Ihrem Konto wurde gesendet.",
@@ -174,13 +171,34 @@
             "password_unrecoverable_warning":"Ihr Passwort wird nie mit unseren Servern geteilt und kann nicht wiederhergestellt werden, wenn vergessen wird!",
             "google_authenticator_help":"Bitte öffnen Sie Ihre Google Authenticator-App und geben Sie den angezeigten Code ein.",
             "please_enter_login_details":"Bitte geben Sie Ihre Login-Daten unten ein:",
-            "lost_two_factor_p1":"Wenn Sie Ihre Zwei-Stufen-Authentifizierungs Details verloren haben, ist Ihre Brieftasche noch voll erstattungsfähig. Alles was wir brauchen ist ein vernünftiger Beweis, dass Sie der Kontoinhaber sind. Bitte klicken Sie auf den Knopf unten und füllen das Formular aus.",
-            "lost_two_factor_btn":"Zurücksetzen der Zwei-Stufen-Authentifizierung"
+            "lost_two_factor_btn":"Zurücksetzen der Zwei-Stufen-Authentifizierung",
+            "lost_two_factor_p1":"Wenn Sie Ihre Zwei-Stufen-Authentifizierungs Details verloren haben, ist Ihre Brieftasche noch voll erstattungsfähig. Alles was wir brauchen ist ein vernünftiger Beweis, dass Sie der Kontoinhaber sind. Bitte klicken Sie auf den Knopf unten und füllen das Formular aus."
+         },
+         "import_export":{
+            
          },
          "wallet_home":{
             "share_with_anyone":"Teilen Sie diese mit jemandem um Zahlungen zu erhalten.",
             "this_is_your_bitcoin_address":"Das ist Ihre Bitcoin Adresse",
             "total_sent":"Insgesamt gesendet"
+         },
+         "success":{
+            "saved_to_google_drive":"Brieftasche erfolgreich nach Google-Drive gesichert. Sie können nun dieses Fenster schließen",
+            "updated_password_hint":"Password Hinweise aktualisiert",
+            "two_factor_authentication_updated":"Zwei-Stufen-Authentifizierungseinstellungen aktualisiert.",
+            "two_factor_authentication_request_approved":"Zurücksetzen der Zwei-Stufen-Authentifizierung zugelassen. Die Anfrage wird in Kürze überprüft.",
+            "sms_updated":"SMS-Nummer erfolgreich aktualisiert. E-Mail-Bestätigung gesendet.",
+            "two_factor_reset_request_submitted":"Ein Antrag auf das Zurücksetzen der Zwei-Stufen-Authentifizierung wurde bereits vorgelegt.",
+            "notification_settings_updated":"Benachrichtigungseinstellungen aktualisiert",
+            "email_updated":"E-Mail aktualisiert",
+            "email_code_sent":"Zwei-Stufen-Authentifizierungs E-Mail gesendet",
+            "local_currency_updated":"Lokale Währung erfolgreich aktualisiert",
+            "wallet_backup_sent":"Brieftasche-Backup erfolgreich gesendet.",
+            "wallet_synced":"Brieftasche erfolgreich mit dem Server synchronisiert",
+            "google_secret_generated":"Google Geheimnis generiert",
+            "create_wallet_success":"Neue Brieftasche erfolgreich gespeichert",
+            "secret_phrase_updated":"Geheimfrage erfolgreich aktualisiert",
+            "auto_backup_disabled":"Auto Email Backup ausgeschaltet"
          },
          "modals":{
             "send_payment":"Zahlung senden",
@@ -196,29 +214,11 @@
             "import_directly":"Direkt importieren",
             "claim_zero_balance":"Der Saldo dieser Bitcoin Adresse ist Null. Die Zahlung kann bereits beantragt haben oder die Transaktion wurde durch den Absender umgekehrt.",
             "delete_private_key_only":"Nur den privaten Schlüssel löschen",
-            "address_book_label_help":"Geben Sie ein Label für diese Adresse ein. z.B. der Name der Person oder Firma.",
-            "never_ask_again":"Nie wieder fragen.",
             "claim_to_desktop":"Geben Sie die Bitcoin Adresse Ihres Desktop-Client ein:",
+            "never_ask_again":"Nie wieder fragen.",
+            "address_book_label_help":"Geben Sie ein Label für diese Adresse ein. z.B. der Name der Person oder Firma.",
             "watch_only_warning_p1":"Sie erhalten diese Warnung, weil Sie eine {0} Adresse in die Zwischenablage kopiert haben.",
             "scan_using_webcam":"Mir Webcam einscannen"
-         },
-         "success":{
-            "saved_to_google_drive":"Brieftasche erfolgreich nach Google-Drive gesichert. Sie können nun dieses Fenster schließen",
-            "updated_password_hint":"Password Hinweise aktualisiert",
-            "two_factor_authentication_updated":"Zwei-Stufen-Authentifizierungseinstellungen aktualisiert.",
-            "two_factor_authentication_request_approved":"Zurücksetzen der Zwei-Stufen-Authentifizierung zugelassen. Die Anfrage wird in Kürze überprüft.",
-            "sms_updated":"SMS-Nummer erfolgreich aktualisiert. E-Mail-Bestätigung gesendet.",
-            "two_factor_reset_request_submitted":"Ein Antrag auf das Zurücksetzen der Zwei-Stufen-Authentifizierung wurde bereits vorgelegt.",
-            "notification_settings_updated":"Benachrichtigungseinstellungen aktualisiert",
-            "email_updated":"E-Mail aktualisiert",
-            "email_code_sent":"Zwei-Stufen-Authentifizierungs E-Mail gesendet",
-            "local_currency_updated":"Lokale Währung erfolgreich aktualisiert",
-            "wallet_backup_sent":"Brieftasche-Backup erfolgreich gesendet.",
-            "google_secret_generated":"Google Geheimnis generiert",
-            "wallet_synced":"Brieftasche erfolgreich mit dem Server synchronisiert",
-            "auto_backup_disabled":"Auto Email Backup ausgeschaltet",
-            "secret_phrase_updated":"Geheimfrage erfolgreich aktualisiert",
-            "create_wallet_success":"Neue Brieftasche erfolgreich gespeichert"
          }
       },
       "wallet":{
@@ -272,10 +272,10 @@
          "anonymous":{
             
          },
-         "control":{
+         "merchants":{
             
          },
-         "merchants":{
+         "control":{
             
          },
          "slides":{
@@ -303,26 +303,23 @@
       "push_tx":{
          
       },
-      "startup_message":{
-         
-      },
       "maintenance":{
          
       },
-      "blocks":{
+      "startup_message":{
          
       },
       "emails":{
-         "two_factor_reset_request":{
-            
-         },
          "tx":{
             
          },
-         "confirmation_code":{
+         "two_factor_reset_request":{
             
          },
          "password_hints":{
+            
+         },
+         "confirmation_code":{
             
          },
          "wallet_backup":{
@@ -335,18 +332,21 @@
             
          }
       },
+      "blocks":{
+         
+      },
       "largest_transactions":{
          
       },
       "pools":{
          
       },
+      "wallet_new":{
+         
+      },
       "header":{
          "home":"Startseite",
          "developer_title":"Blockchain Entwickler Werkzeuge"
-      },
-      "wallet_new":{
-         
       },
       "misc":{
          
@@ -366,25 +366,38 @@
          "avg_confirmation_time_label":"Bestätigungsdauer (Minuten)",
          "network_deficit":"Netzwerk Defizit"
       },
+      "strange_transactions":{
+         "meta_description":"Eine Liste der Bitcoins mit Nicht-Standard-Ausgänge"
+      },
       "block_height":{
          "sub_header":"Blocks in der Tiefe {0} in der Bitcoin Blockchain",
          "title":"Bitcoin Blöcke Auf Höhe {0}",
          "meta_description":"Bitcoin-Blöcke in der Höhe {0} in der Bitcoin Blockkette",
-         "hash":"Hash",
-         "received_by":"Empfangszeit",
-         "output_total":"Ausgang insgesamt",
          "relayed_by":"Weitergeleitet von",
+         "output_total":"Ausgang insgesamt",
+         "received_by":"Empfangszeit",
+         "hash":"Hash",
          "no_blocks":"Keine Blöcke in dieser Höhe gefunden",
-         "previous_block":"Vorheriger Block",
          "next_blocks":"Nächster Block",
+         "previous_block":"Vorheriger Block",
          "estimated_transaction_volume":"Geschätztes Transaktions Volumen"
       },
-      "strange_transactions":{
-         "meta_description":"Eine Liste der Bitcoins mit Nicht-Standard-Ausgänge"
+      "address":{
+         "invalid_hash_160":"Leider ist dies keine gültiger Hash 160",
+         "table_transactions":{
+            "number_of_transactions":"Anzahl der Transaktionen",
+            "unspent_inputs":"Unverbrauchte Eingänge"
+         },
+         "table_summary":{
+            
+         },
+         "request_payment":"Zahlungsanfrage",
+         "invalid_address":"Leider ist dies keine gültige Bitcoin-Adresse",
+         "double_spend_warning":"Warnung! Diese bitcoin Adresse enthält Transaktionen, die vielleicht doppelte verbringt. Sie sollten sehr vorsichtig sein, wenn Vertrauen keine Geschäfte zu \/ von dieser Adresse."
       },
       "notifications":{
-         "two_factor_reset_title":"Zwei-Stufen-Authentifizierung zurücksetzen",
          "notifications_limit":"Benachrichtigungen begrenzen",
+         "two_factor_reset_title":"Zwei-Stufen-Authentifizierung zurücksetzen",
          "payment_sent_body":"Eine Zahlung wurde von Ihrem Bitcoin-Brieftasche Wert von {0} gesendet (ca.: {1})",
          "notifications_limit_body":"Sie haben Ihr Benachrichtigungslimit erreicht. Benachrichtigungen werden für 24 Stunden gesperrt",
          "account_locked_title":"Ihr My Wallet Konto wurde gesperrt",
@@ -392,26 +405,13 @@
          "malformed_url":"Sie haben versucht, eine E-Mail an eine fehlerhafte URL senden. Benachrichtigungen wurden deaktiviert.",
          "wallet_welcome_title":"Willkommen in Ihrer Brieftasche"
       },
-      "address":{
-         "invalid_hash_160":"Leider ist dies keine gültiger Hash 160",
-         "table_summary":{
-            
-         },
-         "table_transactions":{
-            "number_of_transactions":"Anzahl der Transaktionen",
-            "unspent_inputs":"Unverbrauchte Eingänge"
-         },
-         "request_payment":"Zahlungsanfrage",
-         "invalid_address":"Leider ist dies keine gültige Bitcoin-Adresse",
-         "double_spend_warning":"Warnung! Diese bitcoin Adresse enthält Transaktionen, die vielleicht doppelte verbringt. Sie sollten sehr vorsichtig sein, wenn Vertrauen keine Geschäfte zu \/ von dieser Adresse."
-      },
       "ip_log":{
          "sub_header":"Liste der Bitcoin Knoten, die mit blockchain.info in der Vergangenheit verbunden waren.",
          "meta_description":"Eine Liste aller IP-Adressen, die mit dem Bitcoin Netzwerk angeschlossen haben."
       }
    },
+   "code":"de",
    "properties":{
       "extends":"auto_german"
-   },
-   "code":"de"
+   }
 }

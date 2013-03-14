@@ -2,6 +2,18 @@
    "flag":"id.png",
    "name":"Indonesian",
    "strings":{
+      "home":{
+         "other_links":{
+            "wallet":"Dompet Saya"
+         },
+         "table_headers":{
+            
+         },
+         "meta_description":"Bitcoin Blok Explorer Statistik mata. Lihat informasi rinci pada semua transaksi Bitcoin dan blok.",
+         "about":{
+            
+         }
+      },
       "connected_nodes":{
          "port":"Port",
          "sub_header":"Dafter titik yang terhubung ke blockchain.info ",
@@ -9,27 +21,15 @@
          "location":"Lokasi",
          "header":"Titik Terhubung"
       },
-      "home":{
-         "other_links":{
-            "wallet":"Dompet Saya"
-         },
-         "meta_description":"Bitcoin Blok Explorer Statistik mata. Lihat informasi rinci pada semua transaksi Bitcoin dan blok.",
-         "table_headers":{
-            
-         },
-         "about":{
-            
-         }
+      "transactions_summary":{
+         "double_spend":"Bitcoin Digunakan dua kali lipat!",
+         "you_received":"Anda menerima"
       },
       "popular_addresses":{
          "sub_header":"Alamat Bitcoin paling populer yang ditentukan dengan jumlah output",
          "meta_description":"Sebuah daftar 100 alamat Bitcoin yang paling populer yang ditentukan dengan jumlah output.",
-         "number_of_outputs":"Jumlah Output",
-         "header":"Alamat Populer"
-      },
-      "transactions_summary":{
-         "double_spend":"Bitcoin Digunakan dua kali lipat!",
-         "you_received":"Anda menerima"
+         "header":"Alamat Populer",
+         "number_of_outputs":"Jumlah Output"
       },
       "orphaned_blocks":{
          "header":"Blok Yatim piatu"
@@ -38,11 +38,6 @@
          "welcome_p1":"Di sini Anda akan menemukan semua yang Anda butuhkan untuk memulai coding untuk Bitcoin. Anda dapat menggunakan Blockchain.info API atau",
          "blockchain_data":"Data Transaksi Blok",
          "account_required":"Akun Dompet Saya Diperlukan"
-      },
-      "transaction":{
-         "double_spend":"Bitcoin Digunakan dua kali lipat!",
-         "no_inputs":"Tidak ada Input (Bitcoin Tersebut Baru Dihasilkan)",
-         "public_note":"Catatan Publik:"
       },
       "deposit":{
          "make_anonymous":"Membuat transaksi secara anonim?",
@@ -56,23 +51,25 @@
          "first_name":"Nama Pertama",
          "faster_payments":"Pembayaran yang Cepat",
          "uk_bank_p2":"Harap tinjau rincian di bawah",
-         "large_package":"Paket Besar",
          "please_verify":"Untuk menggunakan perkhidmatan kami {0} harap verifikasi nomor Ponsel Anda dahulu.",
+         "large_package":"Paket Besar",
          "pingit_p1":"Jika Anda tidak belum memiliki account Pingit, setupnya mudah dan aplikasi tersebut dapat didownload dari toko aplikasi pada ponsel pintar Anda.",
          "pingit_instructions_1":"Untuk menyelesaikan pesanan ini silahkan kirim pembayaran {0} untuk {1} menggunakan referensi {2}. Periksa nomor referensi dengan berhati-hati.",
          "depsit_with_cash":"Deposit Dengan tunai",
-         "payment_method":"Cara Pembayaran:",
-         "_continue":"Teruskan"
+         "_continue":"Teruskan",
+         "payment_method":"Cara Pembayaran:"
       },
-      "wallet_forgot_identifier":{
-         
+      "transaction":{
+         "double_spend":"Bitcoin Digunakan dua kali lipat!",
+         "no_inputs":"Tidak ada Input (Bitcoin Tersebut Baru Dihasilkan)",
+         "public_note":"Catatan Publik:"
       },
       "stats":{
          "table":{
             "total_miners_revenue":"Jumlah Pendapatan Penambang"
          }
       },
-      "ip_info":{
+      "wallet_forgot_identifier":{
          
       },
       "block":{
@@ -81,13 +78,16 @@
             "merkle_root":"Akar Merkle",
             "previous_block":"Block Sebelumnya"
          },
+         "header":"Blok",
          "summary_table":{
-            "height":"Ketinggian",
             "block_reward":"Ganjaran blok",
+            "height":"Ketinggian",
             "main_chain":"Rantai utama",
             "received_time":"Diterima pada Waktu"
-         },
-         "header":"Blok"
+         }
+      },
+      "ip_info":{
+         
       },
       "double_spends":{
          "sub_header":"Bitcoin yang dibelanjakan dua kali terdeteksi dalam 500.000 transaksi terakhir (Cache 10 Menit)",
@@ -103,13 +103,13 @@
             "local_currency_description":"Anda dapat dengan cepat beralih antara bitcoins dan mata uang lokal Anda dengan mengklik neraca di kanan atas.",
             "fee_policy_high_description":"Biaya akan ditetapkan untuk memastikan transaksi adalah prioritas tinggi (0.001 BTC Biaya Base).",
             "example_password":"Jika password dompet Anda adalah: HorseBatteryStaple petunjuk password yang baik ialah: kuda listrik?",
-            "current_ip":"IP Sekarang :",
-            "fee_policy_normal":"Biasa",
             "alias_description":"Alias adalah link pendek yang dapat diingat untuk akses akun Anda dengan cepat tanpa perlu mengingat identifier",
+            "fee_policy_normal":"Biasa",
+            "current_ip":"IP Sekarang :",
             "fee_policy_low_description":"Biaya Penambang tidak akan disertakan kecuali benar-benar penting.",
             "google_authenticator_warning":"Anda mungkin terkunci dari akun Anda jika Anda meninggalkan halaman ini tanpa memasang dengan aplikasi mobile atau menonaktifkan Google Authenticator.",
-            "secret_phrase_description":"Sebuah frase rahasia yang dapat digunakan untuk membantu kami memverifikasi identitas Anda dalam kasus identifier dompet hilang atau Yubikey. Ini bisa menjadi satu kata atau kalimat hingga 255 karakter.",
             "password":"kata sandi:",
+            "secret_phrase_description":"Sebuah frase rahasia yang dapat digunakan untuk membantu kami memverifikasi identitas Anda dalam kasus identifier dompet hilang atau Yubikey. Ini bisa menjadi satu kata atau kalimat hingga 255 karakter.",
             "fee_policy_normal_description":"Ikuti polis biaya yang disarankan oleh klien Bitcoin arus utama.",
             "confirm_password":"Password Konfirmasi:",
             "device_pairing":"Pairing Perangkat",
@@ -123,24 +123,24 @@
             "email_verification_code":"Email Kode Verifikasi:",
             "html5_notifications":"Pemberitahuan secara HTML 5",
             "verify_sms_btn":"Periksa",
-            "sub_header":"Mengubah pengaturan akun Dompet Saya Anda.",
             "email_description":"Dua faktor otentikasi melalui email diaktifkan pada akun Anda. Sebuah email akan dikirim ke {0} berisi kode konfirmasi yang perlu diberikan saat login.",
-            "resend_link":"Kirim Tautan ulang",
+            "sub_header":"Mengubah pengaturan akun Dompet Saya Anda.",
             "fee_policy":"Polis Biaya standar",
+            "resend_link":"Kirim Tautan ulang",
             "main_password":"Kata sandi utama",
-            "never_remember_two_factor_description":"Dengan default setelah login dengan dua faktor otentikasi browser Anda akan diingat untuk waktu singkat yang memungkinkan Anda untuk login lagi tanpa harus kembali mengotentikasi. Centang kotak di bawah ini jika Anda ingin menonaktifkan perilaku ini dan memerlukan otentikasi penuh setiap kali.",
             "sms_message":"SMS",
+            "never_remember_two_factor_description":"Dengan default setelah login dengan dua faktor otentikasi browser Anda akan diingat untuk waktu singkat yang memungkinkan Anda untuk login lagi tanpa harus kembali mengotentikasi. Centang kotak di bawah ini jika Anda ingin menonaktifkan perilaku ini dan memerlukan otentikasi penuh setiap kali.",
             "html5_notifications_p1":"HTML 5 Pemberitahuan berbeda dari pop-up biasa dalam bahwa mereka memerlukan izin pengguna untuk ditampilkan. Saat ini didukung dalam Chrome Safari.",
-            "automatic_email_backups":"Otomatis Backup melalui Email",
             "sms_notifications":"Pemberitahuan secara SMS",
+            "automatic_email_backups":"Otomatis Backup melalui Email",
             "yubikey_description":"Untuk memasangkan kunci Anda dengan akun Anda, pilih kotak teks di bawah ini dan tekan tombol LED hijau pada perangkat Yubikey Anda.",
             "secret_phrase":"Frase Rahasia",
             "nav":{
                
             },
             "two_factor_authentication_description":"Dua faktor otentikasi menambahkan lapisan tambahan keamanan di atas kata sandi Anda.",
-            "update_main_password":"Perbarui kata sandi Utama",
             "logging_level":"Tingkat Logging",
+            "update_main_password":"Perbarui kata sandi Utama",
             "second_password_hint":"Petunjuk kata sandi Kedua:",
             "integrity_check_description":"Cek semua kunci dalam dompet Anda sesuai dengan alamat yang benar Bitcoin dan re-mengenkripsi dompet Anda. Ini mungkin memakan waktu panjang di beberapa browser yang lama."
          },
@@ -148,23 +148,23 @@
             "phone_deposit":"Deposito dengan Telepon",
             "deposit_and_withdraw":"Deposito dan Menarik",
             "final_balance":"Jumlah Akhir",
-            "pingit_withdraw":"Menarik dengan Pingit",
-            "btcpak_withdraw":"Menarik dengan BTCPak",
             "pingit_deposit":"Deposito dengan Pingit",
+            "btcpak_withdraw":"Menarik dengan BTCPak",
+            "pingit_withdraw":"Menarik dengan Pingit",
             "account_settings_btn":"Pengaturan Akun",
             "this_is_your_bitcoin_address":"Ini Alamat Bitcoin Anda",
-            "sofort_deposit":"Perbankan Sofort",
-            "account_settings_description":"Mengedit pengaturan akun anda, termasuk alamat email, password dan pengaturan pemberitahuan."
+            "account_settings_description":"Mengedit pengaturan akun anda, termasuk alamat email, password dan pengaturan pemberitahuan.",
+            "sofort_deposit":"Perbankan Sofort"
          },
          "modals":{
-            "first_relayed":"Disampaikan Pertama",
-            "delete_private_key_only":"Hapus Private Key sahaja",
             "sweep_keys":"Sapu kunci Bitcon",
+            "delete_private_key_only":"Hapus Private Key sahaja",
+            "first_relayed":"Disampaikan Pertama",
             "update_password":"Pembaruan kata sandi",
-            "miners_fee_recommended":"Biaya Penambang Direkomendasikan",
             "verify_result":"Pesan ini ditandatangani oleh alamat {0}. Apakah ini sesuai dengan alamat yang Anda harapkan?",
-            "enter_manually":"Masukkan secara Manual",
+            "miners_fee_recommended":"Biaya Penambang Direkomendasikan",
             "leaving_wallet":"Sedang Meninggalkan Dompet",
+            "enter_manually":"Masukkan secara Manual",
             "add_watch_only_address":"Tambahkan Alamat Bitcoin yang hanya diperhatikan",
             "private_key_needed":"Kunci Private Dibutuhkan",
             "add_watch_only_address_p1":"Silahkan Konfirmasi bahwa Anda akan menambahkan {0} address {1}.",
@@ -189,13 +189,13 @@
             "invalid_length":"Parameter numerik terlalu panjang ",
             "payload_null":"Kesalahan Serius! Payload tampaknya Null",
             "error_alias_taken":"Alias Sudah Diambil",
-            "unknown_language_code":"Kode bahasa yang tidak diketahui",
-            "unknown_identifier":"Dompet Identifier yang tidak diketahui. Silahkan cek Anda memasukkannya dengan benar.",
-            "alias_too_long":"Alias bisa menjadi macimum dari 25 karakter",
             "error_sending_wallet_backup":"Gagal Mengirim backup dompet",
-            "error_generating_google_secret":"Gagal Generating Rahasia Google Authenticator",
+            "alias_too_long":"Alias bisa menjadi macimum dari 25 karakter",
+            "unknown_identifier":"Dompet Identifier yang tidak diketahui. Silahkan cek Anda memasukkannya dengan benar.",
+            "unknown_language_code":"Kode bahasa yang tidak diketahui",
+            "error_updating_sms":"Gagal memperbarui nomor SMS",
             "error_sending_password_hints":"Gagal yang tidak diketahui semasa Mengirim Petunjuk kata sandi",
-            "error_updating_sms":"Gagal memperbarui nomor SMS"
+            "error_generating_google_secret":"Gagal Generating Rahasia Google Authenticator"
          },
          "send_coins":{
             "send_anonymously_sub":"Gunakan Kiriman Anonim untuk menjamin transaksi tersebut tidak dapat ditelusuri antara pengirim dan penerima.",
@@ -226,9 +226,9 @@
          "receive_money":{
             "more_actions":"Lebih banyak tindakan",
             "sweep_keys":"Sapu Private Keys",
-            "chord_diagram":"Lihat Diagram Relationship",
-            "new_address":"Alamat Baru",
             "bitcoin_address":"Alamat Bitcoin",
+            "new_address":"Alamat Baru",
+            "chord_diagram":"Lihat Diagram Relationship",
             "anonymous_addresses":"Alamat Anonymous",
             "delete_keys":"Hapuskan Tombol",
             "new_anonymous_address":"Alamat Anonymous Baru",
@@ -243,13 +243,13 @@
             "password":"kata sandi:"
          },
          "import_export":{
-            "import_textarea_placeholder":"Copy Paste data dompet Anda ke daerah ini",
             "rpc":{
                "password_help":"Jika Dompet Bitcoin-Qt Anda dienkripsi masukkan password di sini.",
                "rpc_password":"kata sandi RPC:",
-               "_continue":"Teruskan",
-               "password":"Kata sandi Dompet:"
+               "password":"Kata sandi Dompet:",
+               "_continue":"Teruskan"
             },
+            "import_textarea_placeholder":"Copy Paste data dompet Anda ke daerah ini",
             "advanced_warning_title":"Peringatan - Kandungan canggih!",
             "import_private_key_p1":"Mengimpor kunci pribadi yang ada di bawah ini. Semua format kunci pribadi didukung.",
             "import_backup_table":{
@@ -260,8 +260,8 @@
             }
          },
          "success":{
-            "alias_updated":"Alias berhasil diperbarui",
             "updated_password_hint":"Diperbarui kata sandi Petunjuk",
+            "alias_updated":"Alias berhasil diperbarui",
             "password_hints_sent":"kata sandi Petunjuk Berhasil Terkirim",
             "skype_updated":"Nama Skype diperbarui",
             "google_secret_generated":"Rahasia Google Generated",
@@ -272,8 +272,8 @@
          
       },
       "wallet":{
-         "new_users":"Pengguna Baru",
          "slogan":"Jadilah Bank Sendiri",
+         "new_users":"Pengguna Baru",
          "help":"Bantuan",
          "existing_users_p1":"Jika sebelumnya Anda telah membuat account Dompet Saya klik di bawah ini untuk login.",
          "my_wallet":"Dompet Saya",
@@ -336,11 +336,11 @@
          "anonymous":{
             
          },
-         "merchants":{
-            "p1":"1000 Pedagang dari seluruh dunia sudah menerima Bitcoin sehari-hari. Tidak kisah Online Poker ataupun kopi organik, Anda dapat membelinya dengan bitcoins."
-         },
          "control":{
             
+         },
+         "merchants":{
+            "p1":"1000 Pedagang dari seluruh dunia sudah menerima Bitcoin sehari-hari. Tidak kisah Online Poker ataupun kopi organik, Anda dapat membelinya dengan bitcoins."
          },
          "slides":{
             "charts_analytics":"Grafik Analytics",
@@ -356,13 +356,13 @@
          "confused":{
             
          },
+         "free_open_source":"Gratis dan Open Source.",
          "tooltips":{
             "aes_title":"Enkripsi AES",
             "aes":"Sebuah standar enkripsi yang sangat kuat dan diadopsi oleh pemerintah AS dan digunakan di seluruh dunia untuk VPN dan komunikasi terenkripsi lainnya",
             "remote_backup_title":"Backup Jauh",
             "private_key_title":"Private Key"
          },
-         "free_open_source":"Gratis dan Open Source.",
          "features":{
             "title":"Fitur yang Kaya",
             "payment_notifications":"SMS dan Email pemberitahuan Pembayaran",
@@ -373,8 +373,8 @@
          "techradar_quote":"Pada tahun 2015, kas akan seperti spesies yang terancam punah",
          "security":{
             "title":"Sekuriti",
-            "offline_transactions":"Transaksi Offline",
             "p3":"Dompet Saya dibangun di atas sekuriti Bitcoin dengan menyediakan sejumlah fitur untuk membantu Anda tetap aman uang Anda, termasuk",
+            "offline_transactions":"Transaksi Offline",
             "paper_wallets":"Dompet Kertas"
          }
       },
@@ -384,30 +384,34 @@
       "push_tx":{
          
       },
-      "startup_message":{
+      "maintenance":{
          
       },
-      "maintenance":{
+      "startup_message":{
          
       },
       "donation_button":{
          
       },
+      "blocks":{
+         "title1":"Blok terbaru Ditemukan Dengan {0}",
+         "title2":"Blok dianjau di"
+      },
       "emails":{
-         "tx":{
-            
-         },
          "two_factor_reset_request":{
             "p4":"Ini adalah seseorang yang mungkin mungkin mencoba untuk akses ke dompet Bitcoin Anda. Harap jangan mengabaikan permintaan ini."
          },
-         "password_hints":{
-            "p1":"Anda menerima email ini karena permintaan dibuat untuk melihat petunjuk kata sandi dompet Anda.",
-            "second_hint":"Petunjuk kata sandi Kedua:",
-            "main_hint":"Petunjuk kata sandi Utama:",
-            "header":"Dompet Saya kata sandi Petunjuk"
+         "tx":{
+            
          },
          "confirmation_code":{
             "p1":"Sebuah usaha telah dilakukan untuk login ke akun Dompet Saya Anda dari alamat ip {0}. Masukkan kode konfirmasi di bawah ini untuk mengakses akun Anda. Kalau bukan Anda yang membuat ini upaya login Anda dapat mengabaikan email ini."
+         },
+         "password_hints":{
+            "p1":"Anda menerima email ini karena permintaan dibuat untuk melihat petunjuk kata sandi dompet Anda.",
+            "main_hint":"Petunjuk kata sandi Utama:",
+            "second_hint":"Petunjuk kata sandi Kedua:",
+            "header":"Dompet Saya kata sandi Petunjuk"
          },
          "wallet_backup":{
             
@@ -419,25 +423,21 @@
             "p1":"Sejumlah usaha yang gagal telah dilakukan untuk login ke akun ke Dompet Saya Anda. Untuk perlindungan Anda upaya login baru telah dinonaktifkan sampai {0}"
          }
       },
-      "blocks":{
-         "title1":"Blok terbaru Ditemukan Dengan {0}",
-         "title2":"Blok dianjau di"
-      },
       "largest_transactions":{
          
       },
       "pools":{
          
       },
-      "header":{
-         
-      },
       "wallet_new":{
          "title":"Dompet Saya",
-         "dont_forget_password_p1":"Sebagai password Anda tidak berbagi dengan kami adalah sangat penting untuk mengingat hal itu, jika perlu menulis di aa post-it sekarang. Tidak ada proses pemulihan password!",
          "password_strength_p1":"Kami membutuhkan password minimal 10 karakter untuk memastikan bahwa bahkan jika database kami terganggu dompet Anda akan tetap aman. Sebuah 10 kata sandi karakter akan mengambil lebih dari 1000 tahun untuk mendekripsi.",
+         "dont_forget_password_p1":"Sebagai password Anda tidak berbagi dengan kami adalah sangat penting untuk mengingat hal itu, jika perlu menulis di aa post-it sekarang. Tidak ada proses pemulihan password!",
          "password_strength":"kata sandi Kekuatan",
          "password":"kata sandi:"
+      },
+      "header":{
+         
       },
       "misc":{
          
@@ -459,49 +459,49 @@
          },
          "n_transactions_excluding_popular2":"Sebuah grafik yang menunjukkan jumlah total transaksi Bitcoin unik per hari tidak termasuk transaksi yang melibatkan salah satu dari 100 alamat yang paling populer",
          "mywallet_balance_over_time":"Dompet Saya: Saldo dari waktu ke waktu",
-         "all_time":"Semua Waktu",
          "miners_revenue":"Pendapatan Penambang",
+         "all_time":"Semua Waktu",
          "cost_percent_per_transaction":"% Biaya dari volume transaksi",
-         "log_scale":"Skala Logaritma",
          "operating_margin_label":"% Keuntungan operasional",
+         "log_scale":"Skala Logaritma",
          "my_wallet_n_users2":"Jumlah dompet host menggunakan Layanan Dompet Saya kami.",
          "my_wallet_n_users":"Jumlah Pengguna Dompet Saya",
          "my_wallet_transaction_volume":"Dompet Saya Volume Transaksi"
       },
+      "block_height":{
+         "block_reward":"Ganjaran blok",
+         "previous_block":"Blok Sebelumnya",
+         "next_blocks":"Blok Selanjutnya",
+         "header":"Ketinggian Blok {0}"
+      },
       "strange_transactions":{
          
       },
-      "block_height":{
-         "block_reward":"Ganjaran blok",
-         "next_blocks":"Blok Selanjutnya",
-         "previous_block":"Blok Sebelumnya",
-         "header":"Ketinggian Blok {0}"
+      "address":{
+         "invalid_hash_160":"Maaf ini bukan hash 160 yang valid",
+         "table_summary":{
+            "taint_analysis":"Analisis pencemaran",
+            "short_link":"Tautan Pendek"
+         },
+         "too_large_to_filter":"Buku Alamat ini terlalu besar untuk disaring",
+         "table_transactions":{
+            "final_balance":"Saldo Akhir",
+            "unspent_inputs":"Masukan yang belum Terpakai"
+         },
+         "confirmed":"Dikonfirm",
+         "no_transactions":"Tidak ada transaksi yang ditemukan untuk alamat ini, ia mungkin tidak pernah digunakan pada jaringan belum."
       },
       "notifications":{
          "confirmation_code_title":"Konfirmasi Kode Dompet Saya",
          "sms_authentication_code":"Dompet Saya Authentication Code: {0}",
          "password_hints_title":"Petunjuk kata sandi Dompet Saya"
       },
-      "address":{
-         "invalid_hash_160":"Maaf ini bukan hash 160 yang valid",
-         "table_transactions":{
-            "final_balance":"Saldo Akhir",
-            "unspent_inputs":"Masukan yang belum Terpakai"
-         },
-         "too_large_to_filter":"Buku Alamat ini terlalu besar untuk disaring",
-         "table_summary":{
-            "taint_analysis":"Analisis pencemaran",
-            "short_link":"Tautan Pendek"
-         },
-         "confirmed":"Dikonfirm",
-         "no_transactions":"Tidak ada transaksi yang ditemukan untuk alamat ini, ia mungkin tidak pernah digunakan pada jaringan belum."
-      },
       "ip_log":{
          
       }
    },
-   "code":"id",
    "properties":{
       "extends":"auto_indonesian"
-   }
+   },
+   "code":"id"
 }
