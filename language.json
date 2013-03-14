@@ -125,7 +125,7 @@
             "market_cap": "Market Capitalization",
             "transactions_per_block": "Transactions per block",
             "meta_description": "The most popular charts and statistics about the bitcoin network. Number of transactions Per Day, Market Price, Volume charts etc.",
-            "miners_revenue2": "Historical chart showing number of bitcoins mined per day +  transaction fees * market price.",
+            "miners_revenue2": "Historical chart showing (number of bitcoins mined per day + transaction fees) * market price.",
             "market_price": "Market Price (USD)",
             "source": "Source: blockchain.info",
             "miners_revenue": "Miners Revenue",
@@ -437,7 +437,7 @@
             },
             "deposit" : {
                 "title" : "Instant Deposits",
-                "p1" : "Deposit Bitcoins directly into your My Wallet account in seconds. Via Bank Transfer, Cash Deposit, Barclays PingIt or Phone Billing. Available in the US, UK and 100's of other countries worldwide.",
+                "p1" : "Deposit Bitcoins directly into your My Wallet account in seconds. Via Bank Transfer, Cash Deposit, Barclays PingIt or Phone Billing. Available in the US, UK and 100's of other countries worldwide."
             },
             "merchants" : {
                 "title" : "Worldwide Merchants",
@@ -488,7 +488,7 @@
                     "hash" : "Hash",
                     "previous_block" : "Previous Block",
                     "next_block" : "Next Block(s)",
-                    "merkle_root" : "Merkle Root",
+                    "merkle_root" : "Merkle Root"
                 },
                 "network_propagation" : "Network Propagation",
                 "click_to_view" : "Click To View",
@@ -549,7 +549,7 @@
                 "transactions" : "My Transactions",
                 "send" : "Send Money",
                 "receive" : "Receive Money",
-                "import_export" : "Import / Export",
+                "import_export" : "Import / Export"
             },
             "tooltips" : {
                 "balance" : {
@@ -1162,7 +1162,7 @@
                 "invalid_version" : "Invalid Version",
                 "error_updating_logging_level_updated" : "Error Updating Logging level.",
                 "two_factor_authentication_not_enabled" : "Two Factor Authentication Is Not Enabled On your Account",
-                "reminder_recently_sent" : "An reminder message was recently sent.",
+                "reminder_recently_sent" : "An reminder message was recently sent."
             },
             "success" : {
                 "logged_out" : "You have been logged out",
@@ -1295,7 +1295,7 @@
             "media" : "Media",
             "media_sub_header" : "Media and Logos",
             "please_read" : "Please read the",
-            "before_contacting_us" : "before contacting us",
+            "before_contacting_us" : "before contacting us"
         },
         "block_height" : {
             "title" : "Bitcoin Blocks At Height {0}",
@@ -1703,7 +1703,7 @@
             "invalid_numerical_value" : "Invalid Numerical Value",
             "invalid_block_hash" : "Invalid Block Hash",
             "block_not_found" : "Block Not Found",
-            "missing_parameter" : "Mising Parameter",
+            "missing_parameter" : "Missing Parameter",
             "unknown_error" : "Unknown Error"
         }
     }
