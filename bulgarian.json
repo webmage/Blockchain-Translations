@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"bg",
    "properties":{
       "extends":"auto_bulgarian"
-   },
-   "code":"bg"
+   }
 }

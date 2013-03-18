@@ -2,14 +2,6 @@
    "flag":"es.png",
    "name":"Spanish",
    "strings":{
-      "connected_nodes":{
-         "sub_header":"Lista de nodos actualmente conectados blockchain.info",
-         "title":"Lista de nodos Bitcoin conectados",
-         "connected_time":"Tiempo de conexión (minutos)",
-         "total_connected":"Conexiones totales: {0}",
-         "hostname":"Nombre del Dispositivo",
-         "header":"Nodos Conectados"
-      },
       "home":{
          "other_links":{
             "most_popular":"Direcciones más populares",
@@ -17,8 +9,8 @@
             "double_spends":"Gastos Duplicados",
             "largest2":"Lista de las 100 mayores transacciones entre las últimas 50.000 registradas",
             "hub_nodes2":"Registro de súper nodos con mayor número de conexiones",
-            "wallet":"Mi Monedero",
             "unconfirmed":"Transacciones sin confirmar",
+            "wallet":"Mi Monedero",
             "address_tags":"Etiquetas",
             "hub_nodes":"Nodos Axiales",
             "strange":"Transacciones Extrañas",
@@ -42,16 +34,16 @@
             "wallet2":"Administra tu dinero con el monedero Bitcoin en línea más avanzado"
          },
          "sub_header":"Bloques minados recientemente",
-         "search_explain":"Puedes filtrar la búsqueda especificando la altura del bloque, dirección, hash del bloque, hash de la transacción, hash160 o dirección ipv4",
          "title":"Explorador de Bloques de Bitcoin - Blockchain.info",
+         "search_explain":"Puedes filtrar la búsqueda especificando la altura del bloque, dirección, hash del bloque, hash de la transacción, hash160 o dirección ipv4",
+         "meta_description":"Explorador de Bloques de Bitcoin y Estadísticas Monetarias. Vea información detallada sobre todos los bloques y transacciones de Bitcoin",
+         "more":"Más información",
          "table_headers":{
             "sent":"Monto Total enviado",
             "height":"Altura del Bloque",
             "age":"Antigüedad",
             "relayed":"Resuelto por"
          },
-         "more":"Más información",
-         "meta_description":"Explorador de Bloques de Bitcoin y Estadísticas Monetarias. Vea información detallada sobre todos los bloques y transacciones de Bitcoin",
          "about":{
             "p3":"Para una introducción a Bitcoin consulta {0}",
             "p2":"Este sitio web te permite navegar a través de la cadena de Bitcoin (una base de datos que contiene información sobre todas las transacciones realizadas). Contamos también con el servicio de monedero Bitcoin más seguro y avanzado.",
@@ -61,33 +53,41 @@
          "header":"Inicio",
          "search_placeholder":"Dirección \/ Firstbits \/ IP \/ hash SHA"
       },
-      "transactions_summary":{
-         "maturing":"{0} necesarios antes de ser utilizables",
-         "double_spend":"Gasto duplicado",
-         "you_sent":"Has enviado",
-         "very_poor":"Muy Pobre",
-         "to_confirm":"a confirmar",
-         "you_moved":"has movido",
-         "transaction_is_double_spend":"Esta transacción incurre a un gasto duplicado",
-         "no_double_spend":"No se detectaron gastos duplicados",
-         "value_at_time":"Valor al momento de la transacción",
-         "you_received":"Has recibido",
-         "transaction_fee":"Comisión de la Transacción"
+      "connected_nodes":{
+         "sub_header":"Lista de nodos actualmente conectados blockchain.info",
+         "title":"Lista de nodos Bitcoin conectados",
+         "connected_time":"Tiempo de conexión (minutos)",
+         "total_connected":"Conexiones totales: {0}",
+         "hostname":"Nombre del Dispositivo",
+         "header":"Nodos Conectados"
       },
       "popular_addresses":{
          "sub_header":"Lista de las direcciones de Bitcoin más populares ordenadas por número de salidas",
          "title":"Las 100 direcciones de Bitcoin más populares - Blockchain.info",
          "meta_description":"Lista de las 100 direcciones de Bitcoin más populares ordenadas por número de salidas",
-         "number_of_outputs":"Número de Salidas",
-         "header":"Direcciones Populares"
+         "header":"Direcciones Populares",
+         "number_of_outputs":"Número de Salidas"
+      },
+      "transactions_summary":{
+         "maturing":"{0} necesarios antes de ser utilizables",
+         "you_sent":"Has enviado",
+         "double_spend":"Gasto duplicado",
+         "very_poor":"Muy Pobre",
+         "you_moved":"has movido",
+         "to_confirm":"a confirmar",
+         "transaction_is_double_spend":"Esta transacción incurre a un gasto duplicado",
+         "no_double_spend":"No se detectaron gastos duplicados",
+         "you_received":"Has recibido",
+         "value_at_time":"Valor al momento de la transacción",
+         "transaction_fee":"Comisión de la Transacción"
       },
       "orphaned_blocks":{
          "timestamp":"Fecha y Hora",
          "title":"Bloques Huérfanos - Blockchain.info",
          "meta_description":"Los bloques huérfanos son bloques válidos que no forman parte de la cadena principal de Bitcoin",
-         "relayed_by":"Resuelto por",
-         "btc_sent":"BTCs enviados",
          "previous_page":"Página Anterior",
+         "btc_sent":"BTCs enviados",
+         "relayed_by":"Resuelto por",
          "p1":"Los bloques sueltos o huérfanos son bloques válidos que no forman parte de la cadena principal de Bitcoin. Suelen ocurrir naturalmente cuando dos mineros producen bloques casi al mismo momento o pueden ser causados por atacante con suficiente poder de hashing al tratar de revertir una transacción.",
          "next_page":"Página Siguiente",
          "header":"Bloques Huérfanos"
@@ -97,11 +97,11 @@
          "welcome_p1":"Aquí encontrarás todo lo que necesitas para comenzar a  programar para Bitcoin. Puedes emplear el API propio de Blockchain.info  o",
          "requests_in_5_minutes":"Peticiones en 5 minutos:",
          "charts_and_statistics_description":"Fuente JSON que contiene datos de los gráficos y páginas de estadísticas.",
-         "exchange_rates":"Tasas de cambio",
-         "view_documentation":"Ver Documentación",
          "send_description":"Utilidad simple de JSON  para enviar y recibir bitcoins programáticamente desde una cuenta de Mi Monedero.",
-         "websocket_description":"Socket channel de transmisión de baja latencia que brinda datos sobre nuevos bloques y transacciones. Suscríbete a la notificaciónes de bloques, transacciones o a una dirección y recibe objetos JSON que describen transacciones o bloques cuando se produce un evento.",
+         "view_documentation":"Ver Documentación",
+         "exchange_rates":"Tasas de cambio",
          "send_payments":"Enviar Pagos",
+         "websocket_description":"Socket channel de transmisión de baja latencia que brinda datos sobre nuevos bloques y transacciones. Suscríbete a la notificaciónes de bloques, transacciones o a una dirección y recibe objetos JSON que describen transacciones o bloques cuando se produce un evento.",
          "abuse_notice":"Los servicios prestados por blockchain.info son gratuitos. Por favor, no abuses de ellos.",
          "title":"APIs de desarrollo de Bitcoin - Blockchain.info",
          "exchange_rates_data":"Datos monetarios de los mayores mercados de Bitcoin",
@@ -121,38 +121,13 @@
          "payment_processing":"Procesamiento de pagos",
          "header":"API de desarroladores de Bitcoin",
          "simple_query_api":"API de consultas simple",
-         "no_account_required":"No se requiere una cuenta para utilizar este servicio",
          "json_rpc":"JSON-RPC compatible con Bitcoin-QT",
+         "no_account_required":"No se requiere una cuenta para utilizar este servicio",
          "meta_description":"Blockchain ofrece APIs para desarrolladores y comerciantes de Bitcoin de manera gratuita",
          "bitpay_description":"Blockchain recomienda  Bitpay - El Líder Mundial en Soluciones Comerciales de Bitcoin. Bitpay ofrece soluciones integrales para  procesos de pago que incluyen un servicio de conversión automática a la moneda local integrado con un alojamiento de software de carrito de compra.",
          "up_time_description":"Blockchain.info utiliza un clúster de alta disponibilidad y hardware dedicado para  maximizar el tiempo en línea y minimizar el tiempo de respuesta.",
          "json_rpc_description":"Blockchain.info es capaz de funcionar como un servidor RPC de bitcoind  para permitir que los comerciantes interactúen con su cuenta de Mi Monedero.",
          "receive_payments_description":"Un método muy fácil para que los sitios web reciban pagos de Bitcoin."
-      },
-      "deposit":{
-         "make_anonymous":"¿Hacerlo de manera anónima?",
-         "bank_name":"Nombre del Banco",
-         "depsit_with_cash_description":"Más de 700.000 lugares en el mundo entero donde puedes despositar en efectivo",
-         "small_package":"Paquete Pequeño",
-         "order_reference":"Orden de Referencia",
-         "account_number":"Número de Cuenta",
-         "you_receive":"Usted recibe:",
-         "anonymous_help":"Los bitcoins se enviará a través de nuestro servicio de mezcla para mejorar la privacidad (comisión del 1,5%).",
-         "phone_sms":"Dispositivo Móvil \/ SMS",
-         "back":"Volver",
-         "amount_help":"Ingrese el monto deseado en {0}.",
-         "select_country":"Seleccione el país",
-         "sms_p1":"Se puede realizar la compra a través de otro teléfono móvil o de línea una vez se haya verificado la misma.",
-         "currency":"Moneda",
-         "amount":"Monto",
-         "uk_bank_p2":"Por favor, revise los detalles a continuación",
-         "please_verify":"Para utilizar nuestro {0} servicio de depósito, por favor verifique su número de teléfono móvil.",
-         "to_address":"A la dirección:",
-         "select_currency":"Seleccione la moneda",
-         "pingit_p1":"Si aún no tienes  una cuenta de PingIt, la instalación de la aplicación es sencilla y puedes descargarla desde la tienda de tu SmartPhone.",
-         "pingit_instructions_1":"Por favor envíe el pago de {0} a {1} utilizando {2} de referencia.",
-         "depsit_with_cash":"Depósito en Efectivo",
-         "payment_method":"Método de Pago:"
       },
       "transaction":{
          "fee":"Comisión:",
@@ -166,12 +141,30 @@
          "public_note":"Nota pública:",
          "spent":"Utilizado"
       },
-      "wallet_forgot_identifier":{
-         "sub_header":"Introduce a continuación tu dirección de correo electrónico o número de teléfono móvil y te enviaremos un enlace de confirmación:",
-         "title":"Recuperación de Identificador",
-         "p1":"Si no tienes una dirección de correo electrónico asociada a tu cuenta, por favor ponte en contacto con nosotros ({0}) con toda la información que puedas proporcionar, incluyendo nombre de usuario de Skype, Google Talk, frase secreta o sobre.",
-         "email_or_sms":"Correo Electrónico o Número de Teléfono Móvil:",
-         "header":"Recuperación de Identificador"
+      "deposit":{
+         "make_anonymous":"¿Hacerlo de manera anónima?",
+         "bank_name":"Nombre del Banco",
+         "depsit_with_cash_description":"Más de 700.000 lugares en el mundo entero donde puedes despositar en efectivo",
+         "small_package":"Paquete Pequeño",
+         "order_reference":"Orden de Referencia",
+         "account_number":"Número de Cuenta",
+         "you_receive":"Usted recibe:",
+         "anonymous_help":"Los bitcoins se enviará a través de nuestro servicio de mezcla para mejorar la privacidad (comisión del 1,5%).",
+         "phone_sms":"Dispositivo Móvil \/ SMS",
+         "back":"Volver",
+         "amount_help":"Ingrese el monto deseado en {0}.",
+         "sms_p1":"Se puede realizar la compra a través de otro teléfono móvil o de línea una vez se haya verificado la misma.",
+         "select_country":"Seleccione el país",
+         "currency":"Moneda",
+         "amount":"Monto",
+         "uk_bank_p2":"Por favor, revise los detalles a continuación",
+         "please_verify":"Para utilizar nuestro {0} servicio de depósito, por favor verifique su número de teléfono móvil.",
+         "select_currency":"Seleccione la moneda",
+         "to_address":"A la dirección:",
+         "pingit_p1":"Si aún no tienes  una cuenta de PingIt, la instalación de la aplicación es sencilla y puedes descargarla desde la tienda de tu SmartPhone.",
+         "pingit_instructions_1":"Por favor envíe el pago de {0} a {1} utilizando {2} de referencia.",
+         "depsit_with_cash":"Depósito en Efectivo",
+         "payment_method":"Método de Pago:"
       },
       "stats":{
          "sub_header":"Estadísticas Monetarias de Bitcoin",
@@ -208,30 +201,12 @@
          "period":"Todas las estadísticas aquí expuestas contemplan el período anterior de 24 horas a menos que se indique lo contrario",
          "header":"Estadísticas Monetarias"
       },
-      "block":{
-         "title":"Bloque de Bitcoin # {0}",
-         "meta_description":"Lista de transacciones contenidas dentro del bloque de Bitcoin",
-         "no_block_index":"No hay provisto índice de categoría",
-         "hash_table":{
-            "hash":"Hash",
-            "next_block":"Bloque(s) siguiente(s)",
-            "merkle_root":"Raíz de Merkle",
-            "previous_block":"Bloque Anterior"
-         },
-         "network_propagation":"Propagación de la Red",
-         "header":"Bloques",
-         "summary_table":{
-            "timestamp":"Fecha y Hora",
-            "block_reward":"Recompensa del Bloque",
-            "number_of_transactions":"Número de Transacciones",
-            "relayed_by":"Resuelto por",
-            "received_time":"Hora de Recepción",
-            "bits":"Bits",
-            "transaction_fees":"Comisiones de la Transacción",
-            "estimated_transaction_volume":"Volumen Estimado de la Transacción"
-         },
-         "transactions_sub_header":"Transacciones contenidas dentro de este bloque",
-         "click_to_view":"Haz click para visualizar"
+      "wallet_forgot_identifier":{
+         "sub_header":"Introduce a continuación tu dirección de correo electrónico o número de teléfono móvil y te enviaremos un enlace de confirmación:",
+         "title":"Recuperación de Identificador",
+         "email_or_sms":"Correo Electrónico o Número de Teléfono Móvil:",
+         "p1":"Si no tienes una dirección de correo electrónico asociada a tu cuenta, por favor ponte en contacto con nosotros ({0}) con toda la información que puedas proporcionar, incluyendo nombre de usuario de Skype, Google Talk, frase secreta o sobre.",
+         "header":"Recuperación de Identificador"
       },
       "ip_info":{
          "sub_header":"Transacciones resueltas por primera vez por la IP {0}",
@@ -240,17 +215,42 @@
          "next_page":"Página Siguiente",
          "header":"Transacciones resueltas por {0}"
       },
+      "block":{
+         "title":"Bloque de Bitcoin # {0}",
+         "no_block_index":"No hay provisto índice de categoría",
+         "meta_description":"Lista de transacciones contenidas dentro del bloque de Bitcoin",
+         "hash_table":{
+            "hash":"Hash",
+            "next_block":"Bloque(s) siguiente(s)",
+            "merkle_root":"Raíz de Merkle",
+            "previous_block":"Bloque Anterior"
+         },
+         "network_propagation":"Propagación de la Red",
+         "transactions_sub_header":"Transacciones contenidas dentro de este bloque",
+         "summary_table":{
+            "timestamp":"Fecha y Hora",
+            "block_reward":"Recompensa del Bloque",
+            "number_of_transactions":"Número de Transacciones",
+            "relayed_by":"Resuelto por",
+            "bits":"Bits",
+            "received_time":"Hora de Recepción",
+            "transaction_fees":"Comisiones de la Transacción",
+            "estimated_transaction_volume":"Volumen Estimado de la Transacción"
+         },
+         "header":"Bloques",
+         "click_to_view":"Haz click para visualizar"
+      },
       "double_spends":{
          "sub_header":"Lista de gastos duplicados detectados entre últimas 500.000 transacciones (caché de 10 minutos)",
          "title":"Gastos Duplicados en Bitcoin - Blockchain.info",
          "included_in_block":"Incluido en el Bloque {0}",
-         "warning":"Es posible que los gastos duplicados que aquí figuran no sean intencionales. No significa que haya sido existoso y que un comerciante o vendedor haya perdido dinero como resultado, la eventualidad de que aquí aparezca un gasto duplicado creado de manera maliciosa.",
-         "header":"Gastos Duplicados"
+         "header":"Gastos Duplicados",
+         "warning":"Es posible que los gastos duplicados que aquí figuran no sean intencionales. No significa que haya sido existoso y que un comerciante o vendedor haya perdido dinero como resultado, la eventualidad de que aquí aparezca un gasto duplicado creado de manera maliciosa."
       },
       "wallet_app":{
          "transactions":{
-            "compact":"Vista compacta",
             "sent":"Enviadas",
+            "compact":"Vista compacta",
             "escrow":"Fideicomiso",
             "detailed":"Vista detallada",
             "received":"Recibidas",
@@ -271,16 +271,16 @@
             "password_hints_description":"Las pistas son útiles en caso de que olvides tu(s) contraseña(s) ya que dan un indicio del contenido de la misma que tú mismo estableces. Si has asociado una dirección de correo electrónico a tu cuenta, podemos enviarte las pistas a través del mismo. Si no asociaste tu cuenta a ningún correo electrónico tu monedero será accesible únicamente si recuerdas el identificador del mismo.",
             "device_pairing_description":"Escanea el código QR que aparece a continuación con tu iPhone o SmarthPhone para sincronizarlo con tu cuenta.",
             "notifications_confirmations":"Notificaciones Posteriores",
-            "device_pairing":"Sincronización de Dispositivos",
             "my_wallet_verifier":"Verificador de Mi Monedero",
+            "device_pairing":"Sincronización de Dispositivos",
             "skype_description":"Recibirás notificaciones a través de la siguiente cuenta de Skype:",
             "password_hints":"Pistas de Contraseña",
             "receives":"Reciba bitcoins",
-            "email_not_verified":"El correo electrónico no está verificado",
-            "email_verification_code":"Código de verificación del correo electrónico:",
             "integrity_check":"Comprobación de Integridad",
-            "fee_policy_low":"Baja",
+            "email_verification_code":"Código de verificación del correo electrónico:",
+            "email_not_verified":"El correo electrónico no está verificado",
             "html5_notifications":"Notificaciones de HTML5",
+            "fee_policy_low":"Baja",
             "notifications_when":"Cuando Mi Monedero",
             "forgot_password_warning_p2":"Manten tu contraseña guardada en un lugar seguro, en caso de pérdida o extravío no existe proceso de recuperación.",
             "email_description":"La autenticación de doble factor a través de correo electrónico se encuentra habilitada en tu cuenta. Se enviará un correo electrónico a {0} con el código de confirmación que necesitarás proveer durante el inicio de sesión.",
@@ -309,32 +309,32 @@
             "lock_to_ip":"Bloquear a IP:",
             "logging_deletion":"Modificar el nivel de registro no elimina los registros existentes. Sin embargos, los registros expiran al cabo de 2 semanas.",
             "google_authenticator_warning":"Existe la posibilidad de que no puedas volver a acceder a tu cuenta si dejas esta página sin haber sincronizado tu dispositivo móvil o desactivado Google Authenticator.",
-            "google_talk_description":"Recibirás notificaciones a través de Google Talk.",
             "secret_phrase_description":"Puedes utilizar una frase secreta ara ayudarnos a comprobar tu identidad en caso de perder el identificador de tu monedero o Yubikey. Puede ser una única palabra o frase de hasta 255 caracteres de longitud.",
+            "google_talk_description":"Recibirás notificaciones a través de Google Talk.",
             "fee_policy_normal_description":"Sigue la política de comisiones sugerida por el cliente principal de Bitcoin",
             "title":"Configuración de la Cuenta",
             "second_password":"Segunda contraseña",
             "main_password_hint":"Pista de la contraseña principal:",
-            "second_password_description":"Puedes establecer una segunda contraseña que se solicitará al enviar fondos desde tu cuenta. Es posible que tu navegador deje de responder durante unos minutos al modificar esta opción si se trata de un monedero grande.",
-            "email_placeholder":"Tu correo electrónico",
             "password_notice":"Tu contraseña no se comparte con el servidor de ninguna manera o modo. Esto significa que se encuentra protegida incluso ante el evento de un ataque a nuestros servidores. También impide el acceso a información de tu saldo o historial de transacciones al propio servidor asegurando tu completa seguridad.",
+            "email_placeholder":"Tu correo electrónico",
+            "second_password_description":"Puedes establecer una segunda contraseña que se solicitará al enviar fondos desde tu cuenta. Es posible que tu navegador deje de responder durante unos minutos al modificar esta opción si se trata de un monedero grande.",
             "fee_policy_description":"Las transacciones de Blockchain.info son gratuitas. Sin embargo, es posible que la red Bitcoin requiera una cuota adicional de mineros que afecta la velocidad en que tus transacciones son verificadas y ayuda a mantener la red. Cambia la configuración de abajo para modificar la política predeterminada de comisión de minería.",
             "sub_header":"Modificar la configuración de Mi Monedero",
             "email_notifications_description":"Recibirá notificaciones por correo electrónico. Por favor confirme su dirección de correo electrónico si usted no tiene ya.",
             "alias":"Sobrenombre",
             "never_remember_two_factor_description":"Tu navegador recuerda por un período corto de tiempo la información de autenticación de doble factor de manera que puedes reconectarte sin tener que volver a introducirla. Marca la siguiente casilla si quieres desactivar esta opción de comportamiento.",
             "integrity_check_run":"Ejecuta una Comprobación de Integridad",
-            "double_encryption_enabled":"El cifrado doble se encuentra habilitado. Se necesitará proporcionar una segunda contraseña para poder enviar fondos.",
             "html5_notifications_p1":"Las notificaciones de HTML 5 se diferencian de las ventanas emergentes regulares en que precisan del permiso del usuario para ser vistas. Actualmente esta característica se encuentra disponible para Chrome & Safari.",
+            "double_encryption_enabled":"El cifrado doble se encuentra habilitado. Se necesitará proporcionar una segunda contraseña para poder enviar fondos.",
             "enter_sms_code":"Introduce el código de verificación que figura en el mensaje SMS.",
             "fee_policy_low_warning":"Las transacciones serán significativamente más lentas en ser confirmadas",
             "logging_level_description":"El nivel de registro controla qué datos se guardan cuando se realizan acciones en tu monedero. Se encuentra desactivado por defecto como medida preventiva por los administradores. Si lo habilitas tendrás una mejor seguridad puesto que brindará información de potencial acceso no autorizado a tu monedero, sin embargo lo hará en detrimento de tu privacidad.",
             "mobile_number":"Número de teléfono móvil",
+            "never_remember_two_factor":"Nunca recordar la información de autenticación de doble factor",
             "nav":{
                "privacy":"Privacidad",
                "logging":"Registro"
             },
-            "never_remember_two_factor":"Nunca recordar la información de autenticación de doble factor",
             "user_agent":"Agente de Usuario",
             "integrity_check_description":"Verifica que todas las claves de tu monedero coincidan con las direcciones de Bitcoin correspondientes además de volver a cifrarlo. Este proceso puede demorar un tiempo prolongado en algunos navegadores."
          },
@@ -352,9 +352,9 @@
             "phone_deposit":"Depósito teléfono",
             "backup_description":"Hacer una copia de seguridad de tu monedero es un paso importante y fácil de olvidar. Blockchain.info toma todas las medidas necesarias para mantener seguro tu monedero, sin embargo es mejor mantener una copia local por si acaso.",
             "share_with_anyone":"Compártela para que cualquiera pueda enviarte un pago.",
-            "pingit_deposit":"Depósito PingIt",
-            "btcpak_withdraw":"Retiro BTCPak",
             "pingit_withdraw":"Retiro PingIt",
+            "btcpak_withdraw":"Retiro BTCPak",
+            "pingit_deposit":"Depósito PingIt",
             "this_is_your_bitcoin_address":"Esta es tu dirección Bitcoin",
             "cash_deposit":"Depósito en efectivo",
             "backup":"Copia de Seguridad"
@@ -373,10 +373,10 @@
             "address_qr_code":"Código QR de la dirección",
             "transaction_information":"Información de las transacciones",
             "label_placeholder":"Etiqueta. Por ejemplo, \"Ahorros\"",
-            "please_check_details":"Verifica por favor los siguientes detalles:",
             "create_new_wallet":"Crea un nuevo monedero",
-            "hash":"Hash",
+            "please_check_details":"Verifica por favor los siguientes detalles:",
             "verify_result":"Este mensaje fue firmado por la dirección {0}. <br \/> ¿Es esta la dirección que esperabas?",
+            "hash":"Hash",
             "ask_for_anonymous_p1":"Nuestro mezclador Bitcoin necesita tus monedas. Envía esta transacción de forma anónima y obtén una bonificación del {0}% <\/ b> ({1} BTC será enviado de nuevo a la dirección de origen). La transacción tendrá un retraso de aproximadamente {2}.",
             "total_relayed":"Total retransmitido",
             "sweep_keys_p1":"Barrer significa mover todos los fondos de una o más direcciones a otra dirección destino. Elige, por favor, una dirección a la que barrer el saldo de las direcciones seleccionadas (Balance {0}).",
@@ -407,39 +407,39 @@
             "network_percent":"% de la red",
             "please_confirm":"Confirma por favor que deseas {0}",
             "second_password_needed":"Se requiere la segunda contraseña",
-            "watch_only_warning":"Advertencia: dirección de monitoreo",
-            "label_address_p1":"Introduce por favor una etiqueta para la dirección {0}",
             "compressed_private_key_p2":"Se recomienda barrer los fondos a una dirección Bitcoin ya existente. ¿Te gustaría barrer la clave privada?",
+            "label_address_p1":"Introduce por favor una etiqueta para la dirección {0}",
+            "watch_only_warning":"Advertencia: dirección de monitoreo",
             "address_book_label_help":"Introduce una etiqueta para esta dirección. Ej: el nombre de la persona o de la empresa.",
             "address_not_synced_p1":"Esta dirección aún no se ha guardado en nuestros servidores y podría perderse al salir de esta página.",
             "address_placeholder":"Dirección Bitcoin",
-            "send_via_email_h3":"Enviar {0} BTC a {1}",
             "label_address":"Etiquetar dirección",
+            "send_via_email_h3":"Enviar {0} BTC a {1}",
             "confirm_delete_warning":"Eliminar una dirección incorrecta puede causar pérdidas económicas. Si no estás seguro de lo que estás haciendo, pulsa en \"Cancelar\" ahora.",
-            "claim_title":"¡Has recibido bitcoins!",
             "add_address_book_entry":"Nueva entrada en la libreta de direcciones",
-            "send_transaction":"Enviar Transacción",
+            "claim_title":"¡Has recibido bitcoins!",
             "leaving_wallet":"Gastos del Monedero:",
-            "enter_private_key":"Introduce la clave privada",
-            "add_address_book_entry_placeholder":"Introduce la dirección Bitcoin que deseas añadir a tu libreta de direcciones.",
-            "mining_pools":"Pool de minería",
+            "send_transaction":"Enviar Transacción",
             "claim_p1":"Por favor, elige una de las siguientes opciones para reclamar tus bitcoins. Hasta que los bitcoins no sean reclamados, el remitente será capaz de revertir el pago.",
+            "mining_pools":"Pool de minería",
+            "add_address_book_entry_placeholder":"Introduce la dirección Bitcoin que deseas añadir a tu libreta de direcciones.",
+            "enter_private_key":"Introduce la clave privada",
             "label_help":"Una etiqueta te ayudará a recordar el propósito de la dirección. Puede ser, por ejemplo, el nombre de una persona o una compañía.",
             "miners_fee_recommended_p1":"Esta es una transacción de baja prioridad. Se recomienda incluir al menos una comisión de 0,0005 BTC con el fin de asegurar que la transacción sea procesada por los mineros.",
             "claim_zero_balance":"El saldo de esta dirección Bitcoin es cero. Es posible que el pago ya haya sido reclamado o que la transacción fuera anulada por el remitente.",
-            "total_fees":"Comisiones totales",
             "ask_for_anonymous":"¿Enviar anónimamente?",
-            "verify_message_placeholder":"Introduce el mensaje a verificar",
+            "total_fees":"Comisiones totales",
             "first_seen":"Visto por primera vez",
+            "verify_message_placeholder":"Introduce el mensaje a verificar",
             "offline_instructions":"Para completar la transacción, abre {0}. Copia y pega el texto de abajo en la campo de texto y pulsa enviar para completar la transacción. <\/ P>",
             "send_via_email_sub":"Se enviará el siguiente mensaje al destinatario.",
-            "creating_transaction":"Creando transacción",
             "private_key_needed_p1":"Esta acción requiere la clave privada de la dirección Bitcoin {0}. Por favor, introduzca la clave privada a continuación.",
+            "creating_transaction":"Creando transacción",
             "scan_using_webcam":"Escanear con cámara web",
             "signing_please_wait":"Espera, por favor. Firmando número de entrada {0} de {1} ...",
             "private_key_needed":"Se requiere la clave privada",
-            "sign_message_sub":"Utiliza esta herramienta para firmar digitalmente un mensaje que demuestra que eres el dueño de esta dirección. Firma únicamente mensajes detallados con los que estés totalmente de acuerdo y nunca mensajes vagos. Al pulsar \"Firmar mensaje\" es posible que el navegador deje de responder durante unos segundos.",
-            "continue_without_fee":"Continuar sin comisión"
+            "continue_without_fee":"Continuar sin comisión",
+            "sign_message_sub":"Utiliza esta herramienta para firmar digitalmente un mensaje que demuestra que eres el dueño de esta dirección. Firma únicamente mensajes detallados con los que estés totalmente de acuerdo y nunca mensajes vagos. Al pulsar \"Firmar mensaje\" es posible que el navegador deje de responder durante unos segundos."
          },
          "title":"Mi Monedero",
          "errors":{
@@ -456,8 +456,8 @@
             "invalid_email":"Dirección de correo electrónico inválida",
             "invalid_length":"El parámetro de longitud debe ser un valor numérico",
             "authentication_code_used_already":"Este código de autenticación ya ha sido usado",
-            "authentication_code_incorrect":"El código de autenticación no es correcto",
             "error_updating_ip_lock":"Hubo un error al actualizar el bloqueo de IP",
+            "authentication_code_incorrect":"El código de autenticación no es correcto",
             "two_factor_authentication_not_enabled":"La autenticación de factor doble no está habilitada para su cuenta.",
             "captcha_incorrect":"Código CAPTCHA incorrecto",
             "error_updating_email":"Hubo un error al actualizar la dirección de correo electrónico",
@@ -496,19 +496,19 @@
             "error_updating_ip_address":"Hubo un error al actualizar las direcciones de IP",
             "sms_not_found":"No se pudo encontrar el número de teléfono móvil",
             "invalid_payload":"El valor de la carga útil es inválido",
-            "unknown_currency_code":"Código de divisa desconocido",
             "error_saving_to_google_drive":"Hubo un error al guardar en Google Drive",
+            "unknown_currency_code":"Código de divisa desconocido",
             "error_updating_skype":"Hubo un error al actualizar el nombre de usuario de Skype",
-            "wallet_identifier_not_found":"No se pudo encontrar el identificador del monedero",
-            "error_updating_yubikey":"Hubo un error al actualizar el Yubikey",
             "invalid_version":"Versión inválida",
+            "error_updating_yubikey":"Hubo un error al actualizar el Yubikey",
+            "wallet_identifier_not_found":"No se pudo encontrar el identificador del monedero",
             "login_attempts_left":"{0} intentos de conexión restantes",
             "two_factor_authentication_request_declined":"La solicitud de restablecimiento de la autenticación de factor doble fue rehusada",
             "wallet_size_restricted":"Los monederos están limitados a un tamaño máximo de 1 MiB",
             "error_validating_yubikey":"Hubo un error al validar la Yubikey",
             "error_updating_local_currency":"Hubo un error al actualizar la moneda local",
-            "unknown_identifier":"Identificador de monedero desconocido. Por favor, comprueba que lo hayas introducido correctamente",
             "unknown_language_code":"Código de idioma desconocido",
+            "unknown_identifier":"Identificador de monedero desconocido. Por favor, comprueba que lo hayas introducido correctamente",
             "error_generating_google_secret":"Hubo un error al generar el secreto de autenticación de Google"
          },
          "send_coins":{
@@ -523,12 +523,12 @@
             "facebook_help":"Introduce el nombre de Facebook del destinatario",
             "tools":"Herramientas",
             "satoshi_dice_sub":"{0} es el juego más popular de apuestas de Bitcoin. Gana hasta 64.000 veces tu apuesta, al instante. Todos las tiradas pueden ser verificadas en la cadena de bloques.",
-            "remove_recipient":"Eliminar destinatario",
             "repeat_5":"Repetir 5 veces",
+            "remove_recipient":"Eliminar destinatario",
             "change_address":"Enviar el cambio a:",
             "email_address_tooltip":"Esta es la dirección de correo electrónico de la persona a la que deseas enviar bitcoins.",
-            "from_address_tooltip":"Si lo deseas, puedes enviar bitcoins desde una dirección específica.",
             "custom":"Envío personalizado",
+            "from_address_tooltip":"Si lo deseas, puedes enviar bitcoins desde una dirección específica.",
             "send_payment":"Enviar pago",
             "place_bet":"¡Apostar!",
             "review_payment_tooltip":"Haz click aquí para revisar la transacción. En el siguiente paso podrás confirmar o cancelar la operación.",
@@ -596,53 +596,24 @@
             "archived":"Archivadas",
             "delete_keys_tooltip":"Elimina las claves privadas seleccionadas.",
             "active":"Activas",
-            "anonymous_addresses_description":"Los pagos recibidos a direcciones anónimas serán enviados a otra dirección de tu monedero. Cualquier pago recibido será procesado por un mezclador que aislará tu monedero del remitente. Las transacciones recibidas a direcciones anónimas no podrán ser relacionadas con tu monedero.",
             "group_by_taint":"Agrupar las direcciones por marca",
-            "new_address_tooltip":"Haz clic aquí para generar una nueva dirección Bitcoin. Podrás recibir bitcoins en esta dirección de inmediato.",
-            "sweep_keys_tooltip":"Envía los bitcoins de las claves seleccionadas a otra dirección"
-         },
-         "login":{
-            "lost_password":"Contraseña perdida",
-            "password_hints_btn":"Pista de la contraseña",
-            "resend_link_p1":"El correo electrónico se envía desde wallet@blockchain.info. Asegúrate también de revisar tu carpeta de correo no deseado. Si aún así no puedes encontrar el correo, haz clic en el botón de abajo para reenviarlo.",
-            "lost_two_factor_title":"Pérdida de los detalles de autenticación de factor doble",
-            "lost_identifier_title":"Identificador o sobrenombre perdido",
-            "open_wallet":"Abrir monedero",
-            "yubikey_help":"Selecciona la casilla de texto de arriba y pulsa el indicador LED verde de tu Yubikey.",
-            "need_help_p1":"Lea nuestras {0}",
-            "support_pages":"páginas de soporte",
-            "password_unrecoverable_warning":"¡Tu contraseña no se almacena en nuestros servidores y no pude recuperarse si se te olvida!",
-            "google_authenticator_help":"Por favor, abre tu aplicación Google Authenticator e introduce el código que se muestra.",
-            "lost_two_factor_p1":"Aunque hayas perdido los detalles de autenticación de factor doble, tu monedero sigue pudiéndose recuperar. Todo lo que necesitamos es una prueba razonable de que eres el dueño de la cuenta. Esto puede hacerse completando el formulario que proporcionamos a continuación.",
-            "email_code_help":"Un correo electrónico con un código de confirmación temporal ha sido enviado a tu cuenta.",
-            "resend_link_title":"¿No puedes encontrar el código de correo electrónico?",
-            "forgotten_identifier_btn":"Recuperar identificador",
-            "forgotten_something_sub":"¡Ayuda! Me he quedado fuera de mi cuenta",
-            "google_authenticator":"Google Authenticator:",
-            "two_factor_reset":"Restablecer la autenticación de factor doble",
-            "sms_code_help":"Se ha enviado un SMS a tu teléfono móvil. Por favor, introduce el código que figura en el mensaje.",
-            "lost_identifier_p1":"Si has perdido el identificador de tu monedero, revisa primero el correo de confirmación que recibiste durante tu registro. Si no puedes encontrarlo, haz clic en el botón de abajo y nosotros te enviaremos uno nuevo.",
-            "identifier_placeholder":"Identificador o sobrenombre",
-            "lost_two_factor":"¿Has perdido u olvidado los detalles de la autenticación de factor doble?",
-            "email_code":"Código de correo electrónico:",
-            "sms_code":"Código de SMS:",
-            "lost_password_p1":"Antes de ser almacenado en nuestros servidores, tu monedero se cifra en AES de 256 bits desde el navegador. Por esta razón no podemos ayudarte a recuperar la contraseña en caso de pérdida o extravío. Para evitar esta situación te recomendamos hacer una copia de seguridad de tus contraseñas privadas en algún medio físico.",
-            "please_enter_login_details":"Introduce a continuación tus datos de acceso:",
-            "lost_two_factor_btn":"Restablecer la autenticación de factor doble"
+            "anonymous_addresses_description":"Los pagos recibidos a direcciones anónimas serán enviados a otra dirección de tu monedero. Cualquier pago recibido será procesado por un mezclador que aislará tu monedero del remitente. Las transacciones recibidas a direcciones anónimas no podrán ser relacionadas con tu monedero.",
+            "sweep_keys_tooltip":"Envía los bitcoins de las claves seleccionadas a otra dirección",
+            "new_address_tooltip":"Haz clic aquí para generar una nueva dirección Bitcoin. Podrás recibir bitcoins en esta dirección de inmediato."
          },
          "import_export":{
             "import_backup":"Importar desde una copia de seguridad",
             "advanced_warning_sub":"Los cambios que esta sección permite hacer a tu monedero pueden ser complicados y confusos. Es recomendable que sólo accedan usuarios experimentados de Bitcoin. Deberías saber lo que son las claves privadas y cómo se relacionan con las direcciones Bitcoin.",
-            "desktop_sync":"Sincronizar con escritorio",
-            "import_paper_p1":"Usa tu cámara web para escanear el código QR de un monedero de papel",
             "import_wallet_btn":"Importar monedero",
-            "export_unencrypted_title":"Exportar claves sin cifrar",
+            "import_paper_p1":"Usa tu cámara web para escanear el código QR de un monedero de papel",
+            "desktop_sync":"Sincronizar con escritorio",
             "watch_only_title":"Agregar una dirección Bitcoin de monitoreo",
+            "export_unencrypted_title":"Exportar claves sin cifrar",
             "select_private_key_format":"Selecciona el formato de la clave privada:",
             "advanced_warning_title":"¡Advertencia!",
             "import_private_key_p1":"Importa una clave privada ya existente. Son compatibles todos los formatos de clave privada.",
-            "export_unencrypted_p1":"A continuación se presentan las claves privadas en formato JSON. ¡Advertencia! Estos datos no están cifrados. Mantenlos en un lugar seguro.",
             "leave_encrypted":"Dejar las claves privadas cifradas",
+            "export_unencrypted_p1":"A continuación se presentan las claves privadas en formato JSON. ¡Advertencia! Estos datos no están cifrados. Mantenlos en un lugar seguro.",
             "desktop_sync_change_password":"Cambia tu nombre de usuario y contraseña a una de tu elección.",
             "rpc":{
                "rpc_username":"Usuario RPC:",
@@ -665,8 +636,8 @@
             "export_encrypted":"Exportar claves cifradas",
             "watch_only_placeholder":"Dirección Bitcoin",
             "import_private_key_title":"Importar una clave privada",
-            "advanced_warning_continue":"De acuerdo",
             "import_backup_sub":"Una lista de copias de seguridad disponibles desde nuestro servidor de almacenamiento en la nube.",
+            "advanced_warning_continue":"De acuerdo",
             "export_unencrypted":"Exportar claves sin cifrar",
             "import_keys_limit":"Ten en cuenta que actualmente existe un límite de 400 claves privadas por monedero. En caso de ser un monedero grande, es posible que tu navegador deje de responder durante unos minutos.",
             "import_private_key_btn":"Añadir clave privada",
@@ -678,12 +649,12 @@
                "plain":"Copia de seguridad JSON de blockchain.info en texto plano",
                "output_from":"Salida de {0}"
             },
-            "brain_wallet_p1":"Un \"monedero mental\" es una clave privada que se genera a partir de una contraseña memorable. Puedes memorizar esta contraseña y recuperar los fondos de esta dirección sin necesidad de conservar una copia de seguridad.",
             "import_textarea_placeholder":"Copia y pega los datos del monedero en este campo de texto",
-            "desktop_sync_p1":"Esta herramienta permite sincronizar tu monedero con el cliente Bitcoin oficial disponible en bitcoin.org.",
+            "brain_wallet_p1":"Un \"monedero mental\" es una clave privada que se genera a partir de una contraseña memorable. Puedes memorizar esta contraseña y recuperar los fondos de esta dirección sin necesidad de conservar una copia de seguridad.",
             "brain_wallet_p2":"La longitud mínima de esta contraseña es de 15 caracteres. Aún recordando la contraseña, es altamente recomendable que guardes una copia de seguridad de tu monedero.",
-            "watch_only_p1":"Puedes añadir una dirección de {0} a tu monedero. No podrás enviar bitcoins desde esta dirección hasta que proporciones la clave privada correspondiente.",
+            "desktop_sync_p1":"Esta herramienta permite sincronizar tu monedero con el cliente Bitcoin oficial disponible en bitcoin.org.",
             "paper_wallet":"Monedero de papel",
+            "watch_only_p1":"Puedes añadir una dirección de {0} a tu monedero. No podrás enviar bitcoins desde esta dirección hasta que proporciones la clave privada correspondiente.",
             "brain_wallet_title":"Monedero mental",
             "import_paper_btn":"Escanear por cámara web",
             "desktop_sync_title":"Sincronizar cliente de escritorio",
@@ -691,19 +662,48 @@
             "watch_only_btn":"Añadir una dirección de monitoreo",
             "export_p1":"A continuación se presentan las claves privadas cifradas con AES."
          },
+         "login":{
+            "lost_password":"Contraseña perdida",
+            "password_hints_btn":"Pista de la contraseña",
+            "resend_link_p1":"El correo electrónico se envía desde wallet@blockchain.info. Asegúrate también de revisar tu carpeta de correo no deseado. Si aún así no puedes encontrar el correo, haz clic en el botón de abajo para reenviarlo.",
+            "lost_two_factor_title":"Pérdida de los detalles de autenticación de factor doble",
+            "lost_identifier_title":"Identificador o sobrenombre perdido",
+            "open_wallet":"Abrir monedero",
+            "yubikey_help":"Selecciona la casilla de texto de arriba y pulsa el indicador LED verde de tu Yubikey.",
+            "support_pages":"páginas de soporte",
+            "need_help_p1":"Lea nuestras {0}",
+            "password_unrecoverable_warning":"¡Tu contraseña no se almacena en nuestros servidores y no pude recuperarse si se te olvida!",
+            "google_authenticator_help":"Por favor, abre tu aplicación Google Authenticator e introduce el código que se muestra.",
+            "lost_two_factor_p1":"Aunque hayas perdido los detalles de autenticación de factor doble, tu monedero sigue pudiéndose recuperar. Todo lo que necesitamos es una prueba razonable de que eres el dueño de la cuenta. Esto puede hacerse completando el formulario que proporcionamos a continuación.",
+            "email_code_help":"Un correo electrónico con un código de confirmación temporal ha sido enviado a tu cuenta.",
+            "resend_link_title":"¿No puedes encontrar el código de correo electrónico?",
+            "forgotten_identifier_btn":"Recuperar identificador",
+            "forgotten_something_sub":"¡Ayuda! Me he quedado fuera de mi cuenta",
+            "google_authenticator":"Google Authenticator:",
+            "two_factor_reset":"Restablecer la autenticación de factor doble",
+            "sms_code_help":"Se ha enviado un SMS a tu teléfono móvil. Por favor, introduce el código que figura en el mensaje.",
+            "lost_identifier_p1":"Si has perdido el identificador de tu monedero, revisa primero el correo de confirmación que recibiste durante tu registro. Si no puedes encontrarlo, haz clic en el botón de abajo y nosotros te enviaremos uno nuevo.",
+            "identifier_placeholder":"Identificador o sobrenombre",
+            "lost_two_factor":"¿Has perdido u olvidado los detalles de la autenticación de factor doble?",
+            "email_code":"Código de correo electrónico:",
+            "sms_code":"Código de SMS:",
+            "lost_password_p1":"Antes de ser almacenado en nuestros servidores, tu monedero se cifra en AES de 256 bits desde el navegador. Por esta razón no podemos ayudarte a recuperar la contraseña en caso de pérdida o extravío. Para evitar esta situación te recomendamos hacer una copia de seguridad de tus contraseñas privadas en algún medio físico.",
+            "please_enter_login_details":"Introduce a continuación tus datos de acceso:",
+            "lost_two_factor_btn":"Restablecer la autenticación de factor doble"
+         },
          "success":{
             "sms_code_sent":"Se ha enviado el código de verificación SMS",
             "saved_to_dropbox":"Tu monedero se ha guardado correctamente. ya puedes cerrar la ventana.",
             "two_factor_authentication_request_approved":"Se ha aprobado tu solicitud de restablecimiento de autenticación de factor doble. La misma será analizada en breve.",
-            "email_code_resent":"Se ha reenviado el código a tu correo. Verifica que no haya sido captado por el filtro de spam. Cada solicitud que hagas cuenta como un intento de inicio fallido.",
             "email_verified":"Tu correo electrónico fue verificado exitosamente",
+            "email_code_resent":"Se ha reenviado el código a tu correo. Verifica que no haya sido captado por el filtro de spam. Cada solicitud que hagas cuenta como un intento de inicio fallido.",
             "confirmation_email_sent":"Se ha enviado el correo de confirmación",
             "two_factor_reset_request_submitted":"Ya se ha presentado una solicitud de restablecimiento de autenticación de factor doble.",
             "notification_settings_updated":"Configuración de notificaciones actualizadas se ha actualizado correctamente",
             "logging_level_updated":"El nivel de registro se ha actualizado correctamente",
-            "unsubscribed":"Se han dado de baja todas las notificaciones de tu correo electrónico",
-            "email_updated":"El correo electrónico ha sido actualizado correctamente",
             "yubikey_updated":"La Yubikey se ha actualizado correctamente",
+            "email_updated":"El correo electrónico ha sido actualizado correctamente",
+            "unsubscribed":"Se han dado de baja todas las notificaciones de tu correo electrónico",
             "wallet_synced":"El monedero se ha sincronizado con el servidor correctamente",
             "auto_backup_disabled":"La copia de seguridad automática se encuentra deshabilitada",
             "saved_to_google_drive":"El monedero fue almacenado exitosamente en GoogleDrive. Ya puedes cerrar la ventana.",
@@ -718,28 +718,28 @@
             "email_code_sent":"La autenticación de factor doble ha sido enviada a su correo electrónico correctamente",
             "local_currency_updated":"La moneda local ha sido actualizada correctamente",
             "auto_backup_enabled":"El envío de copia de seguridad al correo se encuentra habilitado",
-            "language_updated":"El idioma preferido ha sido actualizado correctamente",
             "sms_verified":"El número de dispositivo móvil ha sido actualizado correctamente",
+            "language_updated":"El idioma preferido ha sido actualizado correctamente",
             "wallet_backup_sent":"La copia de seguridad del monedero ha sido enviada exitosamente",
             "success":"¡Éxito!",
-            "secret_phrase_updated":"La frase secreta se ha actualizado correctamente",
-            "create_wallet_success":"El nuevo monedero se ha guardado correctamente"
+            "create_wallet_success":"El nuevo monedero se ha guardado correctamente",
+            "secret_phrase_updated":"La frase secreta se ha actualizado correctamente"
          }
       },
       "unconfirmed":{
          "sub_header":"Actualización en vivo de nuevas transacciones de Bitcoin",
-         "new_transaction":"Nueva Transacción",
          "title":"{0} Transacciones sin Confirmar",
+         "new_transaction":"Nueva Transacción",
          "meta_description":"Una lista de las transacciones no confirmadas de Bitcoin",
          "header":"{0} Transacciones sin Confirmar",
          "total_fees":"Comisiones Totales"
       },
       "wallet":{
-         "new_users":"Usuarios Nuevos",
          "slogan":"Sé tu propio banco",
+         "new_users":"Usuarios Nuevos",
          "help":"Ayuda y Soporte",
-         "existing_users_p1":"Si ya tienes cuenta de Mi Monedero haz click abajo para iniciar sesión",
          "existing_users":"Usuarios Registrados",
+         "existing_users_p1":"Si ya tienes cuenta de Mi Monedero haz click abajo para iniciar sesión",
          "my_wallet":"Mi Monedero",
          "support_pages":"Páginas de Ayuda",
          "new_users_p1":"Crea un nuevo monedero Bitcoin en sólo unos segundos y podrás enviar y recibir pagos de manera inmediata.",
@@ -768,14 +768,14 @@
          "decoded":"decodificado",
          "output_scripts":"Scripts de Salida",
          "total_output":"Salida Total",
-         "strange":"Extrañas",
-         "scripts":"Scripts",
          "double_spend":{
             "p2":"Ten cuidado con cualquier transaccións de o hacia este remitente.",
             "p1":"¡Cuidado! Esta transacción puede incurrir en gasto duplicado de"
          },
-         "title":"Transacción de Bitcoin {0}",
+         "scripts":"Scripts",
+         "strange":"Extrañas",
          "show_scripts":"Mostrar scripts y Coinbase",
+         "title":"Transacción de Bitcoin {0}",
          "meta_description":"Ver información sobre una transacción de Bitcoin {0}",
          "estimated_time":"Tiempo Estimado de Confirmación",
          "relayed_by_ip":"Retransmitido por la IP",
@@ -786,8 +786,8 @@
       },
       "errors":{
          "invalid_bitcoin_adddress":"Dirección de Bitcoin no válida",
-         "invalid_block_hash":"Bloque de hash no válido",
          "missing_parameter":"Parámetro faltante",
+         "invalid_block_hash":"Bloque de hash no válido",
          "block_not_found":"Bloque no encontrado"
       },
       "relayed_by":{
@@ -799,13 +799,13 @@
       "rejected":{
          "sub_header":"Transacciones y bloques que han sido rechazados por nuestros nodos de Bitcoin.",
          "title":"Bloques y Transacciones rechazadas - Blockchain.info",
-         "reason":"Motivo",
-         "hash":"Hash"
+         "hash":"Hash",
+         "reason":"Motivo"
       },
       "webgl_globe":{
          "home":"Inicio",
-         "online_now":"Actualmente en línea",
          "title":"Gráfico de globo en WebGL de nodos- Blockchain.info",
+         "online_now":"Actualmente en línea",
          "past_48_hours":"Últimas 48 Horas",
          "header":"Gráfico de globo en Webgl"
       },
@@ -819,18 +819,18 @@
          "error_404":"Página no encontrada, por favor verifica si has escrito la dirección correctamente."
       },
       "propagation":{
-         "probable_owner":"Posible Propietario",
          "node_list_sub":"Todos los nodos que han resuelto este ítem de inventario",
-         "first_relayed":"Retransmitivo por primera vez por",
-         "sub_header":"Muestra la distribución de las transacciones o bloques a través de la red",
+         "probable_owner":"Posible Propietario",
          "first_seen":"Visto por primera vez",
+         "sub_header":"Muestra la distribución de las transacciones o bloques a través de la red",
+         "first_relayed":"Retransmitivo por primera vez por",
          "title":"Propagación de la Red Bitcoin - Blockchain.info",
          "node_list":"Lista de Nodos",
          "mining_pools":"Pools de Minería",
          "network_percent":"Porcentaje de la Red",
-         "total_relayed":"Total retransmido",
+         "h3":"Inventario de Hash: {0}",
          "header":"Propagación de la Red",
-         "h3":"Inventario de Hash: {0}"
+         "total_relayed":"Total retransmido"
       },
       "ads":{
          "bitinstant":{
@@ -845,8 +845,8 @@
          "steps":{
             "fork":"Haz un fork",
             "_7":"Cuando termines, confirma los cambios y presentalo a {0}.",
-            "pull_request":"Solicitud (Pull Request)",
             "_8":"Incluye tu dirección de Bitcoin si quieres una recompensa, o si lo prefieres, puedes cambiar el enlace en la página principal por tu sitio web.",
+            "pull_request":"Solicitud (Pull Request)",
             "_3":"Descarga un buen editor de JSON. Recomendamos \"Sublime Text 2\", disponible de manera gratuita para Windows, Mac y Linux.",
             "_4":"Abre los archivos \"auto_ {} tu_idioma.json\" y \"{tu_idioma}.json\" lado a lado.",
             "_5":"Copia y corrige las frases o palabras que no tengan sentido del archivo autogenerado en el otro archivo.",
@@ -890,8 +890,8 @@
             "payment_notifications_gtalk":"Notificaciones de pago a través de GoogleTalk",
             "double_encryption_p1":"Antes de ser almacenado en nuestros servidores, tu monedero se cifra en AES de 256 bits desde el navegador. De esta manera no contamos con acceso a tu contraseña o monedero. Puedes encriptar tu cuenta con una segunda contraseña opcionalmente, necesitando la principal para el inicio de sesión y la secundaria para retirar fondos. Adicionalmente nuestro servicio cuenta con una variedad de métodos de autenticación de factor doble, incluyendo las Yubikeys de Mt.Gox",
             "mobile_support_p2":"En caso de extravío o robo de tu teléfono, se conserva una copia de seguridad del monedero en nuestros servidores.",
-            "mobile_support_p1":"Nuestra interfaz web es compatible con la mayoría de los dispositivos móviles más populares como:",
-            "one_click_backups_p1":"Si bien nos empeñamos en mantener tu monedero respaldado mediante copias de seguridad, el método más efectivo consiste en almacenar una propia localmente. Con un sólo click puede solicitar que se te envíe una copia de tu billetera cifrada a un correo electrónico, almacenarlo en una cuenta de Dropbox o localmente. De esta manera aseguras el acceso a tus fondos aún cuando los servidores de blockchain.info no se encuentren en línea o hayan sufrido una pérdida de datos."
+            "one_click_backups_p1":"Si bien nos empeñamos en mantener tu monedero respaldado mediante copias de seguridad, el método más efectivo consiste en almacenar una propia localmente. Con un sólo click puede solicitar que se te envíe una copia de tu billetera cifrada a un correo electrónico, almacenarlo en una cuenta de Dropbox o localmente. De esta manera aseguras el acceso a tus fondos aún cuando los servidores de blockchain.info no se encuentren en línea o hayan sufrido una pérdida de datos.",
+            "mobile_support_p1":"Nuestra interfaz web es compatible con la mayoría de los dispositivos móviles más populares como:"
          },
          "deposit":{
             "title":"Depósitos al momento",
@@ -907,8 +907,8 @@
          "techradar_quote":"Para el 2015, el dinero como lo conocemos podría convertirse en una especie en peligro de extinción.",
          "security":{
             "title":"Seguro",
-            "offline_transactions":"Transacciones fuera de línea",
             "p3":"Mi Monedero se basa en la seguridad de Bitcoin y proporciona una serie de características que te ayudarán a mantener tu dinero seguro como:",
+            "offline_transactions":"Transacciones fuera de línea",
             "p2":"en encriptación para ayudar a proteger tu monedero de ladrones y hackers. Lo maravilloso del sistema de encriptado es que se realiza de manera externa desde tu navegador, por lo que sólo tu tendrás acceso a la cuenta.",
             "p1":"Blockchain.info emplea estándares de la industria",
             "remote_backups":"Copias de Seguridad Remotas",
@@ -936,36 +936,36 @@
             "p1":"El funcionamiento de Mi Monedero no es diferente al de"
          },
          "successfully_transacted":"Transacción exitosa",
+         "free_open_source":"Gratis. De Código Libre.",
          "tooltips":{
             "aes_title":"Cifrado AES",
-            "offline_transactions":"Las transacciones fuera de línea son aquellas que se generan sin una conexión a internet activa. Se las considera más seguras puesto que tu ordenador se encuentre aislado de medios externos.",
-            "paper_wallet":"Un monedero de papel es un documento imprimible que contiene toda la información necesaria para que puedas recuperar tus bitcoins.",
             "aes":"AES es un esquema de cifrado por bloques adoptado como un estándar de cifrado por el gobierno de los Estados Unidos por su fuerte seguridad. Es ahora también utilizado para VPN y otro tipo de comunicaciones cifradas.",
+            "paper_wallet":"Un monedero de papel es un documento imprimible que contiene toda la información necesaria para que puedas recuperar tus bitcoins.",
+            "offline_transactions":"Las transacciones fuera de línea son aquellas que se generan sin una conexión a internet activa. Se las considera más seguras puesto que tu ordenador se encuentre aislado de medios externos.",
             "private_key":"Las direcciones de Bitcoin constan de dos partes: una clave pública y una privada. La clave privada es aquella que utilizas para demostrar que eres propietario de la dirección y es necesaria para retirar fondos e ella. Asegúrate de mantenerla protegida en todo momento.",
             "remote_backup":"Se denomina copia de seguridad remota al almacenamiento del respaldo de tu monedero en una ubicación diferente a la de tu ordenador local. Se utilizan para salvaguardar tu dinero ante el evento de un fallo del disco duro o alguna otra pérdida.",
-            "paypal":"PayPal es un servidor de pagos obsoleto",
             "remote_backup_title":"Copia de Seguridad Remota",
+            "paypal":"PayPal es un servidor de pagos obsoleto",
             "offline_transactions_title":"Transacciones Fuera de Línea",
             "paper_wallet_title":"Monedero de Papel"
          },
-         "free_open_source":"Gratis. De Código Libre.",
          "features":{
-            "title":"Con muchas características",
             "free":"Gratis, sin tarifas",
+            "title":"Con muchas características",
             "payment_notifications":"Notificaciones de pago a través de SMS y correo electrónico",
             "client_side_encryption":"Cifrado local a través de cliente de escritorio",
             "p1":"El monedero en línea más avanzado disponible",
             "live_update":"Actualizaciones en vivo",
-            "full_list":"Vea la lista completa de características",
+            "import_export":"Importación y exportación de tus claves privadas",
             "backups":"Capacidad para hacer tus propias copias de seguridad",
-            "import_export":"Importación y exportación de tus claves privadas"
+            "full_list":"Vea la lista completa de características"
          },
          "create_my_free_wallet":"Crear una cuenta de Mi Monedero de manera gratuita"
       },
       "tx_tree":{
          "title":"Visualizar Transacción {0} - Blockchain.info",
-         "output_spent":"Salida Utilizada - Haz click aquí para cargar hijos.",
          "meta_description":"Este gráfico de árbol muestra las salidas de las transacciones de Bitcoin {0}",
+         "output_spent":"Salida Utilizada - Haz click aquí para cargar hijos.",
          "cluster_by_address":"Clústeres ordenados por dirección",
          "no_clustering":"No hay clúster",
          "output_unspent":"La salida no fue utilizada y no tiene hijos.",
@@ -977,27 +977,30 @@
          "p1":"Esta página te permite introducir una transacción en formato hexadecimal crudo (es decir, los caracteres 0-9, a-f). A continuación se verificará su validez y se transmitirá a través de la red red.",
          "header":"Difusión de Transacciones"
       },
-      "maintenance":{
-         "p1":"Blockchain.info se encuentra actualmente fuera de servicio debido a mantenimiento. Para obtener actualizaciones de estado consulte {0}. Pedimos disculpas por las molestias.",
-         "header":"Regresaremos en breve"
-      },
       "startup_message":{
          "title":"Cargando la Sitio Web - Blockchain.info",
          "p1":"La página debería estar de regreso en poco tiempo. Podría haber novedades",
          "header":"Aguarde unos momentos mientras se carga la página web..."
+      },
+      "maintenance":{
+         "p1":"Blockchain.info se encuentra actualmente fuera de servicio debido a mantenimiento. Para obtener actualizaciones de estado consulte {0}. Pedimos disculpas por las molestias.",
+         "header":"Regresaremos en breve"
       },
       "donation_button":{
          "title":"Crear botón de donación",
          "p2":"Introduce el siguiente código HTML en la posición en la que desees que aparezca el botón de donación",
          "p1":"Introduce el siguiente código en la sección principal de tu página."
       },
+      "blocks":{
+         "blocks_found_by":"Bloques recientes resueltos por {0}",
+         "title1":"Bloques recientes resueltos por {0}",
+         "relayed_by":"Resuelto por",
+         "hash":"Hash",
+         "next":"Siguiente",
+         "title2":"Bloques Minados en",
+         "mined_on":"Bloques Minados en:"
+      },
       "emails":{
-         "tx":{
-            "header_sent":"Notificación de Envíos de Pago",
-            "sent_p1":"Se envió un pago desde su monedero",
-            "received_p1":"Has recibido un pago en tu monedero",
-            "header_received":"Notificación de Recepción de Pago"
-         },
          "two_factor_reset_request":{
             "p4":"Es posible que alguien esté tratando de acceder malintencionada a tu monedero. No ignore la solicitud.",
             "p3":"De lo contrario, por favor abre el siguiente enlace para denegar la solitud de cambio:",
@@ -1005,22 +1008,28 @@
             "p1":"Se ha enviado una solicitud para deshabilitar el servicio de Autenticación de Factor Doble de tu monedero:",
             "header":"Solicitud de Restablecimiento de Autenticación de Factor Doble"
          },
-         "tip_reversible":"Este pago puede ser revertido por el remitente hasta que sea reclamado.",
-         "password_hints":{
-            "p1":"Has recibido este correo porque se ha solicitado ver las sugerencias de contraseña de tu monedero.",
-            "second_hint":"Sugerencia de la contraseña secundaria:",
-            "main_hint":"Sugerencia de la contraseña principal:",
-            "header":"Sugerencias de contraseña de Mi Monedero"
+         "tx":{
+            "header_sent":"Notificación de Envíos de Pago",
+            "sent_p1":"Se envió un pago desde su monedero",
+            "received_p1":"Has recibido un pago en tu monedero",
+            "header_received":"Notificación de Recepción de Pago"
          },
+         "tip_reversible":"Este pago puede ser revertido por el remitente hasta que sea reclamado.",
          "confirmation_code":{
             "p1":"Se ha hecho un intento de iniciar sesión a tu cuenta desde la siguiente IP {0}. Si es correcto, introduce el código de confirmación que figura aquí abajo para acceder a tu monedero.  De lo contrario, haz caso omiso de este correo.",
             "header":"Se requiere confirmación"
          },
+         "password_hints":{
+            "p1":"Has recibido este correo porque se ha solicitado ver las sugerencias de contraseña de tu monedero.",
+            "main_hint":"Sugerencia de la contraseña principal:",
+            "second_hint":"Sugerencia de la contraseña secundaria:",
+            "header":"Sugerencias de contraseña de Mi Monedero"
+         },
+         "tip_backup":"Haz una copia de seguridad de tu monedero utilizando Dropbox. Es gratuito, seguro y fácil de usar.",
          "wallet_backup":{
             "p1":"Adjunto a este correo se encuentra una copia de respaldo de tu monedero encriptada en AES con todo lo que necesitas para restablecer tu balance de Bitcoin. Puedes utilizarlo para restablecer tu monedero en cualquier momento en {0} o utilizando un cliente de escritorio externo {1}.",
             "header":"Copia de Seguridad del Monedero"
          },
-         "tip_backup":"Haz una copia de seguridad de tu monedero utilizando Dropbox. Es gratuito, seguro y fácil de usar.",
          "your_wallet_identifier":"El Identificador de tu Monedero es:",
          "welcome":{
             "notifications_enabled":"Las notificaciones se encuentran habilitadas",
@@ -1037,15 +1046,6 @@
             "header":"Cuenta Bloqueada"
          }
       },
-      "blocks":{
-         "blocks_found_by":"Bloques recientes resueltos por {0}",
-         "title1":"Bloques recientes resueltos por {0}",
-         "hash":"Hash",
-         "relayed_by":"Resuelto por",
-         "title2":"Bloques Minados en",
-         "next":"Siguiente",
-         "mined_on":"Bloques Minados en:"
-      },
       "largest_transactions":{
          "title":"Mayores Transacciones de Bitcoin - Blockchain.info",
          "meta_description":"Una lista de las mayores transacciones de Bitcoin recientes",
@@ -1054,14 +1054,24 @@
       "pools":{
          "sub_header":"Una estimación de la distribución de las tasas de hash entre los pools de minería de mayor tamaño",
          "title":"Distribución de tasas de hash de Bitcoin - Blockchain.info",
-         "known_blocks":"Bloques Conocidos",
          "meta_description":"Este gráfico circular muestra la distribución de la tasa de hash entre los distintos pools de mineras de Bitcoin",
+         "known_blocks":"Bloques Conocidos",
          "count":"Conteo",
          "relayed_by":"Resuelto por",
          "p1":"El siguiente gráfico muestra la cuota de mercado de los pools de minería más populares. Se debe considerar únicamente como estimación aproximada ya que por diversas razones no son 100% exactos.",
          "unknown_blocks":"Bloques Desconocidos",
-         "header":"Distribución de tasas de hash",
-         "warning":"Una gran parte de bloques desconocidos no representan necesariamente un ataque sino simplemente que aún no han sido reconocidos."
+         "warning":"Una gran parte de bloques desconocidos no representan necesariamente un ataque sino simplemente que aún no han sido reconocidos.",
+         "header":"Distribución de tasas de hash"
+      },
+      "header":{
+         "home_title":"Inicio - Blockchain.info",
+         "home":"Inicio",
+         "stats_title":"Estadísticas de Bitcoin",
+         "logo_alt_title":"Explorador de bloques de Bitcoin y Estadísticas Monetarias",
+         "charts_title":"Gráficos de Bitcoin",
+         "developer_title":"API de Bitcoin para desarrolladores",
+         "wallet_title":"Mi Monedero",
+         "wallet":"Monedero"
       },
       "wallet_new":{
          "proceed_to_login":"Continuar al Inicio de Sesión",
@@ -1077,26 +1087,16 @@
          "please_read":"Por favor, lee nuestro {0} y {1}",
          "title":"Mi Monedero",
          "wallet_created":"¡Nuevo Monedero creada!",
-         "password_strength_p1":"Se requiere una contraseña de al menos 10 caracteres de longitud para garantizar que, incluso si nuestra base de datos se ve comprometida, tu monedero seguirá estando seguro. Una contraseña de 10 caracteres de longitud tardará normalmente más de 1000 años en ser descifrada.",
          "dont_forget_password_p1":"Ya que no almacenamos tu contraseña, si es necesario, deberías anotarla en un medio físico ya que no existe proceso de recuperación en caso de olvido u extravío",
-         "sub_header1":"Crea una contraseña segura antes de continuar",
-         "wallet_created_p1":"Tu monedero fue creada exitosamente. Es importante que mantengas seguros tanto el identificador como la contraseña de tu monedero. Sólo somos capaces de ayudarte a recuperar el identificador si nos proporcionas  una dirección de correo electrónico válida. ¡No  podemos ayudarte a recuperar contraseñas perdidas!",
-         "email_placeholder":"Dirección de Correo Electrónico",
+         "password_strength_p1":"Se requiere una contraseña de al menos 10 caracteres de longitud para garantizar que, incluso si nuestra base de datos se ve comprometida, tu monedero seguirá estando seguro. Una contraseña de 10 caracteres de longitud tardará normalmente más de 1000 años en ser descifrada.",
          "captcha":"Código CAPTCHA:",
+         "email_placeholder":"Dirección de Correo Electrónico",
+         "wallet_created_p1":"Tu monedero fue creada exitosamente. Es importante que mantengas seguros tanto el identificador como la contraseña de tu monedero. Sólo somos capaces de ayudarte a recuperar el identificador si nos proporcionas  una dirección de correo electrónico válida. ¡No  podemos ayudarte a recuperar contraseñas perdidas!",
+         "sub_header1":"Crea una contraseña segura antes de continuar",
          "alias_sub":"Puedes elegir un sobrenombre para tu monedero con el que podrás acceder en lugar de utilizar tu identificador.",
          "restore_link_title":"Puedes restaurar este monedero en cualquier momento visitando la página:",
-         "alias_placeholder":"Frase memorable o apodo",
-         "dont_forget_password":"¡No olvides tu contraseña!"
-      },
-      "header":{
-         "home_title":"Inicio - Blockchain.info",
-         "home":"Inicio",
-         "stats_title":"Estadísticas de Bitcoin",
-         "logo_alt_title":"Explorador de bloques de Bitcoin y Estadísticas Monetarias",
-         "charts_title":"Gráficos de Bitcoin",
-         "wallet_title":"Mi Monedero",
-         "developer_title":"API de Bitcoin para desarrolladores",
-         "wallet":"Monedero"
+         "dont_forget_password":"¡No olvides tu contraseña!",
+         "alias_placeholder":"Frase memorable o apodo"
       },
       "misc":{
          "unknown_exception":"Excepción desconocida",
@@ -1105,10 +1105,10 @@
       },
       "footer":{
          "nodes_connected":"Nodos Conectados",
-         "enable":"habilitar",
          "advanced":"Vista Avanzada:",
-         "disable":"deshabilitar",
+         "enable":"habilitar",
          "ok":"en buen estado",
+         "disable":"deshabilitar",
          "about_and_contact":"Acerca de la página y direcciones de contacto:",
          "not_connected":"Desconectado"
       },
@@ -1127,15 +1127,15 @@
          "my_wallet_n_tx":"Número de transacciones por día de Mi Monedero",
          "network_deficit":"Déficit de la Red",
          "trade_vol2":"Este gráfico muestra el volumen de comercio en dólares de los mercados más importantes.",
-         "n_transactions_excluding_popular2":"Este gráfico muestra el número total de transacciones de bitcoin únicas por día excluyendo las transacciones con participación entre las 100 más populares",
          "errors":{
             
          },
-         "total_bitcoins_label":"Bitcoins Totales (BTC)",
-         "my_wallet_n_users_label":"Cantidad de usuarios",
+         "n_transactions_excluding_popular2":"Este gráfico muestra el número total de transacciones de bitcoin únicas por día excluyendo las transacciones con participación entre las 100 más populares",
          "cost_percent_per_transaction":"Costo porcentual del Volumen de Transacciones",
-         "total_received_to_address":"Total recibido a la Dirección Bitcoin:",
+         "my_wallet_n_users_label":"Cantidad de usuarios",
+         "total_bitcoins_label":"Bitcoins Totales (BTC)",
          "estimated_transaction_volume2":"Similar al volumen de transacciónes total con la adición de un algoritmo que intenta quitar las variaciones a partir del valor total. Esto puede ser un reflejo más exacto del volumen de transacciones reales.",
+         "total_received_to_address":"Total recibido a la Dirección Bitcoin:",
          "day_average_7":"Promedio de 7 días",
          "operating_margin_label":"Porcentaje de Beneficio Operativo",
          "my_wallet_n_users2":"Número de monederos que utilizan nuestro servicio Mi Monedero",
@@ -1165,11 +1165,11 @@
          "number_of_addresses":"Número de Direcciones",
          "my_wallet_n_users":"Número de usuarios de Mi Monedero",
          "my_wallet_transaction_volume_label":"Volumen de Transacción (BTC)",
-         "transaction_fees2":"Estos gráficos muestran el valor total de las comisiones por transacción en BTC que los mineros ganan por día.",
          "estimated_transaction_volume_usd":"Volumen estimado de las transacciones en USD",
+         "transaction_fees2":"Estos gráficos muestran el valor total de las comisiones por transacción en BTC que los mineros ganan por día.",
          "estimated_transaction_volume_usd2":"Volumen estimado de transacciones en valor de USD.",
-         "miners_revenue_label":"Beneficio de los mineros (BTC)",
          "transaction_fees_label":"Comisiones de Transacción (BTC)",
+         "miners_revenue_label":"Beneficio de los mineros (BTC)",
          "days_destroyed_cumulative":"Jornadas Bitcoin Perdidas acumuladativos",
          "estimated_transaction_volume_label":"Volumen Transaccional (BTC)",
          "hash_rate2":"El número estimado de gigahashes por segundo (miles de millones de hashes por segundo) que la red de Bitcoin está procesando",
@@ -1184,22 +1184,22 @@
          "network_deficit_label":"Déficit de la Red (USD)",
          "my_wallet_n_tx2":"Número de transacciones realizadas por los usuarios de Mi Monedero por día.",
          "avg_confirmation_time":"Promedio de espera para confirmar transacción",
-         "sub_header":"Varios Gráficos y Estadísticas Monetarias de Bitcoin",
-         "output_volume2":"El valor total de todas las transacciones de salida por día, incluyendo las monedas que fueron devueltas al remitente como cambio.",
          "total_bitcoins2":"Este gráfico muestra el número total histórico de bitcoins que han sido minados.",
+         "output_volume2":"El valor total de todas las transacciones de salida por día, incluyendo las monedas que fueron devueltas al remitente como cambio.",
+         "sub_header":"Varios Gráficos y Estadísticas Monetarias de Bitcoin",
          "trade_vol_label":"Volumen del Comercio (USD)",
          "n_transactions2":"Un gráfico de la cantidad total de transacciones Bitcoin únicas por día.",
          "total_receive_per_day":"Total de BTCs recibidos por día:",
-         "days_destroyed_filter_year":"Jornadas Bitcoin Perdidas (Filtrado por mínimo de 1 Año de Antigüedad)",
          "trade_vol":"Volumen de Comercio de cambio de dólares",
+         "days_destroyed_filter_year":"Jornadas Bitcoin Perdidas (Filtrado por mínimo de 1 Año de Antigüedad)",
          "network_deficit2":"Muestra la diferencia entre los gastos de transacción y los costos de la minería Bitcoin.",
          "hash_rate":"Tasa de Hash",
          "blockchain_size2":"El tamaño total de todos las transacciones y encabezados de bloque. No se incluyen los índices de base de datos.",
          "market_cap":"Capitalización de Mercado",
-         "btc_received":"BTCs recibidos",
          "transactions_per_block":"Operaciones por Bloque",
-         "mywallet_balance_over_time":"Mi Monedero: Balance en el Tiempo",
+         "btc_received":"BTCs recibidos",
          "miners_revenue2":"Este gráfico histórico  muestra el número de bitcoins minado por día más gastos de transacción multiplicado por el precio de mercado.",
+         "mywallet_balance_over_time":"Mi Monedero: Balance en el Tiempo",
          "days_destroyed_filter_week":"Jornadas Bitcoin Perdidas filtrado por mínima de 1 Semana de Antigüedad",
          "transaction_fees_usd":"Comisión de las Transacciones en USD",
          "days_destroyed_cumulative2":"Jornadas Bitcoin Perdidas se refiere a una medida de volumen de transacciones de Bitcoin. Si alguien tiene en su poder 100 BTC que recibió hace una semana y luego los gasta, 700 Jornadas Bitcoin se pierden. Si se toman los 100BTC y se los envía a varias direcciones y luego los gasta, aunque el volumen total de la transacción puede ser arbitrariamente grande, el número de las jornadas Bitcoin perdidas sigue siendo de 700.",
@@ -1207,6 +1207,12 @@
          "my_wallet_transaction_volume":"Volumen de transacción de Mi Monedero",
          "n_transactions_excluding_popular":"Número de transacciones excluyendo las direcciones  más populares",
          "estimated_transaction_volume_usd_label":"Volumen de Transacción (USD)"
+      },
+      "strange_transactions":{
+         "sub_header":"Transacciones que contienen salidas de la que no hemos podido reconocer una dirección Bitcoin.",
+         "title":"Transacciones Extrañas - Blockchain.info",
+         "meta_description":"Lista de bitcoin con salidas no estándar",
+         "header":"Transacciones Extrañas"
       },
       "block_height":{
          "sub_header":"Bloques a la altura de {0} en la cadena de bloques de Bitcoin",
@@ -1222,32 +1228,9 @@
          "error_fetching_blocks":"Error desconocido al tratar de obtener bloques de la base de datos",
          "header":"Altura del Bloque: {0}",
          "meta_description":"Bloques a la altura de {0} en la cadena de bloques de Bitcoin",
-         "output_total":"Salida Total",
          "relayed_by":"Retransmitido por",
+         "output_total":"Salida Total",
          "no_blocks":"No se encontraron bloques a esta altura"
-      },
-      "strange_transactions":{
-         "sub_header":"Transacciones que contienen salidas de la que no hemos podido reconocer una dirección Bitcoin.",
-         "title":"Transacciones Extrañas - Blockchain.info",
-         "meta_description":"Lista de bitcoin con salidas no estándar",
-         "header":"Transacciones Extrañas"
-      },
-      "notifications":{
-         "two_factor_reset_title":"Restablecer la Autenticación de Factor Doble",
-         "notifications_limit":"Límite de Notificaciones",
-         "payment_sent_body":"Has enviado un pago en Bitcoins con valor {0} (Aprox: {1})",
-         "payment_received_title":"Pago de Bitcoins recibido",
-         "sms_authentication_code":"Código de autenticación de Mi Monedero: {0}",
-         "payment_sent_title":"Pago de Bitcoins enviado",
-         "notifications_limit_body":"Las notificaciones se han deshabilitado debido a que has alcanzado el límite",
-         "account_locked_title":"Tu cuenta ha sido bloqueada",
-         "malformed_url":"Las notificaciones se han deshabilitado debido a que se ha intentado enviar una alerta electrónica a una url con formato incorrecto",
-         "wallet_backup_title":"Respaldo de Mi Monedero",
-         "confirmation_code_title":"Código de confirmación de Mi Monedero",
-         "password_hints_title":"Sugerencias de contraseñas de Mi Monedero",
-         "payment_received_body":"Has recibido un pago en bitcoins con valor {0} (Aprox: {1})",
-         "wallet_login":"Inicio de sesión de Mi Monedero",
-         "wallet_welcome_title":"Bienvenido a Mi Monedero"
       },
       "address":{
          "invalid_hash_160":"Lo sentimos, pero este no es un hash 160 válido",
@@ -1267,14 +1250,31 @@
          "no_address_provided":"No se proporcionó dirección",
          "invalid_address":"Lo sentimos, pero esta no es una dirección de Bitcoin válida",
          "double_spend_warning":"¡Advertencia! esta dirección de Bitcoin incurre a gastos duplicados. Ten mucho cuidado al realizar o recibir transacciones de esta dirección",
-         "too_large_to_filter":"Este libro de direcciones es demasiado grande y no ha podido ser filtrado",
+         "title":"Dirección de Bitcoin {0}",
          "table_transactions":{
             "number_of_transactions":"Número de transacciones",
             "unspent_inputs":"Entradas no utilizadas"
          },
-         "title":"Dirección de Bitcoin {0}",
+         "too_large_to_filter":"Este libro de direcciones es demasiado grande y no ha podido ser filtrado",
          "no_transactions":"No se encontraron transacciones provenientes de esta dirección. Es probable que aún no se haya utilizado",
          "deposit_with_cash":"Depositar en efectivo"
+      },
+      "notifications":{
+         "two_factor_reset_title":"Restablecer la Autenticación de Factor Doble",
+         "notifications_limit":"Límite de Notificaciones",
+         "payment_sent_body":"Has enviado un pago en Bitcoins con valor {0} (Aprox: {1})",
+         "payment_received_title":"Pago de Bitcoins recibido",
+         "sms_authentication_code":"Código de autenticación de Mi Monedero: {0}",
+         "payment_sent_title":"Pago de Bitcoins enviado",
+         "notifications_limit_body":"Las notificaciones se han deshabilitado debido a que has alcanzado el límite",
+         "account_locked_title":"Tu cuenta ha sido bloqueada",
+         "malformed_url":"Las notificaciones se han deshabilitado debido a que se ha intentado enviar una alerta electrónica a una url con formato incorrecto",
+         "wallet_backup_title":"Respaldo de Mi Monedero",
+         "confirmation_code_title":"Código de confirmación de Mi Monedero",
+         "password_hints_title":"Sugerencias de contraseñas de Mi Monedero",
+         "wallet_login":"Inicio de sesión de Mi Monedero",
+         "payment_received_body":"Has recibido un pago en bitcoins con valor {0} (Aprox: {1})",
+         "wallet_welcome_title":"Bienvenido a Mi Monedero"
       },
       "ip_log":{
          "last_connected":"Última conexión",
@@ -1287,8 +1287,8 @@
          "search_placeholder":"Dirección IP o Nombre del Dispositivo"
       }
    },
+   "code":"es",
    "properties":{
       "extends":"auto_spanish"
-   },
-   "code":"es"
+   }
 }
