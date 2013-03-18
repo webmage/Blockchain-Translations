@@ -1707,7 +1707,12 @@
             "deposit_processed": "Ihre Überweisung über {0} wurde verarbeitet. Danke, {1}",
             "amount_btc": "Menge BTC",
             "minimum_order": "Minimal",
-            "maximum_order": "Maximal"
+            "maximum_order": "Maximal",
+            "order_success": "Auftrag erfolgreich abgeschlossen - Ihre Bitcoins sind auf dem Weg. Wenn Sie sie nicht erhalten oder irgendwelche anderen Fragen zu Ihren Auftrag haben kontaktieren Sie uns bitte.",
+            "order_error": "Fehler beim Verarbeiten der Zahlung oder sie wurde vom Benutzer abgebrochen - Ihr Konto wurde nicht belastet. Sie können das Dialogfeld schließen.",
+            "order_paid": "Danke für die Bestätigung, dass die Zahlung gesendet wurde. Die Zahlungen gehen in der Regel innerhalb von einer Minute bis zu 4 Stunden bei uns ein. Eine Bestätigungs-SMS-Nachricht wird nach Abschluss gesendet. Wenn Sie diese nicht erhalten oder irgendwelche anderen Fragen zu Ihren Auftrag haben, kontaktieren Sie uns bitte.",
+            "make_shared": "Mixer verwenden?",
+            "shared_help": "Die Bitcoins werden durch unser Mixing-Service geschickt. Dadurch werden Überweisungen nicht verfolgbar."
         }
     }
 }
