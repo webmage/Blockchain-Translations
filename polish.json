@@ -245,7 +245,6 @@
          }
       },
       "errors":{
-         "missing_parameter":"Brakujący parametr",
          "invalid_block_hash":"Nieprawidłowy hasz bloku",
          "invalid_numerical_value":"Niepoprawna wartość numeryczna",
          "block_not_found":"Blok nie znaleziony"

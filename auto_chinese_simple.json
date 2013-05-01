@@ -102,6 +102,7 @@
          "disconnected":"断开连接",
          "transactions":{
             "sub_header":"您最近的交易综述",
+            "filter_unspendable":"Unspendable（默认）",
             "sent":"发送",
             "compact":"紧凑",
             "escrow":"中介",
@@ -142,6 +143,7 @@
             "sms_message":"SMS消息",
             "for_example":"例如：",
             "multiple_ip_comma_seperated":"应该是逗号分隔的多个IP地址。",
+            "block_tor_ips_description":"启用以下选项来防止IP地址的一部分，TOR的匿名网络访问你的钱包。",
             "automatic_email_backups":"自动电子邮件备份",
             "sms_notifications":"SMS通知",
             "boxcar_description_p2":"电子邮件如下：",
@@ -175,6 +177,7 @@
             "email_notifications_description":"您将通过电子邮件收到通知。如果你还没有的话，请确认您的电子邮件地址。",
             "main_password":"主密码",
             "never_remember_two_factor_description":"双因素身份验证很短的一段时间，让您再次登录，而无需重新进行身份验证，您的浏览器将记住登录后的默认。如果你想禁用此行为，并要求充分验证每次选中下面的框。",
+            "google_authenticator_p2":"扫描QR码之后的Google Authenticator应用程式的输入验证码如下：",
             "security_warning_continue":"继续",
             "integrity_check_run":"运行检查",
             "enter_sms_code":"输入验证SMS消息内包含的代码。",
@@ -215,6 +218,7 @@
             "show_hide_pairing_code":"显示\/隐藏配对码。",
             "language_description":"设置您的首选语言以下",
             "three_confirmations":"3确认",
+            "block_tor_ips":"阻止TOR IP地址",
             "google_authenticator_description":"打开的Google Authenticator应用程式和扫描QR下面的代码来完成配对过程。",
             "five_confirmations":"5确认",
             "one_confirmation":"1确认",
@@ -222,6 +226,7 @@
             "yubikey_description":"与您的帐户中，选择要配对键下面的文本框中，按您的yubikey设备上的绿色LED按钮。",
             "email":"电子邮件",
             "notifications":"通知",
+            "google_authenticator_enabled":"谷歌Authenticator已被启用",
             "inactivity_30_minutes":"30分钟",
             "alias_placeholder":"昵称或其他难忘的字",
             "two_factor_authentication":"双因素身份认证",
@@ -234,6 +239,11 @@
             "sends":"发送比特币",
             "forgot_password_warning":"警告！",
             "password_notice":"你的密码是从来没有在任何形状或形式与我们的服务器共享。这意味着你的钱包仍然是安全的，在我们的服务器被入侵的事件。然而，这意味着没有密码重设功能。",
+            "pbkdf2_iterations":{
+               "iterations":"迭代",
+               "p1":"PBKDF2是一种功能延伸所需的努力来猜解密码增加。较高的迭代次数为更好然而，您可能会注意到您的浏览器放缓。",
+               "header":"PBKDF2迭代"
+            },
             "email_notifications":"电子邮件通知",
             "four_confirmations":"4确认",
             "password_mnemonic_description":"可以用来恢复你的钱包密码，如果忘记了密码助记符。如果没有助记符，有没有办法，我们可以帮助恢复忘记的密码。在不断变化的钱包密码的助记符会发生变化。",
@@ -292,6 +302,7 @@
             "backup":"备份"
          },
          "modals":{
+            "insufficient_funds_adjust_amount":"调整金额",
             "scan_qr_code":"扫描QR码",
             "add_watch_only_address_p3":"如果你是一个的Bitcoin的地址和一个私钥之间的差异不明确的，那么这可能不是您想要的选项。",
             "add_watch_only_address_p1":"请确认添加{0}地址{1}。",
@@ -325,9 +336,12 @@
             "version":"版本",
             "confirm_delete":"确认删除",
             "address_book_label_help":"输入这个地址的标签。例如的人的姓名或公司名称。",
+            "insufficient_funds_p2":"本次交易可以被取消。或发送量可以调整，以匹配可发送的最大金额。",
+            "insufficient_funds_p1":"本次交易不能被发送，因为有资金不足等。这可能是由于额外的的矿工费用或未经证实的交易。",
             "address_placeholder":"Bitcoin的地址",
             "send_via_email_h3":"发送{1} {0} BTC",
             "outputs":"输出",
+            "insufficient_funds_title":"资金不足",
             "confirm_delete_warning":"删除不正确的地址，造成的经济损失。如果你不知道你在做什么新闻，现在取消",
             "claim_title":"您收到的比特币！",
             "continue_btn":"继续",
@@ -340,6 +354,7 @@
             "claim_zero_balance":"这个比特币地址的余额是零。支付可能已经被人认领或发送方的交易被逆转。",
             "total_fees":"总费用",
             "verify_message_placeholder":"进入的消息来验证",
+            "insufficient_funds_required":"要求：",
             "password_change":"确认密码更改",
             "offline_instructions":"要完成交易的开放式{0}。复制并粘贴到文本区域，然后按下面的文字提交到完成交易。<\/ P>",
             "send_via_email_sub":"下面的消息将被发送给收件人。",
@@ -357,6 +372,7 @@
             "close":"关闭",
             "sweep_to":"扫到：",
             "add_address":"新增地址",
+            "insufficient_funds_available":"可用：",
             "transaction_information":"交易信息",
             "main_password_needed":"主要需要密码",
             "label_placeholder":"标签例如储",
@@ -377,13 +393,14 @@
             "nodes_connected":"连接的节点",
             "login_to_my_wallet":"登录到我的钱包",
             "created_offline_p1":"您的交易已成功创建，但还没有到P2P网络广播。",
+            "insufficient_funds_cancel_transaction":"取消交易",
             "compressed_private_key_p1":"压缩的私钥目前不支持使用Android应用程序，iPhone应用程序或商人API。如果您直接进口一个压缩的私人密钥，你将无法使用上面列出的设备花费的资金在该地址。",
             "address_not_synced_p2":"除非私钥被保存在别处任何未同步地址发送到的硬币将被永久丢失后注销",
             "network_percent":"％的网络",
             "please_confirm":"请确认您想{0}",
+            "compressed_private_key_p2":"建议的解决方案是现有的比特币地址来扫去的资金投入。你想，而不是来扫去这家私人密钥吗？",
             "watch_only_warning":"仅观看地址警告",
             "label_address_p1":"请输入一个地址标签{0}",
-            "compressed_private_key_p2":"建议的解决方案是现有的比特币地址来扫去的资金投入。你想，而不是来扫去这家私人密钥吗？",
             "address_not_synced_p1":"新生成的地址没有被保存在我们的服务器上。",
             "label_address":"标签地址",
             "add_address_book_entry":"地址簿条目",
@@ -426,11 +443,12 @@
             "two_factor_authentication_not_enabled":"双因素身份验证您的帐户上未启用",
             "captcha_incorrect":"验证码不正确",
             "error_updating_email":"错误更新电子邮件",
+            "error_block_tor_ips_updated":"错误更新TOR IP地址块。",
             "error_updating_password_hint":"更新密码提示错误",
             "reminder_recently_sent":"最近发送的提醒消息。",
             "email_code_incorrect":"电邮验证码不正确",
-            "please_verify_email":"请确认您的电子邮件帐户设置",
             "error_updating_notification_settings":"更新通知设置错误",
+            "please_verify_email":"请确认您的电子邮件帐户设置",
             "error_updating_alias":"错误更新别名",
             "payload_null":"严重的错误！该有效载荷似乎是空的",
             "unauthorized":"擅自",
@@ -457,6 +475,7 @@
             "two_factor_enabled_no_email":"双因素身份验证已启用，但您还没有添加的电子邮件。",
             "error_unsubscribing":"钱包的标识符或电子邮件代码是不正确的。你还没有被退订",
             "error_creating_two_factor_reset_request":"创建双因素身份验证复位请求时出错",
+            "tor_ip_addresses_blocked":"TOR的IP地址被封锁从这个钱包。",
             "invalid_ip_address":"无效的IP地址",
             "error_updating_secret_phrase":"错误更新密语",
             "email_updated_eror_sending_link":"电子邮件更新。但是遇到错误时发送确认链接。",
@@ -466,6 +485,7 @@
             "invalid_payload":"无效的有效载荷",
             "unknown_currency_code":"未知的货币代码",
             "error_saving_to_google_drive":"错误保存到谷歌驱动器",
+            "authorization_required_by_email":"需要授权。请检查您的电子邮件。",
             "error_updating_skype":"错误更新的Skype用户名",
             "account_locked_for_minutes":"帐户被锁定另一个{0}分钟。",
             "account_locked":"此帐户已被锁定",
@@ -474,6 +494,7 @@
             "error_updating_yubikey":"错误更新yubikey",
             "login_attempts_left":"{0}的登录尝试离开",
             "two_factor_authentication_request_declined":"双因素身份验证复位请求被拒绝",
+            "google_secret_null":"谷歌秘密为null",
             "wallet_already_exists":"钱包已经存在",
             "wallet_size_restricted":"钱包被限制在1MB大小的",
             "error_validating_yubikey":"错误验证Yubikey",
@@ -674,7 +695,7 @@
             "brain_wallet_title":"脑钱包",
             "import_paper_btn":"带摄像头的扫描",
             "desktop_sync_title":"桌面客户端同步",
-            "desktop_sync_instructions":"请安装{0}谷歌浏览器或{1} Mozilla Firefox和苹果Safari浏览器（V> = 1.9）。",
+            "desktop_sync_instructions":"请安装{0}为谷歌Chrome浏览器。",
             "watch_only_btn":"只观看地址",
             "export_p1":"下面是您的私人密钥的AES加密技术。"
          },
@@ -683,6 +704,7 @@
             "forgotten_something":"忘记了什么？",
             "resend_link_btn":"重新发送链接",
             "download_backup_btn":"下载备份",
+            "add_email_reminder":"提醒：添加到您的帐户的电子邮件。",
             "password_hints_btn":"密码提示",
             "resend_link_p1":"的电子邮件将被发送从wallet@blockchain.info。一定要检查您的垃圾邮件文件夹。如果您仍然无法找到邮件，请点击下面的按钮重新发送。",
             "resend_sms_link_btn":"重新发送信息",
@@ -701,6 +723,7 @@
             "email_code_help":"包含一个临时的确认代码的电子邮件已经发送到您的帐户。",
             "resend_link_title":"无法找到您的电子邮件地址的代码吗？",
             "forgotten_identifier_btn":"被遗忘的标识符",
+            "verify_email_reminder":"提醒：请确认您的电子邮件。",
             "forgotten_something_sub":"请帮助我！我自己锁在我的帐户",
             "two_factor_reset":"双因素身份验证复位",
             "google_authenticator":"谷歌验证程序：",
@@ -728,9 +751,10 @@
             "confirmation_email_sent":"确认邮件已发送",
             "two_factor_reset_request_submitted":"复位双因素身份认证的请求已提交。",
             "notification_settings_updated":"更新通知设置",
+            "block_tor_ips_updated":"更新TOR IP地址设置。",
             "logging_level_updated":"更新日志记录级别。",
-            "email_updated":"电子邮件更新",
             "yubikey_updated":"Yubikey成功更新",
+            "email_updated":"电子邮件更新",
             "unsubscribed":"您的电子邮件已取消订阅的所有通知",
             "wallet_synced":"钱包成功地与服务器同步",
             "google_secret_generated":"谷歌秘密生成",
@@ -816,10 +840,11 @@
          "sub_header":"关于比特币交易的信息",
          "minutes":"分钟",
          "received_time":"收稿时间",
+         "network_propagation":"网络传播（点击查看）",
          "fees":"费用",
          "estimated_very_soon":"很快",
-         "network_propagation":"网络传播（点击查看）",
          "decoded":"解码",
+         "tx_unspendable":"本次交易不能呆了！",
          "header":"交易",
          "size":"大小",
          "double_spend":{
@@ -842,6 +867,7 @@
          "missing_parameter":"Mising参数",
          "invalid_block_hash":"无效的区块哈希值",
          "invalid_numerical_value":"无效的数值",
+         "quota_exceeded":"超出配额",
          "block_not_found":"阻止未找到"
       },
       "rejected":{
@@ -956,6 +982,9 @@
             "paper_wallets":"纸钱包"
          },
          "introduction_video":"Bitcoin的介绍查看",
+         "anonymous":{
+            
+         },
          "merchants":{
             "title":"全球招商",
             "p2":"比特币商人的完整列表，可以发现在",
@@ -1016,6 +1045,13 @@
          "p1":"将下面的代码头部分的页面。"
       },
       "emails":{
+         "authorize_login":{
+            "title":"授权登录尝试",
+            "p3":"如果此登录尝试是由你可以放心地忽略此电子邮件，但是你可能想改变你的钱包别名。",
+            "p2":"如果上面的信息是正确的，请使用以下登录链接：",
+            "p1":"从一个名不见经传的浏览器尝试登录到您的blockchain.info钱包。请确认以下信息是正确的：",
+            "header":"授权登录尝试"
+         },
          "two_factor_reset_request":{
             "p4":"这是可能有人试图，恶意访问到你的比特币钱包。请不要忽略这一请求。",
             "p3":"如果此请求不是由你拒绝这个请求，请打开下面的网址：",
@@ -1046,6 +1082,12 @@
             "p1":"这封电子邮件是一个AES加密的钱包备份，它包含了你需要恢复你的Bitcoin的平衡。你可以用它来恢复钱包随时{0}或{1}使用第三方桌面客户端。",
             "header":"钱包备份"
          },
+         "login_blocked":{
+            "title":"登录尝试受阻",
+            "p2":"如果此登录尝试这封电子邮件是由你可以放心地忽略。但是，如果这个登录尝试不是由你也许有人试图访问你的钱包，在这种情况下，访问被封锁。",
+            "p1":"试图访问我的钱包帐户已被封锁。为了你自己的安全，请查看下面的详细信息：",
+            "header":"登录尝试受阻"
+         },
          "your_wallet_identifier":"你的钱包标识符是：",
          "welcome":{
             "notifications_enabled":"启用通知",
@@ -1053,6 +1095,7 @@
             "notifications":"通知：",
             "alias":"别名：",
             "p1":"这封邮件包含重要的信息，新的比特币钱包。从您的密码，一定要保持这个安全并单独存放。",
+            "verification_link":"验证链接：",
             "confirmation_code":"验证码：",
             "header":"欢迎光临我的钱包",
             "login_link":"登录友情链接："
@@ -1080,7 +1123,6 @@
       },
       "wallet_new":{
          "disclaimer":"放弃",
-         "email_sub":"如果您希望我们向您发送电子邮件链接发送给你新的电子钱包，请在下面输入您的电子邮件地址。",
          "password_strength":"密码强度",
          "anonymity_policy":"一位不愿透露姓名政策",
          "password":"密码：",
@@ -1091,6 +1133,7 @@
          "confirm_password":"确认密码：",
          "mnemonic_modal_title":"密码恢复记忆",
          "wallet_created":"新的电子钱包创建！",
+         "email_help_block":"我们会向您发送电子邮件链接到您的新钱包。",
          "optional":"可选",
          "mnemonic_modal_p2":"如果没有助记符我们不能帮助恢复被遗忘的密码，并在<b>您的所有比特币的损失。<\/b>",
          "password_strength_p1":"我们需要至少10个字符长度的密码，以确保即使我们的数据库被攻破，你的钱包就会保持安全。长度为10个字符的密码将在1000年进行解密。",
@@ -1119,8 +1162,10 @@
          "home":"首页",
          "stats_title":"Bitcoin的统计资料",
          "logo_alt_title":"Bitcoin的块探险家和货币统计",
+         "markets":"市场",
          "developer":"开发人员",
          "stats":"统计资料",
+         "markets_title":"Bitcoin的市场",
          "charts_title":"Bitcoin的图",
          "wallet_title":"比特币钱包",
          "developer_title":"Blockchain开发工具",
@@ -1394,6 +1439,15 @@
          "included_in_block":"块包含在{0}",
          "header":"双破费",
          "warning":"双花此页可能是无意的。在此页上列出的恶意制作的，双花是没有任何迹象表明它是成功的，或任何商家或用户，结果赔了钱。"
+      },
+      "unspent_outputs":{
+         "title":"未用的输出{0}",
+         "meta_description":"所有未使用的比特币的列表输出，属于{0}。",
+         "locked_outputs":"锁定输出",
+         "unspendable":"Unspendable！",
+         "locked_outputs_desc":"锁定输出输出已被标记暂时unspendable的blockchain.info。这通常是因为一个事务支出其中一个输出刚刚播出。锁定输入自动解锁后，约10分钟。",
+         "locked":"锁定！",
+         "header":"未用的输出"
       },
       "relayed_by":{
          "associated_ips":"相关的IP地址",
@@ -1669,7 +1723,8 @@
             "taint_analysis":"污点分析",
             "view_analysis":"查看分析",
             "short_link":"短链接",
-            "related_tags":"相关标签"
+            "related_tags":"相关标签",
+            "unspent_outputs":"未用的输出"
          },
          "bitcoin_address":"Bitcoin的地址",
          "confirmed_only":"确认，",
@@ -1694,7 +1749,7 @@
             "total_received":"总的接收"
          },
          "confirmed":"已确认",
-         "meta_description":"交易发送和接收的比特币地址",
+         "meta_description":"交易发送和接收的比特币地址{0}。",
          "oldest_first":"（最老的最前）",
          "no_transactions":"没有找到这个地址的交易，它有可能不被用在网络上。",
          "deposit_with_cash":"现金存款"

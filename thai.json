@@ -188,7 +188,7 @@
          "estimated_possibly_never":"อาจจะไม่เคย (Double Spend)"
       },
       "errors":{
-         "missing_parameter":"ที่ขาดหายไปพารามิเตอร์"
+         
       },
       "rejected":{
          "sub_header":"การทำธุรกรรมและบล็อกถูกปฏิเสธโดยโหนด Bitcoin ของเรา"

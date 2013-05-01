@@ -199,12 +199,14 @@
         "header": {
             "home_title": "Blockchain.info Home",
             "charts": "Charts",
+            "markets" : "Markets",
             "home": "Home",
             "stats_title": "Bitcoin Stats",
             "logo_alt_title": "Bitcoin block explorer and currency statistics",
             "developer": "Developers",
             "stats": "Stats",
             "charts_title": "Bitcoin Charts",
+            "markets_title": "Bitcoin Markets",
             "wallet_title": "Bitcoin Wallet",
             "developer_title": "Blockchain Developer Tools",
             "wallet": "Wallet",
@@ -286,6 +288,7 @@
             "included_in_blocks" : "Included In Blocks",
             "minutes" : "minutes",
             "confirmations" : "Confirmations",
+            "tx_unspendable" : "This transaction cannot be spent!",
             "estimated_time" : "Estimated Confirmation Time",
             "estimated_possibly_never" : "Possibly Never (Double Spend)",
             "estimated_very_soon" : "Very Soon",
@@ -324,9 +327,18 @@
             "confirmations" : "Confirmations",
             "double_spend" : "Double Spend!"
         },
+        "unspent_outputs" : {
+            "title" : "Unspent Outputs {0}",
+            "meta_description" : "A list of all unspent bitcoin outputs belonging to {0}.",
+            "header" : "Unspent Outputs",
+            "locked_outputs" : "Locked Outputs",
+            "locked_outputs_desc" : "Locked outputs are outputs which have been marked temporarily unspendable by blockchain.info. This is usually because a transaction spending one of these outputs has just been broadcast. Locked inputs automatically unlock after approximately 10 minutes.",
+            "unspendable" : "Unspendable!",
+            "locked" : "Locked!"
+        },
         "address" : {
             "title" : "Bitcoin Address {0}",
-            "meta_description" : "Transactions sent and received from bitcoin address ",
+            "meta_description" : "Transactions sent and received from bitcoin address {0}.",
             "bitcoin_address" : "Bitcoin Address",
             "sub_header" : "Addresses are identifiers which you use to send bitcoins to another person.",
             "double_spend_warning" : "Warning! this bitcoin address contains transactions which may be double spends. You should be extremely careful when trusting any transactions to or from this address.",
@@ -337,7 +349,8 @@
                 "tools" : "Tools",
                 "related_tags" : "Related Tags",
                 "taint_analysis" : "Taint Analysis",
-                "view_analysis" : "View Analysis"
+                "view_analysis" : "View Analysis",
+                "unspent_outputs" : "Unspent Outputs"
            },
            "table_transactions" : {
                 "title" : "Transactions",
@@ -510,7 +523,7 @@
             "fav_recommendation" : "It is recommended you add this to your favourites now.",
             "email" : "Email",
             "email_placeholder" : "Email Address",
-            "email_sub" : "If you would like us to email you a link to you new wallet please enter your email address below.",
+            "email_help_block" : "We will email you a link to your new wallet.",
             "alias" : "Alias",
             "alias_placeholder" : "Memorable word or nickname",
             "alias_sub" : "You can choose a alias for your wallet which you can login with instead of using an identifier.",
@@ -574,6 +587,11 @@
                     "privacy" : "Privacy",
                     "logging" : "Logging",
                     "devices" : "Devices"
+                },
+                "pbkdf2_iterations" : {
+                    "header" : "PBKDF2 Iterations",
+                    "p1" : "PBKDF2 is a function which stretches your password increasing the effort required to bruteforce it. A higher number of iterations is better however you may notice a slow down of your browser.",
+                    "iterations" : "Iterations"
                 },
                 "time" : "Time",
                 "action" : "Action",
@@ -688,9 +706,11 @@
                 "two_factor_authentication_not_enabled" : "Two factor authentication is not enabled on your account",
                 "yubikey_description" : "To pair your key with your account select the text box below and press the green LED button on your yubikey device.",
                 "email_description" : "You will receive authentication codes via email.",
+                "google_authenticator_enabled" : "Google Authenticator is enabled",
                 "google_authenticator_description" : "Open the Google Authenticator app and scan the QR code below to complete the pairing process.",
                 "google_authenticator_warning" : "You may be locked out of your account if you leave this page without pairing with the mobile app or disabling Google Authenticator.",
-                "secret_phrase" : "Secret Phrase",
+                "google_authenticator_p2" : "After scanning the above QR code with the google authenticator app enter the authentication code below:",
+                 "secret_phrase" : "Secret Phrase",
                 "secret_phrase_description" : "A secret phrase can be used to help us verify your identity in case of a lost wallet identifier or yubikey. It can be a single word or sentence up to 255 characters in length.",
                 "always_keep_local_backup" : "Always Keep Browser Backup",
                 "always_keep" : "Always Keep",
@@ -703,6 +723,8 @@
                 "my_wallet_verifier_description" : "If you are concerned about security we highly recommend you install the {0} browser extension. The My Wallet verifier can help protect against server side hacking, malicious javascript and phishing attacks.",
                 "restrict_to_ip" : "Restrict To IP",
                 "restrict_to_ip_description" : "Enable this to restrict access to your wallet to a specific ip address or multiple ip addresses comma separated. Only enable this if you have a static ip address. You will not be able to login or access any API's from any computers not on the specified network however the mobile apps will continue to function once paired.",
+                "block_tor_ips" : "Block TOR ip addresses",
+                "block_tor_ips_description" : "Enable the following option to prevent ip addresses part of the TOR anonymizing network from accessing your wallet.",
                 "lock_to_ip" : "Lock To IP:",
                 "multiple_ip_comma_seperated" : "Multiple ip addresses should be comma separated.",
                 "current_ip" : "Current IP:",
@@ -806,7 +828,9 @@
                 "forgot_password_btn" : "Forgot Password",
                 "need_help" : "Need Help?",
                 "need_help_p1" : "Read our {0}",
-                "support_pages" : "Support Pages"
+                "support_pages" : "Support Pages",
+                "add_email_reminder" : "Reminder: Add an email to your account.",
+                "verify_email_reminder" : "Reminder: Verify your email."
             },
             "transactions" : {
                 "header" : "Transactions",
@@ -816,6 +840,7 @@
                 "view" : "View",
                 "filter" : "Filter",
                 "all" : "All",
+                "filter_unspendable" : "Unspendable (Default)",
                 "sent" : "Sent",
                 "received" : "Received",
                 "escrow" : "Escrow",
@@ -946,7 +971,7 @@
                 "desktop_sync_title" : "Desktop Client Sync",
                 "desktop_sync_p1" : "This tool enables you to sync your wallet with the official desktop client available from bitcoin.org.",
                 "desktop_sync_step1" : "Step 1. Install The Browser Extension",
-                "desktop_sync_instructions" : "Please install the {0} available for Google Chrome or the {1} available for Mozilla Firefox and Apple Safari (V >= 1.9 required).",
+                "desktop_sync_instructions" : "Please install the {0} available for Google Chrome.",
                 "installed_refresh_page" : " Once installed please refresh this page.",
                 "desktop_sync_step2" : "Step 2. Enable Bitcoin RPC",
                 "desktop_sync_step2_p1" : " In order for your browser to talk to your desktop client your must enable the bitcoin RPC server in the bitcoin.conf file. If the file does not exist you must create it. For Example:",
@@ -1041,6 +1066,13 @@
                 "ask_for_shared_warning" : "Do not accept if you expect to receive payment back to the sending address. Shared transactions are incompatible with SatoshiDICE, BitLotto and many other bitcoin games.",
                 "never_ask_again" : "Never ask me again.",
                 "continue_without" : "Continue Without",
+                "insufficient_funds_title" : "Insufficient Funds",
+                "insufficient_funds_p1" : "This transaction cannot be sent because there are insufficent funds available. This may be due to additional miners fees or unconfirmed transactions.",
+                "insufficient_funds_p2" : "The transaction can either be cancelled. Or the amount to send can be adjusted to match the maximum amount available to send.",
+                "insufficient_funds_adjust_amount" : "Adjust Amount",
+                "insufficient_funds_cancel_transaction" : "Cancel Transaction",
+                "insufficient_funds_required" : "Required:",
+                "insufficient_funds_available" : "Available:",
                 "miners_fee_recommended" : "Miners Fee Recommended",
                 "miners_fee_recommended_p1" : "This transaction is low priority. It is recommended you include at least a 0.0005 BTC transaction fee in order to ensure miners process it.",
                 "miners_fee_recommended_warning" : "If you do not include a fee this transaction may take a long time to get confirmed. Any funds will be returned to you in approximately 24 hours.",
@@ -1089,6 +1121,7 @@
                 "restore_backup_instructions_title" : "Restore Backup Instructions"
             },
             "errors" : {
+                "authorization_required_by_email" : "Authorization Required. Please check your email.",
                 "account_locked" : "This account has been locked",
                 "invalid_sms_number" : "Invalid SMS Number",
                 "wallet_already_exists" : "Wallet Already Exists",
@@ -1098,9 +1131,11 @@
                 "unknown_identifier" : "Unknown Wallet Identifier. Please check you entered it correctly.",
                 "authentication_code_incorrect" : "Authentication code is incorrect",
                 "authentication_code_used_already" : "This authentication code has been used before",
+                "google_secret_null" : "Google Secret Is Null",
                 "authentication_code_invalid" : "Invalid authentication code",
                 "error_validating_yubikey" : "Error Validating Yubikey",
                 "account_locked_to_another_ip" : "This Account Is Locked To Another IP Address.",
+                "tor_ip_addresses_blocked" : "TOR ip addresses are blocked from this wallet.",
                 "error_creating_two_factor_reset_request" : "Error creating two factor authentication reset request",
                 "mobile_identifier_not_found" : "Wallet identifier not found. Your wallet is not saved on our server yet. Please setup a new account to avoid losing your wallet.",
                 "email_address_invalid" : "Email Address Invalid",
@@ -1128,7 +1163,8 @@
                 "wallet_size_restricted" : "Wallets are restricted to 1MB in size",
                 "error_saving_wallet" : "Error saving wallet",
                 "checksum_invalid" : "Checksum did not validate",
-                "error_updating_ip_lock" : "Error Updated IP Lock",
+                "error_updating_ip_lock" : "Error updating IP Lock",
+                "error_block_tor_ips_updated" : "Error updating TOR ip address block.",
                 "checksum_reread_failed" : "Wallet was updated, however checksum did not validate on re-read! This is a serious error, please contact {0}",
                 "invalid_ip_address" : "Invalid IP Address",
                 "error_updating_ip_address" : "Error Updating Ip Addresses",
@@ -1184,6 +1220,7 @@
                 "notification_settings_updated" : "Notifications settings updated",
                 "two_factor_authentication_updated" : "Two factor authentication settings updated.",
                 "logging_level_updated" : "Logging level updated.",
+                "block_tor_ips_updated" : "TOR ip address settings updated.",
                 "google_secret_generated" : "Google Secret Generated",
                 "skype_updated" : "Skype Username updated",
                 "email_updated" : "Email Updated",
@@ -1547,6 +1584,19 @@
                 "header" : "Confirmation Required",
                 "p1" : "An attempt has been made to login to your My wallet account from ip address {0}. Enter the confirmation code below to access your account. If it was not you who made this login attempt you can ignore this email."
             },
+            "authorize_login" : {
+                "title" : "Authorize log-in attempt",
+                "header" : "Authorize log-in attempt",
+                "p1" : "An attempt to login to your blockchain.info wallet was made from an unknown browser. Please confirm the following details are correct:",
+                "p2" : "If the above details are correct please use the following login link:",
+                "p3" : "If this login attempt was made by you this email can be safely ignored however you may wish to change your wallet alias."
+            },
+            "login_blocked" : {
+                "title" : "Login attempt blocked",
+                "header" : "Login attempt blocked",
+                "p1" : "An attempt to access your My Wallet account has been blocked. For your own security please review the details below:",
+                "p2" : "If this login attempt was made by you this email can be safely ignored. However if this login attempt was not made by you somebody may be trying to access your wallet, in this case access was blocked."
+            },
             "wallet_backup" : {
                 "header" : "Wallet Backup",
                 "p1" : "Attached to this email is an AES encrypted wallet backup which contains everything you need to restore your bitcoin balance. You can use it to restore the wallet at anytime at {0} or using the 3rd party {1} Desktop client. "
@@ -1574,6 +1624,7 @@
                 "header" : "Welcome To My Wallet",
                 "p1" : "This email contains important information about your new bitcoin wallet. Be sure to keep this safe and stored separately from your password.",
                 "login_link" : "Login Link:",
+                "verification_link" : "Verification Link:",
                 "notifications" : "Notifications:",
                 "alias" : "Alias:",
                 "confirmation_code" : "Confirmation Code:",
@@ -1704,7 +1755,8 @@
             "invalid_block_hash" : "Invalid Block Hash",
             "block_not_found" : "Block Not Found",
             "missing_parameter" : "Missing Parameter",
-            "unknown_error" : "Unknown Error"
+            "unknown_error" : "Unknown Error",
+            "quota_exceeded" : "Quota Exceeded"
         }
     }
 }
