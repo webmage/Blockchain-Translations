@@ -4,8 +4,8 @@
    "strings":{
       
    },
+   "code":"tr",
    "properties":{
       "extends":"auto_turkish"
-   },
-   "code":"tr"
+   }
 }
