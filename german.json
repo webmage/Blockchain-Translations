@@ -654,20 +654,20 @@
             "charts_analytics":"Charts und Analysen",
             "double_encryption":"Doppelte Verschlüsselung",
             "charts_analytics_img_title":"Eingebaute Charts & Analytics",
-            "charts_analytics_p1":"Erstellen Sie Diagramme und Berichte über die aktuellsten Bitcoin Transaktionen. Betrachten Sie Ihren Kontostand im Verlauf der Zeit, die Anzahl der Transaktionen und den Umsatz pro Tag.",
-            "payment_notifications_p1":"Erhalten Sie Benachrichtigungen, wenn eine Zahlung gesendet oder von Ihrem Bitcoin-Wallet erhalten wurde. Die durchschnittliche Verzögerung zwischen Zahlung und Meldungen ist weniger als 50ms. Wenn Sie in ihrem My Wallet angemeldet sind und eine Zahlung erhalten, erklingt ein Signalton und die Anzeige wird sofort aktualisiert - ohne das die Seite neu geladen werden muss.",
+            "charts_analytics_p1":"Erstellen Sie Diagramme und Berichte über die aktuellsten Bitcoin-Transaktionen. Betrachten Sie Ihren Kontostand im Verlauf der Zeit, die Anzahl der Transaktionen und den Umsatz pro Tag.",
+            "payment_notifications_p1":"Erhalten Sie Benachrichtigungen, wenn eine Zahlung gesendet oder von Ihrem Bitcoin-Wallet erhalten wurde. Die durchschnittliche Verzögerung zwischen Zahlung und Meldungen beträgt weniger als 50ms. Wenn Sie in ihrem My Wallet angemeldet sind und eine Zahlung erhalten, erklingt ein Signalton und die Anzeige wird sofort aktualisiert - ohne das die Seite neu geladen werden muss.",
             "payment_notifications":"Zahlungs-Benachrichtigungen",
             "one_click_backups":"Ein-Klick Backups",
-            "payment_notifications_skype":"Bitcoin Zahlungs-Benachrichtigungen per Skype",
-            "payment_notifications_gtalk":"Bitcoin Zahlungs-Benachrichtigungen per Google Talk",
-            "double_encryption_p1":"Bevor Ihr Bitcoin-Wallet zu unsere Server übertragen wird, wird es direkt im Browser mittels AES 256-Bit verschlüsselt. Ihr Passwort wird nie zu uns übertragen - dadurch haben wir keine Möglichkeit Ihr Wallet zu öffnen. Zusätzlich dazu gibt es noch die optionale Möglichkeit das Bitcoin Wallet so zu sichern, dass ausgehende Transaktionen ein zweites Passwort benötigen. Falls das noch immer nicht genug an Sicherheit für Sie bedeutet, gibt es noch eine Vielzahl an Two-Factor Logins wie zum Beispiel Mt.Gox Yubikeys.",
+            "payment_notifications_skype":"Bitcoin-Zahlungsbenachrichtigungen per Skype",
+            "payment_notifications_gtalk":"Bitcoin-Zahlungsbenachrichtigungen per Google Talk",
+            "double_encryption_p1":"Bevor Ihr Bitcoin-Wallet an unsere Server übertragen wird, wird es direkt im Browser mittels AES 256-Bit verschlüsselt. Ihr Passwort wird nie zu uns übertragen - dadurch haben wir keine Möglichkeit, Ihr Wallet zu öffnen. Zusätzlich dazu gibt es noch die optionale Möglichkeit, das Bitcoin Wallet so zu sichern, dass ausgehende Transaktionen ein zweites Passwort benötigen. Falls das noch immer nicht genug an Sicherheit für Sie bedeutet, gibt es noch eine Vielzahl an Two-Factor Logins wie zum Beispiel Mt.Gox Yubikeys.",
             "mobile_support_p2":"Wenn Ihr Telefon verloren geht oder gestohlen wird, ist Ihr Wallet dennoch sicher auf unseren Servern verwahrt.",
             "mobile_support_p1":"Unsere Web-Interface unterstützt alle gängigen Smartphones, wie",
             "one_click_backups_p1":"Wir bemühen uns Ihre Wallet sicher zu verwahren. Trotzdem sollten Sie nie auf ein eigenes Backup verzichten. Mittels eines Knopfdruckes können Sie Ihre verschlüsseltes Wallet gemailt, auf Ihre Dropbox-Konto oder lokal gespeichert bekommen. Dadurch haben Sie, auch wenn blockchain.info einen Datenverlust erleidet oder offline geht, immer noch Zugriff auf Ihr Geld."
          },
          "deposit":{
             "title":"Sofort überweisen",
-            "p1":"Überweisen sie Bitcoins in sekundenschnelle direkt in Ihr My Wallet. Mittels Bank Transfer, Bargeld Überweisung, Barclays PingIt oder Mehrwertnummer. Verfügbar in den USA, UK und mehr als 100 Länder weltweit."
+            "p1":"Überweisen sie Bitcoins in Sekundenschnelle direkt in Ihr My Wallet. Mittels Bank Transfer, Bargeld Überweisung, Barclays PingIt oder Mehrwertnummer. Verfügbar in den USA, UK und mehr als 100 Länder weltweit."
          },
          "p2":"Wir sind keine Bank - Sie behalten volle Kontrolle über ihr Geld. Wir können weder ihren Kontostand einsehen, noch Transaktionen in Ihrem Namen durchführen.",
          "try_demo_account":"Testen sie den Demo-Zugang",
@@ -675,11 +675,11 @@
             "p2":"Einsteiger FAQs"
          },
          "p1":"My Wallet ist eine kostenlose online Bitcoin-Brieftasche. Sie können mit dieser weltweit kostenlose Zahlungen durchführen. Wir machen das Bezahlen mit Bitcoins einfach und sicher - egal ob mit Smartphone oder PC.",
-         "techradar_quote":"Bis 2015 könnte Bargeld einer bedrohte Tierart ähneln",
+         "techradar_quote":"Bis 2015 könnte Bargeld einer bedrohten Tierart ähneln",
          "security":{
             "title":"Sicher",
             "p3":"My Wallet baut auf die Sicherheit des Bitcoin-Netzwerkes und bietet dadurch eine Vielzahl von Funktionen, die Ihnen helfen Ihr Geld sicher zu verwalten. Zum Beispiel",
-            "p2":"zur Verschlüsselung und um Ihr Wallet vor Dieben und Hackern zu schützen. Das bemerkenswerte an unserer Implementierung ist, dass alles direkt im Browser erfolgt, bevor es überhaupt auf unsere Servern gelangt. Dadurch haben nicht einmal wir Zugriff auf Ihr Konto!",
+            "p2":"zur Verschlüsselung und um Ihr Wallet vor Dieben und Hackern zu schützen. Das bemerkenswerte an unserer Implementierung ist, dass alles direkt im Browser erfolgt, bevor es überhaupt auf unsere Server gelangt. Dadurch haben nicht einmal wir Zugriff auf Ihr Konto!",
             "p1":"Blockchain.info benutzt den Industrie-Standard",
             "paper_wallets":"Paper Wallets"
          },
@@ -687,7 +687,7 @@
             "title":"Anonym",
             "p3":"welches 100% anonym Transaktionen garantiert.",
             "p2":"My Wallet beinhaltet auch eine eingebautes",
-            "p1":"Alles was wir für ein Konto verlangen ist ein Passwort, es werden keine andere persönlichen Informationen benötigt. Es ist uns nicht möglich Ihre öffentlichen Schlüssel, Ihre Transaktionen oder Ihren Kontostand zu sehen.",
+            "p1":"Alles was wir für ein Konto verlangen ist ein Passwort, es werden keine andere persönlichen Informationen benötigt. Es ist uns nicht möglich, Ihre öffentlichen Schlüssel, Ihre Transaktionen oder Ihren Kontostand zu sehen.",
             "mixing_service":"mixing service"
          },
          "merchants":{
@@ -704,21 +704,21 @@
          },
          "tooltips":{
             "offline_transactions":"Offline-Transaktionen sind Bitcoin-Transaktionen, die ohne aktive Internet-Verbindung vorbereitet werden. Diese gelten als sicherer, da Ihr PC nicht direkt mit dem Internet verbunden sein muss.",
-            "paper_wallet":"Ein Paper Wallet ist ein ausdruckbares Dokument, welches alle nötigen Informationen beinhaltet um Zugriff auf ihre Bitcoins zu erhalten",
-            "aes":"Ein extrem starker Verschlüsselungs-Standard der von der US-Regierung verwendet wird und mittlerweile auch weltweit für VPNs und verschlüsselte Kommunikation verwendet wird",
-            "private_key":"Bitcoin-Adressen bestehen aus zwei Teilen. Der private Schlüssel ist der Teil, der Sie als Besitzer einer Adresse auszeichnet und benötigt wird um Geld abheben zu können. Dieser sollte unter allen Umständen sicher aufbewahrt werden.",
-            "remote_backup":"Remote Backup bedeutet, dass eine Kopie Ihres Wallets an einem anderen Ort als Ihren PC sicher verwahrt wird. Dies ist wichtig um auch nach einem Festplatten-Ausfall oder andersartigen Fehler noch Zugriff auf Ihre Bitcoins zu haben",
+            "paper_wallet":"Ein Paper Wallet ist ein ausdruckbares Dokument, welches alle nötigen Informationen beinhaltet, um Zugriff auf ihre Bitcoins zu erhalten",
+            "aes":"Ein extrem starker Verschlüsselungs-Standard, der von der US-Regierung und mittlerweile auch weltweit für VPNs und verschlüsselte Kommunikation verwendet wird",
+            "private_key":"Bitcoin-Adressen bestehen aus zwei Teilen. Der private Schlüssel ist der Teil, der Sie als Besitzer einer Adresse auszeichnet und benötigt wird, um Geld abheben zu können. Dieser sollte unter allen Umständen sicher aufbewahrt werden.",
+            "remote_backup":"Remote Backup bedeutet, dass eine Kopie Ihres Wallets an einem anderen Ort als Ihrem PC sicher verwahrt wird. Dies ist wichtig, um auch nach einem Festplatten-Ausfall oder andersartigen Fehler noch Zugriff auf Ihre Bitcoins zu haben",
             "paper_wallet_title":"Paper Wallet"
          },
          "features":{
             "free":"Kostenlose, keine Gebühren",
             "title":"Vielzahl an Funktionen",
-            "payment_notifications":"SMS & Email Meldungen bei Überweisungen",
+            "payment_notifications":"SMS- & Email-Meldungen bei Überweisungen",
             "client_side_encryption":"Sichere clientseitige Verschlüsselung",
             "p1":"Das fortschrittlichste online Wallet das es gibt",
-            "live_update":"Live-Updates ohne neuladen der Seite",
+            "live_update":"Live-Updates ohne Neuladen der Seite",
             "import_export":"Import \/ Export privater Schlüssel.",
-            "backups":"Mit der Möglichkeit eigenen Backups zu machen.",
+            "backups":"Mit der Möglichkeit, eigene Backups zu machen.",
             "full_list":"Hier finden sie eine vollständige Liste der Funktionen"
          },
          "create_my_free_wallet":"Gratis My Wallet erstellen"
@@ -755,7 +755,7 @@
          "top_tip":"Top Tip",
          "tip_reversible":"Diese Zahlung kann durch den Absender rückgängig gemacht werden, bis sie angenommen wird.",
          "confirmation_code":{
-            "p1":"Ein Versuch auf Ihr My Wallet-Konto zuzugreifen erfolgte von der IP-Adresse {0}. Geben Sie den Bestätigungscode unten ein, um auf Ihr Konto zuzugreifen. Wenn der Loginversuch nicht von Ihnen erfolgte, können Sie diese Nachricht ignorieren."
+            "p1":"Von der IP-Adresse {0} erfolgte ein Versuch, auf Ihr My Wallet-Konto zuzugreifen. Geben Sie den Bestätigungscode unten ein, um auf Ihr Konto zuzugreifen. Wenn der Loginversuch nicht von Ihnen erfolgte, können Sie diese Nachricht ignorieren."
          },
          "password_hints":{
             "p1":"Sie erhalten diese E-Mail, weil eine Anfrage gesendet wurde, um Ihre Hinweise für das Wallet Passwort anzuzeigen.",
@@ -765,7 +765,7 @@
          },
          "tip_backup":"Sichern Sie Ihr Bitcoin Wallet mit Dropbox. Es ist kostenlos, einfach zu bedienen und sicher.",
          "wallet_backup":{
-            "p1":"An diese E-Mail ist ein AES verschlüsseltes Wallet Backup angehängt, das alles beinhaltet was Sie benötigen, um Ihren Bitcoin Kontostand wiederherzustellen. Sie können das Backup verwenden, um das Wallet jederzeit auf {0} oder mit dem Drittanbieter {1} Desktop-Client wiederherzustellen.",
+            "p1":"An diese E-Mail ist ein AES verschlüsseltes Wallet Backup angehängt, das alles beinhaltet, was Sie benötigen, um Ihren Bitcoin-Kontostand wiederherzustellen. Sie können das Backup verwenden, um das Wallet jederzeit auf {0} oder mit dem Drittanbieter {1} Desktop-Client wiederherzustellen.",
             "header":"Wallet Backup"
          },
          "your_wallet_identifier":"Ihre Wallet Kennung lautet:",
@@ -778,40 +778,40 @@
          },
          "account_locked":{
             "p2":"Wenn diese Login-Versuche nicht von Ihnen vorgenommen wurden, wird empfohlen, dass Sie Ihr Passwort ändern, sobald das Konto wieder verfügbar ist. Wenn Sie besonders besorgt sind, kontaktieren Sie uns bitte und wir werden die Sperre verlängern.",
-            "p1":"Einige fehlgeschlagenen Versuche wurden unternommen, um sich zu Ihrem My Wallet-Konto anzumelden. Zu Ihrem eigenen Schutz wurden die neuen Login-Versuche bis {0} deaktiviert."
+            "p1":"Einige fehlgeschlagene Versuche wurden unternommen, um sich mit Ihrem My Wallet-Konto anzumelden. Zu Ihrem eigenen Schutz wurden die neuen Login-Versuche bis {0} deaktiviert."
          }
       },
       "pools":{
-         "sub_header":"Eine Abschätzung der Hashrate Verteilung unter den größten Mining-Pools",
+         "sub_header":"Eine Abschätzung der Hashrate-Verteilung unter den größten Mining-Pools",
          "title":"Bitcoin Hashrate Verteilung - Blockchain.info",
-         "meta_description":"Dieses Tortendiagramm zeigt die Hashrate Verteilung zwischen den größten Bitcoin-Mining-Pools",
+         "meta_description":"Dieses Tortendiagramm zeigt die Hashrate-Verteilung zwischen den größten Bitcoin-Mining-Pools",
          "count":"Anzahl",
          "relayed_by":"Weitergeleitet von",
-         "p1":"Das folgende Diagramm zeigt den Marktanteil der größten Bitcoin Mining-Pools. Es sollte jedoch nur für eine grobe Abschätzung verwendet werden und ist aus verschiedenen Gründen nicht zu 100% korrekt.",
-         "warning":"Ein Großteil der unbekannte Blöcke bedeutet nicht einen Angriff auf das Netzwerk, es bedeutet einfach, dass wir nicht in der Lage waren, die Herkunft zu bestimmen."
+         "p1":"Das folgende Diagramm zeigt den Marktanteil der größten Bitcoin Mining Pools. Es sollte jedoch nur für eine grobe Abschätzung verwendet werden und ist aus verschiedenen Gründen nicht zu 100% korrekt.",
+         "warning":"Eine Überzahl unbekannter Blöcke bedeutet nicht einen Angriff auf das Netzwerk; Es bedeutet einfach, dass wir nicht in der Lage waren, die Herkunft zu bestimmen."
       },
       "wallet_new":{
          "proceed_to_login":"Anmelden",
          "existing_account":"Wenn Sie bereits ein My Wallet-Konto haben {0}",
          "continue_btn":"Weiter",
          "email_sub":"Wenn Sie eine E-Mail-Adresse angeben, senden wir Ihnen einen Zugangs-Link für Ihr My Wallet",
-         "anonymity_policy":"Anonymitäts Richtlinie",
-         "password_strength":"Passwort Stärke",
+         "anonymity_policy":"Anonymitätsrichtlinie",
+         "password_strength":"Passwort-Stärke",
          "mnemonic_please_write_down":"Bitte notieren Sie sich Folgendes:",
          "header1":"Erstellen Sie eine neues Wallet.",
-         "alias_help_block":"Ein Alias oder Shortlink damit Sie das Wallet einfach wiederfinden.",
-         "fav_recommendation":"Es ist empfehlenswert den Link in zu den Browser-Favoriten hinzuzufügen.",
+         "alias_help_block":"Ein Alias oder Shortlink, damit Sie das Wallet einfach wiederfinden.",
+         "fav_recommendation":"Es ist empfehlenswert, den Link in zu den Browser-Favoriten hinzuzufügen.",
          "mnemonic_modal_title":"Gedächtnisstütze für Password-Wiederherstellung",
          "title":"Meine Wallet",
          "wallet_created":"Neues Wallet erstellt!",
          "optional":"Optional",
-         "password_strength_p1":"Wir benötigen ein Passwort mit mindestens 10 Zeichen, um sicherzustellen dass, selbst wenn unsere Datenbank in falsche Hände gerät ist Ihre Wallet nicht in Gefahr. Um ein Passwort mit 10 Zeichen zu entschlüsseln dauert es mehr als 1000 Jahre.",
+         "password_strength_p1":"Wir benötigen ein Passwort mit mindestens 10 Zeichen, um sicherzustellen, dass selbst wenn unsere Datenbank in falsche Hände gerät, Ihr Wallet gesichert bleibt. Um ein Passwort mit 10 Zeichen zu entschlüsseln, dauert es mehr als 1000 Jahre.",
          "mnemonic_modal_p2":"Ohne diese Gedächtnisstütze können wir Ihnen nicht bei der Wiederherstellung vergessener Passwörter helfen, was den <b>Verlust aller Ihrer Bitcoins bedeutet!.<\/b>",
          "dont_forget_password_p1":"WARNUNG: Vergessene Passwörter sind NICHT WIEDERHERSTELLBAR und führen zum <b>Verlust aller Ihrer Bitcoins!<\/b>",
          "mnemonic_modal_p1":"Das Wallet wurde erfolgreich erstellt. Wenn Sie das Kennwort vergessen, können Sie die unten angegebene Gedächtnisstütze verwenden, um es wiederherzustellen.",
-         "wallet_created_p1":"Ihr neues My Wallet wurde erstellt. Es ist wichtig, dass sie die Kennung und das Passwort geheim halten. Wir sind nur dann in der Lage Ihre Kennung wiederherzustellen, wenn Sie eine gültige E-Mail-Adresse angegeben haben. Es besteht für uns keine Möglichkeit ein verlorenes Passwort wiederherzustellen!",
+         "wallet_created_p1":"Ihr neues My Wallet wurde erstellt. Es ist wichtig, dass sie die Kennung und das Passwort geheimhalten. Wir sind nur dann in der Lage, Ihre Kennung wiederherzustellen, wenn Sie eine gültige E-Mail-Adresse angegeben haben. Es besteht für uns keine Möglichkeit, ein verlorenes Passwort wiederherzustellen!",
          "sub_header1":"Wählen Sie einen Alias und ein sicheres Passwort für das neue Wallet",
-         "alias_sub":"Sie können einen Alias für Ihr Wallet angeben, mit diesem können Sie sich anstatt mit der Kennung anmelden.",
+         "alias_sub":"Sie können einen Alias für Ihr Wallet angeben, mit dem Sie sich anstatt der Kennung anmelden können.",
          "restore_link_title":"Sie können diese Wallet jederzeit wiederherstellen, indem Sie folgenden Link aufrufen:",
          "alias_placeholder":"Einprägsames Wort oder Nickname",
          "dont_forget_password":"Vergessen Sie Ihr Passwort nicht!"
@@ -830,21 +830,21 @@
          "meta_description":"Eine Liste der Bitcoins mit Nicht-Standard-Ausgängen"
       },
       "notifications":{
-         "notifications_limit":"Benachrichtigungs Limit",
+         "notifications_limit":"Benachrichtigungslimit",
          "two_factor_reset_title":"Zwei-Stufen-Authentifizierung zurücksetzen",
-         "payment_sent_body":"Eine Zahlung im Wert von {0} wurde von Ihrem Bitcoin-Wallet gesendet (zirka.: {1})",
+         "payment_sent_body":"Eine Zahlung im Wert von {0} wurde von Ihrem Bitcoin-Wallet gesendet (ca.: {1})",
          "confirmation_code_title":"My Wallet Bestätigungs-Code",
          "sms_authentication_code":"My Wallet Authentifizierungs-Code: {0}",
          "notifications_limit_body":"Sie haben Ihr Benachrichtigungslimit erreicht. Benachrichtigungen werden für 24 Stunden gesperrt",
          "account_locked_title":"Ihr My Wallet Konto wurde gesperrt",
          "payment_received_body":"Sie haben eine Bitcoin Zahlung im Wert von {0} empfangen (zirka: {1})",
          "wallet_login":"Wallet Login",
-         "malformed_url":"Sie haben versucht, eine E-Mail an eine fehlerhafte URL senden. Benachrichtigungen wurden deaktiviert.",
+         "malformed_url":"Sie haben versucht, eine E-Mail an eine fehlerhafte URL zu senden. Benachrichtigungen wurden deaktiviert.",
          "wallet_welcome_title":"Willkommen in Ihrem My Wallet"
       },
       "ip_log":{
          "total_unique":"Anzahl eindeutiger IP-Adressen:",
-         "sub_header":"Liste der Bitcoin Knoten, die mit blockchain.info in der Vergangenheit verbunden waren.",
+         "sub_header":"Liste der Bitcoin Nodes, die mit blockchain.info in der Vergangenheit verbunden waren.",
          "title":"Bitcoin-Nodes Log",
          "meta_description":"Eine Liste aller IP-Adressen, die mit dem Bitcoin Netzwerk verbunden haben.",
          "previous":"Zurück",
@@ -879,7 +879,7 @@
          },
          "sub_header":"Die aktuell gefundenen Blöcke in der Bitcoin Blockchain",
          "search_explain":"Hier können Sie nach Blockhöhe, Adresse, Blockhash, Transaktions-Hash, hash160 oder IPv4-Adresse suchen.",
-         "meta_description":"Bitcoin Block-Explorer & Währungs Statistik. Detaillierte Informationen zu allen Bitcoin Transaktionen und Blöcken.",
+         "meta_description":"Bitcoin Block-Explorer & Währungsstatistik. Detaillierte Informationen zu allen Bitcoin Transaktionen und Blöcken.",
          "table_headers":{
             "sent":"Insgesamt gesendet",
             "relayed":"Weitergeleitet von"
