@@ -578,7 +578,7 @@
          },
          "nav":{
             "home":"Inicio",
-            "import_export":"Importar \/ Xxportar"
+            "import_export":"Importar \/ Exportar"
          },
          "receive_money":{
             "sub_header":"Tus direcciones para recibir bitcoins",
