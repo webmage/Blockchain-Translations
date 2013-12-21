@@ -52,7 +52,7 @@
             "my_wallet_transaction_volume_label": "Transaction Volume (BTC)",
             "estimated_transaction_volume_usd": "Estimated USD Transaction Volume",
             "transaction_fees2": "A charts showing the total BTC value of transaction fees miners earn per day.",
-            "miners_revenue_label": "Miners Revenue (BTC)",
+            "miners_revenue_label": "Miners Revenue (USD)",
             "hash_rate2": "The estimated number of giga hashes per second (billions of hashes per second) the bitcoin network is performing.",
             "balance_of_address": "Balance of bitcoin address:",
             "days_destroyed_filter_year2": "Filtered by minimum input age of 1 year.",
@@ -127,6 +127,9 @@
             "meta_description": "The most popular charts and statistics about the bitcoin network. Number of transactions Per Day, Market Price, Volume charts etc.",
             "miners_revenue2": "Historical chart showing (number of bitcoins mined per day + transaction fees) * market price.",
             "market_price": "Market Price (USD)",
+            "n_orphaned_blocks": "Number Of Orphaned Blocks",
+            "n_orphaned_blocks2" : "Number of blocks mined per day not part of the main chain.",
+            "number_of_blocks" : "Number Of Blocks",
             "source": "Source: blockchain.info",
             "miners_revenue": "Miners Revenue",
             "all_time": "All Time",
@@ -136,7 +139,9 @@
             "tx_trade_ratio" : "Trade Volume vs Transaction Volume Ratio",
             "tx_trade_ratio2" : "Chart showing the relationship between BTC transaction volume and USD exchange volume.",
             "ratio" : "Ratio",
-            "discussion" : "Discussion"
+            "discussion" : "Discussion",
+            "difficulty" : "Difficulty",
+            "difficulty2" : "A chart showing difficulty changes over time. Difficulty is a measure of how difficult it is to find a new block compared to the easiest it can ever be."
         },
         "home": {
             "other_links": {
@@ -315,6 +320,7 @@
             "input_scripts" : "Input Scripts",
             "output_scripts" : "Output Scripts",
             "strange" : "Strange",
+            "null_script_or_error" : "Null script or error decoding",
             "ok" : "OK"
         },
         "transaction" : {
@@ -456,7 +462,7 @@
             },
             "deposit" : {
                 "title" : "Instant Deposits",
-                "p1" : "Deposit Bitcoins directly into your My Wallet account in seconds. Via Bank Transfer, Cash Deposit, Barclays PingIt or Phone Billing. Available in the US, UK and 100's of other countries worldwide."
+                "p1" : "Deposit Bitcoins directly into your My Wallet account in seconds thanks to our partners, via Bank Transfer, Cash Deposit, and more. Available in the US, UK and 100's of other countries worldwide."
             },
             "merchants" : {
                 "title" : "Worldwide Merchants",
@@ -596,7 +602,8 @@
                     "privacy" : "Privacy",
                     "logging" : "Logging",
                     "devices" : "Devices",
-                    "debugging" : "Debugging"
+                    "debugging" : "Debugging",
+                    "display" : "Display"
                 },
                 "pbkdf2_iterations" : {
                     "header" : "PBKDF2 Iterations",
@@ -644,6 +651,8 @@
                 "uri_handler_button" : "Register URI Handler",
                 "btc_currency" : "Bitcoin Display",
                 "btc_currency_description" : "Adjust the precision you would prefer bitcoin values to be displayed in.",
+                "transactions_per_page" : "Transactions Per Page",
+                "transactions_per_page_description" : "Set the number of transactions displayed per page",
                 "language" : "Language",
                 "language_description" : "Set your preferred language below",
                 "inactivity_logout" : "Inactivity Logout",
@@ -766,6 +775,7 @@
                 "deposit_description" : "The quickest and easiest way to deposit bitcoins into your account is to use the services below.",
                 "cash_deposit" : "Cash Deposit",
                 "deposit_with_bitstamp" : "Bitstamp Deposit",
+                "deposit_with_kraken" : "Kraken Deposit",
                 "pingit_deposit" : "PingIt Deposit",
                 "phone_deposit" : "Phone Deposit",
                 "sofort_deposit" : "Sofort Banking",
@@ -778,6 +788,9 @@
                 "account_settings" : "Account Settings",
                 "account_settings_description" : "Edit your account settings including email address, password and notification settings.",
                 "account_settings_btn" : "Account Settings",
+                "partners" : "Partners",
+                "partners_description" : "Spend Your Bitcoins!",
+                "shop_now" : "Shop Now!",
                 "backup_description" : "Backing up your wallet is an important step which is easy to forget. Blockchain.info takes every precaution to keep your wallet safe but it's always better to keep a local copy just in case."
             },
             "receive_money" : {
@@ -800,6 +813,8 @@
                 "bitcoin_address" : "Bitcoin Address",
                 "sweep_keys" : "Sweep Keys",
                 "sweep_keys_tooltip" : "Move any bitcoins in the selected keys to a different bitcoin address.",
+                "select_all" : "Select All",
+                "select_none" : "Select None",
                 "delete_keys" : "Delete Keys",
                 "delete_keys_tooltip" : "Delete the selected private keys.",
                 "shared_addresses" : "Shared Addresses",
@@ -826,9 +841,10 @@
                 "sms_code" : "SMS Code:",
                 "sms_code_help" : "A text message has been sent to your cell phone. Please enter the code in that message above.",
                 "open_wallet" : "Open Wallet",
+                "create_wallet" : "Create New Wallet",
                 "password_unrecoverable_warning" : "Your password is never shared with our servers and cannot be recovered if forgotten!",
                 "resend_link_title" : "Can't Find Your Email Code?",
-                "resend_link_p1" : "The email will be sent from wallet@blockchain.info. Be sure to check your spam folder. If you still can't find the email click the button below to resend it.",
+                "resend_link_p1" : "Be sure to check your spam folder. If you still can't find the email click the button below to resend it.",
                 "resend_link_btn" : "Resend Link",
                 "resend_sms_link_title" : "Did Not Receive An SMS Code?",
                 "resend_sms_link_p1" : "Please check your network signal. Messages can take up to 10 minutes to be delivered, if it has been over 10 minutes click the button below to resend the message.",
@@ -871,13 +887,16 @@
                 "transaction_types" : "Transaction Type",
                 "quick_send" : "Quick Send",
                 "custom" : "Custom",
-                "shared" : "Shared Send",
+                "shared_send" : "Shared Send",
+                "shared_coin" : "Shared Coin",
                 "escrow" : "Escrow",
                 "send_via" : "Send Via",
                 "email" : "Email",
                 "sms_message" : "SMS Message",
                 "games" : "Games",
                 "tools" : "Tools",
+                "shopping" : "Shopping",
+                "partners" : "Partners",
                 "address_book" : "Address Book",
                 "quick_send" : "Quick Send",
                 "quick_send_sub" : "Use the form below to send a payment to a bitcoin address.",
@@ -906,6 +925,11 @@
                 "send_shared_total" : "Including fees the total of this transaction is {0}",
                 "send_shared_bonus" : "There will be no fees for this transaction and a bonus of {0} will be paid.",
                 "send_shared_free" : "Shared send is currently free of charge.",
+                "shared_coin_t1" : "Shared Coin",
+                "shared_coin_sub" : "Trustless coin mixing using coin join and taint analysis",
+                "shared_coin_help_title" : "Something went wrong?",
+                "shared_coin_help_description" : "When sending a shared coin transaction a number of intermediate addresses are used. If anything interupts the process or an error prevents the transaction from completing the coins may be left in an intermediate address. Click the button below to claim any coins left in intermediate addresses, this process can take several minutes to complete.",
+                "shared_coin_recover" : "Recover Intermediate Addresses",
                 "review_payment" : "Review Payment",
                 "review_payment_tooltip" : "Click Here to review payment. You will be able to confirm or cancel the transaction.",
                 "shared_transaction_fees" : "All shared transactions incur a {0}% Fee.",
@@ -944,7 +968,14 @@
                 "facebook_help" : "Enter The Name of the facebook recipient",
                 "address_book" : "Address Book",
                 "address_book_sub" : "The address book contains a list of sending addresses. You can use it to store the bitcoin addresses of people you know or merchants you use frequently.",
-                "add_new_entry" : "Add New Entry"
+                "add_new_entry" : "Add New Entry",
+                "repetitions" : "Repetitions",
+                "repetitions_help" : "A higher number of repetitions makes the transaction more difficult to trace and improves privacy.",
+                "maximum_send_value" : "Maximum Send Value",
+                "minimum_send_value" : "Minimum Send Value",
+                "fee_percent_per_repetitions" : "Fee Percent Per Repetition",
+                "minimum_fee" : "Minimum Fee Per Repetition",
+                "new_app" : "New!",
             },
             "import_export" : {
                 "advanced_warning_title" : "Advanced Warning!",
@@ -1043,6 +1074,8 @@
                 "label" : "Label:",
                 "label_placeholder" : "Label e.g. Savings",
                 "label_help" : "A label is used to help you remember what this address is for. It can be the name of a person or company.",
+                "label_make_public" : "Make Public?",
+                "label_make_public_help" : "By Default address labels are visible to you only. Public labels are publically visible on the blockchain website and can be viewed by anyone.",
                 "sign_message" : "Sign Message",
                 "sign_message_sub" : "Use this tool to sign a message which proves that you own an address. Only Sign Detailed Messages you fully agree with, never sign vague messages. Pressing Sign Message may cause your browser to become unresponsive for a few seconds.",
                 "address" : "Address:",
@@ -1096,7 +1129,7 @@
                 "insufficient_funds_required" : "Required:",
                 "insufficient_funds_available" : "Available:",
                 "miners_fee_recommended" : "Miners Fee Recommended",
-                "miners_fee_recommended_p1" : "This transaction is low priority. It is recommended you include at least a 0.0005 BTC transaction fee in order to ensure miners process it.",
+                "miners_fee_recommended_p1" : "This transaction is low priority. It is recommended you include at least a 0.0001 BTC transaction fee in order to ensure miners process it.",
                 "miners_fee_recommended_warning" : "If you do not include a fee this transaction may take a long time to get confirmed. Any funds will be returned to you in approximately 24 hours.",
                 "continue_without_fee" : "Continue Without Fee",
                 "add_fee" : "Add Fee",
@@ -1153,7 +1186,10 @@
                 "import_private_key_warning" : "Import Private Key Warning",
                 "import_private_key_warning_p1" : "<b>Never import a private key from a public or untrusted source.</b> This includes common brain wallets, competitions and purchased private keys. Instead we recommend to sweep the key, which means to send all the funds to one of your existing addresses rather than actually adding a new address to your wallet.",
                 "please_wait" : "Please Wait...",
-                "decryption_magic" : "Key stretching. Please wait.."
+                "decryption_magic" : "Key stretching. Please wait..",
+                "shared_coin_modal_title" : "Shared Coin Transaction",
+                "shared_coin_in_progress_modal" : "Transaction in progress. Do not close this window or exit your browser.",
+                "shared_coin_transaction_error" : "An error occurred completing this shared coin transaction. For further information please check the javascript console."
             },
             "errors" : {
                 "authorization_required_by_email" : "Authorization Required. Please check your email for an approval link and refresh this page.",
@@ -1290,6 +1326,7 @@
             "third_party_apis" : "3rd Party API's",
             "welcome_p2" : "provided by other services.",
             "payment_processing" : "Payment Processing.",
+            "wallet_api" : "Blockchain Wallet APIs",
             "no_account_required" : "No Account Required",
             "view_documentation" : "View Documentation",
             "account_required" : "My Wallet Account Required",
@@ -1301,6 +1338,8 @@
             "send_description" : "Simple JSON api use to programmatically send and receive bitcoins from a My Wallet Account.",
             "json_rpc" : "Bitcoin-Qt Compatible JSON RPC",
             "json_rpc_description" : "Blockchain.info is able to function as a bitcoind RPC server for merchants to interact with their My Wallet Account.",
+            "create_wallet" : "Create Wallets",
+            "create_wallet_description" : "Programmatically create wallets for your users with the ability to load and redeem funds.",
             "up_time" : "Up Time",
             "up_time_description" : "Blockchain.info use a high availability database cluster and dedicated hardware for maximum up time and low response times.",
             "blockchain_data" : "Data on Transactions & Blocks",
@@ -1315,11 +1354,13 @@
             "charts_and_statistics" : "Charts and Statistics",
             "charts_and_statistics_description" : "JSON feed containing the data from the charts and stats pages.",
             "request_limits" : "Request Limits",
-            "request_limits_p1" : "for an API Code to bypass the request limiter please",
+            "request_limits_p1" : "For an API Code to bypass the request limiter please",
             "contact_us" : "contact us",
             "requests_in_8_hours" : "Requests in 8 Hours:",
             "requests_in_5_minutes" : "Requests in 5 minutes:",
-            "maximum" : "Maximum"
+            "soft_limit" : "Soft Limit",
+            "hard_limit" : "Hard Limit",
+            "request_api_code" : "Request An API Code"
         },
         "ip_log" : {
             "title" : "Bitcoin Nodes Log",
@@ -1566,7 +1607,14 @@
         "push_tx" : {
             "title" : "Broadcast Transaction - Blockchain.info",
             "header" : "Broadcast Transaction",
-            "p1" : "This page allows you to paste a raw transaction in hex (i.e. characters 0-9, a-f) this will then be checked it is valid and transmitted over the network.",
+            "p1" : "This page allows you to paste a raw transaction in hex format (i.e. characters 0-9, a-f) and broadcast is over the bitcoin network.",
+            "submit" : "Submit Transaction",
+            "check_tx_warning" : "<b>Tip:</b> Check your transaction before broadcasting using the {0}decode transaction tool{1}"
+        },
+        "decode_tx" : {
+            "title" : "Decode Bitcoin Transaction - Blockchain.info",
+            "header" : "Decode Raw Transaction",
+            "p1" : "This page will decode a raw transaction in hex format (i.e. characters 0-9, a-f) and display it in human readable format",
             "submit" : "Submit Transaction"
         },
         "rejected" : {
@@ -1626,7 +1674,7 @@
                 "header" : "Authorize log-in attempt",
                 "p1" : "An attempt to login to your blockchain.info wallet was made from an unknown browser. Please confirm the following details are correct:",
                 "p2" : "If the above details are correct click the following link to approve the request:",
-                "p3" : "If this login attempt was not made by you this email can be safely ignored. It means someone visited your wallet login page using your alias from an unrecognized browser. The login attempt was blocked, it does not mean your wallet or password is compromised, but it is recommended you change your wallet alias."
+                "p3" : "If this login attempt was not made by you this email can be safely ignored. It means someone visited your wallet login page using your alias from an unrecognized browser. The login attempt was blocked, it does not mean your wallet or password is compromised, but if the request was not made by you we recommend you change your wallet alias."
             },
             "login_blocked" : {
                 "title" : "Login attempt blocked",
@@ -1770,7 +1818,7 @@
             "to" : "To"
         },
         "redirect_page" : {
-            "title" : "You are being redirected",
+            "title" : "You are being redirected to an external site",
             "slow_page" : "If this page appears for more than a few seconds",
             "click_here" : "click here"
         },
@@ -1811,6 +1859,7 @@
             "block_not_found" : "Block Not Found",
             "missing_parameter" : "Missing Parameter",
             "unknown_error" : "Unknown Error",
+            "invalid_guid" : "Invalid GUID",
             "quota_exceeded" : "Quota Exceeded"
         }
     }
