@@ -21,21 +21,6 @@
          "header":"Direcciones populares",
          "number_of_outputs":"Número de salidas"
       },
-      "transaction":{
-         "fee":"Costo:",
-         "double_spend":"Pase doble!",
-         "output_decode_error":"No se puede descodificar dirección de salida",
-         "escrow":"Depósito",
-         "confirmations":"Confirmaciones",
-         "input_decode_error":"No se puede decodificar la dirección de entrada",
-         "no_inputs":"No Entradas (monedas de nueva creación)",
-         "unspent":"No gastado",
-         "unconfirmed_transaction":"Transacciones sin confirmar!",
-         "public_note":"Nota público:",
-         "spent":"Gastado",
-         "output":"Salida",
-         "size":"Tamaño:"
-      },
       "deposit":{
          "bank_name":"Nombre del banco",
          "small_package":"Paquete pequeño",
@@ -90,6 +75,21 @@
          "account":"Cuenta",
          "pingit_instructions_2":"El pago debe ser enviado desde {0}.",
          "minimum_order":"Orden mínima"
+      },
+      "transaction":{
+         "fee":"Costo:",
+         "double_spend":"Pase doble!",
+         "output_decode_error":"No se puede descodificar dirección de salida",
+         "escrow":"Depósito",
+         "confirmations":"Confirmaciones",
+         "input_decode_error":"No se puede decodificar la dirección de entrada",
+         "no_inputs":"No Entradas (monedas de nueva creación)",
+         "unspent":"No gastado",
+         "unconfirmed_transaction":"Transacciones sin confirmar!",
+         "public_note":"Nota público:",
+         "spent":"Gastado",
+         "output":"Salida",
+         "size":"Tamaño:"
       },
       "ip_info":{
          "sub_header":"Las transacciones que fueron transmitidos por primera vez por la ip {0}",
@@ -359,6 +359,7 @@
             "second_password_p1":"Esta acción requiere que se introduzca la contraseña segunda que es necesario descifrar completamente su cartera. Nunca se debe introducir la contraseña por segunda vez un equipo de confianza. Utilice el teclado en pantalla para proporcionar cierta protección contra keyloggers.",
             "second_password_needed":"Contraseña Segunda necesario",
             "version":"Versión",
+            "use_recommended_fee":"Utilice honorarios recomendados",
             "confirm_delete":"Confirmar eliminación",
             "second_password":"En segundo lugar contraseña",
             "address_book_label_help":"Introduzca la etiqueta para esta dirección. por ejemplo el nombre de la persona o nombre de la empresa.",
@@ -372,6 +373,7 @@
             "label_make_public":"Hacer pública?",
             "confirm_delete_warning":"Eliminación de una dirección incorrecta causará pérdidas económicas. Si no está seguro de lo que está haciendo ahora pulse cancelar",
             "claim_title":"Ha recibido bitcoins!",
+            "higher_fee_recommended":"Fee Superior Recomendados",
             "continue_btn":"Continuar",
             "send_transaction":"Enviar Transaction",
             "leaving_wallet":"Dejando Wallet",
@@ -422,8 +424,10 @@
             "claim_desktop_placeholder":"Su dirección Bitcoin",
             "confirm_delete_p1":"¿Está seguro que desea eliminar la dirección? Usted no será capaz de enviar o recibir bitcoins desde esta dirección. El saldo de esta dirección es la siguiente:",
             "miners_fee_recommended":"Cuota Mineros recomendados",
+            "use_custom_fee":"Utilice Honorario de encargo",
             "message_placeholder":"Introduzca el mensaje que desea firmar",
             "add_fee":"Añadir Fee",
+            "higher_fee_recommended_p1":"Ha especificado una tarifa de aduana de {0} sin embargo el honorario recomendado para esta transacción es {0}. ¿Le gustaría utilizar la cuota recomendada en su lugar?",
             "password_change_p1":"Su contraseña se actualizará inmediatamente. Asegúrese de anotar la nueva contraseña, ya que no se puede recuperar si se olvida! Si tiene copias de seguridad cifradas cartera se podrá descifrar usando su antigua contraseña, se recomienda quitar alguna de estas copias de seguridad.",
             "nodes_connected":"Nodos conectados",
             "login_to_my_wallet":"Login a Mi billetera",
@@ -979,6 +983,7 @@
          "tel":"Tel:",
          "privacy_policy":"Política de privacidad",
          "security":"Seguridad",
+         "blog":"Blog:",
          "please_read":"Por favor, lea la",
          "title":"¿Quienes somos? - Blockchain.info",
          "name":"Nombre:",
@@ -989,12 +994,13 @@
          "support":"Soporte:",
          "privacy":"Intimidad",
          "up_time":"Tiempo de",
-         "about_p1":"Blockchain.info es el más popular Bitcoin Bitcoin billetera y explorador bloque. A partir de enero de 2013, el sitio cuenta con más de 110.000 usuarios registrados.",
+         "about_p1":"Blockchain.info es más popular billetera bitcoin de Bitcoin y el bloque explorador. A partir de enero de 2014, el sitio cuenta con más de 1,1 millones de usuarios registrados y 200 millones de páginas vistas al mes.",
          "contact_us":"Contáctenos",
          "up_time_alt":"Hasta tiempo para blockchain.info: Últimos 30 días",
          "response_time":"Tiempo de respuesta",
          "response_time_alt":"Tiempo de respuesta para blockchain.info: Últimos 30 días",
          "email":"Correo electrónico:",
+         "blockchain_blog":"Blog Blockchain",
          "media":"Medios de comunicación",
          "media_sub_header":"Medios de Comunicación y Logotipos"
       },
@@ -1095,15 +1101,15 @@
          },
          "create_my_free_wallet":"Crear My Wallet gratis"
       },
-      "startup_message":{
-         "title":"Cargando la página web - Blockchain.info",
-         "p1":"En caso de estar de vuelta en unos pocos segundos. Incluso podría haber novedades.",
-         "header":"Sitio está cargando ..."
-      },
       "maintenance":{
          "title":"Sitio en Mantenimiento - Blockchain.info",
          "p1":"Blockchain.info está actualmente fuera de servicio por mantenimiento. Para obtener actualizaciones de estado consulte {0}. Pedimos disculpas por las molestias.",
          "header":"We Will Be Back Poco"
+      },
+      "startup_message":{
+         "title":"Cargando la página web - Blockchain.info",
+         "p1":"En caso de estar de vuelta en unos pocos segundos. Incluso podría haber novedades.",
+         "header":"Sitio está cargando ..."
       },
       "donation_button":{
          "title":"Crear botón Donación",
@@ -1193,22 +1199,6 @@
          "header":"Hashrate Distribución",
          "days_4":"4 días"
       },
-      "header":{
-         "home_title":"Inicio Blockchain.info",
-         "home":"Casa",
-         "charts":"Gráficos",
-         "stats_title":"Bitcoin Estadísticas",
-         "logo_alt_title":"Bitcoin bloque de explorador y las estadísticas monetarias",
-         "markets":"Mercados",
-         "stats":"Estadísticas",
-         "developer":"Desarrolladores",
-         "markets_title":"Bitcoin Mercados",
-         "charts_title":"Bitcoin Gráficos",
-         "developer_title":"Blockchain Herramientas para desarrolladores",
-         "wallet_title":"Bitcoin Wallet",
-         "wallet":"Cartera",
-         "search_placeholder":"Buscar"
-      },
       "wallet_new":{
          "disclaimer":"Renuncia",
          "password_strength":"Contraseñas",
@@ -1245,6 +1235,22 @@
          "captcha":"CAPTCHA:",
          "dont_forget_password":"No olvide su contraseña!",
          "alias_placeholder":"Memorable palabra o apodo"
+      },
+      "header":{
+         "home_title":"Inicio Blockchain.info",
+         "home":"Casa",
+         "charts":"Gráficos",
+         "stats_title":"Bitcoin Estadísticas",
+         "logo_alt_title":"Bitcoin bloque de explorador y las estadísticas monetarias",
+         "markets":"Mercados",
+         "stats":"Estadísticas",
+         "developer":"Desarrolladores",
+         "markets_title":"Bitcoin Mercados",
+         "charts_title":"Bitcoin Gráficos",
+         "developer_title":"Blockchain Herramientas para desarrolladores",
+         "wallet_title":"Bitcoin Wallet",
+         "wallet":"Cartera",
+         "search_placeholder":"Buscar"
       },
       "strange_transactions":{
          "sub_header":"Transacciones que contiene las salidas de la que no hemos podido descifrar una dirección bitcoin.",
@@ -1428,6 +1434,14 @@
          "json_rpc_description":"Blockchain.info es capaz de funcionar como un servidor de bitcoind RPC para que los comerciantes puedan interactuar con su cuenta de My Wallet.",
          "receive_payments_description":"Un método muy fácil para los sitios web que reciben pagos de Bitcoin."
       },
+      "wallet_forgot_identifier":{
+         "sub_header":"Ingrese su dirección de correo electrónico o número de sms abajo y te vuelva a enviar el enlace de confirmación:",
+         "title":"Identificador olvidada",
+         "send":"Enviar",
+         "email_or_sms":"E-mail o SMS:",
+         "p1":"Si usted no tiene una dirección de correo electrónico asociada a su cuenta, por favor póngase en contacto con nosotros ({0}) toda la información que puede proporcionar incluyendo Skype nombre de usuario, nombre de usuario de Google Talk, frase secreta o alias.",
+         "header":"Identificador olvidado"
+      },
       "stats":{
          "sub_header":"Bitcoin estadísticas monetarias",
          "title":"Bitcoin Estadísticas - Blockchain.info",
@@ -1466,14 +1480,6 @@
          },
          "period":"Todas las estadísticas son para el período anterior de 24 horas a menos que se indique lo contrario",
          "header":"Estadísticas de Moneda"
-      },
-      "wallet_forgot_identifier":{
-         "sub_header":"Ingrese su dirección de correo electrónico o número de sms abajo y te vuelva a enviar el enlace de confirmación:",
-         "title":"Identificador olvidada",
-         "send":"Enviar",
-         "email_or_sms":"E-mail o SMS:",
-         "p1":"Si usted no tiene una dirección de correo electrónico asociada a su cuenta, por favor póngase en contacto con nosotros ({0}) toda la información que puede proporcionar incluyendo Skype nombre de usuario, nombre de usuario de Google Talk, frase secreta o alias.",
-         "header":"Identificador olvidado"
       },
       "block":{
          "title":"Bitcoin Block # {0}",
@@ -1704,6 +1710,7 @@
          "market_price_usd":"Precio de Mercado (USD)",
          "n_transactions2":"Un gráfico de la cantidad total de transacciones Bitcoin únicos por día.",
          "total_receive_per_day":"BTC Total recibidas por día:",
+         "my_wallet_network_percent":"Porcentaje de transacciones Bitcoin originarios de Blockchain",
          "network_deficit2":"Muestra la diferencia entre los gastos de transacción y los costos de la minería bitcoin.",
          "blockchain_size2":"El tamaño total de todos los encabezados de bloque y transacciones. No se incluyen los índices de base de datos.",
          "btc_received":"Recibido BTC",
@@ -1715,6 +1722,7 @@
          "my_wallet_transaction_volume":"Mi billetera volumen de transacciones",
          "n_transactions_excluding_popular":"Número de transacciones excluidas las direcciones populares",
          "estimated_transaction_volume_usd_label":"Transacción Volumen (USD)",
+         "year_2":"2 Año",
          "days_destroyed_label":"Destruido días",
          "difficulty":"Dificultad",
          "days_destroyed2":"Una versión no acumulativo de días Bitcoin destruido.",
@@ -1756,6 +1764,7 @@
          "cost_percent_per_transaction2":"Un gráfico que muestra los ingresos mineros como en porcentaje del volumen de transacciones.",
          "n_transactions_per_day_to":"Número de transacciones por día para:",
          "avg_block_size_label":"MB",
+         "my_wallet_network_percent_label":"Porcentaje de Red",
          "blockchain_size":"Tamaño Blockchain",
          "days_30":"30 Días",
          "network_deficit_label":"Red Déficit (USD)",
@@ -1859,8 +1868,8 @@
          "deposit_with_cash":"Depósito con efectivo"
       }
    },
+   "code":"es",
    "properties":{
       "extends":"language"
-   },
-   "code":"es"
+   }
 }

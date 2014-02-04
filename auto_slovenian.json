@@ -359,6 +359,7 @@
             "second_password_p1":"Ta ukrep je zahteva, da vnesete geslo, 2., ki je potrebno v celoti dešifriranje denarnico. Nikoli ne bi vpišite 2. gesla na računalniku ni vreden zaupanja. Uporaba zaslonske tipkovnice zagotoviti tudi zaščito pred keyloggers.",
             "second_password_needed":"Drugi Geslo Potrebno",
             "version":"Različica",
+            "use_recommended_fee":"Uporabi priporočene Fee",
             "confirm_delete":"Potrditev brisanja",
             "second_password":"Drugi geslo",
             "address_book_label_help":"Vnesite oznako za ta naslov. npr. ime osebe ali firmo.",
@@ -372,6 +373,7 @@
             "label_make_public":"Javno objaviti?",
             "confirm_delete_warning":"Brisanje napačen naslov, bo povzročila finančno izgubo. Če niste prepričani, kaj počnete, pritisnite zdaj prekinete",
             "claim_title":"Prejeli ste bitcoins!",
+            "higher_fee_recommended":"Višja cena Priporočena",
             "continue_btn":"Naprej",
             "leaving_wallet":"Leaving Denarnica",
             "send_transaction":"Pošlji transakcijo",
@@ -422,8 +424,10 @@
             "claim_desktop_placeholder":"Vaš Bitcoin Naslov",
             "miners_fee_recommended":"Rudarji Fee Priporočena",
             "confirm_delete_p1":"Ali ste prepričani, da bi radi odstranili naslov? Ne boste več mogli pošiljati ali prejemati bitcoins iz tega naslova. Ravnovesje tega naslova je:",
+            "use_custom_fee":"Uporabi pristojbina",
             "add_fee":"Dodaj Fee",
             "message_placeholder":"Vnesite sporočilo, ki ga želi podpisati",
+            "higher_fee_recommended_p1":"Vi določeno provizijo po meri {0} pa priporočamo pristojbina za to transakcijo je {0}. Bi radi, da namesto tega uporabite priporočeni provizijo?",
             "password_change_p1":"Vaše geslo bo takoj posodobiti. Bodite prepričani, da bi se seznanili z novim geslom, saj ni mogoče izterjati, če pozabi! Če imate varnostne kopije šifriranih denarnice bo mogoče dešifrirati, ki jih uporabljajo staro geslo, je priporočljivo, da odstranite vse te varnostne kopije.",
             "nodes_connected":"Povezana vozlišča",
             "login_to_my_wallet":"Prijava za mojo denarnico",
@@ -979,6 +983,7 @@
          "availability_p1":"Prizadevamo si za 99,5%, največ časa pa je ta storitev na voljo na najboljših prizadevanjih. Če je načrtovano načrtovana vzdrževalna bomo o tem obvestili uporabnike po elektronski pošti.",
          "privacy_policy":"Pravilnik o zasebnosti",
          "security":"Varnost",
+         "blog":"Blog:",
          "please_read":"Prosimo, preberite",
          "title":"O podjetju - Blockchain.info",
          "name":"Ime:",
@@ -989,12 +994,13 @@
          "support":"Podpora:",
          "privacy":"Zasebnost",
          "up_time":"Cas",
-         "about_p1":"Blockchain.info je najbolj priljubljena Bitcoin je Bitcoin denarnico in blok raziskovalec. Od januar 2013 spletna stran ima več kot 110.000 registriranih uporabnikov.",
+         "about_p1":"Blockchain.info je Bitcoin je najbolj priljubljen Bitcoin denarnico in blok raziskovalec. Kot je za januar 2014 je na mestu več kot 1,1 milijona registriranih uporabnikov in 200 milijonov ogledov strani na mesec.",
          "contact_us":"Stik z nami",
          "response_time":"Odzivni čas",
          "up_time_alt":"Do čas za blockchain.info: Zadnjih 30 dni",
          "response_time_alt":"Odzivni čas za blockchain.info: Zadnjih 30 dni",
          "email":"E-mail naslov:",
+         "blockchain_blog":"Blockchain Blog",
          "media":"Mediji",
          "media_sub_header":"Mediji in Logos"
       },
@@ -1095,15 +1101,15 @@
          },
          "create_my_free_wallet":"Ustvari svoj prosti denarnico"
       },
-      "maintenance":{
-         "title":"Stran Pod Vzdrževanje - Blockchain.info",
-         "p1":"Blockchain.info je trenutno nedosegljiva zaradi vzdrževanja. Za stanje posodobitve najdete na {0}. Opravičilo za morebitne nevšečnosti.",
-         "header":"Mi bo nazaj kmalu"
-      },
       "startup_message":{
          "title":"Nalaganje strani - Blockchain.info",
          "p1":"Če se vrnem v nekaj sekundah. Morda celo nove funkcije.",
          "header":"Stran se nalaga ..."
+      },
+      "maintenance":{
+         "title":"Stran Pod Vzdrževanje - Blockchain.info",
+         "p1":"Blockchain.info je trenutno nedosegljiva zaradi vzdrževanja. Za stanje posodobitve najdete na {0}. Opravičilo za morebitne nevšečnosti.",
+         "header":"Mi bo nazaj kmalu"
       },
       "donation_button":{
          "title":"Ustvari Darovanje Button",
@@ -1193,6 +1199,22 @@
          "header":"Hashrate Distribution",
          "days_4":"4 dni"
       },
+      "header":{
+         "home_title":"Blockchain.info Domov",
+         "charts":"Grafikoni",
+         "home":"Domov",
+         "stats_title":"Bitcoin statistika",
+         "logo_alt_title":"Bitcoin blok raziskovalec in valute statistika",
+         "markets":"Trgi",
+         "developer":"Razvijalci",
+         "stats":"Statistika",
+         "markets_title":"Bitcoin trge",
+         "charts_title":"Bitcoin Grafikoni",
+         "wallet_title":"Bitcoin Wallet",
+         "developer_title":"Blockchain Orodja za razvijalce",
+         "wallet":"Denarnica",
+         "search_placeholder":"Iskanje"
+      },
       "wallet_new":{
          "disclaimer":"Omejitev odgovornosti",
          "password_strength":"Moč gesla",
@@ -1229,22 +1251,6 @@
          "captcha":"Slika:",
          "dont_forget_password":"Ne pozabite svoje geslo?",
          "alias_placeholder":"Nepozabno beseda ali vzdevek"
-      },
-      "header":{
-         "home_title":"Blockchain.info Domov",
-         "charts":"Grafikoni",
-         "home":"Domov",
-         "stats_title":"Bitcoin statistika",
-         "logo_alt_title":"Bitcoin blok raziskovalec in valute statistika",
-         "markets":"Trgi",
-         "developer":"Razvijalci",
-         "stats":"Statistika",
-         "markets_title":"Bitcoin trge",
-         "charts_title":"Bitcoin Grafikoni",
-         "wallet_title":"Bitcoin Wallet",
-         "developer_title":"Blockchain Orodja za razvijalce",
-         "wallet":"Denarnica",
-         "search_placeholder":"Iskanje"
       },
       "strange_transactions":{
          "sub_header":"Posli, ki vsebujejo rezultate, iz katerih nismo mogli dekodirati Bitcoin naslov.",
@@ -1704,6 +1710,7 @@
          "market_price_usd":"Tržna cena (EUR)",
          "n_transactions2":"Grafikon skupnega števila edinstvenih transakcij Bitcoin na dan.",
          "total_receive_per_day":"Skupaj BTC prejeta na dan, da:",
+         "my_wallet_network_percent":"Odstotek Bitcoin transakcije, ki izvirajo iz Blockchain",
          "network_deficit2":"Prikazuje razliko med transakcijskih stroškov in stroškov rudarjenja Bitcoin.",
          "blockchain_size2":"Skupna velikost vseh blokov glave in transakcije. Ne vključuje baze podatkov indeksov.",
          "btc_received":"BTC prejeta",
@@ -1715,6 +1722,7 @@
          "my_wallet_transaction_volume":"Moja Denarnica Transakcijski zvezek",
          "n_transactions_excluding_popular":"Število transakcij z izjemo priljubljenih naslovov",
          "estimated_transaction_volume_usd_label":"Transakcijski zvezek (USD)",
+         "year_2":"2 Letnik",
          "days_destroyed_label":"Dnevi Destroyed",
          "difficulty":"Težavnost",
          "days_destroyed2":"Noben skupni različica Bitcoin dneh pustošili.",
@@ -1756,6 +1764,7 @@
          "avg_block_size_label":"MB",
          "n_transactions_per_day_to":"Število transakcij na dan, na naslov:",
          "cost_percent_per_transaction2":"Diagram, ki kaže rudarjev prihodke kot v odstotku transakcije prostornine.",
+         "my_wallet_network_percent_label":"Mreža Percent",
          "blockchain_size":"Blockchain Velikost",
          "days_30":"30 dni",
          "network_deficit_label":"Mreža Primanjkljaj (USD)",
@@ -1859,8 +1868,8 @@
          "deposit_with_cash":"Depozit z gotovino"
       }
    },
+   "code":"sl",
    "properties":{
       "extends":"language"
-   },
-   "code":"sl"
+   }
 }

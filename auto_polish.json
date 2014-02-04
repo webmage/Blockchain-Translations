@@ -21,6 +21,21 @@
          "header":"Popularne Adresy",
          "number_of_outputs":"Liczba wyjść"
       },
+      "transaction":{
+         "fee":"Opłata:",
+         "double_spend":"Dwukrotnie wydać!",
+         "output_decode_error":"Nie można odkodować adres wyjścia",
+         "escrow":"Escrow",
+         "confirmations":"Potwierdzenia",
+         "input_decode_error":"Nie można odkodować adres wejściowy",
+         "no_inputs":"Brak Wejścia (nowo wygenerowanym Coins)",
+         "unspent":"Nie wydany",
+         "unconfirmed_transaction":"Niepotwierdzone transakcji!",
+         "public_note":"Publiczny Uwaga:",
+         "spent":"Spędzony",
+         "output":"Produkcja",
+         "size":"Rozmiar:"
+      },
       "deposit":{
          "bank_name":"Nazwa banku",
          "small_package":"Mały wagon drobnicowy",
@@ -75,21 +90,6 @@
          "account":"Konto",
          "pingit_instructions_2":"Płatność musi być wysłany od {0}.",
          "minimum_order":"Minimalne zamówienie"
-      },
-      "transaction":{
-         "fee":"Opłata:",
-         "double_spend":"Dwukrotnie wydać!",
-         "output_decode_error":"Nie można odkodować adres wyjścia",
-         "escrow":"Escrow",
-         "confirmations":"Potwierdzenia",
-         "input_decode_error":"Nie można odkodować adres wejściowy",
-         "no_inputs":"Brak Wejścia (nowo wygenerowanym Coins)",
-         "unspent":"Nie wydany",
-         "unconfirmed_transaction":"Niepotwierdzone transakcji!",
-         "public_note":"Publiczny Uwaga:",
-         "spent":"Spędzony",
-         "output":"Produkcja",
-         "size":"Rozmiar:"
       },
       "ip_info":{
          "sub_header":"Transakcje, które były przekazywane najpierw przez IP {0}",
@@ -359,6 +359,7 @@
             "second_password_p1":"Ta czynność wymaga wprowadzić drugie hasło, które są potrzebne w pełni odszyfrować portfela. Nigdy nie powinno się wprowadzić drugie hasło w niezaufanej komputerze. Użyj klawiatury ekranowej, aby zapewnić pewną ochronę przed keyloggerami.",
             "second_password_needed":"Druga Wymagane hasło",
             "version":"Wersja",
+            "use_recommended_fee":"Zaleca się stosowanie Opłata",
             "confirm_delete":"Potwierdź usunięcie",
             "second_password":"Drugie hasło",
             "address_book_label_help":"Wprowadź etykietę dla tego adresu. na przykład imię i nazwisko osoby lub nazwę firmy.",
@@ -372,6 +373,7 @@
             "label_make_public":"Podaje do publicznej wiadomości?",
             "confirm_delete_warning":"Usunięcie błędnego adresu spowoduje straty finansowe. Jeśli nie jesteś pewien, co robisz teraz naciśnij przycisk Anuluj",
             "claim_title":"Odebrano bitcoins!",
+            "higher_fee_recommended":"Wyższa opłata Zalecane",
             "continue_btn":"Kontynuować",
             "leaving_wallet":"Pozostawienie Portfel",
             "send_transaction":"Wyślij Transakcji",
@@ -422,8 +424,10 @@
             "claim_desktop_placeholder":"Twój adres Bitcoin",
             "miners_fee_recommended":"Opłata Miners Poleca",
             "confirm_delete_p1":"Czy na pewno chcesz usunąć adres? Nie będziesz już mógł wysyłać lub odbierać bitcoins z tego adresu. Bilans ten adres to:",
+            "use_custom_fee":"Użyj obciąży Custom",
             "add_fee":"Dodaj Opłata",
             "message_placeholder":"Wpisz wiadomość, którą chcesz Zarejestruj",
+            "higher_fee_recommended_p1":"Określono opłaty celnej {0} jednak zaleca opłaty dla tej transakcji wynosi {0}. Chcesz użyć zalecanego opłatę w zamian?",
             "password_change_p1":"Twoje hasło zostanie zaktualizowana natychmiast. Pamiętaj, aby zanotować nowe hasło, ponieważ nie można odzyskać, jeśli zapomniał! Jeśli masz jakieś zaszyfrowane kopie zapasowe portfela będzie można odszyfrować je przy użyciu starego hasła, zaleca się usunąć żadnej z tych kopii zapasowych.",
             "nodes_connected":"Węzłów połączonych",
             "login_to_my_wallet":"Zaloguj się do mojego portfela",
@@ -979,6 +983,7 @@
          "tel":"Tel:",
          "privacy_policy":"Polityka prywatności",
          "security":"Bezpieczeństwo",
+         "blog":"Blog:",
          "please_read":"Proszę przeczytać",
          "title":"O nas - Blockchain.info",
          "name":"Imię i nazwisko:",
@@ -989,12 +994,13 @@
          "support":"Support:",
          "privacy":"Prywatność",
          "up_time":"Czas",
-         "about_p1":"Blockchain.info Bitcoin jest najpopularniejszym portfel Bitcoin i odkrywca blok. W styczniu 2013 roku strona ma ponad 110 tysięcy zarejestrowanych użytkowników.",
+         "about_p1":"Blockchain.info jest najbardziej popularny portfel Bitcoin Bitcoin i blok explorer. Od stycznia 2014 r. strona ma ponad 1,1 mln zarejestrowanych użytkowników i 200 milionów odsłon miesięcznie.",
          "contact_us":"Kontakt z nami",
          "up_time_alt":"Czas dla blockchain.info: Ostatnie 30 dni",
          "response_time":"Czas reakcji",
          "response_time_alt":"Czas odpowiedzi dla blockchain.info: Ostatnie 30 dni",
          "email":"E-mail:",
+         "blockchain_blog":"Blockchain Blog",
          "media":"Media",
          "media_sub_header":"Media i logo"
       },
@@ -1095,15 +1101,15 @@
          },
          "create_my_free_wallet":"Utwórz moje bezpłatne Portfel"
       },
-      "maintenance":{
-         "title":"Strona w Konserwacja - Blockchain.info",
-         "p1":"Blockchain.info jest obecnie nieczynny. Do aktualizacji stanu patrz {0}. Przepraszamy za wszelkie niedogodności.",
-         "header":"Will Be Back Krótko"
-      },
       "startup_message":{
          "title":"Ładowanie strony - Blockchain.info",
          "p1":"Powinny być z powrotem w ciągu kilku sekund. Nie może być nawet nowe funkcje.",
          "header":"Strona jest ładowanie ..."
+      },
+      "maintenance":{
+         "title":"Strona w Konserwacja - Blockchain.info",
+         "p1":"Blockchain.info jest obecnie nieczynny. Do aktualizacji stanu patrz {0}. Przepraszamy za wszelkie niedogodności.",
+         "header":"Will Be Back Krótko"
       },
       "donation_button":{
          "title":"Utwórz przycisk Darowizna",
@@ -1193,22 +1199,6 @@
          "header":"Hashrate Dystrybucja",
          "days_4":"4 dni"
       },
-      "header":{
-         "home_title":"Blockchain.info główna",
-         "home":"Dom",
-         "charts":"Wykresy",
-         "stats_title":"Bitcoin Stats",
-         "logo_alt_title":"Bitcoin blok explorer i statystyki waluty",
-         "markets":"Rynki",
-         "stats":"Statystyki",
-         "developer":"Deweloperzy",
-         "markets_title":"Rynki Bitcoin",
-         "charts_title":"Bitcoin Charts",
-         "developer_title":"Blockchain Narzędzia dla deweloperów",
-         "wallet_title":"Bitcoin Wallet",
-         "wallet":"Portfel",
-         "search_placeholder":"Szukaj"
-      },
       "wallet_new":{
          "disclaimer":"Zrzeczenie się",
          "password_strength":"Siła hasła",
@@ -1245,6 +1235,22 @@
          "captcha":"Kapitan:",
          "dont_forget_password":"Nie zapomnij swojego hasła!",
          "alias_placeholder":"Pamiętne słowa lub nick"
+      },
+      "header":{
+         "home_title":"Blockchain.info główna",
+         "home":"Dom",
+         "charts":"Wykresy",
+         "stats_title":"Bitcoin Stats",
+         "logo_alt_title":"Bitcoin blok explorer i statystyki waluty",
+         "markets":"Rynki",
+         "stats":"Statystyki",
+         "developer":"Deweloperzy",
+         "markets_title":"Rynki Bitcoin",
+         "charts_title":"Bitcoin Charts",
+         "developer_title":"Blockchain Narzędzia dla deweloperów",
+         "wallet_title":"Bitcoin Wallet",
+         "wallet":"Portfel",
+         "search_placeholder":"Szukaj"
       },
       "strange_transactions":{
          "sub_header":"Transakcje zawierające wyjścia, z których nie byliśmy w stanie zdekodować Bitcoin adres.",
@@ -1704,6 +1710,7 @@
          "market_price_usd":"Cena rynkowa (PLN)",
          "n_transactions2":"Tabela ogółu unikalnych transakcji Bitcoin dziennie.",
          "total_receive_per_day":"Razem BTC odebrane za dzień do:",
+         "my_wallet_network_percent":"Odsetek Bitcoin transakcje pochodzące od Blockchain",
          "network_deficit2":"Pokazuje różnicę między opłat transakcyjnych i kosztów wydobycia Bitcoin.",
          "blockchain_size2":"Całkowity rozmiar wszystkich nagłówków grupowych i transakcji. Nie w tym indeksy bazy danych.",
          "btc_received":"BTC odebrane",
@@ -1715,6 +1722,7 @@
          "my_wallet_transaction_volume":"Mój Portfel wolumen transakcji",
          "n_transactions_excluding_popular":"Liczba transakcji wyłączeniem popularnych adresów",
          "estimated_transaction_volume_usd_label":"Wolumenu transakcji (USD)",
+         "year_2":"2 Rok",
          "days_destroyed_label":"Dni Destroyed",
          "difficulty":"Trudność",
          "days_destroyed2":"None skumulowana wersja dni Bitcoin zniszczone.",
@@ -1756,6 +1764,7 @@
          "avg_block_size_label":"MB",
          "n_transactions_per_day_to":"Liczba transakcji na dzień do:",
          "cost_percent_per_transaction2":"Wykres pokazujący dochody górnikom jako jako procent wielkości transakcji.",
+         "my_wallet_network_percent_label":"Procent sieci",
          "blockchain_size":"Blockchain Rozmiar",
          "days_30":"30 dni",
          "network_deficit_label":"Deficyt Network (USD)",
@@ -1859,8 +1868,8 @@
          "deposit_with_cash":"Depozyt z gotówką"
       }
    },
+   "code":"pl",
    "properties":{
       "extends":"language"
-   },
-   "code":"pl"
+   }
 }

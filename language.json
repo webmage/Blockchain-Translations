@@ -25,6 +25,8 @@
             "market_cap_label": "Market Cap (USD)",
             "n_transactions": "Number Of Transactions",
             "my_wallet_n_tx": "My Wallet Number of Transactions per day",
+            "my_wallet_network_percent": "Percentage of Bitcoin Transactions Originating from Blockchain",
+            "my_wallet_network_percent_label" : "Network Percent",
             "trade_vol2": "A chart showing the USD trade volume from the top exchanges.",
             "n_transactions_excluding_popular3": "popular addresses",
             "errors": {
@@ -80,6 +82,7 @@
             "estimated_transaction_volume2": "Similar to the total output volume with the addition of an algorithm which attempts to remove change from the total value. This may be a more accurate reflection of the true transaction volume.",
             "operating_margin_label": "Operating profit %",
             "year_1": "1 Year",
+            "year_2": "2 Year",
             "operating_margin": "Mining Operating Margin",
             "cost_per_transaction_usd": "Cost per transaction (USD)",
             "days_destroyed_filter_month": "Bitcoin Days Destroyed (Filtered By Min Age 1 Month)",
@@ -175,7 +178,7 @@
                 "address_tags": "Address Tags",
                 "address_tags2": "Tag your public bitcoin addresses."
             },
-            "sub_header": "Most recently mined blocks in the bitcoin block chain",
+            "sub_header": "Welcome to Blockchain",
             "search_explain": "You may enter a block height, address, block hash, transaction hash, hash160, or ipv4 address..",
             "title": "Bitcoin Block Explorer - Blockchain.info",
             "table_headers": {
@@ -199,7 +202,8 @@
             },
             "latest_transactions": "Latest Transactions",
             "header": "Home",
-            "search_placeholder": "Address / Firstbits / ip / SHA hash"
+            "search_placeholder": "Address / Firstbits / ip / SHA hash",
+            "ago" : "ago"
         },
         "header": {
             "home_title": "Blockchain.info Home",
@@ -565,6 +569,9 @@
             "email_or_sms" : "Email or SMS:",
             "send" : "Send",
             "p1" : "If you don't have an email associated with your account please contact us ({0}) with any information you can provide including Skype username, Google Talk username, secret phrase or alias."
+        },
+        "wallet_mobile" : {
+            "title" : "Blockchain Wallet Mobile"
         },
         "wallet_app" : {
             "title" : "My Wallet",
@@ -1133,6 +1140,10 @@
                 "miners_fee_recommended_warning" : "If you do not include a fee this transaction may take a long time to get confirmed. Any funds will be returned to you in approximately 24 hours.",
                 "continue_without_fee" : "Continue Without Fee",
                 "add_fee" : "Add Fee",
+                "higher_fee_recommended" : "Higher Fee Recommended",
+                "higher_fee_recommended_p1" : "You specified a custom fee of {0} however the recommended fee for this transaction is {0}. Would you like to use the recommended fee instead?",
+                "use_custom_fee" : "Use Custom Fee",
+                "use_recommended_fee" : "Use Recommended Fee",
                 "password_change" : "Confirm Password Change",
                 "password_change_p1" : "Your password will be updated immediately. Be sure to make a note of the new password as it cannot be recovered if forgotten! If you have any encrypted wallet backups it will be possible to decrypt them using your old password, it is recommended you remove any of these backups.",
                 "update_password" : "Update Password",
@@ -1392,7 +1403,7 @@
             "security" : "Security",
             "privacy" : "Privacy",
             "availability" : "Availability",
-            "about_p1" : "Blockchain.info is Bitcoin's most popular bitcoin wallet and block explorer. As of January 2013 the site has over 110,000 registered users.",
+            "about_p1" : "Blockchain.info is Bitcoin's most popular bitcoin wallet and block explorer. As of January 2014 the site has over 1.1 million registered users and 200 million page views per month.",
             "security_p1" : "Our security policy is to hold as little data as possible that in the event of a security breach could affect our users. Using our My Wallet service we do not hold or intercept any passwords or personally identifying information wallet data is only stored in encrypted form. Blockchain.info runs on privately owned dedicated hardware which can only be accessed by the site administrator. We perform regular security reviews of both our code and servers including scanning our site using nmap to detect possible vulnerabilities early. The site can be access securely using https:// verified by GoDaddy.",
             "availability_p1" : " We aim for 99.5% up time however this service is provided on a best effort basis. If scheduled maintenance is planned we will notify users by email.",
             "up_time" : "Up Time",
@@ -1406,6 +1417,8 @@
             "name" : "Name:",
             "email" : "Email:",
             "support" : "Support:",
+            "blog" : "Blog:",
+            "blockchain_blog" : "Blockchain Blog",
             "tel" : "Tel:",
             "media" : "Media",
             "media_sub_header" : "Media and Logos",
