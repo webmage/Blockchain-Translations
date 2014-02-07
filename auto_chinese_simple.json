@@ -955,6 +955,9 @@
          "error_404":"页面不存在，请检查您输入的地址是否正确。",
          "header":"错误{0}"
       },
+      "wallet_mobile":{
+         "title":"Blockchain钱包手机"
+      },
       "propagation":{
          "probable_owner":"可能的所有者",
          "disconnected":"断开的",
@@ -1243,7 +1246,7 @@
          "stats_title":"Bitcoin的统计资料",
          "logo_alt_title":"Bitcoin的块探险家和货币统计",
          "markets":"市场",
-         "developer":"开发人员",
+         "developer":"API",
          "stats":"统计资料",
          "markets_title":"Bitcoin的市场",
          "charts_title":"Bitcoin的图",
@@ -1351,6 +1354,7 @@
             "header":"关于"
          },
          "latest_transactions":"最新交易",
+         "ago":"前",
          "header":"首页",
          "search_placeholder":"的地址\/ Firstbits \/ IP \/ SHA哈希"
       },

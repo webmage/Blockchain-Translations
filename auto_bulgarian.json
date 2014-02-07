@@ -955,6 +955,9 @@
          "error_404":"Страницата не е намерена, моля, проверете дали сте въвели правилно адреса.",
          "header":"Грешка {0}"
       },
+      "wallet_mobile":{
+         "title":"Blockchain Wallet Mobile"
+      },
       "propagation":{
          "probable_owner":"Вероятни Собственик",
          "disconnected":"Изключен",
@@ -1346,6 +1349,7 @@
             "header":"За"
          },
          "latest_transactions":"Последни Сделки",
+         "ago":"преди",
          "header":"Дом",
          "search_placeholder":"Адрес \/ Firstbits \/ IP \/ SHA хеш"
       },
