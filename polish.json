@@ -2,10 +2,18 @@
    "flag":"pl.png",
    "name":"Polish",
    "strings":{
+      "connected_nodes":{
+         "port":"Port",
+         "sub_header":"Liczba węzłów do których podłączony jest blockchain.info",
+         "title":"Liczba podłączonych węzłów sieci Bitcoin",
+         "connected_time":"Połączony (minuty)",
+         "total_connected":"Razem połączonych: {0}",
+         "header":"Połączonych węzłów"
+      },
       "home":{
          "other_links":{
-            "most_popular":"Najpopularniejsze adresy",
-            "strange":"Dziwne transakcje"
+            "strange":"Dziwne transakcje",
+            "most_popular":"Najpopularniejsze adresy"
          },
          "sub_header":"Ostatnio przetwarzane bloki w łańcuchu bloków bitcoin",
          "table_headers":{
@@ -15,14 +23,6 @@
             
          }
       },
-      "connected_nodes":{
-         "port":"Port",
-         "sub_header":"Liczba węzłów do których podłączony jest blockchain.info",
-         "title":"Liczba podłączonych węzłów sieci Bitcoin",
-         "connected_time":"Połączony (minuty)",
-         "total_connected":"Razem połączonych: {0}",
-         "header":"Połączonych węzłów"
-      },
       "popular_addresses":{
          
       },
@@ -30,15 +30,15 @@
          
       },
       "api_index":{
-         "data_api_description":"Wykorzystaj dane w formacie JSON na temat transakcji oraz bloków. Prawie wszystkie dane widoczne na tej stronie są dostępne w formacie JSON.",
          "welcome_p2":"udostępnione przez inne serwisy.",
+         "data_api_description":"Wykorzystaj dane w formacie JSON na temat transakcji oraz bloków. Prawie wszystkie dane widoczne na tej stronie są dostępne w formacie JSON.",
          "welcome_p1":"Tutaj odnajdziesz wszystko czego potrzebujesz by rozpocząć pracę nad projektem wykorzystującym system Bitcoin. Możesz użyć informacje Blockchain.info lub",
          "requests_in_5_minutes":"Zapytania w ciągu 5 minut:",
          "charts_and_statistics_description":"Źródło danych JSON zawierające dane z wykresów oraz stron ze statusem.",
          "charts_and_statistics":"Wykresy oraz statystyki",
-         "exchange_rates":"Kursy wymiany",
-         "send_description":"Proste wykorzystanie JSON API w celu zautomatyzowanego wysłania lub otrzymania Bitcoinów na koncie My Wallet.",
          "view_documentation":"Przeczytaj dokumentację",
+         "send_description":"Proste wykorzystanie JSON API w celu zautomatyzowanego wysłania lub otrzymania Bitcoinów na koncie My Wallet.",
+         "exchange_rates":"Kursy wymiany",
          "websocket_description":"Kanał komunikacji o małym opóźnieniu udostępnia dane na temat nowych bloków oraz transakcji. Subskrybuj kanał powiadomień i otrzymuj dane w formacie JSON opisujące aktualne zdarzenia w sieci.",
          "abuse_notice":"Za usługi oferowane przez blockchain.info nie są pobierane opłaty. Prosimy o nie nadużywanie ich.",
          "title":"API dla programistów Bitcoin - Blockchain.info",
@@ -58,10 +58,10 @@
          "request_limits":"Limit zapytań",
          "payment_processing":"Przetwarzanie płatności.",
          "header":"API dla programistów Bitcoin",
-         "contact_us":"skontaktuj się z nami",
          "simple_query_api":"Proste API zapytań",
-         "no_account_required":"Konto nie jest wymagane",
+         "contact_us":"skontaktuj się z nami",
          "json_rpc":"JSON RPC kompatybilne z Bitcoin-Qt",
+         "no_account_required":"Konto nie jest wymagane",
          "meta_description":"Blockchain udostępnia darmowe API dla biznesu i programistów.",
          "bitpay_description":"Blockchain poleca serwis Bitpay - Lidera rozwiązań biznesowych Bitcoin. Bitpay oferuje kompletne rozwiązania płatności Bitcoin, automatyczne przewalutowanie do walut narodowych oraz integrację z istniejącym oprogramowaniem do sprzedaży online.",
          "maximum":"Maksimum",
@@ -70,19 +70,22 @@
          "json_rpc_description":"Blockchain.info może działać jako serwer RPC bitcoind dla biznesu celem współpracy z jego kontami My Wallet.",
          "receive_payments_description":"Niezwykle łatwa metoda dla stron internetowych by otrzymywać płatności Bitcoin."
       },
+      "transaction":{
+         
+      },
       "deposit":{
          "make_anonymous":"Uczyń anonimowe",
          "small_package":"Mała paczka",
-         "medium_package":"Średnia paczka",
          "you_receive":"Otrzymujesz:",
+         "medium_package":"Średnia paczka",
          "amount_help":"Podaj ilość do zakupienia w {0}.",
          "you_pay":"Płacisz:",
          "large_package":"Duża paczka",
          "pingit_p1":"W celu wykorzystania naszego depozytu {0} proszę potwierdzić swój numer telefonu. Jeżeli nie masz jeszcze swojego konta PingIt, utworzenie go jest łatwe i aplikacja do tego celu może być ściągnięca z App Store Twojego smartfona.",
          "depsit_with_cash":"Zdeponuj gotówkę",
          "_continue":"Kontynuuj",
-         "depsit_with_cash_description":"Ponad 700 tysięcy depozytów gotówkowych na świecie.",
          "full_instructions":"Pełne instrukcje",
+         "depsit_with_cash_description":"Ponad 700 tysięcy depozytów gotówkowych na świecie.",
          "sofort_instructions":"Płatność zostanie wykonana przy pomocy natychmiastowego przlewu bankowego.",
          "_package":"Paczka:",
          "anonymous_help":"Bitcoiny zostaną przesłane przez nasz anonimizer dla zwiększenia prywatności (opłata: 1.5%).",
@@ -97,9 +100,6 @@
          "sofort_p1":"W celu depozytu Bitcoinów przy pomocy przelewu bankowego prosimy o weryfikację numeru telefonu poniżej. ",
          "payment_method":"Metoda płatności:"
       },
-      "transaction":{
-         
-      },
       "stats":{
          "sub_header":"Statystyki waluty bitcoin",
          "title":"Statystyki Bitcoin - Blockchain.info",
@@ -107,13 +107,10 @@
             
          }
       },
-      "ip_info":{
-         
-      },
       "block":{
          "title":"Blok Bitcoin #{0}",
-         "meta_description":"Transakcje zawarte w bloku Bitcoin",
          "no_block_index":"Brak indeksu bloku",
+         "meta_description":"Transakcje zawarte w bloku Bitcoin",
          "hash_table":{
             "title":"Hash-e",
             "hash":"Hash",
@@ -122,28 +119,31 @@
             "previous_block":"Poprzednie Bloki"
          },
          "network_propagation":"Propagacja w sieci",
-         "header":"Blok",
+         "transactions_sub_header":"Transakcje zawarte w tym bloku",
          "summary_table":{
-            "timestamp":"Znacznik czasu",
             "output_title":"Sumaryczny wynik",
+            "timestamp":"Znacznik czasu",
             "title":"Podsumowanie",
             "block_reward":"Nagroda za mining",
-            "relayed_by":"Przesłany przez",
             "nonce":"Unikat losowy",
+            "relayed_by":"Przesłany przez",
             "main_chain":"Główny łańcuch",
             "received_time":"Czas otrzymania",
             "estimated_transaction_volume":"Szacowany wolumen transakcji"
          },
-         "transactions_sub_header":"Transakcje zawarte w tym bloku",
+         "header":"Blok",
          "click_to_view":"Kliknij by zobaczyć"
       },
+      "ip_info":{
+         
+      },
       "double_spends":{
-         "orphaned":"Osierocone",
          "sub_header":"Wykryte operacje double spend w ostatnich 500 tysiącach transkacji (cache 10 minut)",
+         "orphaned":"Osierocone",
          "title":"Bitcoin Double Spends - Blockchain.info",
          "included_in_block":"W bloku {0}",
-         "header":"Double Spends",
-         "warning":"Double spends na tej stronie mogą nie być intencjonalne.  W wypadku gdy Double spend był złośliwe wytworzony, fakt obecności na tej stronie nie znaczy, że ktokolwiek stracił pieniądze."
+         "warning":"Double spends na tej stronie mogą nie być intencjonalne.  W wypadku gdy Double spend był złośliwe wytworzony, fakt obecności na tej stronie nie znaczy, że ktokolwiek stracił pieniądze.",
+         "header":"Double Spends"
       },
       "wallet_app":{
          "transactions":{
@@ -163,21 +163,21 @@
                
             }
          },
-         "nav":{
-            "home":"Portfel główny",
-            "send":"Przelewy"
-         },
          "receive_money":{
-            "anonymous_addresses_description2":"Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
             "sub_header":"Twoje adresy przychodzące",
-            "chord_diagram":"Zobacz graf powiązań",
+            "anonymous_addresses_description2":"Adresy anonimowe są ważne tylko na jedną transakcję i podlegają opłacie w wysokości 1,5% od przesyłanej kwoty.",
             "new_address":"Nowy adres",
+            "chord_diagram":"Zobacz graf powiązań",
             "anonymous_addresses":"Adresy anonimowe",
             "archived":"Zarchiwizowane",
             "archived_addresses_description":"Zarchiwizowane adresy mimo, że są ukryte w widoku głównym, są nadal częścią portfela. Możesz przywrócić je w dowolnym momencie, klikając niebieską ikonę.",
             "new_anonymous_address":"Nowy adres anonimowy",
             "anonymous_addresses_description":"Płatności otrzymane na adresy anonimowe zostaną przekazane pod inny adres w portfelu. Wszelkie płatności otrzymane są wysyłane za pomocą miksera uniemożliwiającego powiązanie z nadawcą. Transakcje otrzymane na anonimowe adresy nie mogą być połączone do zwykłego portfela.",
             "new_address_tooltip":"Kliknij tutaj, aby wygenerować nowy adres bitcoin. Możesz rozpocząć odbieranie bitcoinów na ten adres natychmiast"
+         },
+         "nav":{
+            "home":"Portfel główny",
+            "send":"Przelewy"
          },
          "account_settings":{
             "nav":{
@@ -186,18 +186,18 @@
             "sms_verified":"Zweryfikowano SMS'em",
             "password_hints_description":" Jeśli zapomnisz hasło wskazówki mogą być przydatne żeby je przypomnieć. Jeśli jest podany adres e-mail powiązany z Twoim kontem, hasło może być wysłane. Jeśli nie ma podanego adresu e-mail wskazówki są dostępne dla każdego, kto zna identyfikator portfela."
          },
+         "login":{
+            "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdź e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie możesz znaleźć e-maila? Kliknij przycisk poniżej, a prześlemy go ponownie."
+         },
          "import_export":{
             "rpc":{
                
             },
             "installed_refresh_page":" Po zainstalowaniu należy odświeżyć stronę.",
-            "desktop_sync_step2_p1":" Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:",
             "import_wallet_formats":{
                
-            }
-         },
-         "login":{
-            "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdź e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie możesz znaleźć e-maila? Kliknij przycisk poniżej, a prześlemy go ponownie."
+            },
+            "desktop_sync_step2_p1":" Aby w przeglądarce, aby porozmawiać z klienta pulpitu telefonu należy włączyć serwer RPC Bitcoin w bitcoin.conf pliku. Jeśli plik nie istnieje, należy go utworzyć. Na przykład:"
          },
          "wallet_home":{
             "withdraw_description":"Korzystaj z usług poniżej by zamienić bitcoiny na inną walutę.",
@@ -211,17 +211,17 @@
             "btcpak_withdraw":"Wypłać przez BTCPak",
             "pingit_deposit":"Zasil przez PingIt",
             "pingit_withdraw":"Wypłać przez PingIt",
-            "this_is_your_bitcoin_address":"To jest twój główny adres bitcoin",
             "withdraw":"Wypłać środki",
+            "this_is_your_bitcoin_address":"To jest twój główny adres bitcoin",
             "cash_deposit":"Zasil gotówką",
             "total_sent":"Razem wysłanych"
+         },
+         "success":{
+            
          },
          "modals":{
             "send_payment":"Wyślij płatność",
             "compressed_private_key_p2":"Zalecanym rozwiązaniem do pakowania funduszy do istniejącego adresu Bitcoin. Chcesz spakować klucz prywatny, czy nie?"
-         },
-         "success":{
-            
          }
       },
       "wallet":{
@@ -286,11 +286,11 @@
          "about_p1":"Blockchain.info jest najpopularniejszym Bitcoinowym portfelem oraz przeglądarką bloków. W październiku 2012 serwis odwiedziało dziennie 10 tysięcy użytkowników dziennie, a łącznie posiadał on 30 tysięcy użytkowników.",
          "contact_us":"Skontakuj się z nami",
          "title":"O Nas - Blockchain.info",
-         "response_time":"Czas odpowiedzi",
          "up_time_alt":"Czas nieprzerwanej pracy blockchain.info: Ostatnie 30 dni",
+         "response_time":"Czas odpowiedzi",
          "email":"Email:",
-         "privacy_p1":"Rejestrujemy dostęp do wszystkich stron serwisu wyłącznie w celach statystycznych. Logi są usuwane co 7 dni. Nie rejestrujemy żadnych danych dotyczących transakcji przeprowadzonych przy pomocy usługi My Wallet. Każdy adres email, skype oraz inne dane dostarczone przez użytkownika nie są i nie będą współdzielone z innymi podmiotami.",
          "name":"Nazwa:",
+         "privacy_p1":"Rejestrujemy dostęp do wszystkich stron serwisu wyłącznie w celach statystycznych. Logi są usuwane co 7 dni. Nie rejestrujemy żadnych danych dotyczących transakcji przeprowadzonych przy pomocy usługi My Wallet. Każdy adres email, skype oraz inne dane dostarczone przez użytkownika nie są i nie będą współdzielone z innymi podmiotami.",
          "view_website_status":"Sprawdź status serwisu",
          "media_sub_header":"Media i Logotypy"
       },
@@ -298,10 +298,10 @@
          "anonymous":{
             
          },
-         "control":{
+         "merchants":{
             
          },
-         "merchants":{
+         "control":{
             
          },
          "slides":{
@@ -312,10 +312,10 @@
          "easy":{
             
          },
+         "try_demo_account":"Przetestuj konto demonstracyjne",
          "confused":{
             
          },
-         "try_demo_account":"Przetestuj konto demonstracyjne",
          "tooltips":{
             "offline_transactions_title":"Transakcje offline",
             "paper_wallet_title":"Portfel papierowy"
@@ -334,20 +334,19 @@
       "push_tx":{
          
       },
-      "maintenance":{
-         
-      },
       "startup_message":{
          
       },
-      "blocks":{
-         "relayed_by":"Przesłany przez",
-         "hash":"Skrót",
-         "main_chain":"Główny łańcuch",
-         "title2":"Bloki znalezione",
-         "mined_on":"Bloki znalezione:"
+      "maintenance":{
+         
       },
       "emails":{
+         "tx":{
+            "header_sent":"Powiadomienia o wysłanych transakcjach",
+            "sent_p1":"Płatność z Twojego portfela Bitcoin została wykonana.",
+            "received_p1":"Otrzymano płatność na adres Twojego portfela Bitcoin.",
+            "header_received":"Powiadomienia o otrzymanych transakcjach"
+         },
          "two_factor_reset_request":{
             "p4":"Możliwe, że ktoś próbuje włamać się do Twojego konta. Prosimy nie ignorować tego rządania.",
             "p3":"Jeżeli rządanie nie zostało wykonane przez Ciebie prosimy otworzyć podany URL by je odrzucić:",
@@ -355,28 +354,22 @@
             "p1":"Zostało wykonane rządanie celem usunięcia mechanizmu dwuetapowej autentykacji z Twojego konta My Wallet:",
             "header":"Rządanie resetu dwuetapowej autentykacji"
          },
-         "tx":{
-            "header_sent":"Powiadomienia o wysłanych transakcjach",
-            "sent_p1":"Płatność z Twojego portfela Bitcoin została wykonana.",
-            "received_p1":"Otrzymano płatność na adres Twojego portfela Bitcoin.",
-            "header_received":"Powiadomienia o otrzymanych transakcjach"
-         },
          "top_tip":"Top Tip",
          "tip_reversible":"Ta płatność może zostać anulowana przez nadawcę dopóki nie zostanie potwierdzona.",
+         "password_hints":{
+            "p1":"Otrzymujesz tego email ponieważ ktoś próbował odczytać podpowiedzi do Twoich haseł.",
+            "second_hint":"Podpowiedź do drugiego hasła:",
+            "main_hint":"Podpowiedź do głównego hasła:",
+            "header":"Podopwiedzi hasła My Wallet"
+         },
          "confirmation_code":{
             "p1":"Wykryto wielokrotne nieudane próby logowania się do tego konta. Wprowadź kod potwierdzający by uzyskać dostęp do konta. Jeżeli to nie Ty wykonałeś próby logowania, możesz zignorować ten email."
          },
-         "password_hints":{
-            "p1":"Otrzymujesz tego email ponieważ ktoś próbował odczytać podpowiedzi do Twoich haseł.",
-            "main_hint":"Podpowiedź do głównego hasła:",
-            "second_hint":"Podpowiedź do drugiego hasła:",
-            "header":"Podopwiedzi hasła My Wallet"
-         },
-         "tip_backup":"Wykonaj kopię zapasową swojego portfela przy pomocy Dropboksa. To łatwe, bezpieczne i nic nie kosztuje.",
          "wallet_backup":{
             "p1":"W załączniku zotał umieszczony zaszyfrowana algorytmem AES kopia zapasowa Twojego portfela. Zawiera ona wszystko czego potrzebujesz, by móc przywrócić swój portfel. Możesz jej użyć przy odtworzyć swój portfel w dowolnej chwili na {0} albo używając klienta na komputery desktopowe aplikacji {1}.",
             "header":"Kopia zapasowa portfela"
          },
+         "tip_backup":"Wykonaj kopię zapasową swojego portfela przy pomocy Dropboksa. To łatwe, bezpieczne i nic nie kosztuje.",
          "your_wallet_identifier":"Identyfikator Twojego portfela to:",
          "welcome":{
             "p1":"Ten email zawiera istotne informacje na temat nowego portfela Bitcoin. Upewnij się, że jest przechowywany w bezpiecznym miejscu, osobno od Twojego hasła.",
@@ -389,10 +382,20 @@
             "header":"Konto zablokowane"
          }
       },
+      "blocks":{
+         "hash":"Skrót",
+         "relayed_by":"Przesłany przez",
+         "main_chain":"Główny łańcuch",
+         "title2":"Bloki znalezione",
+         "mined_on":"Bloki znalezione:"
+      },
       "largest_transactions":{
          
       },
       "pools":{
+         
+      },
+      "wallet_new":{
          
       },
       "header":{
@@ -402,26 +405,23 @@
          "logo_alt_title":"Przeglądarka bloków Bitcoin oraz statystyki waluty",
          "developer":"Dla programistów",
          "charts_title":"Wykresy Bitcoin",
-         "developer_title":"Narzędzia dla programistów",
-         "wallet_title":"Portfel Bitcoin"
-      },
-      "wallet_new":{
-         
+         "wallet_title":"Portfel Bitcoin",
+         "developer_title":"Narzędzia dla programistów"
       },
       "misc":{
          
       },
       "footer":{
          "nodes_connected":"Połączonych węzłów",
-         "advanced":"Zaawansowane:",
          "enable":"Aktywuj",
+         "advanced":"Zaawansowane:",
          "ok":"OK",
          "about_and_contact":"O nas oraz Kontakt:",
          "not_connected":"Nie połączony"
       },
       "charts":{
-         "market_price2":"Wykres pokazujący cenę 1 BTC wyrażoną w USD na giełdzie Mt.gox",
          "market_cap2":"Wykres pokazujący całkowitą liczbę Bitcoinów w cyrkulacji razy ich cenę w USD.",
+         "market_price2":"Wykres pokazujący cenę 1 BTC wyrażoną w USD na giełdzie Mt.gox",
          "total_bitcoins":"Całkowita liczba Bitcoinów w obiegu",
          "hash_rate_label":"Hash Rate GH\/s",
          "n_unique_addresses2":"Wykres pokazujący liczbę unikalnych adresów Bitcoin wykorzystanych do transakcji w ciągu całego dnia.",
@@ -429,10 +429,10 @@
          "my_wallet_n_tx":"Dzienna liczba transakcji My Wallet",
          "trade_vol2":"Wykres pokazujący wolumen transakcji na gdziełkie USD z największych giełd.",
          "n_transactions_excluding_popular3":"Popularne adresy",
-         "n_transactions_excluding_popular2":"Liczb transakcji z wyłączeniem najpopularniejszych adresów (100 najpopularniejszych)",
          "errors":{
             "no_stats":"Brak statystyk dla wybranego okresu"
          },
+         "n_transactions_excluding_popular2":"Liczb transakcji z wyłączeniem najpopularniejszych adresów (100 najpopularniejszych)",
          "total_bitcoins_label":"Liczba Bitcoinów (BTC)",
          "day_average_7":"średnia z 7 dni",
          "my_wallet_n_users2":"Liczba portfeli zarejestrowanych w usłudze My Wallet.",
@@ -445,8 +445,8 @@
          "mywallet_n_transactions_per_day":"My Wallet: Liczba transkacji na dzień",
          "blockchain_size_label":"MB",
          "my_wallet_transaction_volume_label":"Wolumen transakcji (BTC)",
-         "estimated_transaction_volume_usd":"Szacowany wolument transakcji (USD)",
          "transaction_fees2":"Wykres pokazujący całkowitą wartość (BTC) opłat za transakcje, które minerzy otrzymują dziennie.",
+         "estimated_transaction_volume_usd":"Szacowany wolument transakcji (USD)",
          "miners_revenue_label":"Dochody Górników (BTC)",
          "hash_rate2":"Szacowana liczba Giga-Hashy na sekundę (miliardów hashy na sekundę): operacji wykonywanych przez sieć Bitcoin.",
          "balance_of_address":"Saldo adresu Bitcoin:",
@@ -521,6 +521,9 @@
          "days_destroyed_cumulative2":"Zniszczone Bitcoin-Dni to miara wolumenu transakcji w sieci Bitcoin. Jeżeli ktoś otrzymał 100 BTC  i wyda je po 7 dniach to zniszczył 700 Bitcoin-Dni.",
          "avg_confirmation_time_label":"Czas potwierdzenia (Minuty)"
       },
+      "strange_transactions":{
+         
+      },
       "block_height":{
          "summary":"Podsumowanie",
          "sub_header":"Bloki o wysokości {0} w łańcuchu bloków",
@@ -533,16 +536,10 @@
          "error_fetching_blocks":"Unknown Error Fetching Blocks From Database",
          "title":"Bloki o wysokości {0} w łańcuchu bloków",
          "meta_description":"Bloki Bitcoin o wysokości {0} w łańcuchu bloków",
-         "nonce":"Losowy unikat",
-         "output_total":"Sumaryczny wynik",
          "relayed_by":"Przesłany przez",
+         "output_total":"Sumaryczny wynik",
+         "nonce":"Losowy unikat",
          "no_blocks":"Nie znaleziono bloków o podanej wysokości"
-      },
-      "strange_transactions":{
-         
-      },
-      "notifications":{
-         
       },
       "address":{
          "invalid_hash_160":"Przykro mi, to nie jest proawidłowy hash 160",
@@ -564,26 +561,29 @@
          "invalid_address":"Przykro mi, to nie jest prawidłowy adres Bitcoin.",
          "newest_first":"(Od najnowszych)",
          "double_spend_warning":"Uwaga! Ten adres Bitcoin zawiera operacje, które mogły być próbami oszustwa. Zalecamy ostrożność przy transakcjach z tym adresem.",
-         "sent":"Wysłano",
+         "too_large_to_filter":"Historia transakcji zbyt duża, by ją przefiltrować.",
+         "title":"Adres  Bitcoin {0}",
          "table_transactions":{
             "final_balance":"Saldo",
             "number_of_transactions":"Liczba transkacji",
             "unspent_inputs":"Niewysłane wejścia",
             "total_received":"Razem otrzymane"
          },
-         "title":"Adres  Bitcoin {0}",
-         "too_large_to_filter":"Historia transakcji zbyt duża, by ją przefiltrować.",
-         "meta_description":"Transkacje wychodzące oraz przychodzące dla adresu Bitcoin ",
+         "sent":"Wysłano",
          "confirmed":"Potwierdzone",
+         "meta_description":"Transkacje wychodzące oraz przychodzące dla adresu Bitcoin ",
          "no_transactions":"Nie odnaleziono transakcji związanych z tym adresem. Prawdopodobnie nigdy nie był on użyty w sieci.",
          "deposit_with_cash":"Depozyt gotówkowy"
+      },
+      "notifications":{
+         
       },
       "ip_log":{
          
       }
    },
-   "code":"pl",
    "properties":{
       "extends":"auto_polish"
-   }
+   },
+   "code":"pl"
 }

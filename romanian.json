@@ -2,6 +2,13 @@
    "flag":"ro.png",
    "name":"Romanian",
    "strings":{
+      "connected_nodes":{
+         "sub_header":"Lista de noduri la care Blockchain.info este conectat",
+         "title":"Lista nodurilor conectate la bitcoin",
+         "location":"Locatie",
+         "total_connected":"Total Conectati: {0}",
+         "header":"Noduri conectate"
+      },
       "home":{
          "other_links":{
             "most_popular":"Adresele cele mai populare",
@@ -15,8 +22,8 @@
             "pools":"Statistici Pool",
             "hub_nodes2":"O lista a celor mai bine conectat bitcoin supernodes",
             "unconfirmed":"Tranzactii neconfirmate",
-            "largest":"Tranzactii mai mari",
             "pools2":"Diagrama radiala, arata cota de piata a bazinelor miniere de top bitcoin",
+            "largest":"Tranzactii mai mari",
             "hub_nodes":"Noduri Hub",
             "strange":"Tranzactii ciudate",
             "address_tags2":"Etichetati adresele publice bitcoin.",
@@ -29,13 +36,13 @@
          },
          "sub_header":"Blocuri cel mai recent minat în lantul de bloc bitcoin",
          "search_explain":"Puteti introduce un bloc de înaltime, adresa, hash bloc, hash tranzactie, hash160, sau IPv4 adresa ..",
-         "meta_description":"Bitcoin Block Explorer & Statistica. Vizualiza informatii detaliate cu privire la toate tranzactiile bitcoinurilor si ale blocurilor.",
          "table_headers":{
             "transactions":"Tranzactii",
             "height":"Înaltime",
             "age":"Vârsta",
             "relayed":"Retransmis"
          },
+         "meta_description":"Bitcoin Block Explorer & Statistica. Vizualiza informatii detaliate cu privire la toate tranzactiile bitcoinurilor si ale blocurilor.",
          "search":"Cautati",
          "about":{
             "p3":"Pentru o introducere în bitcoin va rugam sa consultati {0}",
@@ -45,25 +52,6 @@
          "latest_transactions":"Ultimele Tranzactii",
          "header":"Acasa"
       },
-      "connected_nodes":{
-         "sub_header":"Lista de noduri la care Blockchain.info este conectat",
-         "title":"Lista nodurilor conectate la bitcoin",
-         "location":"Locatie",
-         "total_connected":"Total Conectati: {0}",
-         "header":"Noduri conectate"
-      },
-      "transactions_summary":{
-         "maturing":"{0} este necesar pâna la cheltuire",
-         "you_sent":"Ai trimis",
-         "double_spend":"Dubla cheltuire",
-         "transaction_is_double_spend":"Aceasta tranzactie este o dubla Cheltuie!",
-         "no_double_spend":"Fara dubla cheltuire",
-         "sent_time":"Ora trimiterii",
-         "poor":"Rau",
-         "value_at_time":"Valoarea la momentul tranzactiei",
-         "you_received":"Ati primit",
-         "transaction_fee":"Taxa de tranzactie"
-      },
       "popular_addresses":{
          "sub_header":"Adresele Cele mai populare bitcoin dupa numarul de iesiri",
          "title":"Cele mai populare 100 de adrese bitcoin- Blockchain.info",
@@ -71,26 +59,38 @@
          "address":"Adresa",
          "number_of_outputs":"Numar iesiri"
       },
+      "transactions_summary":{
+         "maturing":"{0} este necesar pâna la cheltuire",
+         "double_spend":"Dubla cheltuire",
+         "you_sent":"Ai trimis",
+         "transaction_is_double_spend":"Aceasta tranzactie este o dubla Cheltuie!",
+         "no_double_spend":"Fara dubla cheltuire",
+         "poor":"Rau",
+         "sent_time":"Ora trimiterii",
+         "you_received":"Ati primit",
+         "value_at_time":"Valoarea la momentul tranzactiei",
+         "transaction_fee":"Taxa de tranzactie"
+      },
       "orphaned_blocks":{
          "meta_description":"Blocurile de orfani sunt blocuri valide, si fac parte din lantul de bloc principal bitcoin.",
          "number_of_transactions":"Numarul tranzactiilor",
-         "btc_sent":"BTC Trimisi",
          "previous_page":"Pagina anterioara",
+         "btc_sent":"BTC Trimisi",
          "p1":"Blocuri decomandat sau orfani sunt valide blocuri care nu fac parte din lan?ul de principal. Ele pot aparea in mod natural, atunci când doua minerii produc blocuri la nr de ori similare sau pot fi cauzate de un atacator (cu putere suficienta hashing) încercarea de a inversa tranzac?ii."
       },
       "api_index":{
-         "data_api_description":"Solicitare de date JSON pe blocuri si tranzactii. Aproape toate datele pe care le vedeti pe acest site sunt disponibile în format JSON.",
          "welcome_p2":"Oferte de alte servicii.",
+         "data_api_description":"Solicitare de date JSON pe blocuri si tranzactii. Aproape toate datele pe care le vedeti pe acest site sunt disponibile în format JSON.",
          "welcome_p1":"Aici vei gasi tot ce ai nevoie pentru a începe codificarea pentru bitcoin. Aveti posibilitatea sa utilizati Blockchain.info 'propriul API sau",
          "charts_and_statistics_description":"Furaje JSON care contine datele din grafice si statistici.",
-         "view_documentation":"Vezi Documentatie",
          "send_description":"Foarte simplu de utilizat, JSON API, pentru a trimite si a primi programat bitcoins de la un Cont, in portofelul dvs.",
-         "websocket_description":"Latenta scazuta de streaming, canalul soclu furnizeaza de date privind blocurile noi si tranzactii. Aboneaza-te la notificare pe blocuri, tranzactii sau a unei adrese si pentru a primi obiecte JSON care permite o tranzactie sau o blocheaza atunci când se produce un eveniment.",
+         "view_documentation":"Vezi Documentatie",
          "send_payments":"Trimite Plati",
+         "websocket_description":"Latenta scazuta de streaming, canalul soclu furnizeaza de date privind blocurile noi si tranzactii. Aboneaza-te la notificare pe blocuri, tranzactii sau a unei adrese si pentru a primi obiecte JSON care permite o tranzactie sau o blocheaza atunci când se produce un eveniment.",
          "abuse_notice":"Servicii prestate de blockchain.info sunt gratuite. Va rugam sa nu abuzati de ele.",
          "blockchain_data":"Datele referitoare la tranzactii & Blocks",
-         "simple_query_api_description":"Text simplu, API pentru informatii privitoare la datele blockchain. Compatibil cu",
          "welcome":"Bine ai venit, Minerule!",
+         "simple_query_api_description":"Text simplu, API pentru informatii privitoare la datele blockchain. Compatibil cu",
          "request_limits_p1":"pentru un cod API, intrece cererea limitatorului te rog",
          "sub_header":"Instrumente pentru dezvoltatori, pentru a obtine date despre blockchain",
          "complete_merchant_solution":"Solutie completa de la comerciant.",
@@ -107,27 +107,19 @@
          "json_rpc_description":"Blockchain.info este capabil sa functioneze ca un server bitcoind RPC pentru comercianti si de a interactiona cu functia portofelul meu.",
          "receive_payments_description":"O metoda incredibil de usoara pentru site-urile web, pentru a primi plati bitcoin."
       },
-      "transaction":{
-         "output_decode_error":"Imposibil de a decoda adresa de iesire",
-         "confirmations":"Confirmari",
-         "no_inputs":"Nu exista Intrari (nou generate de monede)",
-         "unconfirmed_transaction":"Tranzactie neconfirmate!",
-         "public_note":"Nota Publica",
-         "output":"Productie"
-      },
       "deposit":{
          "make_anonymous":"Asigurati anonimatul",
          "bank_name":"Nume banca",
          "small_package":"Pachetul mic",
-         "you_receive":"Primiti:",
          "instructions":"Instructiuni:",
+         "you_receive":"Primiti:",
          "amount_help":"Introduceti suma pentru a achizitiona în {0}.",
          "amount":"Suma",
          "you_pay":"Veti plati:",
-         "please_verify":"În scopul de a utiliza nostru {0} de servicii de depozit va rugam sa confirmati numarul dvs. de telefon mobil.",
          "large_package":"Pachetul mare",
-         "name":"Numele intreg",
+         "please_verify":"În scopul de a utiliza nostru {0} de servicii de depozit va rugam sa confirmati numarul dvs. de telefon mobil.",
          "pingit_p1":"Daca nu ai un cont PingIt inca , configurarea este usor de facut chiar si aplicatia poate fi descarcata de pe App Store pe telefonul tau inteligent.",
+         "name":"Numele intreg",
          "depsit_with_cash_description":"Peste 700,000 de conturi localizate in intreaga lume",
          "full_instructions":"Instructiuni complete",
          "account_number":"Numar de cont",
@@ -140,12 +132,27 @@
          "uk_bank_p2":"Va rugam sa revizuiti detaliile de mai jos",
          "faster_payments":"Plati rapide",
          "uk_bank_p1":"Va rugam sa introduceti detaliile titularului de cont",
-         "to_address":"Catre Adresa:",
          "select_currency":"Selectati valuta",
+         "to_address":"Catre Adresa:",
          "dob":"Data nasterii",
          "pingit_instructions_1":"Pentru a finaliza aceasta ordine de plata va rugam sa trimiteti de {0} la {1} folosind referinta {2}. Verificati cu atentie numarul de referinta.",
          "pingit_instructions_2":"Plata trebuie sa fie trimis de la {0}.",
          "payment_method":"Metoda de plata:"
+      },
+      "transaction":{
+         "output_decode_error":"Imposibil de a decoda adresa de iesire",
+         "confirmations":"Confirmari",
+         "no_inputs":"Nu exista Intrari (nou generate de monede)",
+         "unconfirmed_transaction":"Tranzactie neconfirmate!",
+         "public_note":"Nota Publica",
+         "output":"Productie"
+      },
+      "wallet_forgot_identifier":{
+         "sub_header":"Introdu adresa ta de e-mail sau numarul de telefon mai jos si vom retrimite link-ul de confirmare:",
+         "title":"Ai uitat ID-ul?",
+         "email_or_sms":"Trimitei mal sau SMS:",
+         "p1":"Daca nu aveti un e-mail asociat cu contul dumneavoastra, va rugam sa ne contactati ({0}) cu orice informatie va pot oferi, inclusiv numele de utilizator Skype, numele de utilizator Google Talk, fraza secreta sau alias.",
+         "header":"Am uitat IdD-ul"
       },
       "stats":{
          "sub_header":"Bitcoin Statistici moneda",
@@ -173,16 +180,15 @@
          },
          "period":"Toate statisticile sunt pentru o perioada anterioara de 24 de ore cu exceptia cazului în care se prevede altfel"
       },
-      "wallet_forgot_identifier":{
-         "sub_header":"Introdu adresa ta de e-mail sau numarul de telefon mai jos si vom retrimite link-ul de confirmare:",
-         "title":"Ai uitat ID-ul?",
-         "p1":"Daca nu aveti un e-mail asociat cu contul dumneavoastra, va rugam sa ne contactati ({0}) cu orice informatie va pot oferi, inclusiv numele de utilizator Skype, numele de utilizator Google Talk, fraza secreta sau alias.",
-         "email_or_sms":"Trimitei mal sau SMS:",
-         "header":"Am uitat IdD-ul"
+      "ip_info":{
+         "sub_header":"Tranzactiile care au fost retransmise de catre primul ip {0}",
+         "title":"Tranzactii trimise de {0} - Blockchain.info",
+         "meta_description":"Tranzactii Bitcoin transmis prin adresa IP {0}",
+         "header":"Tranzactii transmis de {0}"
       },
       "block":{
-         "no_block_index":"Nr Indicelui bloc cu conditia",
          "meta_description":"Tranzactii continute în bitcoin bloc",
+         "no_block_index":"Nr Indicelui bloc cu conditia",
          "hash_table":{
             "hash":"Hash",
             "next_block":"Blocul urmator (e)",
@@ -191,23 +197,17 @@
          },
          "network_propagation":"Propagarea de retea",
          "transactions_header":"Tranzactii",
-         "transactions_sub_header":"Tranzactii continute în acest bloc",
          "summary_table":{
             "output_title":"Total productie",
-            "block_reward":"Blocati Recompensa",
             "height":"Înaltime",
+            "block_reward":"Blocati Recompensa",
             "number_of_transactions":"Numarul tranzactiilor",
             "main_chain":"Principalul lant",
             "bits":"Biti",
             "transaction_fees":"Taxe de tranzactie",
             "estimated_transaction_volume":"Volumul estimat al tranzactiilor"
-         }
-      },
-      "ip_info":{
-         "sub_header":"Tranzactiile care au fost retransmise de catre primul ip {0}",
-         "title":"Tranzactii trimise de {0} - Blockchain.info",
-         "meta_description":"Tranzactii Bitcoin transmis prin adresa IP {0}",
-         "header":"Tranzactii transmis de {0}"
+         },
+         "transactions_sub_header":"Tranzactii continute în acest bloc"
       },
       "double_spends":{
          "sub_header":"Dublu petrece detectate în ultimele 500000 tranzactiilor (10 Cache minute)",
@@ -236,16 +236,16 @@
             "password_hints_description":"Daca ati uitat parola, indiciile pot fi utile pentru a ajuta la reîmprospata memoriei. Daca exista o adresa de e-mail asociata cu contul dvs., indicii pot fi trimisa prin email. Daca nici un e-mail nu este asociata cu contul dvs., indicii sunt disponibile pentru oricine care stie identificatorul Dvs. de portofel.",
             "notifications_confirmations":"Dupa Confirmari",
             "skype_description":"Veti primi notificari prin Skype pentru numele de utilizator de mai jos:",
-            "password_hints":"Sugestii parola",
             "action":"Actiune",
+            "password_hints":"Sugestii parola",
             "receives":"Primeste Bitcoins",
-            "email_not_verified":"E-mail nu a fost verificat",
             "integrity_check":"Verificati integritatea",
+            "email_not_verified":"E-mail nu a fost verificat",
             "html5_notifications":"HTML5 Notificari",
             "forgot_password_warning_p2":"Orice parolele uitata va duce la portofel ca fiind ne-accesibile. Nu exista nici un proces de recuperare a parolei!",
             "email_description":"Doi factori de autentificare prin e-mail este activat in contul dvs. Un e-mail va fi trimis la {0} acesta contine un cod de confirmare, care va trebui sa fie furnizat la autentificare.",
-            "notifications_description":"Optional primi-ti notificari atunci când o plata este trimisa sau primita din portofel.",
             "two_factor_authentication_not_enabled":"Doi factori de autentificare nu sunt activate pe contul dvs.",
+            "notifications_description":"Optional primi-ti notificari atunci când o plata este trimisa sau primita din portofel.",
             "local_currency":"Moneda locala",
             "fee_policy":"Politica implicita a taxelor",
             "notifications_when_both":"Trimite sau primeste Bitcoins",
@@ -271,51 +271,51 @@
             "send_sms_code":"Trimite codul SMS",
             "logging_deletion":"Modificarea nivelului de logare nu sterge fisiere log existente. Activitatea expira dupa 2 saptamâni.",
             "google_authenticator_warning":"Pute-ti fi deconectat de la contul dumneavoastra daca veti parasi aceasta pagina, fara asocierea cu aplicatia pentru mobil sau dezactivarea Google Authenticator.",
-            "google_talk_description":"Veti primi notificari prin Google Talk.",
             "secret_phrase_description":"O fraza secreta poate fi folosit pentru a ne ajuta sa va confirmati identitatea în cazul unui identificator pierdut portofelul sau yubikey. Acesta poate fi un singur cuvânt sau o propozitie pâna la 255 de caractere în lungime.",
+            "google_talk_description":"Veti primi notificari prin Google Talk.",
             "fee_policy_normal_description":"Urmati politica taxelor sugerata de clientul bitcoin magistrala.",
             "title":"Setarile contului",
             "forgot_password_warning":"Atentie!",
             "second_password":" A doua parola ",
             "main_password_hint":"Sugestie parola principala:",
-            "second_password_description":"Puteti seta o a doua parola, optional, care va fi necesara atunci când veti trimite fonduri din contul dvs. Pentru portofele mari, browser-ul dvs. poate fi incetinit, si poata sa isi revina abia dupa cateva minute dupa trimiterea platii",
             "password_notice":"Parola dumneavoastra nu este niciodata partajata pe serverele noastre. Acest lucru înseamna ca portofelul dvs ar fi în continuare în conditii de siguranta, în cazul în serverele noastre sufera un atac sau tentativa de accesare a datelor dvs. De asemenea, ne împiedica de la vizualizarea soldului contului sau istoricul tranzactiilor.",
-            "logging_hashed":"Log Actiuni cu adrese IP trunchiata",
-            "email_notifications":"Notificari e-mail",
+            "second_password_description":"Puteti seta o a doua parola, optional, care va fi necesara atunci când veti trimite fonduri din contul dvs. Pentru portofele mari, browser-ul dvs. poate fi incetinit, si poata sa isi revina abia dupa cateva minute dupa trimiterea platii",
             "four_confirmations":"4 Confirmari",
+            "email_notifications":"Notificari e-mail",
+            "logging_hashed":"Log Actiuni cu adrese IP trunchiata",
             "fee_policy_description":"Tranzactiile Blockchain.info sunt gratuite. Cu toate acestea reteaua bitcoin poate solicita o suplimentare de taxa de mineri care afecteaza viteza de tranzactiilor dvs., acestea sunt verificate si contribuie la sustinerea retelei. Modificati setarile de mai jos pentru a modifica politica implicita a taxei minerilor.",
             "sub_header":"Modifica setarile portofelul meu de cont.",
             "email_notifications_description":"Veti primi notificari prin e-mail. Va rugam sa confirmati adresa dvs de e-mail daca nu a-ti facut-o deja.",
             "never_remember_two_factor_description":"Implicit dupa logare cu factor de autentificare browser-ul dvs. isi va amintit pentru o perioada scurta de timp, permitându-va sa va autentific-ati din nou, fara a fi nevoie de re-autentificare. Verific-ati caseta de mai jos daca doriti sa dezactivati acest comportament si necesita autentificare de fiecare data.",
             "integrity_check_run":"Verificati",
-            "double_encryption_enabled":"Criptare dubla este activata. O a doua parola va fi necesara înainte de a putea trimite fonduri.",
             "html5_notifications_p1":"Notificarile de tip HTML5 sunt diferite de regulate ferestre pop-up, în care le solicita permisiunea utilizatorului de a fi indicat. În prezent, sustinuta în Chrome si Safari.",
+            "double_encryption_enabled":"Criptare dubla este activata. O a doua parola va fi necesara înainte de a putea trimite fonduri.",
             "six_confirmations":"6 Confirmari",
             "enter_sms_code":"Introduceti codul de verificare cuprinse în mesajul SMS.",
             "enable_double_encryption":"Activati criptare dubla",
             "fee_policy_low_warning":"Tranzactiile vor fi semnificativ mai lent pentru a confirma",
             "logging_level_description":" Datele dumneavoastra vor fi inscrise numai in cazul trimiterii\/primirii de bitcoins . În mod implicit jurnalul este oprit in afara de actiunile întreprinse de catre administratori. Activarea ofera o mai buna securitate prin furnizarea de mai multe informatii cu privire la accesul neautorizat la poten?ialul de portofel totusi un pic de intimitate poate fi sacrificata.",
             "mobile_number":"Numar de mobil",
-            "enable_disable":"Activeaza \/ Dezactiveaza:",
+            "never_remember_two_factor":"Nu va aminti-ti niciodata cei doi factori de autentificare",
             "nav":{
                "notifications":"Notificari"
             },
-            "never_remember_two_factor":"Nu va aminti-ti niciodata cei doi factori de autentificare",
+            "enable_disable":"Activeaza \/ Dezactiveaza:",
             "restrict_to_ip":"Pentru a restrictiona IP",
             "integrity_check_description":"Verifica toate cheile din portofelul tau, gases-te adresa pe care o cauti si apoi recripteaza portofelul. Acest lucru poate dura o lunga perioada de timp, în unele browsere."
          },
          "wallet_home":{
             "backup_description":"Back-up portofelul tau este un pas important, care este usor de uitat. Blockchain.info ia toate masurile de precautie pentru a pastra în conditii de siguranta portofelul dumneavoastra, dar este întotdeauna mai bine sa pastra-ti o copie locala doar în cazul de necesitate.",
-            "deposit_and_withdraw":"Depunere si Retragere",
             "share_with_anyone":"Trimite-ti acest lucru cu oricine si le poate trimite plati.",
-            "withdraw_description":"Utiliza-ti serviciile de mai jos pentru a converti bitcoins înapoi în moneda dvs locala.",
+            "deposit_and_withdraw":"Depunere si Retragere",
             "deposit_description":"Cel mai rapid si mai usor mod sa depuneti bitcoins în contul dvs. este de a folosi serviciile de mai jos.",
-            "account_settings_btn":"Setarile contului",
+            "withdraw_description":"Utiliza-ti serviciile de mai jos pentru a converti bitcoins înapoi în moneda dvs locala.",
             "total_transactions":"Totalul tranzactiilor",
+            "account_settings_btn":"Setarile contului",
             "account_settings":"Setarile contului",
             "total_received":"Totala primite",
-            "sofort_deposit":"Sofort bancara",
             "account_settings_description":"Edita-ti setarile contului dvs., inclusiv adresa de e-mail, parola si setarile de notificare.",
+            "sofort_deposit":"Sofort bancara",
             "backup":"Copie de rezerva"
          },
          "modals":{
@@ -332,17 +332,17 @@
             "address_qr_code":"Adresa QR Code",
             "transaction_information":"Informatii tranzactie",
             "label_placeholder":"Eticheta de ex: Economie",
-            "please_check_details":"Va rugam sa verificati detaliile de mai jos:",
             "create_new_wallet":"Creati un portofel nou",
-            "hash":"Hash",
+            "please_check_details":"Va rugam sa verificati detaliile de mai jos:",
             "verify_result":"Acest mesaj a fost semnat de catre adresa {0}. <br \/> Aceasta este adresa pe care o vroiati?",
+            "hash":"Hash",
             "ask_for_anonymous_p1":"Mixerul nostru are nevoie de monedele tale bitcoin. Trimite aceasta tranzactie anonim si obtine un bonus de {0}% <\/ b> ({1} BTC, va fi trimis inapoi la adresa trimiterea). Tranzactia va atrage o intarziere de aproximativ {2}.",
             "sweep_keys_p1":"Sweep înseamna a muta toate fondurile disponibile în una sau mai multe adrese de la o alta adresa. Va rugam sa alegeti o adresa în cazul în care doriti sweep adresele selectate (din Bilant {0}).",
             "delete_private_key_only":"Stergere numai cheia privata",
-            "inputs":"Intrari",
             "miners_fee_recommended_warning":"Daca nu include-ti o taxa aceasta tranzactie poate sa ia o lunga perioada de timp pentru a obtine confirmarea. Toate fondurile vor fi returnate la tine în aproximativ 24 de ore.",
-            "claim_to_desktop":"Introduce-ti adresa de clientul bitcoin desktop:",
+            "inputs":"Intrari",
             "confirm_delete_p1":"Sute-ti sigur ca doriti sa eliminati adresa? Nu veti mai putea trimite sau primi bitcoins de la aceasta adresa. Soldul aceasta adresa este:",
+            "claim_to_desktop":"Introduce-ti adresa de clientul bitcoin desktop:",
             "never_ask_again":"Niciodata nu ma întreba din nou.",
             "compressed_private_key":"Cheia privata comprimata detectata",
             "verify_signature_placeholder":"Introduceti semnatura pentru a verifica",
@@ -367,33 +367,33 @@
             "confirm_delete":"Confirma-ti stergerea",
             "address_book_label_help":"Introduce-ti eticheta pentru aceasta adresa. de exemplu, numele persoanei sau numele firmei.",
             "address_not_synced_p1":"Aceasta adresa nu a fost stocat pe serverele noastre si, poate, duce inca la pierderea acesteia dupa plecarea aceasta pagina.",
-            "outputs":"Ie?iri",
             "label_address":"Eticheta Adresa",
+            "outputs":"Ie?iri",
             "confirm_delete_warning":"Stergerea unei adrese incorecte va cauza pierderi financiare. Daca nu sunteti sigur de cea ce faci-ti, apasa-ti anulati acum",
-            "claim_title":"Ati primit bitcoins!",
             "add_address_book_entry":"Introducere Agenda cu Adrese",
-            "send_transaction":"Trimite tranzactie",
+            "claim_title":"Ati primit bitcoins!",
             "leaving_wallet":"Lasând Portofel",
-            "enter_private_key":"Introduceti cheia privata",
-            "add_address_book_entry_placeholder":"Introduceti adresa Bitcoin doriti sa adaugati în agenda.",
-            "confirm_delete_countdown":"Ai {0} secunde pentru a te razgandii ...",
+            "send_transaction":"Trimite tranzactie",
             "claim_p1":"Va rugam sa alegeti una dintre optiunile de mai jos pentru a pretinde dvs. bitcoins. Pâna la sustinut expeditor este capabil de a inversa aceasta plata.",
-            "delete_both":"Sterge?i adresa si cheie privata",
+            "confirm_delete_countdown":"Ai {0} secunde pentru a te razgandii ...",
+            "add_address_book_entry_placeholder":"Introduceti adresa Bitcoin doriti sa adaugati în agenda.",
+            "enter_private_key":"Introduceti cheia privata",
             "label_help":"O eticheta este folosita pentru a ajuta sa va amintiti ce aceasta adresa este pentru. Acesta poate fi numele unei persoane sau companii.",
+            "delete_both":"Sterge?i adresa si cheie privata",
             "miners_fee_recommended_p1":"Aceasta tranzactie are o prioritate scazuta. Este recomandat sa includesti cel putin un comision 0.0005 tranzac?ie BTC, în scopul de a asigura o procese de minerit.",
             "claim_zero_balance":"Soldul acestei adrese bitcoin este zero. Plata poate a fost deja solicitate sau tranzactia a fost inversata de catre expeditor.",
             "verify_message_placeholder":"Introduce-ti Mesaj pentru a verifica",
-            "offline_instructions":"Pentru a finaliza tranzactia deschis {0}. Copiati si lipiti textul de mai jos in textarea si apasati prezinte pentru a finaliza tranzactia. <\/ P>",
             "password_change":"Confirmati Schimbare parola",
+            "offline_instructions":"Pentru a finaliza tranzactia deschis {0}. Copiati si lipiti textul de mai jos in textarea si apasati prezinte pentru a finaliza tranzactia. <\/ P>",
             "send_via_email_sub":"Urmatorul mesaj va fi trimis la destinatar.",
-            "creating_transaction":"Crearea de tranzactie",
             "private_key_needed_p1":"Aceasta actiune necesita cheia privata a adresei bitcoin {0}. Va rugam sa introduceti cheia privata de mai jos.",
+            "creating_transaction":"Crearea de tranzactie",
             "enter_manually":"Introduceti manualul",
             "scan_using_webcam":"Scanarea folosind webcamul",
             "signing_please_wait":"Va rugam sa asteptati. Scanarea numarului de intrare {0} din {1} ...",
             "private_key_needed":"Cheie privata necesare",
-            "sign_message_sub":"Utilizati acest instrument pentru a semna un mesaj care dovedeste ca detineti o adresa. Înregistreaza doar mesaje detaliate pe deplin de acord cu, sa nu semneze mesaje vagi. Apasând Mesaj Contul poate determina browser-ul dvs. pentru a devenit inactiva timp de câteva secunde.",
-            "continue_without_fee":"Continuare Fara Taxa"
+            "continue_without_fee":"Continuare Fara Taxa",
+            "sign_message_sub":"Utilizati acest instrument pentru a semna un mesaj care dovedeste ca detineti o adresa. Înregistreaza doar mesaje detaliate pe deplin de acord cu, sa nu semneze mesaje vagi. Apasând Mesaj Contul poate determina browser-ul dvs. pentru a devenit inactiva timp de câteva secunde."
          },
          "errors":{
             "error_generating_auth_code":"A aparut o eroare incercand generarea codului",
@@ -413,8 +413,8 @@
             "error_updating_notification_settings":"Eroare la actualizarea setarilor de tip notificare",
             "payload_null":"Eroare grava! Sarcina utila pare a fi Null",
             "error_sending_wallet_backup":"Eroare la trimiterea de rezerva a portofelului",
-            "error_updating_sms":"Eroare la actualizarea numar SMS",
             "error_sending_password_hints":"Eroare necunoscuta la trimiterea de sugestii de parola",
+            "error_updating_sms":"Eroare la actualizarea numar SMS",
             "error_updating_auto_backup":"Eroare la actualizarea automata Setari e-mail backup",
             "invalid_alias":"Alias \u200B\u200Btrebuie sa fie alfanumeric",
             "error_sending_sms_code":"A aparut o eroare la trimiterea SMS pentru codul de doi factor de autentificare.",
@@ -446,8 +446,8 @@
             "wallet_size_restricted":"Portofelele sunt limitate la 1MB",
             "error_validating_yubikey":"Eroare la validarea yubikey",
             "error_updating_local_currency":"Eroare la actualizarea monedei valutare locale",
-            "unknown_language_code":"Limba necunoscuta",
-            "unknown_identifier":"Id-ul portofelului necunoscut. Va rugam sa verificati daca acesta a introdus in mod corect."
+            "unknown_identifier":"Id-ul portofelului necunoscut. Va rugam sa verificati daca acesta a introdus in mod corect.",
+            "unknown_language_code":"Limba necunoscuta"
          },
          "send_coins":{
             "address_book":"Agenda",
@@ -461,18 +461,18 @@
             "quick_send":"Trimitere rapida",
             "facebook_help":"Introduceti numele destinatarului Facebook",
             "amount":"Suma",
-            "pending":"În asteptarea",
             "satoshi_dice_sub":"{0} este cel mai popular joc de bitcoin de pariuri. Câstigati pâna la 64.000 x pariul dvs., instantaneu. Toate rolele sunt verificabile prin blockchain.",
-            "remove_recipient":"Elimina Primitorul",
+            "pending":"În asteptarea",
             "repeat_5":"Repetare",
+            "remove_recipient":"Elimina Primitorul",
             "change_address":"Modificare Adresa",
-            "refresh":"Reîmprospatare",
             "email_address_tooltip":"Aceasta este adresa de e-mail a persoanei la care doriti sa trimiteti bitcoins.",
+            "refresh":"Reîmprospatare",
             "from_address_tooltip":"Daca este necesar, puteti alege sa trimiteti monedele de la o anumita adresa, în portofel.",
             "send_payment":"Trimite plata",
             "place_bet":"Plasati pariuri!",
-            "transaction_types":"Tipul tranzactiei",
             "review_payment_tooltip":"Click aici pentru a revizui plata. Veti fi capabil de a confirma sau de a anula tranzactia.",
+            "transaction_types":"Tipul tranzactiei",
             "add_new_entry":"Adaugati intrare noua",
             "add_recipient":"Adaugati destinatar",
             "send_anonymously_bonus":"Mixer plateste în prezent un bonus pentru monedele proaspete. Nu vor exista taxe pentru aceasta tranzactie si un bonus de {0} BTC, vor fi platite.",
@@ -514,8 +514,8 @@
             }
          },
          "nav":{
-            "transactions":"Tranzactii mele",
             "home":"Portofel Acasa",
+            "transactions":"Tranzactii mele",
             "receive":"Bani primiti"
          },
          "receive_money":{
@@ -532,25 +532,52 @@
             "delete_keys_tooltip":"Stergeti cheile private selectate.",
             "more_info":"Mai multe informatii",
             "anonymous_addresses_description":"Platile primite la adresele anonime vor fi transmise la o alta adresa în portofel. Orice plati primite sunt trimise prin mixer la un portofel izolandu-va de datele celui care a trimis plata . Tranzactiile care au primit adrese anonime nu pot fi conectate regulat la portofelul dumneavoastra.",
-            "new_address_tooltip":"Click aici pentru a genera o adresa de bitcoin noua. Puteti începe sa primiti bitcoins în aceasta adresa imediat",
-            "sweep_keys_tooltip":"Mutati orice bitcoins din cheile selectate catre o adresa de bitcoin diferita."
+            "sweep_keys_tooltip":"Mutati orice bitcoins din cheile selectate catre o adresa de bitcoin diferita.",
+            "new_address_tooltip":"Click aici pentru a genera o adresa de bitcoin noua. Puteti începe sa primiti bitcoins în aceasta adresa imediat"
+         },
+         "login":{
+            "lost_password":"Am uitat parola",
+            "password_hints_btn":"Sugestii parola",
+            "resend_link_p1":"Mesajul va fi trimis de la wallet@blockchain.info. Asigurati-va ca verificati in SPAM. Daca tot nu puteti gasi e-mailul faceti clic pe butonul de mai jos sa-l trimita.",
+            "resend_sms_link_p1":"Va rugam sa verificati semnalul de retea. Mesajele pot dura pâna la 10 minute pentru a fi livrate, în cazul în care nu a-ti primit mesajul in 10 minute, face-ti clic pe butonul de mai jos pentru a retrimite mesajul.",
+            "lost_two_factor_title":"Detalii despre pierderea celor doi factori de autentificare",
+            "lost_identifier_title":"Username pierdut sau Alias",
+            "yubikey_help":"Selectati caseta de text de mai sus si apasati lumina verde LED de pe Yubikey-ul dumneavoastra.",
+            "need_help_p1":"Citi-ti {0}",
+            "password_unrecoverable_warning":"Parola dumneavoastra nu este niciodata partajata cu serverele noastre si nu poate fi recuperate daca a fost uitata!",
+            "need_help":"Aveti nevoie de ajutor?",
+            "google_authenticator_help":"Va rugam sa deschideti aplicatia de autentificare Google si introduce-ti codul afisat.",
+            "lost_two_factor_p1":"Daca a-ti pierdut cele doua detalii factor de autentificare, portofelul dumneavoastra este înca pe deplin recuperabil. Tot ce avem nevoie este o dovada rezonabila sunteti proprietarul contului, care pot fi furnizate prin completarea formularului de mai jos.",
+            "email_code_help":"Un e-mail care contine un cod de confirmare a fost trimis temporar în contul tau.",
+            "resend_link_title":"Nu puteti gasi codul dvs. de email?",
+            "forgotten_identifier_btn":"Am uitat Username",
+            "forgotten_something_sub":"Ajutor! Mi-am blocat contul",
+            "google_authenticator":"Aplicatia Google Authenticator:",
+            "sms_code_help":"Un mesaj de tip text a fost trimis pe telefonul dvs. mobil. Va rugam sa introduceti codul în casuta de mai sus.",
+            "lost_identifier_p1":" Daca ati pierdut username-ul Dvs. de portofel verificati mai întâi ce e-mail de confirmare l-ati primit in timpul inscriere. Nu puteti gasi e-mailul? Faceti clic pe butonul de mai jos si va putem trimite una noua.",
+            "identifier_placeholder":"Username sau Alias",
+            "lost_two_factor":"Pierdute sau uitate doua detalii de autentificare?",
+            "lost_password_p1":"Portofelul tau este criptata prin browser-ul dumneavoastra înainte de a ne contacta si pentru acest motiv, suntem în imposibilitatea de a ajuta la recuperarea parolelor pierdute. Pentru a evita orice posibila pierdere monetara datorita parolele uitate, se recomanda sa faceti o copie de rezerva pe hârtie a cheiei portofelului dumneavoastra privat.",
+            "identifier":"Username:",
+            "please_enter_login_details":"Va rugam sa introduceti datele dvs. de autentificare de mai jos:",
+            "lost_two_factor_btn":"Schimbati doi factor de autentificare"
          },
          "import_export":{
             "advanced_warning_sub":"Aceasta sectiune va permite sa efectuati modificari in portofelul dumneavoastra, care poate fi complicat si confuz. Se recomanda ca utilizatorii experimentati cu Bitcoinul sa porneasca de aici. Tu ar trebui sa ai o întelegere a ceea ce cheile private sunt si modul în care acestea se refera la adresele bitcoin.",
             "import_paper_p1":"Utilizati webcam-ul dumneavoastra pentru a scana un cod QR dintr-un portofel de hârtie",
-            "export_unencrypted_title":"Export adrese necriptate",
             "watch_only_title":"Adauga ca vazut Adresele Bitcoin",
+            "export_unencrypted_title":"Export adrese necriptate",
             "select_private_key_format":"Selectati formatul de cheie privata:",
             "advanced_warning_title":"Atentie crescuta!",
             "import_private_key_p1":"Importa o cheie existenta privata de mai jos. Toate formatele de chei private sunt acceptate.",
-            "export_unencrypted_p1":"Mai jos sunt cheile private în format JSON. Atentie!!! Aceste date nu sunt ciptate, a se pastra in siguranta.",
             "leave_encrypted":"Lasa cheile private criptat",
+            "export_unencrypted_p1":"Mai jos sunt cheile private în format JSON. Atentie!!! Aceste date nu sunt ciptate, a se pastra in siguranta.",
             "desktop_sync_change_password":"Schimbati numele de utilizator si parola la unul dintre alegerea ta.",
             "rpc":{
                "address":"Adresa",
                "download_address_list":"Descarca lista de adrese",
-               "password_help":"Daca Bitcoin-Qt Wallet pe care il ave-ti in posesie este criptat introduceti parola aici.",
                "action":"Actiune",
+               "password_help":"Daca Bitcoin-Qt Wallet pe care il ave-ti in posesie este criptat introduceti parola aici.",
                "label":"Eticheta",
                "rpc_password":"Parola RPC:",
                "ssl_help":"SSL nu este sustinuta în prezent"
@@ -576,41 +603,14 @@
                "plain":"Plaintext JSON de rezerva de la blockchain.info",
                "output_from":"De ie?ire de la {0}"
             },
-            "import_textarea_placeholder":"Copiati ?i lipiti datele Dvs. de portofel în acest domeniu",
             "brain_wallet_p1":"Un portofel Brain este o cheie privata însamânta-ta la o trecere de neuitat-fraza. Este posibil sa memoreze aceasta parola, în scopul de a restabili fondurile de la acea adresa, fara a avea nevoie de o copie de rezerva a portofelului.",
-            "desktop_sync_p1":"Acest instrument va permite sa sincronizati portofel cu clientul desktop oficial disponibil din bitcoin.org.",
+            "import_textarea_placeholder":"Copiati ?i lipiti datele Dvs. de portofel în acest domeniu",
             "brain_wallet_p2":"Minim de trecere fraza lungime este de 15 de caractere. Este recomandat sa pastrati în continuare backup-uri regulate ale portofelului chiar si cu trecere fraza memorate.",
+            "desktop_sync_p1":"Acest instrument va permite sa sincronizati portofel cu clientul desktop oficial disponibil din bitcoin.org.",
             "watch_only_p1":"Puteti adauga un {0} adresa bitcoin la portofel. Dvs nu veti fi capabil de a trimite bitcoins de la aceasta adresa, fara a oferi mai târziu, cheia privata",
             "desktop_sync_title":"Sincronizare cu desktopul",
             "desktop_sync_instructions":"Va rugam sa instalati {0} nu este valabil pentru Google Chrome sau {1} disponibile pentru Mozilla Firefox si Safari Apple (V> = 1,9 necesar).",
             "watch_only_btn":"Adauga Watch Doar Adresa"
-         },
-         "login":{
-            "lost_password":"Am uitat parola",
-            "password_hints_btn":"Sugestii parola",
-            "resend_link_p1":"Mesajul va fi trimis de la wallet@blockchain.info. Asigurati-va ca verificati in SPAM. Daca tot nu puteti gasi e-mailul faceti clic pe butonul de mai jos sa-l trimita.",
-            "resend_sms_link_p1":"Va rugam sa verificati semnalul de retea. Mesajele pot dura pâna la 10 minute pentru a fi livrate, în cazul în care nu a-ti primit mesajul in 10 minute, face-ti clic pe butonul de mai jos pentru a retrimite mesajul.",
-            "lost_two_factor_title":"Detalii despre pierderea celor doi factori de autentificare",
-            "lost_identifier_title":"Username pierdut sau Alias",
-            "yubikey_help":"Selectati caseta de text de mai sus si apasati lumina verde LED de pe Yubikey-ul dumneavoastra.",
-            "need_help_p1":"Citi-ti {0}",
-            "need_help":"Aveti nevoie de ajutor?",
-            "password_unrecoverable_warning":"Parola dumneavoastra nu este niciodata partajata cu serverele noastre si nu poate fi recuperate daca a fost uitata!",
-            "google_authenticator_help":"Va rugam sa deschideti aplicatia de autentificare Google si introduce-ti codul afisat.",
-            "lost_two_factor_p1":"Daca a-ti pierdut cele doua detalii factor de autentificare, portofelul dumneavoastra este înca pe deplin recuperabil. Tot ce avem nevoie este o dovada rezonabila sunteti proprietarul contului, care pot fi furnizate prin completarea formularului de mai jos.",
-            "email_code_help":"Un e-mail care contine un cod de confirmare a fost trimis temporar în contul tau.",
-            "resend_link_title":"Nu puteti gasi codul dvs. de email?",
-            "forgotten_identifier_btn":"Am uitat Username",
-            "forgotten_something_sub":"Ajutor! Mi-am blocat contul",
-            "google_authenticator":"Aplicatia Google Authenticator:",
-            "sms_code_help":"Un mesaj de tip text a fost trimis pe telefonul dvs. mobil. Va rugam sa introduceti codul în casuta de mai sus.",
-            "lost_identifier_p1":" Daca ati pierdut username-ul Dvs. de portofel verificati mai întâi ce e-mail de confirmare l-ati primit in timpul inscriere. Nu puteti gasi e-mailul? Faceti clic pe butonul de mai jos si va putem trimite una noua.",
-            "identifier_placeholder":"Username sau Alias",
-            "lost_two_factor":"Pierdute sau uitate doua detalii de autentificare?",
-            "lost_password_p1":"Portofelul tau este criptata prin browser-ul dumneavoastra înainte de a ne contacta si pentru acest motiv, suntem în imposibilitatea de a ajuta la recuperarea parolelor pierdute. Pentru a evita orice posibila pierdere monetara datorita parolele uitate, se recomanda sa faceti o copie de rezerva pe hârtie a cheiei portofelului dumneavoastra privat.",
-            "identifier":"Username:",
-            "please_enter_login_details":"Va rugam sa introduceti datele dvs. de autentificare de mai jos:",
-            "lost_two_factor_btn":"Schimbati doi factor de autentificare"
          },
          "success":{
             "updated_password_hint":"Sugestie parola, actualizata",
@@ -628,8 +628,8 @@
             "two_factor_reset_request_submitted":"O cerere de Reinitializare pentru doi factori de autentificare a fost deja prezentata.",
             "notification_settings_updated":"Setari notificari completa",
             "updated_ip_address":"Adrese IP Actualizata",
-            "email_updated":"Trimiteti e-mail Actualizat",
             "unsubscribed":"Te-ai dezabonat cu succes, nu vei mai primi notificari referitoare la serviciile noastre, o zi buna!",
+            "email_updated":"Trimiteti e-mail Actualizat",
             "email_code_sent":"Codul a fost trimis prin e-mail.",
             "local_currency_updated":"Moneda locala actualizat cu succes",
             "sms_verified":"Numarul SMS-uri verificat cu succes",
@@ -640,16 +640,16 @@
       "wallet":{
          "slogan":"Fii propriul tau bancher",
          "help":"Ajutor ?i Asistenta",
-         "existing_users_p1":"Daca anterior ati creat un cont Google Wallet meu click mai jos sa te autentifici.",
          "existing_users":"Acest nume de utilizator este deja folosit, va rugam incerca-ti unul nou",
+         "existing_users_p1":"Daca anterior ati creat un cont Google Wallet meu click mai jos sa te autentifici.",
          "new_users_p1":"Crearea unui nou portofel bitcoin dureaza doar câteva secunde. Veti fi capabil sa trimite-ti si sa primi-ti plati imediat.",
          "help_p1":"Va rugam sa consultati intrebari frecvente. Pentru orice probleme cu site-ul va rugam sa ne contactati.",
          "start_new":"Crea-ti un portofel nou"
       },
       "unconfirmed":{
          "sub_header":"Trai lista actualizarea noi tranzactii bitcoin",
-         "new_transaction":"Noua tranzactie",
          "title":"{0} Tranzactii neconfirmate",
+         "new_transaction":"Noua tranzactie",
          "meta_description":"Lista de tranzactii bitcoin neconfirmate",
          "total_size":"Dimensiune totala",
          "header":"{0} Tranzactii neconfirmate"
@@ -674,8 +674,8 @@
             "p2":"Dvs ar trebui sa fiti extrem de atent atunci când încrederea tuturor tranzactiilor la \/ de la acest expeditor.",
             "p1":"Atentie! aceasta tranzactie este o dubla cheltuiala de"
          },
-         "title":"Bitcoin tranzactie {0}",
          "show_scripts":"Arata scripturile & coinbase",
+         "title":"Bitcoin tranzactie {0}",
          "meta_description":"Vizualizati informatii despre o tranzactie bitcoin {0}",
          "estimated_time":"Estimata de Confirmare Ora",
          "inputs_and_outputs":"Intrari si Iesiri",
@@ -686,10 +686,10 @@
          "unknown_error":"Eroare necunoscuta",
          "invalid_bitcoin_adddress":"Adresa bitcoin invalida",
          "invalid_first_name":"Prenume invalid",
-         "invalid_last_name":"Nume invalid",
          "invalid_date_of_birth":"Data nasterii invalida",
-         "missing_parameter":"Parametru lipsa",
+         "invalid_last_name":"Nume invalid",
          "invalid_block_hash":"Block hash invalid",
+         "missing_parameter":"Parametru lipsa",
          "invalid_numerical_value":"Valoare numerica invalida",
          "block_not_found":"Block negasit"
       },
@@ -717,9 +717,9 @@
          "error_404":"Pagina nu a fost gasita, va rugam sa verificati daca a-ti tastat corect adresa."
       },
       "propagation":{
-         "probable_owner":"Proprietar probabil",
-         "disconnected":"Deconectat",
          "node_list_sub":"Toate nodurile care au fost retransmise acestui obiect de inventar",
+         "disconnected":"Deconectat",
+         "probable_owner":"Proprietar probabil",
          "sub_header":"Arata distributia unei tranzactii sau bloc de-a lungul retelei",
          "title":"Bitcoin Reteaua Propagare - Blockchain.info",
          "connected":"Conectat",
@@ -734,14 +734,14 @@
       },
       "translations_page":{
          "title":"Ajutor Traduceti Blockchain.info",
-         "how_to_help":"Cum puteti ajuta",
          "p2":"Daca sunteti familiarizat cu {0} ?i {1} urmati instructiunile de mai jos:",
+         "how_to_help":"Cum puteti ajuta",
          "p1":"Blockchain.info este acum disponibil în 16 limbi diferite. Cu toate acestea, traducerea a fost facuta în primul rând de catre masina, avem nevoie de ajutorul dvs. pentru a oferi traduceri mai bune.",
          "steps":{
             "fork":"Furculita",
             "_7":"Când ati terminat ati terminat traducerea trimiteti {0}.",
-            "_8":"Includeti adresa dvs de bitcoin pentru o recompensa sau daca preferati schimbati link-ul de pe pagina de start a site-ul dvs. propriu.",
             "pull_request":"Cerere",
+            "_8":"Includeti adresa dvs de bitcoin pentru o recompensa sau daca preferati schimbati link-ul de pe pagina de start a site-ul dvs. propriu.",
             "_3":"Descarcati un bun editor de JSON. Va recomandam libera \"2 Textul Sublime\" disponibil pentru Windows, Mac si Linux.",
             "_4":"Deschideti fisierele auto_ {} your_language JSON ?i. {} Your_language partea JSON. Prin lateral.",
             "_5":"Orice fraze în fisierul generat automat, care nu au sens puteti sa le copiati într-un alt fisier si sa corectati greselile.",
@@ -753,12 +753,12 @@
          "response_time_alt":"Timpul de raspuns pentru blockchain.info: Ultimele 30 de zile",
          "disclaimer":"Renunta",
          "security_p1":"Politica noastra de securitate este de a organiza cât mai putine date posibil ca, în cazul unei încalcari a securitatii ar putea afecta utilizatorii nostrii. Utilizarea serviciului nostru portofelul meu nu detine sau intercepteaza orice parola sau date de identificare personale, informatiile pentru portofel este sunt stocate în forma criptata. Blockchain.info ruleaza pe hardware-ul dedicat în proprietate privata, care potate fi accesat numai de catre administratorul site-ului. Vom efectua revizuiri periodice de securitate, atât codul nostru si servere de scanare, inclusiv site-ul nostru folosind Nmap pentru a detecta eventualele vulnerabilitati inaintea altor persoane si remedierea lor imediata. Site-ul poate fi în siguranta, accesul utilizând https:\/\/ verificate de GoDaddy.",
-         "availability_p1":" Scopul nostru este de 99,5% uptime, acest serviciu este oferit pe o baza mare de eforturi. În cazul în care este planificat de întretinere programata, vom notifica utilizatoriilor prin e-mail.",
          "privacy_p1":"Nu exista loguri de acces ale vizitatorilor pe acest site web, altele decât contoare simple. Noi nu înregistram niciun fel de date referitoare la tranzactiile efectuate prin intermediul Google Wallet meu sau adrese bitcoin utilizate în portofelul meu. Orice adresa de e-mail, numele skype sau alte date cu caracter personal furnizate nu vor fi partajate cu orice tert sau de agentii de publicitate.",
-         "up_time":"Uptime",
+         "availability_p1":" Scopul nostru este de 99,5% uptime, acest serviciu este oferit pe o baza mare de eforturi. În cazul în care este planificat de întretinere programata, vom notifica utilizatoriilor prin e-mail.",
          "view_website_status":"verifica-ti starea site-ului",
-         "privacy_policy":"Politica de confidentialitate",
+         "up_time":"Uptime",
          "company_footer":"Blockchain.info este detinut si operat de catre Qkos Services Ltd înregistrata in Marea Britanie, numarul de companie 05106799",
+         "privacy_policy":"Politica de confidentialitate",
          "media_sub_header":"Mass-media si Logos",
          "about_p1":"Blockchain.info este Bitcoin cele mai populare portofelul bitcoin si explorator bloc. Începând din octombrie 2012, site-ul primeste peste 10.000 de vizitatori pe zi si are peste 30.000 de utilizatori.",
          "contact_us":"Contactati-ne"
@@ -796,8 +796,8 @@
          "try_demo_account":"Încercati un cont demo",
          "techradar_quote":"Pâna în 2015, în numerar ar putea fi cautati la fel ca o specie pe cale de disparitie",
          "security":{
-            "offline_transactions":"Tranzactii Offline",
             "p3":"Portofel mea se bazeaza pe securitatea prin furnizarea bitcoin o serie de caracteristici pentru a va ajuta sa pastrati în conditii de siguranta, inclusiv bani",
+            "offline_transactions":"Tranzactii Offline",
             "p2":"criptare pentru a proteja portofelul dumneavoastra de hoti si hackeri. Partea uimitorare este ca criptarea se face tot în browser-ul dvs., înainte de a fi salvat pe serverele noastre, noi nu avem acces la contul dvs!",
             "p1":"Blockchain.info utilizeaza standardul industriei",
             "remote_backups":"Backup la distanta"
@@ -820,18 +820,18 @@
          "successfully_transacted":"Tranzactionate cu succes.",
          "tooltips":{
             "aes_title":"Criptare AES",
-            "offline_transactions":"Tranzactiile offline bitcoin, tranzactii care sunt generate, fara o conexiune activa la Internet. Acestea sunt considerate mult mai sigure ca PC-ul este izolat de pe internet.",
-            "paper_wallet":"Un portofel este un document de hârtie imprimabila care contine toate informatiile necesare pentru a recupera bitcoinurile tale.",
             "aes":"Un standard de criptare extrem de puternic adoptat de catre guvernul SUA, iar acum utilizate pe scara larga în întreaga lume pentru VPN si alte comunicari criptate",
+            "paper_wallet":"Un portofel este un document de hârtie imprimabila care contine toate informatiile necesare pentru a recupera bitcoinurile tale.",
+            "offline_transactions":"Tranzactiile offline bitcoin, tranzactii care sunt generate, fara o conexiune activa la Internet. Acestea sunt considerate mult mai sigure ca PC-ul este izolat de pe internet.",
             "private_key":"Adresa Bitcoin este formata din doua parti. Cheia privata este prima parte, care este folosit pentru a dovedi dreptul de proprietate asupra unei adrese si este nevoie pentru a retrage fonduri. Acesta ar trebui sa fie pastrate în siguranta în orice moment.",
             "remote_backup":"Backup de la distanta este atunci cand portofelul tau este stocat în loca?ii diferite, altele decât PC-ul local. Acest lucru este important pentru a garanta faptul ca banii nu se pierd în cazul unei defec?iuni hard disk sau defec?iune alt computer",
-            "paypal":"PayPal este un furnizor de plata important",
             "remote_backup_title":"Backup la distanta",
+            "paypal":"PayPal este un furnizor de plata important",
             "offline_transactions_title":"Tranzactii Offline"
          },
          "features":{
-            "free":"Gratuite, Fara taxe",
             "title":"Caracteristica premium",
+            "free":"Gratuite, Fara taxe",
             "payment_notifications":"SMS & notificari prin e-mail, legate de plati.",
             "live_update":"Actualizarea Interfata live ",
             "full_list":"Vizualizati o lista completa de caracteristici"
@@ -840,8 +840,8 @@
       },
       "tx_tree":{
          "title":"Vizualizati tranzactie {0} - Blockchain.info",
-         "output_spent":"Productia este cheltuit - Click aici pentru a încarca copiii sai.",
          "meta_description":"Un grafic care arata rezultatele tranzactiei bitcoin {0}",
+         "output_spent":"Productia este cheltuit - Click aici pentru a încarca copiii sai.",
          "output_unspent":"De iesire este necheltuit si nu are copii.",
          "header":"Tranzactie Vizualizare"
       },
@@ -851,35 +851,20 @@
          "p1":"Aceasta pagina va permite sa lipiti o tranzactie în hex prime (de exemplu caracterele 0-9, af), aceastea vor fi apoi verificate, acesta este valabil si transmise prin retea.",
          "header":"Broadcast tranzac?ie"
       },
-      "maintenance":{
-         "title":"Site-ul se afla intr-o scurta perioada de întretinere, va rugam sa reveniti in scurt timp - Blockchain.info",
-         "p1":"Blockchain.info este în prezent offline pentru întretinere. Pentru actualizari de stare va rugam sa consulta?i {0}. Ne cerem scuze pentru orice inconvenient."
-      },
       "startup_message":{
          "p1":"Ar trebui sa fie înapoi în câteva secunde. S-ar putea fi chiar noi caracteristici.",
          "header":"Site-ul se încarca ..."
+      },
+      "maintenance":{
+         "title":"Site-ul se afla intr-o scurta perioada de întretinere, va rugam sa reveniti in scurt timp - Blockchain.info",
+         "p1":"Blockchain.info este în prezent offline pentru întretinere. Pentru actualizari de stare va rugam sa consulta?i {0}. Ne cerem scuze pentru orice inconvenient."
       },
       "donation_button":{
          "title":"Creati buton Donatie",
          "p2":"Introduceti codul de mai jos HTML în pozitia în care doriti sa apara butonul",
          "p1":"Introduceti codul de mai jos în sectiunea capul paginii."
       },
-      "blocks":{
-         "transactions":"Tranzactii",
-         "blocks_found_by":"Blocuri Ultimul gasite de {0}",
-         "height":"Înaltime",
-         "title1":"Blocuri Ultimul gasite de {0}",
-         "hash":"Hash?",
-         "main_chain":"Principalul canal?",
-         "next":"Urmator"
-      },
       "emails":{
-         "tx":{
-            "header_sent":"Notificarea de plata trimise",
-            "sent_p1":"O plata a fost trimis de la portofel bitcoin.",
-            "received_p1":"O plata a fost primita în portofel bitcoin.",
-            "header_received":"A-ti primit o notificare de plata"
-         },
          "two_factor_reset_request":{
             "p4":"Este cineva care poate poate încercarea de a accesa cu rea intentie sa ajunga la portofel bitcoin. Va rugam sa nu ignorati aceasta cerere.",
             "p3":"Daca aceasta cerere nu a fost facuta de catre dumneavoastra va rugam sa deschideti urmatorul URL pentru a refuza aceasta cerere:",
@@ -887,18 +872,24 @@
             "p1":"O cerere a fost formulata pentru a elimina doi factori de autentificare din contul dvs. Google Wallet meu:",
             "header":"Doua factor de autentificare solicitare de resetare"
          },
-         "tip_reversible":"Aceasta plata poate fi inversat prin expeditor pâna la sustinut.",
-         "password_hints":{
-            "p1":"Primi?i acest e-mail deoarece o cerere a fost facuta pentru a vizualiza sugestiile dvs. de portofel parola."
+         "tx":{
+            "header_sent":"Notificarea de plata trimise",
+            "sent_p1":"O plata a fost trimis de la portofel bitcoin.",
+            "received_p1":"O plata a fost primita în portofel bitcoin.",
+            "header_received":"A-ti primit o notificare de plata"
          },
+         "tip_reversible":"Aceasta plata poate fi inversat prin expeditor pâna la sustinut.",
          "confirmation_code":{
             "p1":"O încercare a fost facuta pentru a va conecta la contul dvs. portofelul meu de la adresa de IP {0}. Introduceti codul de confirmare de mai jos pentru a accesa contul dumneavoastra. În cazul în care nu ai fost cel care a facut aceasta încercare de autentificare puteti ignora acest e-mail."
          },
+         "password_hints":{
+            "p1":"Primi?i acest e-mail deoarece o cerere a fost facuta pentru a vizualiza sugestiile dvs. de portofel parola."
+         },
+         "tip_backup":"Salveaza-ti acum datele folosind dropbox, este gratuit, usor si sigur",
          "wallet_backup":{
             "p1":"Atasat acestui email, se afla un backup cryptat al portofelului dumneavoastra care contine tot ce aveti nevoie pentru a restaura fondurile din contul dvs. Puteti face asta oricand pentru {0} sau pentru a folosi un al trei-lea calculator  {1}.",
             "header":"Backup pentru portofelul dvs."
          },
-         "tip_backup":"Salveaza-ti acum datele folosind dropbox, este gratuit, usor si sigur",
          "your_wallet_identifier":"Id-ul portofelului dvs este:",
          "welcome":{
             "notifications_enabled":"Notificarile sunt activate",
@@ -915,6 +906,15 @@
             "header":"Cont blocat"
          }
       },
+      "blocks":{
+         "transactions":"Tranzactii",
+         "blocks_found_by":"Blocuri Ultimul gasite de {0}",
+         "height":"Înaltime",
+         "title1":"Blocuri Ultimul gasite de {0}",
+         "hash":"Hash?",
+         "main_chain":"Principalul canal?",
+         "next":"Urmator"
+      },
       "largest_transactions":{
          "title":"Cele mai mari Tranzactii Bitcoin - Blockchain.info",
          "meta_description":"O lista a celor mai mari tranzactii bitcoin recente",
@@ -922,15 +922,24 @@
       },
       "pools":{
          "sub_header":"O estimare a distributiei de hashrate printre cele mai mari servere de minat",
-         "title":"Bitcoin Distributie Hashrate - Blockchain.info",
          "hours_48":"48 de ore",
-         "known_blocks":"Blocuri bitcoin cunoscute.",
+         "title":"Bitcoin Distributie Hashrate - Blockchain.info",
          "meta_description":"O diagrama de structura radiala arata distributia hashrate dintre cele mai importante bazine miniere bitcoin",
+         "known_blocks":"Blocuri bitcoin cunoscute.",
          "count":"Contorizare",
          "p1":"Graficul de mai jos prezinta cota de piata a bazinelor miniere cele mai populare din bitcoin. Acesta ar trebui sa fie utilizat numai ca o estimare aproximativa si din diferite motive, nu sunt 100% corecte.",
          "hours_24":"24 de ore",
-         "header":"Hashrate Distributie",
-         "warning":"O mare parte din blocuri Necunoscut nu înseamna un atac asupra retelei, aceasta înseamna pur si simplu ca nu s-a putut determina originea."
+         "warning":"O mare parte din blocuri Necunoscut nu înseamna un atac asupra retelei, aceasta înseamna pur si simplu ca nu s-a putut determina originea.",
+         "header":"Hashrate Distributie"
+      },
+      "header":{
+         "home_title":"Blockchain.info Acasa",
+         "home":"Acasa",
+         "stats_title":"Statistici Bitcoin",
+         "logo_alt_title":"Bitcoin bloc Explorer si statisticile Monezii",
+         "charts_title":"Grafice Bitcoin",
+         "wallet_title":"Portofel Bitcoin",
+         "search_placeholder":"Cautati"
       },
       "wallet_new":{
          "proceed_to_login":"Autentificare",
@@ -944,22 +953,13 @@
          "please_read":"Va rugam sa cititi {0}.",
          "email":"Trimiteti e-mail",
          "optional":"Optional",
-         "password_strength_p1":"Este nevoie de o parola de cel putin 10 de caractere în lungime pentru a ne se asigura ca, chiar daca baza noastra de date este compromisa portofelul dumneavoastra va ramâne securizat. O parola de 10 caractere în lungime va avea nevoie de peste 1000 de ani pentru a fi  decriptata.",
          "dont_forget_password_p1":"Este foarte important sa nu uitati parola, daca este necesar, scieti-o undeva sigur, o agenda, spre exemplu. ATENTIE!!! Nu exista nici un mijloc prin care parola dvs poate fi recuperata.",
-         "sub_header1":"Pur si simplu alegeti o parola sigura si pentru a continua apasati.",
+         "password_strength_p1":"Este nevoie de o parola de cel putin 10 de caractere în lungime pentru a ne se asigura ca, chiar daca baza noastra de date este compromisa portofelul dumneavoastra va ramâne securizat. O parola de 10 caractere în lungime va avea nevoie de peste 1000 de ani pentru a fi  decriptata.",
          "wallet_created_p1":"Portofelul dvs, nou, on-line a fost creat cu succes. Este important sa pastrati atât id-ul Dvs. si parola în conditii de siguranta maxima. Avem posibilitatea de a ajuta la recuperarea si identificare portofelului pierdut, daca ne furnizati o adresa de e-mail valida. Altfel suntem în imposibilitatea de a ajuta la recuperarea parolelor pierdute!",
+         "sub_header1":"Pur si simplu alegeti o parola sigura si pentru a continua apasati.",
          "alias_sub":"Puteti alege un alias pentru portofelul cu care va puteti autentifica in loc de a folosi un identificator.",
          "restore_link_title":"Puteti restaura acest portofel oricând, accesând:",
          "dont_forget_password":"Nu uitati parola!"
-      },
-      "header":{
-         "home_title":"Blockchain.info Acasa",
-         "home":"Acasa",
-         "stats_title":"Statistici Bitcoin",
-         "logo_alt_title":"Bitcoin bloc Explorer si statisticile Monezii",
-         "charts_title":"Grafice Bitcoin",
-         "wallet_title":"Portofel Bitcoin",
-         "search_placeholder":"Cautati"
       },
       "misc":{
          "and_word":"si",
@@ -985,18 +985,18 @@
          "tx_trade_ratio2":"Graficul arata relatia dintre volumul de tranzactii de BTC si schimbul de volum de USD.",
          "network_deficit":"Deficit de retea",
          "trade_vol2":"O diagrama care arata volumul schimburilor comerciale USD, de la schimburile de top.",
-         "n_transactions_excluding_popular2":"O diagrama care arata numarul total de tranzactii bitcoin unici pe zi cu exceptia fiind cea a operatiunilor care implica oricare dintre primele 100 de adrese cele mai populare",
          "errors":{
             "no_stats":"Nu exista Statistici gasite pentru aceasta perioada"
          },
+         "n_transactions_excluding_popular2":"O diagrama care arata numarul total de tranzactii bitcoin unici pe zi cu exceptia fiind cea a operatiunilor care implica oricare dintre primele 100 de adrese cele mai populare",
          "cost_percent_per_transaction":"% Din volumul costului de tranzactie",
-         "estimated_transaction_volume2":"Similar cu volumul productiei totale cu adaugarea unui algoritm care încearca sa elimine schimbarile din valoarea totala. Acest lucru poate face o reflectare mai exacta a volumului de tranzactii adevarate.",
          "total_received_to_address":"Suma totala primita la adresa bitcoin:",
+         "estimated_transaction_volume2":"Similar cu volumul productiei totale cu adaugarea unui algoritm care încearca sa elimine schimbarile din valoarea totala. Acest lucru poate face o reflectare mai exacta a volumului de tranzactii adevarate.",
          "my_wallet_n_users2":"Numarul de portofele gazduieste ajutorul nostru pentru Serviciul de portofelul meu.",
          "days_destroyed_filter_week2":"Filtrate dupa varsta minim de intrare de 1 saptamâna.",
-         "days_destroyed_filter_month":"Zilele Bitcoin Distrus (filtrate dupa Varsta Min 1 luna)",
-         "cost_per_transaction_usd":"Costul per tranzactie in (USD)",
          "output_volume":"Volumul total de iesire",
+         "cost_per_transaction_usd":"Costul per tranzactie in (USD)",
+         "days_destroyed_filter_month":"Zilele Bitcoin Distrus (filtrate dupa Varsta Min 1 luna)",
          "number_of_transactions":"Numarul tranzactiilor",
          "cost_per_transaction2":"O diagrama care arata veniturile minerilor împartit la numarul de tranzactii.",
          "my_wallet_transaction_volume2":"Volumul tranzactiilor 24 de ore a serviciului nostru de web portofel.",
@@ -1025,16 +1025,16 @@
          "total_received":"Totala primite",
          "days_destroyed":"Zile Bitcoin distruse",
          "tx_trade_ratio":"Volumul comertului vs volumului de operatiuni în Raportul",
-         "n_transactions_per_day_to":"Nr de tranzactii pe zi la:",
          "cost_percent_per_transaction2":"O diagrama care arata la fel numarul de mineri\/veniturilor ca procent din volumul tranzactiei.",
+         "n_transactions_per_day_to":"Nr de tranzactii pe zi la:",
          "n_transactions_total":"Numarul total al tranzactiilor",
          "network_deficit_label":"Deficit de retea (USD)",
          "my_wallet_n_tx2":"Numarul de tranzactii efectuate de utilizatori portofelul meu pe zi.",
-         "market_price_usd":"Pret de piata (USD)",
          "avg_confirmation_time":"Media de tranzactie confirmate pe Ora",
-         "total_bitcoins2":"Un grafic care arata numarul total de bitcoins istoric care au fost extrase.",
-         "sub_header":"Diverse diagrame bitcoin si statistici despre Moneda",
+         "market_price_usd":"Pret de piata (USD)",
          "output_volume2":"Valoarea totala a tranzactiei transmite tuturor pe zi. Aceasta include si monedele metalice care au fost returnate la expeditor ca mentiunea schimbarii.",
+         "sub_header":"Diverse diagrame bitcoin si statistici despre Moneda",
+         "total_bitcoins2":"Un grafic care arata numarul total de bitcoins istoric care au fost extrase.",
          "n_transactions2":"O diagrama din numarul total de tranzactii bitcoin unici pe zi.",
          "trade_vol":"USD Schimb Comert volum",
          "network_deficit2":"Prezinta diferentaa dintre taxele de tranzactie si costurile de exploatare bitcoin.",
@@ -1044,18 +1044,24 @@
          "blockchain_size2":"Dimensiunea totala a tuturor anteturilor bloc si a tranzactiilor. Nu cuprinde indicii de baza de date.",
          "market_cap":"Capitalizarea pietei",
          "transactions_per_block":"Tranzactii pe bloc",
-         "mywallet_balance_over_time":"Portofelul meu: Sold-ul de-a lungul timpului",
-         "miners_revenue2":"Diagrama istorica arata numarul de bitcoins extras pe zi + comisioane de tranzactionare * pretul pietei.",
          "meta_description":"Cele mai populare grafice si statistici cu privire la reteaua de bitcoin. Numarul de tranzactii pe zi, pretul de piata, diagramele Volum etc",
+         "miners_revenue2":"Diagrama istorica arata numarul de bitcoins extras pe zi + comisioane de tranzactionare * pretul pietei.",
+         "mywallet_balance_over_time":"Portofelul meu: Sold-ul de-a lungul timpului",
          "market_price":"Pret de piata (USD)",
          "cost_percent_per_transaction_label":"% din costul volumul tranzactiilor",
          "transaction_fees_usd":"Taxele de tranzactie în USD",
          "days_destroyed_cumulative2":"Zilele Bitcoin distruse este o masura a volumului tranzactiilor de Bitcoin. Daca cineva are 100 BTC primiti cu o saptamâna în urma, dupa 700 de zile bitcoinurile vor fi distruse. În cazul în care le iau cei 100BTC si le trimite la mai multe adrese si apoi le petrece apoi, desi volumul total de tranzactii ar putea fi arbitrar de mare este numarul de zile bitcoin distruse este înca 700.",
          "n_transactions_per_block2":"O diagrama a numarului mediu de tranzactii pe bloc.",
-         "my_wallet_transaction_volume":"Portofelul meu, volumul tranzactiilor",
          "avg_confirmation_time_label":"Media timpului de confirmare ",
+         "my_wallet_transaction_volume":"Portofelul meu, volumul tranzactiilor",
          "n_transactions_excluding_popular":"Numarul de tranzactii cu exceptia adreselor populare",
          "estimated_transaction_volume_usd_label":"Volumul tranzactiei (USD)"
+      },
+      "strange_transactions":{
+         "sub_header":"Tranzactii care contin iesiri de la care am fost în imposibilitatea de a decoda o adresa de bitcoin.",
+         "title":"Tranzactii Ciudate - Blockchain.info",
+         "meta_description":"O lista de bitcoin cu iesiri non-standard",
+         "header":"Tranzactii ciudate"
       },
       "block_height":{
          "block_reward":"Blocati Recompensa",
@@ -1069,69 +1075,63 @@
          "error_fetching_blocks":"Eroare necunoscuta se preia Blocuri din baza de date",
          "header":"Înaltime bloc {0}",
          "title":"Blocuri Bitcoin la înaltimea {0}",
-         "meta_description":"Blocuri Bitcoin la înaltime {0} din lantul de bloc bitcoin",
          "height":"Înaltime",
+         "meta_description":"Blocuri Bitcoin la înaltime {0} din lantul de bloc bitcoin",
          "output_total":"Total productie",
          "no_blocks":"Nu exista Blocuri gasite la aceasta înaltime"
       },
-      "strange_transactions":{
-         "sub_header":"Tranzactii care contin iesiri de la care am fost în imposibilitatea de a decoda o adresa de bitcoin.",
-         "title":"Tranzactii Ciudate - Blockchain.info",
-         "meta_description":"O lista de bitcoin cu iesiri non-standard",
-         "header":"Tranzactii ciudate"
+      "notifications":{
+         "notifications_limit":"Notificari de plata Limit",
+         "payment_sent_body":"O plata a trimis din portofel bitcoin din valoarea {0} (aprox: {1})",
+         "confirmation_code_title":"Portofelul meu, Cod de confirmare",
+         "payment_received_title":"Plati Bitcoin primite",
+         "payment_sent_title":"Plata Bitcoin a fost Trimisa",
+         "sms_authentication_code":"Portofelul meu, Cod de autentificare: {0}",
+         "notifications_limit_body":"Ati atins limita de notificari. Notificarile au fost dezactivate pentru 24 de ore",
+         "account_locked_title":"Contul dvs. My Wallet a fost blocat",
+         "wallet_login":"Autentificare portofel",
+         "payment_received_body":"Ati primit o plata bitcoin de valoarea {0} (aprox: {1})",
+         "unsubscribe":"Dezabonati-va",
+         "malformed_url":"Ati încercat sa trimiteti o alerta e-mail la o adresa URL incorecta. Notificarile au fost dezactivate.",
+         "wallet_welcome_title":"Bine ati venit la portofelul dvs."
       },
       "address":{
          "invalid_hash_160":"Ne pare rau dar acest lucru nu este un hash valabil 160",
-         "sub_header":"Adresele sunt identificatori care se utilizeaza pentru a trimite bitcoins catre o alta persoana.",
          "transactions":"Tranzactii",
-         "table_summary":{
-            "address":"Adresa",
-            "taint_analysis":"Analiza pata",
-            "related_tags":"Alte taguri asemanatoare"
-         },
+         "sub_header":"Adresele sunt identificatori care se utilizeaza pentru a trimite bitcoins catre o alta persoana.",
+         "too_large_to_filter":"Acest registru este prea mare pentru a putea fi filtrata",
          "table_transactions":{
             "title":"Tranzactii",
             "number_of_transactions":"Nr Tranzactii",
             "unspent_inputs":"Intrari necheltuite",
             "total_received":"Totala primite"
          },
-         "too_large_to_filter":"Acest registru este prea mare pentru a putea fi filtrata",
+         "table_summary":{
+            "address":"Adresa",
+            "taint_analysis":"Analiza pata",
+            "related_tags":"Alte taguri asemanatoare"
+         },
          "meta_description":"Tranzactii trimise si primite de la adresa de bitcoin",
-         "donation_button":"Buton de donatie",
          "next":"Urmator",
-         "request_payment":"Cerere de plata",
+         "donation_button":"Buton de donatie",
          "no_address_provided":"Numarul adresei furnizare",
+         "request_payment":"Cerere de plata",
          "invalid_address":"Ne pare rau acesta nu este o adresa de bitcoin valida",
          "no_transactions":"Nu exista tranzactii gasite pentru aceasta adresa, ea probabil nu a fost utilizat în retea înca.",
          "deposit_with_cash":"Depoziteaza numerar",
          "double_spend_warning":"Atentie! Aceasta adresa de bitcoin contine tranzactii care poate dubla petrece. Tu ar trebui sa fii extrem de atent atunci când te încredezi in orice tranzactie pentru a trimite sau primi bitcoins de la aceasta adresa."
       },
-      "notifications":{
-         "notifications_limit":"Notificari de plata Limit",
-         "payment_sent_body":"O plata a trimis din portofel bitcoin din valoarea {0} (aprox: {1})",
-         "payment_received_title":"Plati Bitcoin primite",
-         "confirmation_code_title":"Portofelul meu, Cod de confirmare",
-         "sms_authentication_code":"Portofelul meu, Cod de autentificare: {0}",
-         "payment_sent_title":"Plata Bitcoin a fost Trimisa",
-         "notifications_limit_body":"Ati atins limita de notificari. Notificarile au fost dezactivate pentru 24 de ore",
-         "account_locked_title":"Contul dvs. My Wallet a fost blocat",
-         "payment_received_body":"Ati primit o plata bitcoin de valoarea {0} (aprox: {1})",
-         "wallet_login":"Autentificare portofel",
-         "unsubscribe":"Dezabonati-va",
-         "malformed_url":"Ati încercat sa trimiteti o alerta e-mail la o adresa URL incorecta. Notificarile au fost dezactivate.",
-         "wallet_welcome_title":"Bine ati venit la portofelul dvs."
-      },
       "ip_log":{
          "last_connected":"Ultima autentificare",
          "sub_header":"Lista de bitcoin, noduri blockchain.info.",
          "meta_description":"O lista cu toate adresele IP, care s-au conectat la reteaua bitcoin.",
-         "location":"Locatie",
          "search":"Cautati",
+         "location":"Locatie",
          "next":"Urmator"
       }
    },
-   "code":"ro",
    "properties":{
       "extends":"auto_romanian"
-   }
+   },
+   "code":"ro"
 }
