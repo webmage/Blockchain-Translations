@@ -6,9 +6,9 @@
         "com": {
             "home": {
                 "h1": "The world's most popular bitcoin wallet.",
-                "exclusive_control": "You have exclusive control of your funds",
-                "community_trusted": "Trusted by the community, an open source wallet",
-                "instant_payments": "Instant payments, low fees",
+                "bullet_full_control": "100% controlled by you, 0% by the server",
+                "bullet_trusted_by_millions": "Trusted by millions of users, an open source wallet",
+                "bullet_instant_transactions": "Instant transactions, low fees",
                 "valid_email": "MUST BE VALID.",
                 "confirm_email": "You'll need to confirm it to use your wallet.",
                 "ten_characters": "At least 10 characters.",
