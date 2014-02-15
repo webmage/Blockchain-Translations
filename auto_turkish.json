@@ -21,6 +21,16 @@
          "number_of_outputs":"Çıkışlar Sayısı",
          "header":"Popüler Adresleri"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com dünyanın en popüler bitcoin cüzdan."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Cüzdan Mobile"
+            }
+         }
+      },
       "transaction":{
          "fee":"Ücret:",
          "double_spend":"Harcama ikiye katlayın!",
@@ -897,9 +907,11 @@
          "strange":"Garip",
          "scripts":"Scripts",
          "title":"Bitcoin İşlem {0}",
+         "estimated_within_6_blocks":"6 blok içinde",
          "inputs_and_outputs":"Girişler ve Çıkışlar",
          "estimated_btc_transacted":"Tahmini BTC İşlem",
          "ok":"Tamam",
+         "conflicting_transaction_redirect":"Aradığınız işlem karma bulunamadı. Ancak işlem için bir yerine aşağıda listelenmiştir.",
          "estimated_possibly_never":"Muhtemelen asla",
          "queue_position":"kuyruk konumu {0}",
          "input_scripts":"Giriş Scripts",
@@ -920,6 +932,7 @@
             "p1":"Uyarı! Bu işlem harcamak bir çift olduğunu"
          },
          "show_scripts":"Göster scriptler &amp; coinbase",
+         "conflicting_transaction_found":"Çakışan bir işlem bizim hafıza havuzda tespit edilmiştir. Aşağıda gösterilen işlem karma değişebilir.",
          "meta_description":"Bir Bitcoin işlem hakkında bilgi görüntüleme {0}",
          "estimated_time":"Tahmini Onay Zaman",
          "seconds":"saniye",
@@ -956,7 +969,7 @@
          "header":"Hata {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Cüzdan Mobile"
+         
       },
       "propagation":{
          "probable_owner":"Muhtemel Owner",
@@ -1202,6 +1215,22 @@
          "warning":"Bilinmeyen blokları büyük bir bölümü ağ üzerindeki bir saldırı anlamına gelmez, sadece biz kökeni belirleyebilmek mümkün olmuştur anlamına gelir.",
          "days_4":"4 gün"
       },
+      "header":{
+         "home_title":"Blockchain.info Anasayfa",
+         "home":"Ev",
+         "charts":"Grafikler",
+         "stats_title":"Bitcoin İstatistikleri",
+         "logo_alt_title":"Bitcoin blok kaşif ve döviz istatistikleri",
+         "markets":"Piyasalar",
+         "stats":"İstatistikleri",
+         "developer":"API",
+         "markets_title":"Bitcoin Piyasalar",
+         "charts_title":"Bitcoin Grafikler",
+         "developer_title":"Blockchain Geliştirici Araçları",
+         "wallet_title":"Bitcoin Cüzdan",
+         "wallet":"Cüzdan",
+         "search_placeholder":"Arama"
+      },
       "wallet_new":{
          "disclaimer":"Feragatname",
          "anonymity_policy":"Anonymity Politikası",
@@ -1238,22 +1267,6 @@
          "captcha":"Captcha:",
          "alias_placeholder":"Unutulmaz kelime veya takma",
          "dont_forget_password":"Şifremi Unuttum etmeyin!"
-      },
-      "header":{
-         "home_title":"Blockchain.info Anasayfa",
-         "home":"Ev",
-         "charts":"Grafikler",
-         "stats_title":"Bitcoin İstatistikleri",
-         "logo_alt_title":"Bitcoin blok kaşif ve döviz istatistikleri",
-         "markets":"Piyasalar",
-         "stats":"İstatistikleri",
-         "developer":"API",
-         "markets_title":"Bitcoin Piyasalar",
-         "charts_title":"Bitcoin Grafikler",
-         "developer_title":"Blockchain Geliştirici Araçları",
-         "wallet_title":"Bitcoin Cüzdan",
-         "wallet":"Cüzdan",
-         "search_placeholder":"Arama"
       },
       "strange_transactions":{
          "sub_header":"İşlemler bir Bitcoin adresi çözmek için koyamadık hangi çıkışları içeren.",

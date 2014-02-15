@@ -21,6 +21,16 @@
          "header":"Populära adresser",
          "number_of_outputs":"Antal utgångar"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com är världens mest populära Bitcoin plånbok."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet Mobile"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Bankens namn",
          "small_package":"Litet paket",
@@ -897,9 +907,11 @@
          "strange":"Konstigt",
          "scripts":"Skript",
          "title":"Bitcoin Transaktion {0}",
+         "estimated_within_6_blocks":"Inom 6 Blocks",
          "inputs_and_outputs":"In-och utgångar",
          "estimated_btc_transacted":"Estimated BTC bedrivs",
          "ok":"Okej",
+         "conflicting_transaction_redirect":"Transaktionen hash du sökte kunde inte hittas. Men en ersättning för transaktionen är listade nedan.",
          "estimated_possibly_never":"Möjligen Aldrig",
          "queue_position":"köplats {0}",
          "input_scripts":"Input Skript",
@@ -920,6 +932,7 @@
             "p1":"Varning! denna transaktion är en dubbel spendera på"
          },
          "show_scripts":"Visa skript och coinbase",
+         "conflicting_transaction_found":"En konflikt transaktion har upptäckts i vårt minne pool. Transaktionen hash som visas nedan kan komma att ändras.",
          "meta_description":"Visa information om en Bitcoin transaktion {0}",
          "estimated_time":"Beräknad bekräftelsetid",
          "seconds":"sekunder",
@@ -956,7 +969,7 @@
          "header":"Fel {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet Mobile"
+         
       },
       "propagation":{
          "probable_owner":"Trolig ägare",
@@ -1202,22 +1215,6 @@
          "header":"Hashrate fördelning",
          "days_4":"4 dagar"
       },
-      "header":{
-         "home_title":"Blockchain.info Hem",
-         "home":"Hem",
-         "charts":"Diagram",
-         "stats_title":"Bitcoin Statistik",
-         "logo_alt_title":"Bitcoin blocket explorer och statistik valuta",
-         "markets":"Marknader",
-         "stats":"Statistik",
-         "developer":"API",
-         "markets_title":"Bitcoin Markets",
-         "charts_title":"Bitcoin diagram",
-         "developer_title":"Blockchain Utvecklarverktyg",
-         "wallet_title":"Bitcoin Wallet",
-         "wallet":"Plånbok",
-         "search_placeholder":"Sök"
-      },
       "wallet_new":{
          "disclaimer":"Ansvarsfriskrivning",
          "password_strength":"Lösenord Styrka",
@@ -1254,6 +1251,22 @@
          "captcha":"Captcha:",
          "dont_forget_password":"Glöm inte ditt lösenord!",
          "alias_placeholder":"Minnesvärda ord eller smeknamn"
+      },
+      "header":{
+         "home_title":"Blockchain.info Hem",
+         "home":"Hem",
+         "charts":"Diagram",
+         "stats_title":"Bitcoin Statistik",
+         "logo_alt_title":"Bitcoin blocket explorer och statistik valuta",
+         "markets":"Marknader",
+         "stats":"Statistik",
+         "developer":"API",
+         "markets_title":"Bitcoin Markets",
+         "charts_title":"Bitcoin diagram",
+         "developer_title":"Blockchain Utvecklarverktyg",
+         "wallet_title":"Bitcoin Wallet",
+         "wallet":"Plånbok",
+         "search_placeholder":"Sök"
       },
       "strange_transactions":{
          "sub_header":"Transaktioner med utgångar som vi inte kunde avkoda en Bitcoin adress.",

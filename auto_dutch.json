@@ -21,6 +21,16 @@
          "number_of_outputs":"Aantal uitgangen",
          "header":"Populaire Adressen"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com is &#39;s werelds meest populaire bitcoin portemonnee."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet Mobile"
+            }
+         }
+      },
       "transaction":{
          "fee":"Vergoeding:",
          "double_spend":"Dubbelklik Breng!",
@@ -897,9 +907,11 @@
          "scripts":"Scripts",
          "strange":"Vreemd",
          "title":"Bitcoin transactie {0}",
+         "estimated_within_6_blocks":"Binnen 6 Blokken",
          "inputs_and_outputs":"Ingangen en uitgangen",
          "estimated_btc_transacted":"Geschatte BTC Transacted",
          "ok":"OK",
+         "conflicting_transaction_redirect":"De transactie hash die u zocht is niet gevonden. Maar een vervanging voor de transactie hieronder.",
          "estimated_possibly_never":"Mogelijk Nooit",
          "queue_position":"wachtrijpositie {0}",
          "input_scripts":"Input Scripts",
@@ -920,6 +932,7 @@
             "p1":"Waarschuwing! deze transactie is een dubbele besteden"
          },
          "show_scripts":"Toon scripts & coinbase",
+         "conflicting_transaction_found":"Een conflicterende transactie is aangetroffen in ons geheugen zwembad. De transactie hash hieronder weergegeven kunnen veranderen.",
          "meta_description":"Bekijk informatie over een bitcoin transactie {0}",
          "estimated_time":"Geschatte bevestigingstijd",
          "relayed_by_ip":"Overgenomen door IP",
@@ -956,7 +969,7 @@
          "header":"Fout {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet Mobile"
+         
       },
       "propagation":{
          "probable_owner":"Waarschijnlijk Owner",

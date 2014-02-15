@@ -21,6 +21,16 @@
          "number_of_outputs":"Antal udgange",
          "header":"Populære adresser"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com er verdens mest populære Bitcoin tegnebog."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet Mobile"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Bank Name",
          "small_package":"Lille pakke",
@@ -897,9 +907,11 @@
          "scripts":"Scripts",
          "strange":"Mærkeligt",
          "title":"Bitcoin transaktion {0}",
+         "estimated_within_6_blocks":"Inden 6 blokke",
          "inputs_and_outputs":"Indgange og udgange",
          "estimated_btc_transacted":"Anslået BTC swaps",
          "ok":"Ok",
+         "conflicting_transaction_redirect":"Transaktionen hash du søgte efter blev ikke fundet. Men en erstatning for transaktionen er angivet nedenfor.",
          "estimated_possibly_never":"Muligvis Aldrig",
          "queue_position":"placering i køen {0}",
          "input_scripts":"Input-Scripts",
@@ -920,6 +932,7 @@
             "p1":"Advarsel! denne transaktion er et dobbelt forbrug på"
          },
          "show_scripts":"Vis scripts & coinbase",
+         "conflicting_transaction_found":"En modstridende transaktion er blevet påvist i vores hukommelse pool. Transaktionen hash vist nedenfor, kan ændre sig.",
          "meta_description":"Visning af oplysninger om en Bitcoin transaktion {0}",
          "estimated_time":"Anslået bekræftelsestid",
          "relayed_by_ip":"Videreformidlet af IP",
@@ -956,7 +969,7 @@
          "header":"Fejl {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet Mobile"
+         
       },
       "propagation":{
          "probable_owner":"Sandsynlig Owner",

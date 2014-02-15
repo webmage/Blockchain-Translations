@@ -313,6 +313,7 @@
             "estimated_time" : "Estimated Confirmation Time",
             "estimated_possibly_never" : "Possibly Never",
             "estimated_very_soon" : "Very Soon",
+            "estimated_within_6_blocks" : "Within 6 Blocks",
             "estimated_next_block" : "Next Block",
             "estimated_unknown" : "Unknown",
             "queue_position" : "queue position {0}",
@@ -335,7 +336,9 @@
             "output_scripts" : "Output Scripts",
             "strange" : "Strange",
             "null_script_or_error" : "Null script or error decoding",
-            "ok" : "OK"
+            "ok" : "OK",
+            "conflicting_transaction_redirect" : "The transaction hash you searched for was not found. However a replacement for the transaction is listed below.",
+            "conflicting_transaction_found" : "A conflicting transaction has been detected in our memory pool. The transaction hash displayed below may change."
         },
         "transaction" : {
             "public_note" : "Public Note:",

@@ -578,12 +578,12 @@
          "total_input":"Insgesamte Eingänge",
          "output_scripts":"Ausgänge Scripts",
          "total_output":"Insgesamte Ausgänge",
-         "strange":"Seltsame",
-         "scripts":"Scripts",
          "double_spend":{
             "p2":"Sie sollten sehr vorsichtig sein, wenn Sie Transaktionen von\/zu diesem Teilnehmer erhalten bzw. senden.",
             "p1":"Achtung! Diese Transaktion ist ein Double-Spend (mehrfach ausgegeben)"
          },
+         "strange":"Seltsame",
+         "scripts":"Scripts",
          "show_scripts":"Scripts & coinbase anzeigen",
          "meta_description":"Informationen zu einer Bitcoin Transaktion anzeigen {0}",
          "estimated_time":"Geschätzte Dauer bis zur Bestätigung",

@@ -21,6 +21,16 @@
          "header":"Populære adresser",
          "number_of_outputs":"Antall utganger"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com er verdens mest populære Bitcoin lommebok."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Lommebok Mobil"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Banknavn",
          "small_package":"Liten pakke",
@@ -897,9 +907,11 @@
          "strange":"Strange",
          "scripts":"Skript",
          "title":"Bitcoin Transaction {0}",
+         "estimated_within_6_blocks":"Innen seks blokker",
          "inputs_and_outputs":"Innganger og utganger",
          "estimated_btc_transacted":"Estimert BTC transacted",
          "ok":"OK",
+         "conflicting_transaction_redirect":"Transaksjonen hash du søkte etter ble ikke funnet. Men en erstatning for transaksjonen er oppført nedenfor.",
          "estimated_possibly_never":"Muligens Aldri",
          "queue_position":"kø posisjon {0}",
          "input_scripts":"Innspill Scripts",
@@ -920,6 +932,7 @@
             "p1":"Advarsel! denne transaksjonen er en dobbel bruke av"
          },
          "show_scripts":"Vis skript og coinbase",
+         "conflicting_transaction_found":"En motstridende transaksjon har blitt oppdaget i minnet vårt basseng. Transaksjonen hash vises nedenfor kan endre seg.",
          "meta_description":"Vise informasjon om en Bitcoin transaksjon {0}",
          "estimated_time":"Estimert konfirmasjonstiden",
          "relayed_by_ip":"Videreformidlet av IP",
@@ -956,7 +969,7 @@
          "header":"Feil {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Lommebok Mobil"
+         
       },
       "propagation":{
          "probable_owner":"Sannsynlig Owner",
@@ -1202,22 +1215,6 @@
          "header":"Hashrate Distribusjon",
          "days_4":"4 dager"
       },
-      "header":{
-         "home_title":"Blockchain.info Hjem",
-         "charts":"Diagrammer",
-         "home":"Hjem",
-         "stats_title":"Bitcoin Stats",
-         "logo_alt_title":"Bitcoin blokk oppdagelsesreisende og valuta statistikk",
-         "markets":"Markets",
-         "developer":"API",
-         "stats":"Stats",
-         "markets_title":"Bitcoin Markets",
-         "charts_title":"Bitcoin Charts",
-         "wallet_title":"Bitcoin Wallet",
-         "developer_title":"Blockchain Utviklerverktøy",
-         "wallet":"Pengebok",
-         "search_placeholder":"Søk"
-      },
       "wallet_new":{
          "disclaimer":"Ansvarsfraskrivelse",
          "password_strength":"Passord Strength",
@@ -1254,6 +1251,22 @@
          "captcha":"Captcha:",
          "dont_forget_password":"Ikke glem passordet!",
          "alias_placeholder":"Minneverdig ord eller kallenavn"
+      },
+      "header":{
+         "home_title":"Blockchain.info Hjem",
+         "charts":"Diagrammer",
+         "home":"Hjem",
+         "stats_title":"Bitcoin Stats",
+         "logo_alt_title":"Bitcoin blokk oppdagelsesreisende og valuta statistikk",
+         "markets":"Markets",
+         "developer":"API",
+         "stats":"Stats",
+         "markets_title":"Bitcoin Markets",
+         "charts_title":"Bitcoin Charts",
+         "wallet_title":"Bitcoin Wallet",
+         "developer_title":"Blockchain Utviklerverktøy",
+         "wallet":"Pengebok",
+         "search_placeholder":"Søk"
       },
       "strange_transactions":{
          "sub_header":"Transaksjoner som inneholder utganger som vi ikke var i stand til å dekode en Bitcoin adresse.",

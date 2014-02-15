@@ -21,6 +21,16 @@
          "number_of_outputs":"Nombre de sorties",
          "header":"Adresses populaires"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com est portefeuille de bitcoin le plus populaire au monde."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Mobile Wallet"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Nom de la banque",
          "small_package":"Petit paquet",
@@ -897,9 +907,11 @@
          "scripts":"Scripts",
          "strange":"Étrange",
          "title":"Bitcoin transaction {0}",
+         "estimated_within_6_blocks":"Dans les 6 blocs",
          "inputs_and_outputs":"Entrées et sorties",
          "estimated_btc_transacted":"BTC estimée négociée",
          "ok":"Bien",
+         "conflicting_transaction_redirect":"Le hachage de la transaction que vous avez recherché n&#39;a pas été trouvé. Cependant un remplacement pour la transaction est listé ci-dessous.",
          "estimated_possibly_never":"Peut-être jamais",
          "queue_position":"position de file d&#39;attente {0}",
          "input_scripts":"Scripts d'entrée",
@@ -920,6 +932,7 @@
             "p1":"Attention! cette opération est un double de passer"
          },
          "show_scripts":"Voir son exécution et coinbase",
+         "conflicting_transaction_found":"Une transaction en conflit a été détecté dans notre pool de mémoire. Le hachage de transaction affichée ci-dessous peut changer.",
          "meta_description":"Afficher des informations sur une transaction bitcoin {0}",
          "estimated_time":"Estimation du délai de validation",
          "relayed_by_ip":"Relayée par IP",
@@ -956,7 +969,7 @@
          "header":"Erreur {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Mobile Wallet"
+         
       },
       "propagation":{
          "probable_owner":"Propriétaire probable",

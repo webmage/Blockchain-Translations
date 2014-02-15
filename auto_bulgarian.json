@@ -21,6 +21,16 @@
          "number_of_outputs":"Брой на изходите",
          "header":"Популярни адреси"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com е най-популярният портфейла Bitcoin в света."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet Mobile"
+            }
+         }
+      },
       "transaction":{
          "fee":"Такса за участие:",
          "double_spend":"Двукратно харчите!",
@@ -897,9 +907,11 @@
          "strange":"Странен",
          "scripts":"Скриптове",
          "title":"Bitcoin сделката {0}",
+         "estimated_within_6_blocks":"В рамките на шест Blocks",
          "inputs_and_outputs":"Входове и изходи",
          "estimated_btc_transacted":"Очаквано БТК сделки",
          "ok":"Добре",
+         "conflicting_transaction_redirect":"Хеша на транзакцията сте търсили не е намерен. Въпреки заместител на сделката е по-долу в списъка.",
          "estimated_possibly_never":"Евентуално Never",
          "queue_position":"опашката {0}",
          "input_scripts":"Входни Scripts",
@@ -920,6 +932,7 @@
             "p1":"Внимание! тази сделка е двойно разходи от"
          },
          "show_scripts":"Покажи скриптове и coinbase",
+         "conflicting_transaction_found":"A противоречива сделка е била открита в памет нашия басейн. Хеша на транзакцията показани по-долу може да се промени.",
          "meta_description":"Преглед на информация за сделка bitcoin {0}",
          "estimated_time":"Очаквано Потвърждение време",
          "relayed_by_ip":"Предадени от IP",
@@ -956,7 +969,7 @@
          "header":"Грешка {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet Mobile"
+         
       },
       "propagation":{
          "probable_owner":"Вероятни Собственик",
@@ -1202,22 +1215,6 @@
          "warning":"Голяма част от Неизвестни блокове не означава атака в мрежата, това просто означава, че са били в състояние да определят произхода.",
          "days_4":"4 дни"
       },
-      "header":{
-         "home_title":"Blockchain.info Начало",
-         "home":"Дом",
-         "charts":"Графики",
-         "stats_title":"Bitcoin статистика",
-         "logo_alt_title":"Bitcoin блок изследовател и валутни статистиката",
-         "markets":"Пазари",
-         "stats":"Статистика",
-         "developer":"Разработчици",
-         "markets_title":"Bitcoin пазари",
-         "charts_title":"Bitcoin Графики",
-         "developer_title":"Blockchain Инструменти за разработчици",
-         "wallet_title":"Bitcoin портфейла",
-         "wallet":"Портфейл",
-         "search_placeholder":"Търсене"
-      },
       "wallet_new":{
          "disclaimer":"Опровержение",
          "anonymity_policy":"Анонимността политика",
@@ -1254,6 +1251,22 @@
          "captcha":"Капитан:",
          "alias_placeholder":"Паметна дума или псевдоним",
          "dont_forget_password":"Да не забравите паролата си!"
+      },
+      "header":{
+         "home_title":"Blockchain.info Начало",
+         "home":"Дом",
+         "charts":"Графики",
+         "stats_title":"Bitcoin статистика",
+         "logo_alt_title":"Bitcoin блок изследовател и валутни статистиката",
+         "markets":"Пазари",
+         "stats":"Статистика",
+         "developer":"Разработчици",
+         "markets_title":"Bitcoin пазари",
+         "charts_title":"Bitcoin Графики",
+         "developer_title":"Blockchain Инструменти за разработчици",
+         "wallet_title":"Bitcoin портфейла",
+         "wallet":"Портфейл",
+         "search_placeholder":"Търсене"
       },
       "strange_transactions":{
          "sub_header":"Сделки изхода, от които не са били в състояние да декодира bitcoin адрес.",

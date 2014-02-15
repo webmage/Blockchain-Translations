@@ -21,6 +21,16 @@
          "number_of_outputs":"Outputs की संख्या",
          "header":"लोकप्रिय पते"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com दुनिया के सबसे लोकप्रिय Bitcoin बटुआ है."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain वॉलेट मोबाइल"
+            }
+         }
+      },
       "transaction":{
          "fee":"शुल्क:",
          "double_spend":"व्यय डबल!",
@@ -897,9 +907,11 @@
          "strange":"अनोखा",
          "scripts":"लिपियों",
          "title":"Bitcoin गतिविधि {0}",
+         "estimated_within_6_blocks":"6 ब्लॉकों के भीतर",
          "inputs_and_outputs":"निविष्टियाँ और outputs",
          "estimated_btc_transacted":"अनुमानित BTC िनष्पािदत",
          "ok":"अच्छा",
+         "conflicting_transaction_redirect":"आप के लिए खोज की लेन - देन हैश नहीं मिला था. हालांकि लेन - देन के लिए एक स्थानापन्न के नीचे सूचीबद्ध है.",
          "estimated_possibly_never":"संभवत: कभी नहीं",
          "queue_position":"कतार स्थिति {0}",
          "input_scripts":"इनपुट लिपियों",
@@ -920,6 +932,7 @@
             "p1":"चेतावनी! इस लेन - देन के एक खर्च दोगुना है"
          },
          "show_scripts":"दिखाएँ लिपियों और coinbase",
+         "conflicting_transaction_found":"एक परस्पर विरोधी लेन - देन हमारी स्मृति पूल में पाया गया है. नीचे प्रदर्शित लेन - देन हैश बदल सकते हैं.",
          "meta_description":"एक bitcoin लेन - देन के बारे में जानकारी देखें {0}",
          "estimated_time":"अनुमानित पुष्टिकरण समय",
          "relayed_by_ip":"आईपी \u200B\u200Bद्वारा relayed",
@@ -956,7 +969,7 @@
          "header":"त्रुटि {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain वॉलेट मोबाइल"
+         
       },
       "propagation":{
          "probable_owner":"संभावित मालिक",

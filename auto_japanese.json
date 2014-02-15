@@ -21,6 +21,16 @@
          "number_of_outputs":"出力数",
          "header":"人気のアドレス"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.comは、世界で最も人気のあるbi\u200B\u200Btcoinウォレットです。"
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchainウォレットモバイル"
+            }
+         }
+      },
       "transaction":{
          "fee":"参加費：",
          "double_spend":"過ごすを倍増！",
@@ -897,9 +907,11 @@
          "strange":"奇妙な",
          "scripts":"スクリプト",
          "title":"Bitcoinトランザクション{0}",
+         "estimated_within_6_blocks":"6ブロック以内",
          "inputs_and_outputs":"インプットとアウトプット",
          "estimated_btc_transacted":"推定されたBTCはトランザクション",
          "ok":"[OK]を",
+         "conflicting_transaction_redirect":"あなたが検索トランザクションのハッシュが見つかりませんでした。しかし、トランザクションの交換は以下のとおりです。",
          "estimated_possibly_never":"おそらく決して",
          "queue_position":"キュー位置{0}",
          "input_scripts":"入力スクリプト",
@@ -920,6 +932,7 @@
             "p1":"警告！このトランザクションは、二重の支出です"
          },
          "show_scripts":"表示スクリプト＆coinbase",
+         "conflicting_transaction_found":"競合しているトランザクションは、我々のメモリプールで検出されている。下に表示されたトランザクションのハッシュが変更されることがあります。",
          "meta_description":"bitcoinトランザクションに関する情報を表示します{0}",
          "estimated_time":"推定された確認時間",
          "relayed_by_ip":"IPで中継",
@@ -956,7 +969,7 @@
          "header":"エラー{0}"
       },
       "wallet_mobile":{
-         "title":"Blockchainウォレットモバイル"
+         
       },
       "propagation":{
          "probable_owner":"考えられる者",

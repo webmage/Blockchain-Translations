@@ -21,6 +21,16 @@
          "number_of_outputs":"Število realizacij",
          "header":"Priljubljeni Naslovi"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com je najbolj priljubljen svetovni Bitcoin denarnica."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet Mobile"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Ime banke",
          "small_package":"Mali paket",
@@ -897,9 +907,11 @@
          "strange":"Strange",
          "scripts":"Skripti",
          "title":"Bitcoin Transakcijski {0}",
+         "estimated_within_6_blocks":"V 6 Blocks",
          "inputs_and_outputs":"Vhodi in izhodi",
          "estimated_btc_transacted":"Ocenjena BTC poslih",
          "ok":"OK",
+         "conflicting_transaction_redirect":"Hash transakcija ste iskali ni bilo mogoče najti. Vendar pa je zamenjava za transakcije, navedene v nadaljevanju.",
          "estimated_possibly_never":"Morda nikoli ne",
          "queue_position":"Čakalna vrsta položaj {0}",
          "input_scripts":"Vhodne Scripts",
@@ -920,6 +932,7 @@
             "p1":"Opozorilo! Ta transakcija je dvakrat porabili"
          },
          "show_scripts":"Prikaži skripte in coinbase",
+         "conflicting_transaction_found":"Nasprotujoči si Transakcija je bila odkrita v našem spominu bazen. Hash transakcija prikazana spodaj lahko spremeni.",
          "meta_description":"Prikaz informacij o transakciji Bitcoin {0}",
          "estimated_time":"Predvideni čas Potrditev",
          "relayed_by_ip":"Poslane po OP",
@@ -956,7 +969,7 @@
          "header":"Napaka {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet Mobile"
+         
       },
       "propagation":{
          "probable_owner":"Predviden lastnika",

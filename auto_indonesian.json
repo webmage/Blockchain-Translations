@@ -21,6 +21,16 @@
          "number_of_outputs":"Nomor Of Output",
          "header":"Populer Alamat"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com adalah bitcoin dompet paling populer di dunia."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Mobile Wallet"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Nama Bank",
          "small_package":"Paket Kecil",
@@ -897,9 +907,11 @@
          "strange":"Aneh",
          "scripts":"Script",
          "title":"Bitcoin Transaksi {0}",
+         "estimated_within_6_blocks":"Dalam waktu 6 Blok",
          "inputs_and_outputs":"Input dan Output",
          "estimated_btc_transacted":"BTC Perkiraan Bertransaksi",
          "ok":"Oke",
+         "conflicting_transaction_redirect":"The hash transaksi Anda mencari tidak ditemukan. Namun pengganti untuk transaksi tercantum di bawah ini.",
          "estimated_possibly_never":"Mungkin pernah",
          "queue_position":"Posisi antrian {0}",
          "input_scripts":"Masukan Script",
@@ -920,6 +932,7 @@
             "p1":"Peringatan! transaksi ini adalah ganda menafkahkan"
          },
          "show_scripts":"Tampilkan script &amp; coinbase",
+         "conflicting_transaction_found":"Sebuah transaksi yang bertentangan telah terdeteksi di kolam renang ingatan kita. The hash transaksi yang ditampilkan di bawah dapat berubah.",
          "meta_description":"Lihat informasi tentang transaksi Bitcoin {0}",
          "estimated_time":"Perkiraan Waktu Konfirmasi",
          "relayed_by_ip":"Disampaikan oleh IP",
@@ -956,7 +969,7 @@
          "header":"Kesalahan {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Mobile Wallet"
+         
       },
       "propagation":{
          "probable_owner":"Kemungkinan Pemilik",

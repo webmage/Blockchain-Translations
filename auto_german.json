@@ -21,6 +21,16 @@
          "header":"Beliebte Adressen",
          "number_of_outputs":"Anzahl der Ausgänge"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com ist der weltweit beliebteste Bitcoin-Geldbörse."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet Mobile-"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Name der Bank",
          "small_package":"Kleines Paket",
@@ -897,9 +907,11 @@
          "scripts":"Skripte",
          "strange":"Seltsam",
          "title":"Bitcoin Transaktion {0}",
+         "estimated_within_6_blocks":"Innerhalb von 6 Blocks",
          "inputs_and_outputs":"Ein-und Ausgänge",
          "estimated_btc_transacted":"Geschätzter BTC Transacted",
          "ok":"Ok",
+         "conflicting_transaction_redirect":"Die Transaktion Hash Sie gesucht wurde nicht gefunden. Jedoch ein Ersatz für die Transaktion ist unten aufgeführt.",
          "estimated_possibly_never":"Vielleicht nie",
          "queue_position":"Position in der Warteschlange {0}",
          "input_scripts":"Eingang Scripts",
@@ -920,6 +932,7 @@
             "p1":"Warnung! Diese Transaktion ist ein doppelt ausgeben"
          },
          "show_scripts":"Show Script & coinbase",
+         "conflicting_transaction_found":"Eine entgegenstehende Transaktion in unserer Speicherpool festgestellt. Die Transaktion Hash unten angezeigt ändern kann.",
          "meta_description":"Anzeigen von Informationen zu einem bitcoin Transaktion {0}",
          "estimated_time":"Geschätzter-Bestätigung",
          "relayed_by_ip":"Weitergeleitet von IP",
@@ -956,7 +969,7 @@
          "header":"Fehler {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet Mobile-"
+         
       },
       "propagation":{
          "probable_owner":"Mögliche Besitzer",

@@ -21,6 +21,16 @@
          "header":"Популярные адреса",
          "number_of_outputs":"Число выходов"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com является самым популярным в мире Bitcoin кошелек."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain кошелек Мобильный"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Название банка",
          "small_package":"Малый пакет",
@@ -897,9 +907,11 @@
          "strange":"Странный",
          "scripts":"Сценарии",
          "title":"Bitcoin транзакции {0}",
+         "estimated_within_6_blocks":"В течение 6 блоков",
          "inputs_and_outputs":"Входы и выходы",
          "estimated_btc_transacted":"Расчетное BTC транзакций",
          "ok":"Хорошо",
+         "conflicting_transaction_redirect":"Хэш сделки вы искали не был найден. Однако замена для сделки приведена ниже.",
          "estimated_possibly_never":"возможно, никогда не",
          "queue_position":"Очередь позиции {0}",
          "input_scripts":"Входной Сценарии",
@@ -920,6 +932,7 @@
             "p1":"Внимание! эта сделка является двойной тратят"
          },
          "show_scripts":"Показать скрипты и coinbase",
+         "conflicting_transaction_found":"Противоречивыми сделка была обнаружена в бассейне памяти. Хэш сделки отображаются ниже, может изменить.",
          "meta_description":"Просмотр информации о сделке Bitcoin {0}",
          "estimated_time":"Расчетное время подтверждения",
          "relayed_by_ip":"Ретрансляционной по IP",
@@ -956,7 +969,7 @@
          "header":"Ошибка {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain кошелек Мобильный"
+         
       },
       "propagation":{
          "probable_owner":"Вероятная владелец",

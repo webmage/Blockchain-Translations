@@ -21,6 +21,16 @@
          "number_of_outputs":"Liczba wyjść",
          "header":"Popularne Adresy"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com jest na świecie najbardziej popularne Bitcoin portfel."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Portfel telefonów"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Nazwa banku",
          "small_package":"Mały wagon drobnicowy",
@@ -897,9 +907,11 @@
          "strange":"Dziwny",
          "scripts":"Skrypty",
          "title":"Bitcoin transakcji {0}",
+         "estimated_within_6_blocks":"W ciągu 6 bloków",
          "inputs_and_outputs":"Wejścia i wyjścia",
          "estimated_btc_transacted":"Szacunkowa BTC transakcji",
          "ok":"Dobrze",
+         "conflicting_transaction_redirect":"Hash transakcji szukałeś nie został znaleziony. Jednak wymiana dla transakcji znajduje się na liście poniżej.",
          "estimated_possibly_never":"Być może nigdy nie",
          "queue_position":"Pozycja kolejki {0}",
          "input_scripts":"Skrypty wejściowe",
@@ -920,6 +932,7 @@
             "p1":"Ostrzeżenie! Transakcja ta jest dwukrotnie spędzić z"
          },
          "show_scripts":"Skrypty Show & coinbase",
+         "conflicting_transaction_found":"Sprzeczne transakcja została wykryta w naszej puli pamięci. Hash transakcji wyświetlane poniżej może zmienić.",
          "meta_description":"Wyświetlanie informacji na temat transakcji Bitcoin {0}",
          "estimated_time":"Szacowany czas Potwierdzenie",
          "relayed_by_ip":"Przekazywane przez IP",
@@ -956,7 +969,7 @@
          "header":"Błąd {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Portfel telefonów"
+         
       },
       "propagation":{
          "probable_owner":"Zakładane Owner",

@@ -21,6 +21,16 @@
          "header":"ที่อยู่ยอดนิยม",
          "number_of_outputs":"จำนวนขาออก"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com เป็นโลกที่กระเป๋าสตางค์ bitcoin ที่นิยมมากที่สุด"
+         },
+         "mobile":{
+            "app":{
+               "title":"มือถือกระเป๋าสตางค์ Blockchain"
+            }
+         }
+      },
       "transaction":{
          "fee":"ค่าธรรมเนียม",
          "double_spend":"ดับเบิลใช้จ่าย!",
@@ -897,9 +907,11 @@
          "strange":"แปลก",
          "scripts":"สคริปต์",
          "title":"รายการ Bitcoin {0}",
+         "estimated_within_6_blocks":"ภายใน 6 บล็อก",
          "inputs_and_outputs":"ปัจจัยการผลิตและขาออก",
          "estimated_btc_transacted":"BTC ประมาณธุรกรรม",
          "ok":"ตกลง",
+         "conflicting_transaction_redirect":"กัญชาการทำธุรกรรมที่คุณค้นหาไม่พบ แต่แทนการทำธุรกรรมที่ระบุไว้ด้านล่าง",
          "estimated_possibly_never":"อาจจะไม่เคย",
          "queue_position":"ตำแหน่งคิว {0}",
          "input_scripts":"สคริปของท่าน",
@@ -920,6 +932,7 @@
             "p1":"คำเตือน! การทำธุรกรรมนี้เป็นคู่ใช้จ่ายของ"
          },
          "show_scripts":"สคริปต์แสดง & coinbase",
+         "conflicting_transaction_found":"การทำธุรกรรมที่ขัดแย้งได้รับการตรวจพบในสระว่ายน้ำของหน่วยความจำของเรา กัญชารายการที่แสดงด้านล่างอาจมีการเปลี่ยนแปลง",
          "meta_description":"ดูข้อมูลเกี่ยวกับการทำธุรกรรม Bitcoin {0}",
          "estimated_time":"เวลายืนยันประมาณการ",
          "seconds":"วินาที",
@@ -956,7 +969,7 @@
          "header":"ข้อผิดพลาด {0}"
       },
       "wallet_mobile":{
-         "title":"มือถือกระเป๋าสตางค์ Blockchain"
+         
       },
       "propagation":{
          "probable_owner":"เจ้าของน่าจะเป็น",

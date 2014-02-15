@@ -21,6 +21,16 @@
          "number_of_outputs":"Kimenetek száma",
          "header":"Népszerű Címek"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com a világ legnépszerűbb Bitcoin pénztárca."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet mobil"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Bank Neve",
          "small_package":"Kis Csomag",
@@ -897,9 +907,11 @@
          "strange":"Furcsa",
          "scripts":"Szkriptek",
          "title":"Bitcoin Tranzakció {0}",
+         "estimated_within_6_blocks":"Mindössze 6 háztömbnyire",
          "inputs_and_outputs":"Bemenet és Kimenet",
          "estimated_btc_transacted":"Becsült Átküldött BTC",
          "ok":"OK",
+         "conflicting_transaction_redirect":"A tranzakció hash Ön keresett nem található. Azonban a csere a tranzakció az alább felsorolt.",
          "estimated_possibly_never":"Valószínűleg soha (Duplikált Költés)",
          "queue_position":"sorban pozíció: {0}",
          "input_scripts":"Bemeneti Szkriptek",
@@ -920,6 +932,7 @@
             "p1":"Figyelem! Ez a tranzakció a következő duplázott költése"
          },
          "show_scripts":"Szkript mutatása és coinbase",
+         "conflicting_transaction_found":"A ellentmondó tranzakciót észlelt a memória medence. A tranzakció hash alatt jelenik meg változhat.",
          "meta_description":"A bitcoin tranzakció részleteinek megtekintése {0}",
          "estimated_time":"Becsült Visszaigazolás Időpont",
          "seconds":"másodperc",
@@ -956,7 +969,7 @@
          "header":"Hiba: {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet mobil"
+         
       },
       "propagation":{
          "probable_owner":"Valószínű Tulaj",

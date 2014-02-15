@@ -21,6 +21,16 @@
          "header":"Δημοφιλή Διευθύνσεις",
          "number_of_outputs":"Αριθμός των αποτελεσμάτων"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com είναι παγκοσμίως η πιο δημοφιλής πορτοφόλι bitcoin."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Mobile Wallet"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Όνομα τράπεζας",
          "small_package":"Μικρό πακέτο",
@@ -897,9 +907,11 @@
          "strange":"Παράξενος",
          "scripts":"Σενάρια",
          "title":"Bitcoin συναλλαγών {0}",
+         "estimated_within_6_blocks":"Μέσα σε 6 Blocks",
          "inputs_and_outputs":"Είσοδοι και έξοδοι",
          "estimated_btc_transacted":"Εκτιμώμενη BTC συναλλαγής",
          "ok":"Καλά",
+         "conflicting_transaction_redirect":"Η hash συναλλαγής που αναζητήσατε δεν βρέθηκε. Ωστόσο, μια αντικατάσταση για τη συναλλαγή είναι η παρακάτω.",
          "estimated_possibly_never":"Ενδεχομένως Ποτέ",
          "queue_position":"θέσης στη σειρά αναμονής {0}",
          "input_scripts":"Σενάρια εισόδου",
@@ -920,6 +932,7 @@
             "p1":"Προσοχή! αυτή η συναλλαγή είναι μια διπλή δαπάνη"
          },
          "show_scripts":"Εμφάνιση scripts & coinbase",
+         "conflicting_transaction_found":"Μια αντικρουόμενες συναλλαγή έχει εντοπιστεί στην πισίνα μνήμη μας. Η hash συναλλαγής εμφανίζεται παρακάτω μπορεί να αλλάξουν.",
          "meta_description":"Προβολή πληροφοριών σχετικά με μια συναλλαγή bitcoin {0}",
          "estimated_time":"Εκτιμώμενος χρόνος Επιβεβαίωση",
          "relayed_by_ip":"Μεταδίδονται μέσω IP",
@@ -956,7 +969,7 @@
          "header":"Σφάλμα {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Mobile Wallet"
+         
       },
       "propagation":{
          "probable_owner":"Πιθανή Ιδιοκτήτης",

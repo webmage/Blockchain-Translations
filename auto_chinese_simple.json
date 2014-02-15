@@ -21,6 +21,16 @@
          "header":"受欢迎的地址",
          "number_of_outputs":"输出数"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com是世界上最流行的比特币钱包。"
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain钱包手机"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"银行名称",
          "small_package":"小包装",
@@ -897,9 +907,11 @@
          "strange":"奇怪",
          "scripts":"脚本",
          "title":"Bitcoin的交易{0}",
+         "estimated_within_6_blocks":"在6块",
          "inputs_and_outputs":"输入和输出",
          "estimated_btc_transacted":"估计BTC成交",
          "ok":"行",
+         "conflicting_transaction_redirect":"没有找到您搜索的交易哈希值。然而替换为交易下面列出。",
          "estimated_possibly_never":"决不可能",
          "queue_position":"队列位置{0}",
          "input_scripts":"输入脚本",
@@ -920,6 +932,7 @@
             "p1":"警告！该交易是双花"
          },
          "show_scripts":"显示脚本和coinbase的",
+         "conflicting_transaction_found":"一个冲突的交易已经在我们的内存池被检测到。下面显示的交易哈希可能会改变。",
          "meta_description":"关于比特币交易的信息{0}",
          "estimated_time":"估计确认时间",
          "seconds":"秒",
@@ -956,7 +969,7 @@
          "header":"错误{0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain钱包手机"
+         
       },
       "propagation":{
          "probable_owner":"可能的所有者",

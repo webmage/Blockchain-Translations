@@ -21,6 +21,16 @@
          "number_of_outputs":"Número de salidas",
          "header":"Direcciones populares"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com es billetera bitcoin más popular del mundo."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Mobile Wallet"
+            }
+         }
+      },
       "transaction":{
          "fee":"Costo:",
          "double_spend":"Pase doble!",
@@ -897,9 +907,11 @@
          "scripts":"Secuencias de comandos",
          "strange":"Extraño",
          "title":"Bitcoin transacción {0}",
+         "estimated_within_6_blocks":"Dentro de los 6 bloques",
          "inputs_and_outputs":"Entradas y salidas",
          "estimated_btc_transacted":"BTC estimada de Transacción",
          "ok":"Aceptar",
+         "conflicting_transaction_redirect":"El hash de transacción que ha buscado no fue encontrado. Sin embargo un reemplazo para la transacción está por debajo de la lista.",
          "estimated_possibly_never":"Posiblemente nunca",
          "queue_position":"posición en la cola {0}",
          "input_scripts":"Scripts de entrada",
@@ -920,6 +932,7 @@
             "p1":"¡Advertencia! esta transacción es un doble gasto de"
          },
          "show_scripts":"Mostrar guiones y coinbase",
+         "conflicting_transaction_found":"Una transacción en conflicto se ha detectado en nuestro banco de memoria. El hash de la transacción que se muestra a continuación puede cambiar.",
          "meta_description":"Ver información sobre una transacción bitcoin {0}",
          "estimated_time":"Tiempo estimado Confirmación",
          "seconds":"segundo",
@@ -956,7 +969,7 @@
          "header":"Error: {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Mobile Wallet"
+         
       },
       "propagation":{
          "probable_owner":"Propietario Probable",

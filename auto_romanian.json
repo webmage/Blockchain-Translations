@@ -21,6 +21,16 @@
          "number_of_outputs":"Număr ieșiri",
          "header":"Adrese populare"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com este cel mai popular portofel Bitcoin din lume."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Mobile Wallet"
+            }
+         }
+      },
       "transaction":{
          "fee":"Taxa de participare:",
          "double_spend":"Petrece dublu!",
@@ -897,9 +907,11 @@
          "strange":"Ciudat",
          "scripts":"Script-uri",
          "title":"Bitcoin tranzacție {0}",
+         "estimated_within_6_blocks":"În termen de 6 Blocuri",
          "inputs_and_outputs":"Intrări și Ieșiri",
          "estimated_btc_transacted":"BTC estimată tranzacționate",
          "ok":"Bine",
+         "conflicting_transaction_redirect":"Hash tranzacție ați căutat nu a fost găsit. Cu toate acestea un înlocuitor pentru tranzacția este listat mai jos.",
          "estimated_possibly_never":"Eventual, nu",
          "queue_position":"poziția coadă {0}",
          "input_scripts":"Intrare Scripturi",
@@ -920,6 +932,7 @@
             "p1":"Atenție! această tranzacție este o dublă cheltui de"
          },
          "show_scripts":"Arată scripturile & coinbase",
+         "conflicting_transaction_found":"O tranzacție în conflict a fost detectată în piscina de memorie. Hash tranzacție afisate mai jos se pot schimba.",
          "meta_description":"Vizualizați informații despre o tranzacție bitcoin {0}",
          "estimated_time":"Estimată de Confirmare Ora",
          "relayed_by_ip":"Retransmis prin IP",
@@ -956,7 +969,7 @@
          "header":"Eroare {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Mobile Wallet"
+         
       },
       "propagation":{
          "probable_owner":"Probabil Proprietar",

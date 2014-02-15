@@ -21,6 +21,16 @@
          "number_of_outputs":"Número de saídas",
          "header":"Endereços populares"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com é carteira bitcoin mais popular do mundo."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Mobile Wallet"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"Nome do banco",
          "small_package":"Pacote pequeno",
@@ -897,9 +907,11 @@
          "scripts":"Scripts",
          "strange":"Estranho",
          "title":"Bitcoin transação {0}",
+         "estimated_within_6_blocks":"Dentro de 6 blocos",
          "inputs_and_outputs":"Entradas e saídas",
          "estimated_btc_transacted":"BTC estimado transacionada",
          "ok":"Ok",
+         "conflicting_transaction_redirect":"O hash transação que você procurou não foi encontrada. No entanto, um substituto para a transacção está listado abaixo.",
          "estimated_possibly_never":"Possivelmente nunca",
          "queue_position":"posição na fila {0}",
          "input_scripts":"Scripts de entrada",
@@ -920,6 +932,7 @@
             "p1":"Atenção! esta transação é uma dupla de gastar"
          },
          "show_scripts":"Mostrar os scripts e coinbase",
+         "conflicting_transaction_found":"A transação conflitante tem sido detectado em nosso pool de memória. O hash transação mostrada abaixo podem mudar.",
          "meta_description":"Ver informações sobre uma transação bitcoin {0}",
          "estimated_time":"Tempo estimado de confirmação",
          "relayed_by_ip":"Retransmitida por IP",
@@ -956,7 +969,7 @@
          "header":"Erro {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Mobile Wallet"
+         
       },
       "propagation":{
          "probable_owner":"Proprietário provável",

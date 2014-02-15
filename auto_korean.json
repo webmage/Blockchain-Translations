@@ -21,6 +21,16 @@
          "number_of_outputs":"출력 수",
          "header":"인기 주소"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com는 세계에서 가장 인기있는 비트 코인 지갑입니다."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain 지갑 모바일"
+            }
+         }
+      },
       "deposit":{
          "bank_name":"은행 이름",
          "small_package":"소형 패키지",
@@ -897,9 +907,11 @@
          "strange":"기이 한",
          "scripts":"스크립트",
          "title":"Bitcoin 거래 {0}",
+         "estimated_within_6_blocks":"6 블록 내",
          "inputs_and_outputs":"입력 및 출력",
          "estimated_btc_transacted":"예상 BTC는 거래",
          "ok":"괜찮았던 것",
+         "conflicting_transaction_redirect":"당신이 검색 트랜잭션 해시를 찾을 수 없습니다. 그러나 트랜잭션에 대한 교체는 아래에 나열되어 있습니다.",
          "estimated_possibly_never":"아마도 결코",
          "queue_position":"대기열 위치 {0}",
          "input_scripts":"입력 스크립트",
@@ -920,6 +932,7 @@
             "p1":"경고! 이 거래는의 지출 이중입니다"
          },
          "show_scripts":"표시 스크립트 및 coinbase",
+         "conflicting_transaction_found":"충돌하는 거래는 우리의 메모리 풀에서 발견되었습니다. 아래에 표시되는 트랜잭션 해시가 변경 될 수 있습니다.",
          "meta_description":"bitcoin 거래에 대한 정보를 볼 수 {0}",
          "estimated_time":"예상 확인 시간",
          "relayed_by_ip":"IP가 중계",
@@ -956,7 +969,7 @@
          "header":"오류 {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain 지갑 모바일"
+         
       },
       "propagation":{
          "probable_owner":"가능성 소유자",
@@ -1202,22 +1215,6 @@
          "warning":"알 수없는 블록의 많은 부분은 네트워크에 대한 공격을 의미하지는 않습니다, 단순히 우리가 출처를 확인할 수 없습니다되었습니다 것을 의미합니다.",
          "days_4":"4 일"
       },
-      "header":{
-         "home_title":"Blockchain.info 홈",
-         "charts":"차트",
-         "home":"집",
-         "stats_title":"Bitcoin 통계",
-         "logo_alt_title":"Bitcoin 블록 탐색기 및 통화 통계",
-         "markets":"시장",
-         "developer":"API",
-         "stats":"통계",
-         "markets_title":"Bitcoin 시장",
-         "charts_title":"Bitcoin 차트",
-         "wallet_title":"Bitcoin 지갑",
-         "developer_title":"Blockchain 개발자 도구",
-         "wallet":"지갑",
-         "search_placeholder":"검색"
-      },
       "wallet_new":{
          "disclaimer":"책임의 한계",
          "anonymity_policy":"익명 정책",
@@ -1254,6 +1251,22 @@
          "captcha":"보안 문자 :",
          "alias_placeholder":"기억에 남는 단어 나 닉네임",
          "dont_forget_password":"비밀번호를 잊지 마세요!"
+      },
+      "header":{
+         "home_title":"Blockchain.info 홈",
+         "charts":"차트",
+         "home":"집",
+         "stats_title":"Bitcoin 통계",
+         "logo_alt_title":"Bitcoin 블록 탐색기 및 통화 통계",
+         "markets":"시장",
+         "developer":"API",
+         "stats":"통계",
+         "markets_title":"Bitcoin 시장",
+         "charts_title":"Bitcoin 차트",
+         "wallet_title":"Bitcoin 지갑",
+         "developer_title":"Blockchain 개발자 도구",
+         "wallet":"지갑",
+         "search_placeholder":"검색"
       },
       "strange_transactions":{
          "sub_header":"거래는 우리가 bitcoin 주소를 디코딩 할 수 없습니다있는 출력을 포함.",

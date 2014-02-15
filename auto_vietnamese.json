@@ -21,6 +21,16 @@
          "header":"Những địa chỉ phổ biến",
          "number_of_outputs":"Số lượng đầu ra"
       },
+      "com":{
+         "home":{
+            "h1":"Blockchain.com là ví Bitcoin phổ biến nhất trên thế giới."
+         },
+         "mobile":{
+            "app":{
+               "title":"Blockchain Wallet Điện thoại di động"
+            }
+         }
+      },
       "transaction":{
          "fee":"Phí:",
          "double_spend":"Double Spend!",
@@ -897,9 +907,11 @@
          "strange":"Lạ",
          "scripts":"Những đoạn mã",
          "title":"Giao dịch Bitcoin {0}",
+         "estimated_within_6_blocks":"Trong thời hạn 6 khối",
          "inputs_and_outputs":"Vào và ra",
          "estimated_btc_transacted":"Dự kiến BTC giao dịch",
          "ok":"Đồng ý",
+         "conflicting_transaction_redirect":"Băm giao dịch bạn tìm kiếm không được tìm thấy. Tuy nhiên một sự thay thế cho giao dịch được liệt kê dưới đây.",
          "estimated_possibly_never":"Không bao giờ có thể",
          "queue_position":"vị trí xếp hàng {0}",
          "input_scripts":"Mã vào",
@@ -920,6 +932,7 @@
             "p1":"Cảnh báo! Giao dịch này bị double spend"
          },
          "show_scripts":"Hiện các đoạn mã & coinbase",
+         "conflicting_transaction_found":"Một giao dịch trái ngược nhau đã được phát hiện trong hồ bơi bộ nhớ của chúng tôi. Băm giao dịch hiển thị dưới đây có thể thay đổi.",
          "meta_description":"Xem thông tin về giao dịch bitcoin {0}",
          "estimated_time":"Thời gian xác nhận dự kiến",
          "relayed_by_ip":"Đã chuyển tiếp bởi IP",
@@ -956,7 +969,7 @@
          "header":"Lỗi {0}"
       },
       "wallet_mobile":{
-         "title":"Blockchain Wallet Điện thoại di động"
+         
       },
       "propagation":{
          "probable_owner":"Có thể là chủ sở hữu",
