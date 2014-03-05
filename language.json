@@ -59,7 +59,15 @@
             },
             "mobile" : {
                 "app" : {
-                    "title" : "Blockchain Wallet Mobile"
+                    "title" : "Blockchain Wallet",
+                    "register" : "Open Your Free Wallet" ,
+                    "login" : "Pair Device",
+                    "nav" : {
+                        "transactions" : "Transactions",
+                        "receive" : "Receive Money",
+                        "send" : "Send Money",
+                        "settings" : "Settings"
+                    }
                 }
             }
         },
@@ -636,7 +644,24 @@
             "send" : "Send",
             "p1" : "If you don't have an email associated with your account please contact us ({0}) with any information you can provide including Skype username, Google Talk username, secret phrase or alias."
         },
-        "wallet_mobile" : {},
+        "wallet_mobile" : {
+            "receive_money" : {
+                "new_address" : "New"
+            },
+            "send_coins" : {
+                "quick_send" : "Quick",
+                "custom" : "Custom",
+                "shared_coin" : "Shared"
+            },
+            "wallet_new" : {
+                "email_placeholder" : "example@domain.com",
+                "password_placeholder" : "10 chars. min",
+                "confirm_password" : "Confirm",
+                "confirm_password_placeholder" : "Re-enter your password",
+                "continue_button" : "Create My Wallet"
+            }
+        
+        },
         "wallet_app" : {
             "title" : "My Wallet",
             "loading" : "Loading",
