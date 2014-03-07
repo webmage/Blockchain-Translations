@@ -1,19 +1,23 @@
 {
    "flag":"jp.png",
-   "name":"Japanese",
+   "name":"日本語",
    "strings":{
       "connected_nodes":{
-         "sub_header":"blockchain.infoが接続しているノードのリスト",
-         "title":"ビットコイン接続ノードのリスト",
+         "sub_header":"blockchain.infoに接続しているノードのリスト",
+         "title":"ビットコインの接続ノードリスト",
          "connected_time":"接続時間（分）",
-         "total_connected":"接続合計：{0}",
-         "header":"接続ノード"
+         "total_connected":"接続数合計：{0}",
+         "header":"接続ノード",
+         "ip_address" : "IPアドレス",
+         "port" : "接続ポート",
+         "location" : "現在地（接続している場所）",
+         "hostname" : "接続ホスト"
       },
       "home":{
          "other_links":{
             "nodes2":"blockchain.infoが接続した全てのbitcoinノードのログ",
             "rejected2":"こちらのノードによって拒否されたブロックや取引",
-            "globe2":"bitcoinノードを示しているWebGLグローブ（Chrome、Safariが必要）",
+            "globe2":"WebGLでビットコインのノードを見る（閲覧にはChrome、Safariが必要です）",
             "double_spends2":"最新50万取引で検出された二重払い",
             "strange2":"出力アドレスをデコードすることができなかった取引",
             "double_spends":"二重払い",
