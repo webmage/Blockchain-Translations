@@ -216,7 +216,7 @@
             "fee_policy_low_description":"絶対に欠かせない限り、マイナー料は含まれません。",
             "always_keep":"常にキープ",
             "password":"パスワード：",
-            "device_pairing":"デバイスのペアリング",
+            "device_pairing":"デバイスの紐付け",
             "optional":"オプショナル",
             "action":"アクション",
             "password_hints":"パスワードのヒント",
